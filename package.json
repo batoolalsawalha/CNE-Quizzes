@@ -1,0 +1,22 @@
+{
+  "name": "cne-quizzes",
+  "version": "1.0.0",
+  "description": "CNE Quizzes - Academic Quiz & Practice Platform for Computer Networks Engineering",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "node test_api.js",
+    "seed": "node scripts/extract_initial_data.js"
+  },
+  "keywords": [
+    "academic",
+    "quiz",
+    "exam",
+    "calculus",
+    "circuits",
+    "computer-science",
+    "university"
+  ],
+  "author": "Academic Committee",
+  "license": "MIT"
+}

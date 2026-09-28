@@ -1,0 +1,4 @@
+Question,OptionA,OptionB,OptionC,OptionD,Answer,Explanation,Difficulty,Status,SourceFile,SourcePage
+"What is the average time complexity of quicksort?","O(n)","O(n log n)","O(n^2)","O(log n)","b","Quicksort runs in O(n log n) on average when balanced partitioning occurs.","Medium","Verified","Algorithms Handout",12
+"In a balanced binary search tree with N nodes, what is the maximum search depth?","O(1)","O(N)","O(log N)","O(N^2)","c","Balanced BST height is logarithmic O(log N).","Easy","Verified","Data Structures Sheet",4
+"Which layer of the OSI model is responsible for end-to-end reliable transmission?","Network","Transport","Data Link","Session","b","The Transport layer (Layer 4) provides host-to-host communication and flow control.","Easy","Verified","Networking Exam",2

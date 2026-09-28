@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CNE Quizzes | كويزات CNE - منصة الاختبارات والتدريب الأكاديمي</title>
+  <meta name="description" content="المنصة الأكاديمية المعتمدة لطلاب هندسة شبكات الحاسوب (CNE) للتدريب على الاختبارات السابقة وحل الأسئلة النموذجية.">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#1e40af">
+  <link rel="icon" type="image/svg+xml" href="/icons/icon.svg">
+  <link rel="apple-touch-icon" href="/icons/icon.svg">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800;900&family=Inter:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <!-- ترويسة التطبيق الرئيسية -->
+  <header class="app-header">
+    <div class="header-container">
+      <a href="#home" class="brand-logo" id="brand-link">
+        <div class="logo-icon">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+            <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-title">CNE Quizzes</span>
+          <span class="brand-sub">كويزات CNE الأكاديمية</span>
+        </div>
+      </a>
+
+      <nav class="nav-menu" id="nav-menu">
+        <a href="#home" class="nav-link active" data-nav="home">الرئيسية</a>
+        <a href="#subjects" class="nav-link" data-nav="subjects">المواد الدراسية</a>
+        <a href="#practice" class="nav-link" data-nav="practice">وضع التدريب السريع</a>
+        <!-- تظهر فقط عند تسجيل دخول المشرف -->
+        <a href="#admin" class="nav-link admin-link" id="nav-admin-link" data-nav="admin" style="display: none;">
+          <span class="admin-badge">لوحة المشرف</span>
+          <span class="review-indicator" id="nav-review-badge" style="display: none;" title="أسئلة بحاجة لمراجعة">!</span>
+        </a>
+      </nav>
+
+      <div class="header-actions">
+        <!-- زر تثبيت التطبيق PWA -->
+        <button id="pwa-install-btn" class="btn btn-secondary btn-sm" style="display: none; align-items: center; gap: 0.35rem;" title="تثبيت التطبيق على جهازك">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          <span>تثبيت</span>
+        </button>
+
+        <button id="theme-toggle" class="btn-icon" aria-label="تغيير المظهر" title="الوضع الليلي / النهاري">
+          <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+        </button>
+
+        <button id="mobile-menu-btn" class="btn-icon mobile-only" aria-label="فتح القائمة">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- الحاوية الرئيسية للمحتوى -->
+  <main id="app-root" class="app-main">
+    <div class="loader-container">
+      <div class="spinner"></div>
+      <p>جاري تحميل منصة كويزات CNE...</p>
+    </div>
+  </main>
+
+  <!-- تذييل الصفحة للطلاب -->
+  <footer class="app-footer">
+    <div class="footer-container">
+      <div class="footer-info">
+        <strong>منصة CNE Quizzes الأكاديمية</strong> &bull; هندسة شبكات الحاسوب
+        <div style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.25rem;">
+          بنك أسئلة واختبارات تدريبية معتمدة لحل امتحانات الميد والفاينل للسنوات السابقة.
+        </div>
+      </div>
+      <div class="footer-links">
+        <a href="#home">الرئيسية</a>
+        <span>&bull;</span>
+        <a href="#subjects">المواد الدراسية</a>
+        <span>&bull;</span>
+        <a href="#practice">التدريب السريع</a>
+        <span>&bull;</span>
+        <a href="#admin" class="footer-admin-link" title="بوابة المشرفين المعتمدين">بوابة المشرفين 🔒</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- نافذة تكبير الصور (Lightbox Modal) -->
+  <div id="image-lightbox-modal" class="lightbox-backdrop hidden" onclick="window.closeImageZoom()">
+    <div class="lightbox-content" onclick="event.stopPropagation()">
+      <button class="lightbox-close-btn" onclick="window.closeImageZoom()">&times;</button>
+      <img id="lightbox-img" src="" alt="مخطط السؤال" />
+      <p id="lightbox-caption" class="lightbox-caption"></p>
+    </div>
+  </div>
+
+  <!-- التنبيهات المنبثقة (Toasts) -->
+  <div id="toast-container" class="toast-container"></div>
+
+  <!-- النوافذ المنبثقة (Modal) -->
+  <div id="modal-backdrop" class="modal-backdrop hidden">
+    <div id="modal-container" class="modal-card">
+      <div class="modal-header">
+        <h3 id="modal-title">عنوان النافذة</h3>
+        <button class="modal-close-btn" id="modal-close-btn">&times;</button>
+      </div>
+      <div id="modal-body" class="modal-body"></div>
+    </div>
+  </div>
+
+  <!-- ملفات الجافاسكريبت -->
+  <script src="/js/api.js"></script>
+  <script src="/js/student.js"></script>
+  <script src="/js/results.js"></script>
+  <script src="/js/admin.js"></script>
+  <script src="/js/importer.js"></script>
+  <script src="/js/app.js"></script>
+  <script>
+    // PWA Service Worker Registration
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/sw.js').catch(err => console.log('SW reg error:', err));
+      });
+    }
+
+    // PWA Install Prompt Banner
+    let deferredPrompt;
+    const installBtn = document.getElementById('pwa-install-btn');
+    window.addEventListener('beforeinstallprompt', (e) => {
+      e.preventDefault();
+      deferredPrompt = e;
+      if (installBtn) installBtn.style.display = 'inline-flex';
+    });
+
+    if (installBtn) {
+      installBtn.addEventListener('click', async () => {
+        if (!deferredPrompt) return;
+        deferredPrompt.prompt();
+        const { outcome } = await deferredPrompt.userChoice;
+        if (outcome === 'accepted') {
+          installBtn.style.display = 'none';
+        }
+        deferredPrompt = null;
+      });
+    }
+  </script>
+</body>
+</html>

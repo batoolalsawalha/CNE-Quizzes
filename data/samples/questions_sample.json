@@ -1,0 +1,36 @@
+[
+  {
+    "subjectId": "subj-calc1",
+    "quizId": "quiz-calc1-final-2024",
+    "question": "What is the derivative of f(x) = e^(3x)?",
+    "options": [
+      { "id": "a", "text": "3 e^(3x)" },
+      { "id": "b", "text": "e^(3x)" },
+      { "id": "c", "text": "(1/3) e^(3x)" },
+      { "id": "d", "text": "3x e^(3x - 1)" }
+    ],
+    "correctAnswer": "a",
+    "explanation": "By the chain rule: d/dx [e^(u)] = e^(u) * du/dx. Here u = 3x, du/dx = 3, so the derivative is 3e^(3x).",
+    "difficulty": "Easy",
+    "sourceFile": "Calculus 1 Practice Set",
+    "sourcePage": 5,
+    "status": "Verified"
+  },
+  {
+    "subjectId": "subj-circ1",
+    "quizId": "quiz-circ1-mid-2017",
+    "question": "Two resistors of 10 Ω and 40 Ω are connected in parallel. What is their equivalent resistance?",
+    "options": [
+      { "id": "a", "text": "50 Ω" },
+      { "id": "b", "text": "8 Ω" },
+      { "id": "c", "text": "25 Ω" },
+      { "id": "d", "text": "4 Ω" }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Req = (R1 * R2) / (R1 + R2) = (10 * 40) / (10 + 40) = 400 / 50 = 8 Ω.",
+    "difficulty": "Easy",
+    "sourceFile": "Circuits Tutorial Sheet 2",
+    "sourcePage": 1,
+    "status": "Verified"
+  }
+]

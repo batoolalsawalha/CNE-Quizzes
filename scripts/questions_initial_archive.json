@@ -1,0 +1,1685 @@
+[
+  {
+    "id": "CALC1-FIN-001",
+    "subjectId": "subj-calc1",
+    "quizId": "quiz-calc1-final-2024",
+    "topicId": "top-c1-deriv",
+    "question": "If f(x) = x⁴ + x³ + 1, then lim_{w → 1} [f'(w) - f'(1)] / (w - 1) =",
+    "options": [
+      {
+        "id": "a",
+        "text": "36"
+      },
+      {
+        "id": "b",
+        "text": "9"
+      },
+      {
+        "id": "c",
+        "text": "-3"
+      },
+      {
+        "id": "d",
+        "text": "24"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation": "By the limit definition of the derivative, lim_{w → 1} [f'(w) - f'(1)] / (w - 1) = f''(1). Evaluating the derivatives: f'(x) = 4x³ + 3x² (or handwritten 30x⁴ + 6x), giving f''(1) = 36.",
+    "difficulty": "Medium",
+    "sourceFile": "Final calcu 2023-2024.pdf",
+    "sourcePage": 1,
+    "status": "Verified",
+    "createdAt": "2026-09-28T16:31:10.965Z",
+    "updatedAt": "2026-09-28T16:31:10.966Z"
+  },
+  {
+    "id": "CALC1-FIN-002",
+    "subjectId": "subj-calc1",
+    "quizId": "quiz-calc1-final-2024",
+    "topicId": "top-c1-limits",
+    "question": "Evaluate the limit: lim_{x → 1} sin(x² - 1) / (x - 1) =",
+    "options": [
+      {
+        "id": "a",
+        "text": "1"
+      },
+      {
+        "id": "b",
+        "text": "2"
+      },
+      {
+        "id": "c",
+        "text": "3"
+      },
+      {
+        "id": "d",
+        "text": "4"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Multiply numerator and denominator by (x + 1): lim_{x → 1} [sin(x² - 1) / (x² - 1)] * (x + 1) = 1 * (1 + 1) = 2.",
+    "difficulty": "Easy",
+    "sourceFile": "Final calcu 2023-2024.pdf",
+    "sourcePage": 1,
+    "status": "Verified",
+    "createdAt": "2026-09-28T16:31:10.966Z",
+    "updatedAt": "2026-09-28T16:31:10.966Z"
+  },
+  {
+    "id": "CALC1-FIN-003",
+    "subjectId": "subj-calc1",
+    "quizId": "quiz-calc1-final-2024",
+    "topicId": "top-c1-deriv",
+    "question": "The slope of the tangent to the curve of f(x) = sin(x) + 2x when x = π is equal to:",
+    "options": [
+      {
+        "id": "a",
+        "text": "3"
+      },
+      {
+        "id": "b",
+        "text": "2"
+      },
+      {
+        "id": "c",
+        "text": "1"
+      },
+      {
+        "id": "d",
+        "text": "0"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation": "f'(x) = cos(x) + 2. When x = π, f'(π) = cos(π) + 2 = -1 + 2 = 1.",
+    "difficulty": "Easy",
+    "sourceFile": "Final calcu 2023-2024.pdf",
+    "sourcePage": 1,
+    "status": "Verified",
+    "createdAt": "2026-09-28T16:31:10.966Z",
+    "updatedAt": "2026-09-28T16:31:10.966Z"
+  },
+  {
+    "id": "CALC1-FIN-004",
+    "subjectId": "subj-calc1",
+    "quizId": "quiz-calc1-final-2024",
+    "topicId": "top-c1-deriv",
+    "question": "If f(3) = -2, f'(3) = 4, and g(x) = (2x + 1) / f(x), then g'(3) =",
+    "options": [
+      {
+        "id": "a",
+        "text": "6"
+      },
+      {
+        "id": "b",
+        "text": "8"
+      },
+      {
+        "id": "c",
+        "text": "-6"
+      },
+      {
+        "id": "d",
+        "text": "-8"
+      }
+    ],
+    "correctAnswer": "d",
+    "explanation": "By the quotient rule: g'(3) = [2*f(3) - f'(3)*(2(3)+1)] / [f(3)]² = [2(-2) - 4(7)] / (-2)² = (-4 - 28) / 4 = -32 / 4 = -8.",
+    "difficulty": "Medium",
+    "sourceFile": "Final calcu 2023-2024.pdf",
+    "sourcePage": 1,
+    "status": "Verified",
+    "createdAt": "2026-09-28T16:31:10.966Z",
+    "updatedAt": "2026-09-28T16:31:10.966Z"
+  },
+  {
+    "id": "CALC1-FIN-005",
+    "subjectId": "subj-calc1",
+    "quizId": "quiz-calc1-final-2024",
+    "topicId": "top-c1-deriv",
+    "question": "If f(x) = 2x - 1, then f⁻¹(x) =",
+    "options": [
+      {
+        "id": "a",
+        "text": "(x - 1) / 2"
+      },
+      {
+        "id": "b",
+        "text": "(x + 1) / 2"
+      },
+      {
+        "id": "c",
+        "text": "x + 2"
+      },
+      {
+        "id": "d",
+        "text": "x - 2"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Let y = 2x - 1 => 2x = y + 1 => x = (y + 1) / 2. Hence f⁻¹(x) = (x + 1) / 2.",
+    "difficulty": "Easy",
+    "sourceFile": "Final calcu 2023-2024.pdf",
+    "sourcePage": 1,
+    "status": "Verified",
+    "createdAt": "2026-09-28T16:31:10.966Z",
+    "updatedAt": "2026-09-28T16:31:10.966Z"
+  },
+  {
+    "id": "CALC1-FIN-006",
+    "subjectId": "subj-calc1",
+    "quizId": "quiz-calc1-final-2024",
+    "topicId": "top-c1-deriv",
+    "question": "Given that ∛(x²) + ∛(y²) = 2, then dy/dx at the point (1, 1) equals:",
+    "options": [
+      {
+        "id": "a",
+        "text": "0"
+      },
+      {
+        "id": "b",
+        "text": "2"
+      },
+      {
+        "id": "c",
+        "text": "1"
+      },
+      {
+        "id": "d",
+        "text": "-1"
+      }
+    ],
+    "correctAnswer": "d",
+    "explanation": "Differentiating implicitly: (2/3)x^(-1/3) + (2/3)y^(-1/3) * (dy/dx) = 0. At (1, 1): (2/3)(1) + (2/3)(1)(dy/dx) = 0 => dy/dx = -1.",
+    "difficulty": "Medium",
+    "sourceFile": "Final calcu 2023-2024.pdf",
+    "sourcePage": 1,
+    "status": "Verified",
+    "createdAt": "2026-09-28T16:31:10.966Z",
+    "updatedAt": "2026-09-28T16:31:10.966Z"
+  },
+  {
+    "id": "CALC1-FIN-007",
+    "subjectId": "subj-calc1",
+    "quizId": "quiz-calc1-final-2024",
+    "topicId": "top-c1-curve",
+    "question": "At x = 5, the function f(x) = ∛(x - 5) has:",
+    "options": [
+      {
+        "id": "a",
+        "text": "a vertical tangent"
+      },
+      {
+        "id": "b",
+        "text": "a cusp"
+      },
+      {
+        "id": "c",
+        "text": "a relative maximum"
+      },
+      {
+        "id": "d",
+        "text": "a relative minimum"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation": "f'(x) = 1 / [3(x - 5)^(2/3)]. Since the denominator is always positive and approaches 0 as x → 5 from both sides, lim_{x → 5} f'(x) = +∞, indicating a vertical tangent.",
+    "difficulty": "Medium",
+    "sourceFile": "Final calcu 2023-2024.pdf",
+    "sourcePage": 1,
+    "status": "Verified",
+    "createdAt": "2026-09-28T16:31:10.966Z",
+    "updatedAt": "2026-09-28T16:31:10.966Z"
+  },
+  {
+    "id": "CALC1-FIN-008",
+    "subjectId": "subj-calc1",
+    "quizId": "quiz-calc1-final-2024",
+    "topicId": "top-c1-curve",
+    "question": "The function f(x) = x(x - 4)³ is increasing on:",
+    "options": [
+      {
+        "id": "a",
+        "text": "(-∞, ∞)"
+      },
+      {
+        "id": "b",
+        "text": "(0, ∞)"
+      },
+      {
+        "id": "c",
+        "text": "[1, ∞)"
+      },
+      {
+        "id": "d",
+        "text": "(-∞, 1]"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation": "f'(x) = (x - 4)³ + 3x(x - 4)² = (x - 4)² (x - 4 + 3x) = (x - 4)² (4x - 4). Since (x - 4)² ≥ 0 everywhere, the sign depends on 4x - 4 ≥ 0, which yields x ≥ 1, so the interval is [1, ∞).",
+    "difficulty": "Medium",
+    "sourceFile": "Final calcu 2023-2024.pdf",
+    "sourcePage": 1,
+    "status": "Verified",
+    "createdAt": "2026-09-28T16:31:10.966Z",
+    "updatedAt": "2026-09-28T16:31:10.966Z"
+  },
+  {
+    "id": "CALC1-FIN-009",
+    "subjectId": "subj-calc1",
+    "quizId": "quiz-calc1-final-2024",
+    "topicId": "top-c1-curve",
+    "question": "The function f(x) = x |x - 2| is concave up on:",
+    "options": [
+      {
+        "id": "a",
+        "text": "(-∞, ∞)"
+      },
+      {
+        "id": "b",
+        "text": "(0, ∞)"
+      },
+      {
+        "id": "c",
+        "text": "(2, ∞)"
+      },
+      {
+        "id": "d",
+        "text": "(-∞, 2)"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation": "For x > 2, |x - 2| = x - 2, so f(x) = x² - 2x => f''(x) = 2 > 0 (concave up). For x < 2, f(x) = -x² + 2x => f''(x) = -2 < 0 (concave down). Therefore it is concave up on (2, ∞).",
+    "difficulty": "Medium",
+    "sourceFile": "Final calcu 2023-2024.pdf",
+    "sourcePage": 1,
+    "status": "Verified",
+    "createdAt": "2026-09-28T16:31:10.966Z",
+    "updatedAt": "2026-09-28T16:31:10.966Z"
+  },
+  {
+    "id": "CALC1-FIN-010",
+    "subjectId": "subj-calc1",
+    "quizId": "quiz-calc1-final-2024",
+    "topicId": "top-c1-integ",
+    "question": "Evaluate the indefinite integral: ∫ (1 + sin²θ csc θ) dθ =",
+    "options": [
+      {
+        "id": "a",
+        "text": "θ + sin θ + c"
+      },
+      {
+        "id": "b",
+        "text": "θ - sin θ + c"
+      },
+      {
+        "id": "c",
+        "text": "θ + cos θ + c"
+      },
+      {
+        "id": "d",
+        "text": "θ - cos θ + c"
+      }
+    ],
+    "correctAnswer": "d",
+    "explanation": "csc θ = 1 / sin θ, so sin²θ csc θ = sin θ. Therefore ∫ (1 + sin θ) dθ = θ - cos θ + c.",
+    "difficulty": "Easy",
+    "sourceFile": "Final calcu 2023-2024.pdf",
+    "sourcePage": 2,
+    "status": "Verified",
+    "createdAt": "2026-09-28T16:31:10.966Z",
+    "updatedAt": "2026-09-28T16:31:10.966Z"
+  },
+  {
+    "id": "CALC1-FIN-011",
+    "subjectId": "subj-calc1",
+    "quizId": "quiz-calc1-final-2024",
+    "topicId": "top-c1-integ",
+    "question": "Given that ∫ₐᵇ f(x) sin²x dx = 5 and ∫ₐᵇ f(x) cos²x dx = 7, then ∫ₐᵇ f(x) dx =",
+    "options": [
+      {
+        "id": "a",
+        "text": "5"
+      },
+      {
+        "id": "b",
+        "text": "-2"
+      },
+      {
+        "id": "c",
+        "text": "7"
+      },
+      {
+        "id": "d",
+        "text": "12"
+      }
+    ],
+    "correctAnswer": "d",
+    "explanation": "By linearity of the integral: ∫ₐᵇ f(x)(sin²x + cos²x) dx = ∫ₐᵇ f(x)*1 dx = 5 + 7 = 12.",
+    "difficulty": "Easy",
+    "sourceFile": "Final calcu 2023-2024.pdf",
+    "sourcePage": 2,
+    "status": "Verified",
+    "createdAt": "2026-09-28T16:31:10.966Z",
+    "updatedAt": "2026-09-28T16:31:10.966Z"
+  },
+  {
+    "id": "CALC1-FIN-012",
+    "subjectId": "subj-calc1",
+    "quizId": "quiz-calc1-final-2024",
+    "topicId": "top-c1-deriv",
+    "question": "Find the second derivative: (d²/dx²)(x³ + x² + 2) =",
+    "options": [
+      {
+        "id": "a",
+        "text": "3x³ + 2x"
+      },
+      {
+        "id": "b",
+        "text": "6x + 2"
+      },
+      {
+        "id": "c",
+        "text": "6x + 1"
+      },
+      {
+        "id": "d",
+        "text": "6"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation": "First derivative is 3x² + 2x. Second derivative is d/dx (3x² + 2x) = 6x + 2.",
+    "difficulty": "Easy",
+    "sourceFile": "Final calcu 2023-2024.pdf",
+    "sourcePage": 2,
+    "status": "Verified",
+    "createdAt": "2026-09-28T16:31:10.966Z",
+    "updatedAt": "2026-09-28T16:31:10.966Z"
+  },
+  {
+    "id": "CALC1-FIN-013",
+    "subjectId": "subj-calc1",
+    "quizId": "quiz-calc1-final-2024",
+    "topicId": "top-c1-integ",
+    "question": "Evaluate the definite integral: ∫₀⁴ [x / √(x² + 1)] dx =",
+    "options": [
+      {
+        "id": "a",
+        "text": "√17 - 1"
+      },
+      {
+        "id": "b",
+        "text": "√17"
+      },
+      {
+        "id": "c",
+        "text": "√17 - √2"
+      },
+      {
+        "id": "d",
+        "text": "√17 - 2"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Let u = x² + 1, du = 2x dx. When x = 0, u = 1; when x = 4, u = 17. The integral becomes (1/2) ∫₁¹⁷ u^(-1/2) du = [u^(1/2)]₁¹⁷ = √17 - 1.",
+    "difficulty": "Medium",
+    "sourceFile": "Final calcu 2023-2024.pdf",
+    "sourcePage": 2,
+    "status": "Verified",
+    "createdAt": "2026-09-28T16:31:10.966Z",
+    "updatedAt": "2026-09-28T16:31:10.966Z"
+  },
+  {
+    "id": "CALC1-FIN-014",
+    "subjectId": "subj-calc1",
+    "quizId": "quiz-calc1-final-2024",
+    "topicId": "top-c1-integ",
+    "question": "The area of the region in the first quadrant, which is bounded by the coordinate axes and the curve of the function f(x) = cos(x) is equal to:",
+    "options": [
+      {
+        "id": "a",
+        "text": "2 square units"
+      },
+      {
+        "id": "b",
+        "text": "1.5 square units"
+      },
+      {
+        "id": "c",
+        "text": "2.5 square units"
+      },
+      {
+        "id": "d",
+        "text": "1 square unit"
+      }
+    ],
+    "correctAnswer": "d",
+    "explanation": "In the first quadrant, cos(x) is bounded between x = 0 and x = π/2. Area = ∫₀^(π/2) cos(x) dx = [sin(x)]₀^(π/2) = sin(π/2) - sin(0) = 1 square unit.",
+    "difficulty": "Easy",
+    "sourceFile": "Final calcu 2023-2024.pdf",
+    "sourcePage": 2,
+    "status": "Verified",
+    "createdAt": "2026-09-28T16:31:10.966Z",
+    "updatedAt": "2026-09-28T16:31:10.966Z"
+  },
+  {
+    "id": "CALC1-FIN-015",
+    "subjectId": "subj-calc1",
+    "quizId": "quiz-calc1-final-2024",
+    "topicId": "top-c1-integ",
+    "question": "The arc length of the curve of the function f(x) = 2√(x³) + 1 from x = 0 to x = 1 is:",
+    "options": [
+      {
+        "id": "a",
+        "text": "(2/27)(10√10 + 1)"
+      },
+      {
+        "id": "b",
+        "text": "(2/27)(19√19 + 1)"
+      },
+      {
+        "id": "c",
+        "text": "(2/27)(10√10 - 1)"
+      },
+      {
+        "id": "d",
+        "text": "(2/27)(19√19 - 1)"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation": "f(x) = 2 x^(3/2) + 1 => f'(x) = 3 x^(1/2). Arc length L = ∫₀¹ √(1 + [f'(x)]²) dx = ∫₀¹ √(1 + 9x) dx = [(2/27)(1 + 9x)^(3/2)]₀¹ = (2/27)(10√10 - 1).",
+    "difficulty": "Hard",
+    "sourceFile": "Final calcu 2023-2024.pdf",
+    "sourcePage": 3,
+    "status": "Verified",
+    "createdAt": "2026-09-28T16:31:10.966Z",
+    "updatedAt": "2026-09-28T16:31:10.966Z"
+  },
+  {
+    "id": "CALC1-FIN-016",
+    "subjectId": "subj-calc1",
+    "quizId": "quiz-calc1-final-2024",
+    "topicId": "top-c1-curve",
+    "question": "The relative minimum of the function f(x) = (1/3)x³ - 3x² + 5x + 10 occurs when x =",
+    "options": [
+      {
+        "id": "a",
+        "text": "3"
+      },
+      {
+        "id": "b",
+        "text": "1"
+      },
+      {
+        "id": "c",
+        "text": "2"
+      },
+      {
+        "id": "d",
+        "text": "5"
+      }
+    ],
+    "correctAnswer": "d",
+    "explanation": "f'(x) = x² - 6x + 5 = (x - 1)(x - 5) = 0 => critical points x = 1, 5. f''(x) = 2x - 6. f''(1) = -4 < 0 (local max), f''(5) = 4 > 0 (local min). Hence relative minimum occurs at x = 5.",
+    "difficulty": "Medium",
+    "sourceFile": "Final calcu 2023-2024.pdf",
+    "sourcePage": 3,
+    "status": "Verified",
+    "createdAt": "2026-09-28T16:31:10.966Z",
+    "updatedAt": "2026-09-28T16:31:10.966Z"
+  },
+  {
+    "id": "CALC1-MID-001",
+    "subjectId": "subj-calc1",
+    "quizId": "quiz-calc1-mid",
+    "topicId": "top-c1-limits",
+    "question": "The range of the function f(x) = 1 / √(9 - x²) is:",
+    "options": [
+      {
+        "id": "a",
+        "text": "(0, 3)"
+      },
+      {
+        "id": "b",
+        "text": "[0, 3]"
+      },
+      {
+        "id": "c",
+        "text": "[1/3, ∞)"
+      },
+      {
+        "id": "d",
+        "text": "(1/3, ∞)"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation": "For the domain, 9 - x² > 0 => -3 < x < 3. The maximum of √(9 - x²) occurs at x = 0, giving √9 = 3. As x approaches ±3, √(9 - x²) approaches 0⁺. Thus the range is [1/3, ∞).",
+    "difficulty": "Medium",
+    "sourceFile": "ميد كالكولاس 1.pdf",
+    "sourcePage": 1,
+    "status": "Verified",
+    "createdAt": "2026-09-28T16:31:10.966Z",
+    "updatedAt": "2026-09-28T16:31:10.966Z"
+  },
+  {
+    "id": "CALC1-MID-002",
+    "subjectId": "subj-calc1",
+    "quizId": "quiz-calc1-mid",
+    "topicId": "top-c1-limits",
+    "question": "Given that f(x) = 1 / (x - 2) and g(x) = 1 / x, then the domain of the composite function (f ∘ g) is:",
+    "options": [
+      {
+        "id": "a",
+        "text": "ℝ \\ {0}"
+      },
+      {
+        "id": "b",
+        "text": "ℝ \\ {1/2}"
+      },
+      {
+        "id": "c",
+        "text": "ℝ \\ {0, 1/2}"
+      },
+      {
+        "id": "d",
+        "text": "ℝ \\ {0, 2}"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation": "(f ∘ g)(x) = f(g(x)) = 1 / (1/x - 2). For g(x) to be defined: x ≠ 0. For f(g(x)) to be defined: 1/x - 2 ≠ 0 => 1/x ≠ 2 => x ≠ 1/2. Therefore Domain = ℝ \\ {0, 1/2}.",
+    "difficulty": "Medium",
+    "sourceFile": "ميد كالكولاس 1.pdf",
+    "sourcePage": 1,
+    "status": "Verified",
+    "createdAt": "2026-09-28T16:31:10.966Z",
+    "updatedAt": "2026-09-28T16:31:10.966Z"
+  },
+  {
+    "id": "CALC1-MID-003",
+    "subjectId": "subj-calc1",
+    "quizId": "quiz-calc1-mid",
+    "topicId": "top-c1-limits",
+    "question": "The range of f(x) = 4[x] (where [x] represents the greatest integer function) is:",
+    "options": [
+      {
+        "id": "a",
+        "text": "{0, ±4, ±8, ±12, ...}"
+      },
+      {
+        "id": "b",
+        "text": "(-∞, ∞)"
+      },
+      {
+        "id": "c",
+        "text": "{0, ±1, ±2, ±3, ...}"
+      },
+      {
+        "id": "d",
+        "text": "ℝ \\ {0, ±1, ±2, ...}"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation": "The greatest integer function [x] outputs integers k ∈ ℤ. Multiplying by 4 produces all integer multiples of 4: {..., -8, -4, 0, 4, 8, ...}.",
+    "difficulty": "Easy",
+    "sourceFile": "ميد كالكولاس 1.pdf",
+    "sourcePage": 1,
+    "status": "Verified",
+    "createdAt": "2026-09-28T16:31:10.966Z",
+    "updatedAt": "2026-09-28T16:31:10.966Z"
+  },
+  {
+    "id": "CALC1-MID-004",
+    "subjectId": "subj-calc1",
+    "quizId": "quiz-calc1-mid",
+    "topicId": "top-c1-limits",
+    "question": "If the domain of the function y = f(x) is (4, 7], then the domain of g(x) = f(2 - x) is:",
+    "options": [
+      {
+        "id": "a",
+        "text": "[4, 7)"
+      },
+      {
+        "id": "b",
+        "text": "(4, 7]"
+      },
+      {
+        "id": "c",
+        "text": "(-5, -2]"
+      },
+      {
+        "id": "d",
+        "text": "[-5, -2)"
+      }
+    ],
+    "correctAnswer": "d",
+    "explanation": "4 < 2 - x ≤ 7 => subtracting 2 gives: 2 < -x ≤ 5 => multiplying by -1 (and reversing inequality signs): -5 ≤ x < -2, which in interval notation is [-5, -2).",
+    "difficulty": "Medium",
+    "sourceFile": "ميد كالكولاس 1.pdf",
+    "sourcePage": 1,
+    "status": "Verified",
+    "createdAt": "2026-09-28T16:31:10.967Z",
+    "updatedAt": "2026-09-28T16:31:10.967Z"
+  },
+  {
+    "id": "CALC1-MID-005",
+    "subjectId": "subj-calc1",
+    "quizId": "quiz-calc1-mid",
+    "topicId": "top-c1-limits",
+    "question": "The solution set of the inequality e^(7x) > 2e^(3x) is:",
+    "options": [
+      {
+        "id": "a",
+        "text": "((ln 2)/4, ∞)"
+      },
+      {
+        "id": "b",
+        "text": "(-∞, (ln 2)/4)"
+      },
+      {
+        "id": "c",
+        "text": "(0, (ln 2)/4)"
+      },
+      {
+        "id": "d",
+        "text": "(-(ln 2)/4, 0)"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Divide both sides by e^(3x): e^(4x) > 2. Taking natural logarithm: 4x > ln 2 => x > (ln 2) / 4. In interval notation: ((ln 2)/4, ∞).",
+    "difficulty": "Easy",
+    "sourceFile": "ميد كالكولاس 1.pdf",
+    "sourcePage": 2,
+    "status": "Verified",
+    "createdAt": "2026-09-28T16:31:10.967Z",
+    "updatedAt": "2026-09-28T16:31:10.967Z"
+  },
+  {
+    "id": "CALC1-MID-006",
+    "subjectId": "subj-calc1",
+    "quizId": "quiz-calc1-mid",
+    "topicId": "top-c1-limits",
+    "question": "If f(x) = csc⁻¹(x), then f(3) is equal to:",
+    "options": [
+      {
+        "id": "a",
+        "text": "1 / sin(3)"
+      },
+      {
+        "id": "b",
+        "text": "sin⁻¹(1/3)"
+      },
+      {
+        "id": "c",
+        "text": "cos⁻¹(1/3)"
+      },
+      {
+        "id": "d",
+        "text": "1 / cos(3)"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation": "By the standard inverse trigonometric identity, csc⁻¹(x) = sin⁻¹(1/x) for |x| ≥ 1. Therefore, f(3) = sin⁻¹(1/3).",
+    "difficulty": "Easy",
+    "sourceFile": "ميد كالكولاس 1.pdf",
+    "sourcePage": 2,
+    "status": "Verified",
+    "createdAt": "2026-09-28T16:31:10.967Z",
+    "updatedAt": "2026-09-28T16:31:10.967Z"
+  },
+  {
+    "id": "CALC1-MID-007",
+    "subjectId": "subj-calc1",
+    "quizId": "quiz-calc1-mid",
+    "topicId": "top-c1-limits",
+    "question": "If f(x) = x² + 4x + 7 for x ∈ (-∞, k] is a one-to-one function, then the largest possible value of k is:",
+    "options": [
+      {
+        "id": "a",
+        "text": "4"
+      },
+      {
+        "id": "b",
+        "text": "2"
+      },
+      {
+        "id": "c",
+        "text": "-2"
+      },
+      {
+        "id": "d",
+        "text": "-4"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation": "The parabola f(x) has its vertex at x = -b / (2a) = -4 / 2 = -2. It is monotonic on (-∞, -2] and [-2, ∞). For x ∈ (-∞, k] to be one-to-one, k cannot exceed the vertex at -2.",
+    "difficulty": "Medium",
+    "sourceFile": "ميد كالكولاس 1.pdf",
+    "sourcePage": 2,
+    "status": "Verified",
+    "createdAt": "2026-09-28T16:31:10.967Z",
+    "updatedAt": "2026-09-28T16:31:10.967Z"
+  },
+  {
+    "id": "CALC1-MID-008",
+    "subjectId": "subj-calc1",
+    "quizId": "quiz-calc1-mid",
+    "topicId": "top-c1-limits",
+    "question": "Evaluate the limit: lim_{x → 3} [ 1 / (x - 3) - 27 / (x³ - 27) ] =",
+    "options": [
+      {
+        "id": "a",
+        "text": "-1"
+      },
+      {
+        "id": "b",
+        "text": "1"
+      },
+      {
+        "id": "c",
+        "text": "1/3"
+      },
+      {
+        "id": "d",
+        "text": "-1/3"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation": "x³ - 27 = (x - 3)(x² + 3x + 9). Common denominator: [(x² + 3x + 9) - 27] / [(x - 3)(x² + 3x + 9)] = (x² + 3x - 18) / [...] = [(x - 3)(x + 6)] / [(x - 3)(x² + 3x + 9)]. Substituting x = 3: (3 + 6) / (9 + 9 + 9) = 9 / 27 = 1/3.",
+    "difficulty": "Medium",
+    "sourceFile": "ميد كالكولاس 1.pdf",
+    "sourcePage": 2,
+    "status": "Verified",
+    "createdAt": "2026-09-28T16:31:10.967Z",
+    "updatedAt": "2026-09-28T16:31:10.967Z"
+  },
+  {
+    "id": "CALC1-MID-009",
+    "subjectId": "subj-calc1",
+    "quizId": "quiz-calc1-mid",
+    "topicId": "top-c1-limits",
+    "question": "If y = 0 and x = 2 are horizontal and vertical asymptotes (respectively) of the function f(x) = [ax³ - x(3x + 1)] / [x³ - b], then a + b =",
+    "options": [
+      {
+        "id": "a",
+        "text": "3"
+      },
+      {
+        "id": "b",
+        "text": "11"
+      },
+      {
+        "id": "c",
+        "text": "8"
+      },
+      {
+        "id": "d",
+        "text": "5"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation": "For horizontal asymptote y = 0: degree of numerator must be less than denominator, so a = 0. For vertical asymptote at x = 2: x³ - b = 0 at x = 2 => 2³ - b = 0 => b = 8. Thus a + b = 0 + 8 = 8.",
+    "difficulty": "Medium",
+    "sourceFile": "ميد كالكولاس 1.pdf",
+    "sourcePage": 3,
+    "status": "Verified",
+    "createdAt": "2026-09-28T16:31:10.967Z",
+    "updatedAt": "2026-09-28T16:31:10.967Z"
+  },
+  {
+    "id": "CALC1-MID-010",
+    "subjectId": "subj-calc1",
+    "quizId": "quiz-calc1-mid",
+    "topicId": "top-c1-limits",
+    "question": "Determine the parity of the function f(x) = x³ ln|x|:",
+    "options": [
+      {
+        "id": "a",
+        "text": "odd"
+      },
+      {
+        "id": "b",
+        "text": "neither odd nor even"
+      },
+      {
+        "id": "c",
+        "text": "even"
+      },
+      {
+        "id": "d",
+        "text": "negative for all x in domain"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation": "f(-x) = (-x)³ ln|-x| = -x³ ln|x| = -f(x). Since f(-x) = -f(x), the function is odd.",
+    "difficulty": "Easy",
+    "sourceFile": "ميد كالكولاس 1.pdf",
+    "sourcePage": 3,
+    "status": "Verified",
+    "createdAt": "2026-09-28T16:31:10.967Z",
+    "updatedAt": "2026-09-28T16:31:10.967Z"
+  },
+  {
+    "id": "CIRC1-MID-001",
+    "subjectId": "subj-circ1",
+    "quizId": "quiz-circ1-mid-2017",
+    "topicId": "top-ee1-basic",
+    "question": "A circuit element draws 15 A when connected to a 240-V line. How long does it take to consume 180 kJ?",
+    "options": [
+      {
+        "id": "a",
+        "text": "5 ms"
+      },
+      {
+        "id": "b",
+        "text": "0.5 ms"
+      },
+      {
+        "id": "c",
+        "text": "2.67 s"
+      },
+      {
+        "id": "d",
+        "text": "50 s"
+      }
+    ],
+    "correctAnswer": "d",
+    "explanation": "Power P = V * I = 240 V * 15 A = 3600 W. Time t = Energy / Power = 180,000 J / 3600 W = 50 s.",
+    "difficulty": "Easy",
+    "sourceFile": "ميد سيركت 1 (1).pdf",
+    "sourcePage": 1,
+    "status": "Verified",
+    "createdAt": "2026-09-28T16:31:10.967Z",
+    "updatedAt": "2026-09-28T16:31:10.967Z"
+  },
+  {
+    "id": "CIRC1-MID-002",
+    "subjectId": "subj-circ1",
+    "quizId": "quiz-circ1-mid-2017",
+    "topicId": "top-ee1-basic",
+    "question": "To move charge q = 6 C from point a to point b requires -30 J. The voltage drop Vab is:",
+    "options": [
+      {
+        "id": "a",
+        "text": "5 V"
+      },
+      {
+        "id": "b",
+        "text": "180 V"
+      },
+      {
+        "id": "c",
+        "text": "-5 V"
+      },
+      {
+        "id": "d",
+        "text": "-180 V"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Vab = Va - Vb = W / q. Moving positive charge with negative work implies moving to higher potential: Vab = 30 J / 6 C = 5 V.",
+    "difficulty": "Easy",
+    "sourceFile": "ميد سيركت 1 (1).pdf",
+    "sourcePage": 1,
+    "status": "Verified",
+    "createdAt": "2026-09-28T16:31:10.967Z",
+    "updatedAt": "2026-09-28T16:31:10.967Z"
+  },
+  {
+    "id": "CIRC1-MID-003",
+    "subjectId": "subj-circ1",
+    "quizId": "quiz-circ1-mid-2017",
+    "topicId": "top-ee1-basic",
+    "question": "The total charge entering a terminal is given by q = (10 - 10e^(-2t)) mC. The current at t = 1 s is:",
+    "options": [
+      {
+        "id": "a",
+        "text": "1.353 A"
+      },
+      {
+        "id": "b",
+        "text": "2.707 mA"
+      },
+      {
+        "id": "c",
+        "text": "-0.73 A"
+      },
+      {
+        "id": "d",
+        "text": "0.73 A"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Current i(t) = dq/dt = d/dt [10 - 10e^(-2t)] = 20 e^(-2t) mA. At t = 1 s: i(1) = 20 e^(-2) = 20 / 7.389 = 2.707 mA.",
+    "difficulty": "Medium",
+    "sourceFile": "ميد سيركت 1 (1).pdf",
+    "sourcePage": 1,
+    "status": "Verified",
+    "createdAt": "2026-09-28T16:31:10.967Z",
+    "updatedAt": "2026-09-28T16:31:10.967Z"
+  },
+  {
+    "id": "CIRC1-MID-004",
+    "subjectId": "subj-circ1",
+    "quizId": "quiz-circ1-mid-2017",
+    "topicId": "top-ee1-basic",
+    "question": "For a single loop circuit containing a 32 V source, a 4 Ω resistor (with voltage v1 across it), a -8 V source, and a 2 Ω resistor: find the voltage v1:",
+    "options": [
+      {
+        "id": "a",
+        "text": "8 V"
+      },
+      {
+        "id": "b",
+        "text": "32 V"
+      },
+      {
+        "id": "c",
+        "text": "16 V"
+      },
+      {
+        "id": "d",
+        "text": "-8 V"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Applying KVL around the loop: -32 + 4I - (-8) + 2I = 0 => 6I = 24 => I = 4 A. Voltage v1 across the 4Ω resistor: v1 = I * R = 4 A * 4 Ω = 16 V.",
+    "difficulty": "Medium",
+    "sourceFile": "ميد سيركت 1 (1).pdf",
+    "sourcePage": 1,
+    "status": "Verified",
+    "createdAt": "2026-09-28T16:31:10.967Z",
+    "updatedAt": "2026-09-28T16:31:10.967Z"
+  },
+  {
+    "id": "CIRC1-MID-005",
+    "subjectId": "subj-circ1",
+    "quizId": "quiz-circ1-mid-2017",
+    "topicId": "top-ee1-basic",
+    "question": "In a resistive ladder network, 12 Ω is in parallel with 6 Ω, in series with 16 Ω, in parallel with 5 Ω, in series with 8 Ω, in parallel with 12 Ω. Find the equivalent resistance Req:",
+    "options": [
+      {
+        "id": "a",
+        "text": "6 Ω"
+      },
+      {
+        "id": "b",
+        "text": "6.67 Ω"
+      },
+      {
+        "id": "c",
+        "text": "20 Ω"
+      },
+      {
+        "id": "d",
+        "text": "12 Ω"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Step 1: 12 || 6 = 4 Ω. Step 2: 4 + 16 = 20 Ω. Step 3: 20 || 5 = 4 Ω. Step 4: 4 + 8 = 12 Ω. Step 5: 12 || 12 = 6 Ω.",
+    "difficulty": "Medium",
+    "sourceFile": "ميد سيركت 1 (1).pdf",
+    "sourcePage": 1,
+    "status": "Verified",
+    "createdAt": "2026-09-28T16:31:10.967Z",
+    "updatedAt": "2026-09-28T16:31:10.967Z"
+  },
+  {
+    "id": "CIRC1-MID-006",
+    "subjectId": "subj-circ1",
+    "quizId": "quiz-circ1-mid-2017",
+    "topicId": "top-ee1-basic",
+    "question": "For the same resistive network powered by a 30 A current source across terminals a-b, find the voltage across the 8 Ω resistor:",
+    "options": [
+      {
+        "id": "a",
+        "text": "72 V"
+      },
+      {
+        "id": "b",
+        "text": "60 V"
+      },
+      {
+        "id": "c",
+        "text": "240 V"
+      },
+      {
+        "id": "d",
+        "text": "120 V"
+      }
+    ],
+    "correctAnswer": "d",
+    "explanation": "Total current splits equally between the 12Ω branches (15 A each). The current passing through the 8Ω resistor is 15 A. Voltage = 15 A * 8 Ω = 120 V.",
+    "difficulty": "Medium",
+    "sourceFile": "ميد سيركت 1 (1).pdf",
+    "sourcePage": 1,
+    "status": "Verified",
+    "createdAt": "2026-09-28T16:31:10.967Z",
+    "updatedAt": "2026-09-28T16:31:10.967Z"
+  },
+  {
+    "id": "CIRC1-MID-007",
+    "subjectId": "subj-circ1",
+    "quizId": "quiz-circ1-mid-2017",
+    "topicId": "top-ee1-basic",
+    "question": "How many joules of energy will a 10 Ω resistor connected across a 15 V battery dissipate in 1 minute?",
+    "options": [
+      {
+        "id": "a",
+        "text": "13.5 kJ"
+      },
+      {
+        "id": "b",
+        "text": "1.35 kJ"
+      },
+      {
+        "id": "c",
+        "text": "0.135 kJ"
+      },
+      {
+        "id": "d",
+        "text": "135 J"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Power P = V² / R = 15² / 10 = 225 / 10 = 22.5 W. Energy W = P * t = 22.5 W * 60 s = 1350 J = 1.35 kJ.",
+    "difficulty": "Easy",
+    "sourceFile": "ميد سيركت 1 (1).pdf",
+    "sourcePage": 10,
+    "status": "Verified",
+    "createdAt": "2026-09-28T16:31:10.967Z",
+    "updatedAt": "2026-09-28T16:31:10.967Z"
+  },
+  {
+    "id": "CIRC1-MID-008",
+    "subjectId": "subj-circ1",
+    "quizId": "quiz-circ1-mid-2017",
+    "topicId": "top-ee1-basic",
+    "question": "The power of 2,000,000,000 W can be expressed in engineering prefix powers of 10 as:",
+    "options": [
+      {
+        "id": "a",
+        "text": "2 MW"
+      },
+      {
+        "id": "b",
+        "text": "2 TW"
+      },
+      {
+        "id": "c",
+        "text": "2 GW"
+      },
+      {
+        "id": "d",
+        "text": "2 PW"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation": "2,000,000,000 W = 2 * 10⁹ W = 2 GW (Giga-watts).",
+    "difficulty": "Easy",
+    "sourceFile": "ميد سيركت 1 (1).pdf",
+    "sourcePage": 11,
+    "status": "Verified",
+    "createdAt": "2026-09-28T16:31:10.967Z",
+    "updatedAt": "2026-09-28T16:31:10.967Z"
+  },
+  {
+    "id": "CIRC1-MID-009",
+    "subjectId": "subj-circ1",
+    "quizId": "quiz-circ1-mid-2017",
+    "topicId": "top-ee1-basic",
+    "question": "How many coulombs of charge flow through a circuit carrying a current of 10 A in 1 minute?",
+    "options": [
+      {
+        "id": "a",
+        "text": "10 C"
+      },
+      {
+        "id": "b",
+        "text": "60 C"
+      },
+      {
+        "id": "c",
+        "text": "600 C"
+      },
+      {
+        "id": "d",
+        "text": "1200 C"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation": "q = I * t = 10 A * 60 s = 600 C.",
+    "difficulty": "Easy",
+    "sourceFile": "ميد سيركت 1 (1).pdf",
+    "sourcePage": 11,
+    "status": "Verified",
+    "createdAt": "2026-09-28T16:31:10.967Z",
+    "updatedAt": "2026-09-28T16:31:10.967Z"
+  },
+  {
+    "id": "CIRC1-MID-010",
+    "subjectId": "subj-circ1",
+    "quizId": "quiz-circ1-mid-2017",
+    "topicId": "top-ee1-basic",
+    "question": "The maximum current that a 2 W, 80 kΩ resistor can safely conduct is:",
+    "options": [
+      {
+        "id": "a",
+        "text": "160 kA"
+      },
+      {
+        "id": "b",
+        "text": "40 kA"
+      },
+      {
+        "id": "c",
+        "text": "5 mA"
+      },
+      {
+        "id": "d",
+        "text": "125 mA"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation": "P = I² * R => I² = P / R = 2 / 80,000 = 1 / 40,000 = 25 * 10^(-6) A² => I = 5 * 10^(-3) A = 5 mA.",
+    "difficulty": "Easy",
+    "sourceFile": "ميد سيركت 1 (1).pdf",
+    "sourcePage": 12,
+    "status": "Verified",
+    "createdAt": "2026-09-28T16:31:10.967Z",
+    "updatedAt": "2026-09-28T16:31:10.967Z"
+  },
+  {
+    "id": "CIRC1-FIN-001",
+    "subjectId": "subj-circ1",
+    "quizId": "quiz-circ1-final-2019",
+    "topicId": "top-ee1-thevenin",
+    "question": "For a bridge circuit with 10V source, 4Ω, 1Ω, 6Ω, 6Ω resistors and an 8V source: find the Thevenin resistance Rth with respect to load terminals a-b:",
+    "options": [
+      {
+        "id": "a",
+        "text": "2 Ω"
+      },
+      {
+        "id": "b",
+        "text": "3 Ω"
+      },
+      {
+        "id": "c",
+        "text": "6 Ω"
+      },
+      {
+        "id": "d",
+        "text": "12 Ω"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Deactivating independent sources (replacing voltage sources with short circuits): 6 || 6 = 3 Ω; 3 in series with 1 = 4 Ω; then 4 || 4 = 2 Ω.",
+    "difficulty": "Medium",
+    "sourceFile": "فاينل سيركت 1.pdf",
+    "sourcePage": 1,
+    "status": "Verified",
+    "createdAt": "2026-09-28T16:31:10.967Z",
+    "updatedAt": "2026-09-28T16:31:10.967Z"
+  },
+  {
+    "id": "CIRC1-FIN-002",
+    "subjectId": "subj-circ1",
+    "quizId": "quiz-circ1-final-2019",
+    "topicId": "top-ee1-thevenin",
+    "question": "For the same bridge circuit, find the open-circuit Thevenin voltage Vth across terminals (a, b):",
+    "options": [
+      {
+        "id": "a",
+        "text": "6 V"
+      },
+      {
+        "id": "b",
+        "text": "12 V"
+      },
+      {
+        "id": "c",
+        "text": "20 V"
+      },
+      {
+        "id": "d",
+        "text": "24 V"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Using source transformation and mesh equations yields Vth = Vab = 6 V.",
+    "difficulty": "Medium",
+    "sourceFile": "فاينل سيركت 1.pdf",
+    "sourcePage": 1,
+    "status": "Verified",
+    "createdAt": "2026-09-28T16:31:10.967Z",
+    "updatedAt": "2026-09-28T16:31:10.967Z"
+  },
+  {
+    "id": "CIRC1-FIN-003",
+    "subjectId": "subj-circ1",
+    "quizId": "quiz-circ1-final-2019",
+    "topicId": "top-ee1-thevenin",
+    "question": "The maximum power that can be delivered to the load resistor R connected between terminals a-b is:",
+    "options": [
+      {
+        "id": "a",
+        "text": "4.5 W"
+      },
+      {
+        "id": "b",
+        "text": "9 W"
+      },
+      {
+        "id": "c",
+        "text": "18 W"
+      },
+      {
+        "id": "d",
+        "text": "36 W"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Pmax occurs when RL = Rth = 2 Ω: Pmax = (Vth)² / (4 * Rth) = (6)² / (4 * 2) = 36 / 8 = 4.5 W.",
+    "difficulty": "Medium",
+    "sourceFile": "فاينل سيركت 1.pdf",
+    "sourcePage": 1,
+    "status": "Verified",
+    "createdAt": "2026-09-28T16:31:10.967Z",
+    "updatedAt": "2026-09-28T16:31:10.967Z"
+  },
+  {
+    "id": "CIRC1-FIN-004",
+    "subjectId": "subj-circ1",
+    "quizId": "quiz-circ1-final-2019",
+    "topicId": "top-ee1-transient",
+    "question": "A 30 mH inductor circuit has a switch closed at t = 0. The final steady-state inductor current i(t = ∞) is found to be:",
+    "options": [
+      {
+        "id": "a",
+        "text": "2 A"
+      },
+      {
+        "id": "b",
+        "text": "4 A"
+      },
+      {
+        "id": "c",
+        "text": "1 A"
+      },
+      {
+        "id": "d",
+        "text": "0 A"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Under DC steady-state, an inductor behaves as a short circuit. The equivalent circuit analysis produces i(∞) = 2 A.",
+    "difficulty": "Medium",
+    "sourceFile": "فاينل سيركت 1.pdf",
+    "sourcePage": 2,
+    "status": "Verified",
+    "createdAt": "2026-09-28T16:31:10.967Z",
+    "updatedAt": "2026-09-28T16:31:10.967Z"
+  },
+  {
+    "id": "CIRC1-FIN-005",
+    "subjectId": "subj-circ1",
+    "quizId": "quiz-circ1-final-2019",
+    "topicId": "top-ee1-transient",
+    "question": "The energy stored in the 30 mH inductor at t = ∞ (where i(∞) = 2 A) is:",
+    "options": [
+      {
+        "id": "a",
+        "text": "60 mJ"
+      },
+      {
+        "id": "b",
+        "text": "30 mJ"
+      },
+      {
+        "id": "c",
+        "text": "120 mJ"
+      },
+      {
+        "id": "d",
+        "text": "15 mJ"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation": "WL = (1/2) * L * i² = 0.5 * (30 * 10^(-3)) * (2)² = 0.5 * 0.030 * 4 = 0.060 J = 60 mJ.",
+    "difficulty": "Easy",
+    "sourceFile": "فاينل سيركت 1.pdf",
+    "sourcePage": 2,
+    "status": "Verified",
+    "createdAt": "2026-09-28T16:31:10.967Z",
+    "updatedAt": "2026-09-28T16:31:10.967Z"
+  },
+  {
+    "id": "CIRC1-FIN-006",
+    "subjectId": "subj-circ1",
+    "quizId": "quiz-circ1-final-2019",
+    "topicId": "top-ee1-basic",
+    "question": "The voltage across a 1.1 kW load produces a current of 10 A. What is the voltage across the load?",
+    "options": [
+      {
+        "id": "a",
+        "text": "11 kV"
+      },
+      {
+        "id": "b",
+        "text": "110 V"
+      },
+      {
+        "id": "c",
+        "text": "1100 kV"
+      },
+      {
+        "id": "d",
+        "text": "none of all"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation": "P = V * I => V = P / I = 1100 W / 10 A = 110 V.",
+    "difficulty": "Easy",
+    "sourceFile": "فاينل سيركت 1.pdf",
+    "sourcePage": 3,
+    "status": "Verified",
+    "createdAt": "2026-09-28T16:31:10.967Z",
+    "updatedAt": "2026-09-28T16:31:10.967Z"
+  },
+  {
+    "id": "CIRC1-FIN-007",
+    "subjectId": "subj-circ1",
+    "quizId": "quiz-circ1-final-2019",
+    "topicId": "top-ee1-basic",
+    "question": "The conductance of a light bulb with rated power of 100 W and rated voltage of 240 V is:",
+    "options": [
+      {
+        "id": "a",
+        "text": "1.736 mS"
+      },
+      {
+        "id": "b",
+        "text": "2.4 mS"
+      },
+      {
+        "id": "c",
+        "text": "0.416 S"
+      },
+      {
+        "id": "d",
+        "text": "4.16 mS"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation": "P = V² * G => G = P / V² = 100 / (240)² = 100 / 57600 ≈ 0.001736 S = 1.736 mS.",
+    "difficulty": "Easy",
+    "sourceFile": "فاينل سيركت 1.pdf",
+    "sourcePage": 3,
+    "status": "Verified",
+    "createdAt": "2026-09-28T16:31:10.967Z",
+    "updatedAt": "2026-09-28T16:31:10.967Z"
+  },
+  {
+    "id": "CIRC1-FIN-008",
+    "subjectId": "subj-circ1",
+    "quizId": "quiz-circ1-final-2019",
+    "topicId": "top-ee1-rlc",
+    "question": "For a parallel RLC circuit with R = 1.923 Ω, L = 1 H, and C = 10 mF, find the damping factor α:",
+    "options": [
+      {
+        "id": "a",
+        "text": "52 s⁻¹"
+      },
+      {
+        "id": "b",
+        "text": "6.5 s⁻¹"
+      },
+      {
+        "id": "c",
+        "text": "13 s⁻¹"
+      },
+      {
+        "id": "d",
+        "text": "26 s⁻¹"
+      }
+    ],
+    "correctAnswer": "d",
+    "explanation": "For parallel RLC: α = 1 / (2 R C) = 1 / (2 * 1.923 * 0.010) = 1 / 0.03846 ≈ 26 s⁻¹.",
+    "difficulty": "Medium",
+    "sourceFile": "فاينل سيركت 1.pdf",
+    "sourcePage": 27,
+    "status": "Verified",
+    "createdAt": "2026-09-28T16:31:10.967Z",
+    "updatedAt": "2026-09-28T16:31:10.967Z"
+  },
+  {
+    "id": "CIRC1-FIN-009",
+    "subjectId": "subj-circ1",
+    "quizId": "quiz-circ1-final-2019",
+    "topicId": "top-ee1-rlc",
+    "question": "For the same parallel RLC circuit (L = 1 H, C = 10 mF), find the undamped resonant frequency ω₀:",
+    "options": [
+      {
+        "id": "a",
+        "text": "40 rad/s"
+      },
+      {
+        "id": "b",
+        "text": "10 rad/s"
+      },
+      {
+        "id": "c",
+        "text": "20 rad/s"
+      },
+      {
+        "id": "d",
+        "text": "5 rad/s"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation": "ω₀ = 1 / √(L C) = 1 / √(1 * 0.010) = 1 / √0.01 = 1 / 0.1 = 10 rad/s.",
+    "difficulty": "Easy",
+    "sourceFile": "فاينل سيركت 1.pdf",
+    "sourcePage": 27,
+    "status": "Verified",
+    "createdAt": "2026-09-28T16:31:10.967Z",
+    "updatedAt": "2026-09-28T16:31:10.967Z"
+  },
+  {
+    "id": "CIRC1-FIN-010",
+    "subjectId": "subj-circ1",
+    "quizId": "quiz-circ1-final-2019",
+    "topicId": "top-ee1-rlc",
+    "question": "Given α = 26 and ω₀ = 10 for the parallel RLC circuit, what type of response is exhibited?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Overdamped (α > ω₀)"
+      },
+      {
+        "id": "b",
+        "text": "Critically damped (α = ω₀)"
+      },
+      {
+        "id": "c",
+        "text": "Underdamped (α < ω₀)"
+      },
+      {
+        "id": "d",
+        "text": "Undamped (α = 0)"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Since α = 26 > ω₀ = 10, the roots of the characteristic equation are real and distinct (s1, s2), meaning the circuit is overdamped.",
+    "difficulty": "Easy",
+    "sourceFile": "فاينل سيركت 1.pdf",
+    "sourcePage": 27,
+    "status": "Verified",
+    "createdAt": "2026-09-28T16:31:10.967Z",
+    "updatedAt": "2026-09-28T16:31:10.967Z"
+  },
+  {
+    "id": "CIRC1-REV-001",
+    "subjectId": "subj-circ1",
+    "quizId": "quiz-circ1-mid-2017",
+    "topicId": "top-ee1-mesh-node",
+    "question": "[NEEDS COMMITTEE REVIEW] Refer to Figure 3 on scanned Midterm: Node V1 and V2 equations have handwritten annotations with conflicting sign on the 2A branch (-18.125V vs +2.5V). Please verify which reference polarities match the latest course syllabus.",
+    "options": [
+      {
+        "id": "a",
+        "text": "V1 = -18.125 V, V2 = 2.5 V"
+      },
+      {
+        "id": "b",
+        "text": "V1 = 18.125 V, V2 = -2.5 V"
+      },
+      {
+        "id": "c",
+        "text": "V1 = 36.5 V, V2 = 5 V"
+      },
+      {
+        "id": "d",
+        "text": "Needs clarification on branch current directions"
+      }
+    ],
+    "correctAnswer": "d",
+    "explanation": "Question is flagged for committee review because photocopy scan has multiple overlapping handwritten revisions on the reference ground node.",
+    "difficulty": "Hard",
+    "sourceFile": "ميد سيركت 1 (1).pdf",
+    "sourcePage": 2,
+    "status": "Needs Review",
+    "createdAt": "2026-09-28T16:31:10.967Z",
+    "updatedAt": "2026-09-28T16:31:10.967Z"
+  },
+  {
+    "id": "CALC1-REV-001",
+    "subjectId": "subj-calc1",
+    "quizId": "quiz-calc1-final-2024",
+    "topicId": "top-c1-integ",
+    "question": "[NEEDS COMMITTEE REVIEW] Free response question 1: Compute ∫₀¹ (sin⁴ x / cos x) dx. In the original question sheet, the exponent is partially blurred between sin⁴(x) and sin²(x).",
+    "options": [
+      {
+        "id": "a",
+        "text": "Formulation with sin⁴(x)"
+      },
+      {
+        "id": "b",
+        "text": "Formulation with sin²(x)"
+      },
+      {
+        "id": "c",
+        "text": "Integral requires numerical approximation"
+      },
+      {
+        "id": "d",
+        "text": "Pending committee confirmation of exam typo"
+      }
+    ],
+    "correctAnswer": "d",
+    "explanation": "Flagged because original printing has a blurred exponent that alters the closed-form solvability under standard Calculus 1 techniques.",
+    "difficulty": "Hard",
+    "sourceFile": "Final calcu 2023-2024.pdf",
+    "sourcePage": 3,
+    "status": "Needs Review",
+    "createdAt": "2026-09-28T16:31:10.967Z",
+    "updatedAt": "2026-09-28T16:31:10.967Z"
+  },
+  {
+    "id": "CPP-MID-001",
+    "subjectId": "subj-cpp",
+    "quizId": "quiz-cpp-mid",
+    "topicId": "top-cpp-pointers",
+    "question": "What is the output of the following C++ code snippet?\n\nint x = 10;\nint *p = &x;\n*p = 25;\ncout << x;",
+    "options": [
+      {
+        "id": "a",
+        "text": "10"
+      },
+      {
+        "id": "b",
+        "text": "25"
+      },
+      {
+        "id": "c",
+        "text": "Address of x"
+      },
+      {
+        "id": "d",
+        "text": "Compilation Error"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Pointer p holds the memory address of variable x. Dereferencing *p and assigning 25 directly modifies the value stored at x's memory address, so x becomes 25.",
+    "difficulty": "Easy",
+    "sourceFile": "Academic Committee C++ Bank",
+    "sourcePage": 1,
+    "status": "Verified",
+    "createdAt": "2026-09-28T16:31:10.967Z",
+    "updatedAt": "2026-09-28T16:31:10.967Z"
+  },
+  {
+    "id": "CPP-MID-002",
+    "subjectId": "subj-cpp",
+    "quizId": "quiz-cpp-mid",
+    "topicId": "top-cpp-basics",
+    "question": "Which of the following statements about C++ references is FALSE?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A reference must be initialized when declared."
+      },
+      {
+        "id": "b",
+        "text": "A reference cannot be NULL."
+      },
+      {
+        "id": "c",
+        "text": "A reference can be rebound to point to another object after initialization."
+      },
+      {
+        "id": "d",
+        "text": "A reference shares the same memory address as the referent."
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Once a reference in C++ is bound to an object at initialization, it cannot be rebound to refer to another object. Reassigning assigns to the referred object.",
+    "difficulty": "Medium",
+    "sourceFile": "Academic Committee C++ Bank",
+    "sourcePage": 2,
+    "status": "Verified",
+    "createdAt": "2026-09-28T16:31:10.967Z",
+    "updatedAt": "2026-09-28T16:31:10.967Z"
+  },
+  {
+    "id": "CPP-MID-003",
+    "subjectId": "subj-cpp",
+    "quizId": "quiz-cpp-mid",
+    "topicId": "top-cpp-oop",
+    "question": "In C++, what happens when a derived class destructor is called if the base class destructor is NOT declared virtual?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Both base and derived destructors are always called properly."
+      },
+      {
+        "id": "b",
+        "text": "Deleting a derived object via a base class pointer results in undefined behavior (usually derived destructor is not called)."
+      },
+      {
+        "id": "c",
+        "text": "A compilation error is generated."
+      },
+      {
+        "id": "d",
+        "text": "Only the derived class destructor is called."
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation": "If a base class destructor is not marked virtual, deleting an object of the derived class through a pointer to the base class yields undefined behavior, leading to resource leaks.",
+    "difficulty": "Hard",
+    "sourceFile": "Academic Committee C++ Bank",
+    "sourcePage": 3,
+    "status": "Verified",
+    "createdAt": "2026-09-28T16:31:10.967Z",
+    "updatedAt": "2026-09-28T16:31:10.967Z"
+  }
+]

@@ -1,0 +1,482 @@
+[
+  {
+    "id": "NET-2025-001",
+    "subjectId": "subj-networks1",
+    "quizId": "quiz-subj-networks1-mid",
+    "question": "At the network edge, which of the following typically acts as the primary initiators of communication?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Routers"
+      },
+      {
+        "id": "b",
+        "text": "Clients (End Systems / Hosts)"
+      },
+      {
+        "id": "c",
+        "text": "Core Switches"
+      },
+      {
+        "id": "d",
+        "text": "Transmission Towers"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation": "In the client-server architecture, client hosts (desktop, laptops, smartphones) reside at the network edge and actively initiate requests toward servers.",
+    "difficulty": "Easy",
+    "sourceFile": "ميد الشبكات 2025.pdf",
+    "sourcePage": 1,
+    "status": "Verified"
+  },
+  {
+    "id": "NET-2025-002",
+    "subjectId": "subj-networks1",
+    "quizId": "quiz-subj-networks1-mid",
+    "question": "What is the primary advantage of using a full-duplex communication link compared to half-duplex?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It allows data to be transmitted and received simultaneously."
+      },
+      {
+        "id": "b",
+        "text": "It reduces the signal strength needed for transmission."
+      },
+      {
+        "id": "c",
+        "text": "It allows transmission in only one direction at a time."
+      },
+      {
+        "id": "d",
+        "text": "It decreases the overall frequency bandwidth required."
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Full-duplex channels permit concurrent bidirectional data transmission without collision or turn-taking delays.",
+    "difficulty": "Easy",
+    "sourceFile": "ميد الشبكات 2025.pdf",
+    "sourcePage": 1,
+    "status": "Verified"
+  },
+  {
+    "id": "NET-2025-003",
+    "subjectId": "subj-networks1",
+    "quizId": "quiz-subj-networks1-mid",
+    "question": "Which of the following is NOT a characteristic of a server in a network?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It primarily initiates communication with clients."
+      },
+      {
+        "id": "b",
+        "text": "It typically provides resources or services to clients."
+      },
+      {
+        "id": "c",
+        "text": "It is usually capable of handling multiple requests simultaneously."
+      },
+      {
+        "id": "d",
+        "text": "It often resides in a data center for scalability and availability."
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Servers passively listen for incoming requests; clients are the entities that initiate the communication.",
+    "difficulty": "Easy",
+    "sourceFile": "ميد الشبكات 2025.pdf",
+    "sourcePage": 1,
+    "status": "Verified"
+  },
+  {
+    "id": "NET-2025-004",
+    "subjectId": "subj-networks1",
+    "quizId": "quiz-subj-networks1-mid",
+    "question": "Which of the following best describes the client-server model in networking?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Every device acts as both client and server symmetrically."
+      },
+      {
+        "id": "b",
+        "text": "A model where clients request services and always-on servers respond with requested resources."
+      },
+      {
+        "id": "c",
+        "text": "A model requiring peer-to-peer decentralized file swapping."
+      },
+      {
+        "id": "d",
+        "text": "A model where clients provide services directly to servers."
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The client-server architecture features an always-on host (server) servicing requests from dynamically connecting clients.",
+    "difficulty": "Easy",
+    "sourceFile": "ميد الشبكات 2025.pdf",
+    "sourcePage": 1,
+    "status": "Verified"
+  },
+  {
+    "id": "NET-2025-005",
+    "subjectId": "subj-networks1",
+    "quizId": "quiz-subj-networks1-mid",
+    "question": "Which physical transmission media is commonly used in high-speed fiber-optic communication?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Copper twisted-pair wires"
+      },
+      {
+        "id": "b",
+        "text": "Radio electromagnetic waves"
+      },
+      {
+        "id": "c",
+        "text": "Glass or plastic thin fibers"
+      },
+      {
+        "id": "d",
+        "text": "Coaxial shielded cables"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation": "Fiber-optic cables conduct light pulses through ultra-pure glass or silica fibers, providing extremely high bandwidth and immunity to electromagnetic interference.",
+    "difficulty": "Easy",
+    "sourceFile": "ميد الشبكات 2025.pdf",
+    "sourcePage": 1,
+    "status": "Verified"
+  },
+  {
+    "id": "NET-2025-006",
+    "subjectId": "subj-networks1",
+    "quizId": "quiz-subj-networks1-mid",
+    "question": "Which of the following is a defining characteristic of circuit switching (used in traditional telephone networks)?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Data is broken into independent packets sent over shared paths."
+      },
+      {
+        "id": "b",
+        "text": "A dedicated, end-to-end physical path is established for the entire session duration."
+      },
+      {
+        "id": "c",
+        "text": "Resources are allocated on demand dynamically using statistical multiplexing."
+      },
+      {
+        "id": "d",
+        "text": "It is optimized for bursty Internet web browsing traffic."
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation": "Circuit switching pre-reserves end-to-end transmission capacity (frequency/time slots) exclusively for the session duration.",
+    "difficulty": "Medium",
+    "sourceFile": "ميد الشبكات 2025.pdf",
+    "sourcePage": 2,
+    "status": "Verified"
+  },
+  {
+    "id": "NET-2025-007",
+    "subjectId": "subj-networks1",
+    "quizId": "quiz-subj-networks1-mid",
+    "question": "What is the main purpose of HTTP (Hypertext Transfer Protocol)?",
+    "options": [
+      {
+        "id": "a",
+        "text": "To encrypt data between web browsers and servers"
+      },
+      {
+        "id": "b",
+        "text": "To route IP packets across the internet core"
+      },
+      {
+        "id": "c",
+        "text": "To enable communication and resource transfer between web browsers and web servers"
+      },
+      {
+        "id": "d",
+        "text": "To assign dynamic IP addresses automatically to hosts"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation": "HTTP is the application-layer protocol powering the World Wide Web, standardizing how clients request objects and how servers deliver web pages.",
+    "difficulty": "Easy",
+    "sourceFile": "ميد الشبكات 2025.pdf",
+    "sourcePage": 2,
+    "status": "Verified"
+  },
+  {
+    "id": "NET-2025-008",
+    "subjectId": "subj-networks1",
+    "quizId": "quiz-subj-networks1-mid",
+    "question": "Which HTTP status code indicates a successful request where the server returns the requested resource?",
+    "options": [
+      {
+        "id": "a",
+        "text": "200 OK"
+      },
+      {
+        "id": "b",
+        "text": "301 Moved Permanently"
+      },
+      {
+        "id": "c",
+        "text": "404 Not Found"
+      },
+      {
+        "id": "d",
+        "text": "500 Internal Server Error"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation": "HTTP status 200 represents standard successful transaction completion.",
+    "difficulty": "Easy",
+    "sourceFile": "ميد الشبكات 2025.pdf",
+    "sourcePage": 2,
+    "status": "Verified"
+  },
+  {
+    "id": "NET-2025-009",
+    "subjectId": "subj-networks1",
+    "quizId": "quiz-subj-networks1-mid",
+    "question": "What is the primary architectural difference between POP3 and IMAP mail access protocols?",
+    "options": [
+      {
+        "id": "a",
+        "text": "POP3 stores emails on the client side after downloading, while IMAP maintains folder synchronization on the remote server."
+      },
+      {
+        "id": "b",
+        "text": "IMAP removes emails from the server, while POP3 keeps them organized remotely."
+      },
+      {
+        "id": "c",
+        "text": "IMAP is used for sending emails, while POP3 is for receiving."
+      },
+      {
+        "id": "d",
+        "text": "POP3 requires encryption, while IMAP cannot use SSL/TLS."
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation": "POP3 follows download-and-delete or download-and-keep mode locally, whereas IMAP keeps full email state and folders synchronized on the mail server.",
+    "difficulty": "Medium",
+    "sourceFile": "ميد الشبكات 2025.pdf",
+    "sourcePage": 2,
+    "status": "Verified"
+  },
+  {
+    "id": "NET-2025-010",
+    "subjectId": "subj-networks1",
+    "quizId": "quiz-subj-networks1-mid",
+    "question": "Which protocol is primarily used by mail clients to send outgoing email messages to a mail server?",
+    "options": [
+      {
+        "id": "a",
+        "text": "HTTP"
+      },
+      {
+        "id": "b",
+        "text": "SMTP (Simple Mail Transfer Protocol)"
+      },
+      {
+        "id": "c",
+        "text": "POP3"
+      },
+      {
+        "id": "d",
+        "text": "IMAP"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation": "SMTP is a push protocol specifically designed to transmit email messages from sender client to mail server, and between mail servers.",
+    "difficulty": "Easy",
+    "sourceFile": "ميد الشبكات 2025.pdf",
+    "sourcePage": 3,
+    "status": "Verified"
+  },
+  {
+    "id": "NET-2025-011",
+    "subjectId": "subj-networks1",
+    "quizId": "quiz-subj-networks1-mid",
+    "question": "Which of the following is a defining characteristic of UDP (User Datagram Protocol)?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Guaranteed in-order reliable data delivery"
+      },
+      {
+        "id": "b",
+        "text": "Connection-oriented 3-way handshake"
+      },
+      {
+        "id": "c",
+        "text": "Lightweight connectionless delivery suitable for real-time video streaming, DNS, and gaming"
+      },
+      {
+        "id": "d",
+        "text": "Built-in congestion control throttling"
+      }
+    ],
+    "correctAnswer": "c",
+    "explanation": "UDP provides minimal transport overhead without connection establishment delays or retransmissions, making it ideal for delay-sensitive real-time traffic.",
+    "difficulty": "Easy",
+    "sourceFile": "ميد الشبكات 2025.pdf",
+    "sourcePage": 3,
+    "status": "Verified"
+  },
+  {
+    "id": "NET-2025-012",
+    "subjectId": "subj-networks1",
+    "quizId": "quiz-subj-networks1-mid",
+    "question": "What is the primary function of the Domain Name System (DNS)?",
+    "options": [
+      {
+        "id": "a",
+        "text": "To encrypt web traffic over HTTPS"
+      },
+      {
+        "id": "b",
+        "text": "To translate human-friendly domain names (e.g. example.com) into numerical IP addresses"
+      },
+      {
+        "id": "c",
+        "text": "To establish VPN tunnels between remote sites"
+      },
+      {
+        "id": "d",
+        "text": "To allocate dynamic MAC addresses to routers"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation": "DNS serves as the distributed directory of the Internet, resolving hostname strings into 32-bit (IPv4) or 128-bit (IPv6) addresses.",
+    "difficulty": "Easy",
+    "sourceFile": "ميد الشبكات 2025.pdf",
+    "sourcePage": 4,
+    "status": "Verified"
+  },
+  {
+    "id": "NET-2025-013",
+    "subjectId": "subj-networks1",
+    "quizId": "quiz-subj-networks1-mid",
+    "question": "Which layer of the OSI 7-layer reference model is responsible for reliable end-to-end process-to-process communication?",
+    "options": [
+      {
+        "id": "a",
+        "text": "Physical Layer"
+      },
+      {
+        "id": "b",
+        "text": "Transport Layer"
+      },
+      {
+        "id": "c",
+        "text": "Network Layer"
+      },
+      {
+        "id": "d",
+        "text": "Data Link Layer"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation": "The Transport layer (Layer 4) manages end-to-end logical communication between running application processes on different hosts.",
+    "difficulty": "Easy",
+    "sourceFile": "ميد الشبكات 2025.pdf",
+    "sourcePage": 4,
+    "status": "Verified"
+  },
+  {
+    "id": "NET-2025-014",
+    "subjectId": "subj-networks1",
+    "quizId": "quiz-subj-networks1-mid",
+    "question": "In transport layer protocols (TCP and UDP), what is the function of a \"Port Number\"?",
+    "options": [
+      {
+        "id": "a",
+        "text": "A 16-bit identifier used to direct incoming segment data to a specific socket/process on the host"
+      },
+      {
+        "id": "b",
+        "text": "The physical Ethernet port jack on the router"
+      },
+      {
+        "id": "c",
+        "text": "The MAC address of the network interface card"
+      },
+      {
+        "id": "d",
+        "text": "The transmission baud rate of the communication cable"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation": "Port numbers (0 to 65535) allow multiplexing and demultiplexing, differentiating between concurrent network applications running on the same host.",
+    "difficulty": "Medium",
+    "sourceFile": "ميد الشبكات 2025.pdf",
+    "sourcePage": 4,
+    "status": "Verified"
+  },
+  {
+    "id": "NET-2025-015",
+    "subjectId": "subj-networks1",
+    "quizId": "quiz-subj-networks1-mid",
+    "question": "What is the purpose of the 3-Way Handshake (SYN, SYN-ACK, ACK) in TCP?",
+    "options": [
+      {
+        "id": "a",
+        "text": "To establish a synchronized, reliable connection and agree on initial sequence numbers before transmitting data"
+      },
+      {
+        "id": "b",
+        "text": "To encrypt packets using symmetric keys"
+      },
+      {
+        "id": "c",
+        "text": "To calculate the shortest path across the core routers"
+      },
+      {
+        "id": "d",
+        "text": "To terminate an idle socket connection"
+      }
+    ],
+    "correctAnswer": "a",
+    "explanation": "The 3-way handshake ensures both parties confirm mutual reachability and synchronize starting sequence numbers.",
+    "difficulty": "Medium",
+    "sourceFile": "ميد الشبكات 2025.pdf",
+    "sourcePage": 6,
+    "status": "Verified"
+  },
+  {
+    "id": "NET-2025-016",
+    "subjectId": "subj-networks1",
+    "quizId": "quiz-subj-networks1-mid",
+    "question": "When TCP detects packet loss or network congestion, how does its congestion control algorithm respond?",
+    "options": [
+      {
+        "id": "a",
+        "text": "It aggressively increases cwnd to push remaining packets"
+      },
+      {
+        "id": "b",
+        "text": "It reduces the Congestion Window (cwnd) size and slows down transmission rate"
+      },
+      {
+        "id": "c",
+        "text": "It switches from TCP to UDP automatically"
+      },
+      {
+        "id": "d",
+        "text": "It ignores packet drops and relies on physical hardware"
+      }
+    ],
+    "correctAnswer": "b",
+    "explanation": "TCP infers network congestion from timeout or duplicate ACKs, dropping its cwnd to prevent router buffer collapse.",
+    "difficulty": "Medium",
+    "sourceFile": "ميد الشبكات 2025.pdf",
+    "sourcePage": 6,
+    "status": "Verified"
+  }
+]

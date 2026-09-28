@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  cne-quizzes:
+    build: .
+    container_name: cne_quizzes_app
+    restart: always
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./data:/app/data
+      - ./public/images/questions:/app/public/images/questions
+    environment:
+      - PORT=3000
+      - NODE_ENV=production
