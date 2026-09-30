@@ -164,6 +164,19 @@ const App = {
       // Filter featured quizzes (Calculus, Circuits, C++)
       const featuredQuizzes = quizzes.slice(0, 3);
 
+      // Core / Most Popular Subjects for quick access (Top 8)
+      const popularIds = [
+        'subj-calc1',
+        'subj-electronics',
+        'subj-networks1',
+        'subj-circuits1',
+        'subj-cpp',
+        'subj-oop',
+        'subj-datastruct',
+        'subj-logic'
+      ];
+      const popularSubjects = subjects.filter(s => popularIds.includes(s.id));
+
       root.innerHTML = `
         <div class="home-container">
           <!-- قسم البانر الرئيسي (Hero) -->
@@ -175,7 +188,7 @@ const App = {
                 تدرّب على أسئلة امتحانات الميد والفاينل للسنوات السابقة، واطّلع على خطوات الحل الرياضية والاشتقاقات التفصيلية، واختبر جاهزيتك قبل دخول قاعة الامتحان.
               </p>
               <div class="hero-actions">
-                <a href="#subjects" class="btn btn-primary btn-lg">استعراض المواد الدراسية</a>
+                <a href="#subjects" class="btn btn-primary btn-lg">استعراض كافة المواد (45 مادة)</a>
                 <a href="#practice" class="btn btn-secondary btn-lg" style="color: var(--primary); background: #ffffff;">⚡ وضع التدريب السريع</a>
               </div>
             </div>
@@ -183,16 +196,16 @@ const App = {
             <!-- شريط الإحصائيات -->
             <div class="hero-stats">
               <div class="hero-stat-card">
-                <span class="hero-stat-num">${stats.totalSubjects}+</span>
-                <span class="hero-stat-label">مواد التخصص</span>
+                <span class="hero-stat-num">${stats.totalSubjects}</span>
+                <span class="hero-stat-label">مواد التخصص والخطة</span>
               </div>
               <div class="hero-stat-card">
                 <span class="hero-stat-num">${stats.totalQuizzes}</span>
                 <span class="hero-stat-label">امتحانات ميد وفاينل</span>
               </div>
               <div class="hero-stat-card">
-                <span class="hero-stat-num">${stats.verifiedQuestions}+</span>
-                <span class="hero-stat-label">أسئلة معتمدة بحلولها</span>
+                <span class="hero-stat-num">${stats.totalQuestions || stats.verifiedQuestions}+</span>
+                <span class="hero-stat-label">أسئلة امتحانية معتمدة</span>
               </div>
               <div class="hero-stat-card">
                 <span class="hero-stat-num">100%</span>
@@ -202,7 +215,7 @@ const App = {
           </section>
 
           <!-- قسم الاختبارات المميزة -->
-          <section style="margin-bottom: 3rem;">
+          <section style="margin-bottom: 2.75rem;">
             <div class="section-header">
               <h2 class="section-title">🌟 اختبارات وامتحانات مقترحة</h2>
               <a href="#subjects" style="font-size: 1rem; font-weight: 700; color: var(--primary); text-decoration: none;">عرض كل المواد &larr;</a>
@@ -229,44 +242,41 @@ const App = {
             </div>
           </section>
 
-          <!-- دليل المواد الدراسية -->
+          <!-- أكثر المواد طلباً بين الطلاب -->
           <section>
             <div class="section-header">
               <div>
-                <h2 class="section-title">📚 المواد الدراسية وبنوك الأسئلة</h2>
+                <h2 class="section-title">🔥 أكثر المواد طلباً وتدريباً</h2>
                 <p style="color: var(--text-secondary); font-size: 0.95rem;">
-                  نظام مهيأ وقابل للتوسع ليشمل أكثر من 64 مادة في الخطة الدراسية.
+                  المساقات الأساسية الأكثر ممارسة وحلاً من قبل طلاب هندسة شبكات الحاسوب.
                 </p>
               </div>
-              <div class="search-input-wrap" style="max-width: 340px;">
-                <input type="text" id="home-subject-search" class="search-input" placeholder="ابحث عن مادة (مثلاً: كالكولاس، سيركت، شبكات)...">
-                <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-                  <circle cx="11" cy="11" r="8"></circle>
-                  <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-                </svg>
-              </div>
+              <a href="#subjects" class="btn btn-secondary btn-sm" style="display: inline-flex; align-items: center; gap: 0.35rem;">
+                <span>عرض الكل (${subjects.length})</span>
+                <span>&larr;</span>
+              </a>
             </div>
 
-            <div class="subject-grid" id="home-subject-grid">
-              ${this.renderSubjectCards(subjects)}
+            <div class="subject-grid">
+              ${this.renderSubjectCards(popularSubjects)}
+            </div>
+
+            <!-- بانر الانتقال لدليل المواد الكامل والبحث -->
+            <div class="view-all-banner">
+              <div class="view-all-content">
+                <div class="view-all-icon">📚</div>
+                <div>
+                  <h3 class="view-all-title">استعرض دليل كافة المواد الدراسية (${subjects.length} مادة معتمدة)</h3>
+                  <p class="view-all-desc">تصفح خطة التخصص كاملة، بما فيها الرياضيات، الإلكترونيات، البرمجيات، والمختبرات التسعة مع ميزة البحث والتصفية حسب القسم.</p>
+                </div>
+              </div>
+              <a href="#subjects" class="btn btn-primary btn-lg" style="white-space: nowrap;">
+                الانتقال لدليل المواد والبحث الشامل &larr;
+              </a>
             </div>
           </section>
         </div>
       `;
-
-      // بحث لحظي في الصفحة الرئيسية
-      const searchInput = document.getElementById('home-subject-search');
-      if (searchInput) {
-        searchInput.addEventListener('input', (e) => {
-          const q = e.target.value.toLowerCase().trim();
-          const filtered = subjects.filter(s =>
-            s.name.toLowerCase().includes(q) ||
-            (s.nameAr && s.nameAr.toLowerCase().includes(q)) ||
-            (s.code && s.code.toLowerCase().includes(q))
-          );
-          document.getElementById('home-subject-grid').innerHTML = this.renderSubjectCards(filtered);
-        });
-      }
     } catch (err) {
       root.innerHTML = `<p style="color: var(--danger);">فشل تحميل الصفحة الرئيسية: ${err.message}</p>`;
     }
@@ -409,27 +419,67 @@ const App = {
 
     try {
       const subjects = await API.getSubjects();
+      let activeCategory = 'all';
+      let currentQuery = '';
+
+      const filterSubjects = () => {
+        return subjects.filter(s => {
+          const matchCat = activeCategory === 'all' || s.category === activeCategory;
+          const matchQuery = !currentQuery || (
+            s.name.toLowerCase().includes(currentQuery) ||
+            (s.nameAr && s.nameAr.toLowerCase().includes(currentQuery)) ||
+            (s.code && s.code.toLowerCase().includes(currentQuery)) ||
+            (s.category && s.category.toLowerCase().includes(currentQuery))
+          );
+          return matchCat && matchQuery;
+        });
+      };
+
+      const updateGrid = () => {
+        const filtered = filterSubjects();
+        const grid = document.getElementById('catalog-grid');
+        const countEl = document.getElementById('catalog-count');
+        if (grid) grid.innerHTML = this.renderSubjectCards(filtered);
+        if (countEl) countEl.textContent = `عرض ${filtered.length} من أصل ${subjects.length} مادة معتمدة`;
+      };
+
       root.innerHTML = `
         <div>
           <div class="section-header">
             <div>
-              <h1 style="font-size: 2.1rem; font-weight: 900;">دليل المواد الدراسية</h1>
+              <h1 style="font-size: 2.1rem; font-weight: 900;">دليل المواد الدراسية وبنوك الأسئلة</h1>
               <p style="color: var(--text-secondary); font-size: 1rem;">
-                اختر أي مادة لبدء حل امتحانات الميد والفاينل ومراجعة بنك الأسئلة المعتمد.
+                تصفح كافة مواد خطة هندسة شبكات الحاسوب (45 مادة) مع إمكانية البحث الفوري والتصفية حسب التخصص.
               </p>
             </div>
             <a href="#practice" class="btn btn-primary">⚡ وضع التدريب السريع</a>
           </div>
 
-          <!-- شريط البحث -->
+          <!-- شريط البحث الرئيسي للمواد -->
           <div class="search-filter-bar">
             <div class="search-input-wrap">
-              <input type="text" id="catalog-search" class="search-input" placeholder="ابحث باسم المادة أو رمزها (Code)...">
+              <input type="text" id="catalog-search" class="search-input" placeholder="ابحث باسم المادة (مثلاً: كالكولاس، إلكترونيات، شبكات) أو رمزها مثل EE301, MATH101...">
               <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                 <circle cx="11" cy="11" r="8"></circle>
                 <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
               </svg>
             </div>
+          </div>
+
+          <!-- أزرار التصفية حسب الأقسام (Category Tabs) -->
+          <div class="category-tabs" id="category-tabs-container">
+            <button class="category-tab-btn active" data-cat="all">الكل (${subjects.length})</button>
+            <button class="category-tab-btn" data-cat="العلوم الأساسية والرياضيات">العلوم والرياضيات</button>
+            <button class="category-tab-btn" data-cat="علوم الحاسوب والبرمجيات">علوم الحاسوب والبرمجيات</button>
+            <button class="category-tab-btn" data-cat="الهندسة الكهربائية والإلكترونية">الهندسة الكهربائية والإلكترونية</button>
+            <button class="category-tab-btn" data-cat="هندسة شبكات واتصالات">شبكات واتصالات</button>
+            <button class="category-tab-btn" data-cat="مختبرات عملية">المختبرات العملية</button>
+            <button class="category-tab-btn" data-cat="المتطلبات الجامعية والإنسانية">المتطلبات الجامعية</button>
+          </div>
+
+          <!-- عداد النتائج -->
+          <div id="catalog-count" style="font-size: 0.95rem; font-weight: 700; color: var(--text-muted); margin-bottom: 1.25rem;">
+            عرض ${subjects.length} من أصل ${subjects.length} مادة معتمدة
           </div>
 
           <div class="subject-grid" id="catalog-grid">
@@ -438,19 +488,25 @@ const App = {
         </div>
       `;
 
+      // تفاعل البحث
       const searchInput = document.getElementById('catalog-search');
       if (searchInput) {
         searchInput.addEventListener('input', (e) => {
-          const q = e.target.value.toLowerCase().trim();
-          const filtered = subjects.filter(s =>
-            s.name.toLowerCase().includes(q) ||
-            (s.nameAr && s.nameAr.toLowerCase().includes(q)) ||
-            (s.code && s.code.toLowerCase().includes(q)) ||
-            (s.category && s.category.toLowerCase().includes(q))
-          );
-          document.getElementById('catalog-grid').innerHTML = this.renderSubjectCards(filtered);
+          currentQuery = e.target.value.toLowerCase().trim();
+          updateGrid();
         });
       }
+
+      // تفاعل أزرار الأقسام
+      const tabBtns = document.querySelectorAll('.category-tab-btn');
+      tabBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          tabBtns.forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          activeCategory = btn.dataset.cat;
+          updateGrid();
+        });
+      });
     } catch (err) {
       root.innerHTML = `<p style="color: var(--danger);">فشل تحميل دليل المواد: ${err.message}</p>`;
     }
