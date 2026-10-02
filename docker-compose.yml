@@ -12,4 +12,6 @@ services:
       - ./public/images/questions:/app/public/images/questions
     environment:
       - PORT=3000
+      - HOST=0.0.0.0
+      - ADMIN_PASSWORD=${ADMIN_PASSWORD:?Set a unique ADMIN_PASSWORD in .env}
       - NODE_ENV=production

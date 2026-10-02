@@ -6,23 +6,47 @@ const crypto = require('crypto');
 const db = require('./db');
 
 const PORT = process.env.PORT || 3000;
+const HOST = process.env.HOST || '127.0.0.1';
 const PUBLIC_DIR = path.join(__dirname, '..', 'public');
+const LOGIN_WINDOW_MS = 15 * 60 * 1000;
+const MAX_LOGIN_FAILURES = 10;
+
+if (!['127.0.0.1', 'localhost', '::1'].includes(HOST) && db.usesDefaultAdminPassword()) {
+  throw new Error('Set a unique ADMIN_PASSWORD before exposing the server on the network');
+}
 
 // Active authenticated admin session tokens (Token -> expiration timestamp)
 const ACTIVE_ADMIN_TOKENS = new Map();
+const LOGIN_FAILURES = new Map();
+
+function getLoginThrottle(req) {
+  const address = req.socket.remoteAddress || 'unknown';
+  const now = Date.now();
+  const current = LOGIN_FAILURES.get(address);
+  if (!current || now - current.startedAt >= LOGIN_WINDOW_MS) {
+    LOGIN_FAILURES.delete(address);
+    return { address, blocked: false, retryAfterSeconds: 0 };
+  }
+  return {
+    address,
+    blocked: current.count >= MAX_LOGIN_FAILURES,
+    retryAfterSeconds: Math.ceil((LOGIN_WINDOW_MS - (now - current.startedAt)) / 1000)
+  };
+}
+
+function recordLoginFailure(address) {
+  const now = Date.now();
+  const current = LOGIN_FAILURES.get(address);
+  if (!current || now - current.startedAt >= LOGIN_WINDOW_MS) {
+    LOGIN_FAILURES.set(address, { count: 1, startedAt: now });
+    return;
+  }
+  current.count += 1;
+}
 
 // Helper to verify admin token
 function isAuthorizedAdmin(req) {
-  let token = (req.headers['authorization'] || '').replace(/^Bearer\s+/i, '').trim();
-  if (!token && req.url) {
-    try {
-      const qIndex = req.url.indexOf('?');
-      if (qIndex !== -1) {
-        const queryParams = new URLSearchParams(req.url.slice(qIndex));
-        token = queryParams.get('token') || '';
-      }
-    } catch (_) {}
-  }
+  const token = (req.headers['authorization'] || '').replace(/^Bearer\s+/i, '').trim();
   if (!token || !ACTIVE_ADMIN_TOKENS.has(token)) return false;
 
   const expireTime = ACTIVE_ADMIN_TOKENS.get(token);
@@ -55,23 +79,27 @@ const MIME_TYPES = {
 function sendJSON(res, statusCode, data) {
   res.writeHead(statusCode, {
     'Content-Type': 'application/json; charset=utf-8',
-    'Access-Control-Allow-Origin': '*',
-    'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
-    'Access-Control-Allow-Headers': 'Content-Type, Authorization'
+    'Cache-Control': 'no-store'
   });
   res.end(JSON.stringify(data));
 }
 
 function parseRequestBody(req) {
   return new Promise((resolve, reject) => {
-    let body = '';
+    const chunks = [];
+    let bytesReceived = 0;
+    let tooLarge = false;
     req.on('data', chunk => {
-      body += chunk.toString();
-      if (body.length > 35 * 1024 * 1024) { // 35MB limit for bulk files
+      if (tooLarge) return;
+      bytesReceived += chunk.length;
+      if (bytesReceived > 35 * 1024 * 1024) { // 35MB limit for bulk files
+        tooLarge = true;
         reject(new Error('Payload too large'));
+        return;
       }
+      chunks.push(chunk);
     });
-    req.on('end', () => resolve(body));
+    req.on('end', () => resolve(Buffer.concat(chunks).toString('utf8')));
     req.on('error', err => reject(err));
   });
 }
@@ -82,17 +110,9 @@ function serveStatic(res, filePath) {
 
   fs.readFile(filePath, (err, content) => {
     if (err) {
-      if (err.code === 'ENOENT') {
-        const indexPath = path.join(PUBLIC_DIR, 'index.html');
-        fs.readFile(indexPath, (indexErr, indexContent) => {
-          if (indexErr) {
-            res.writeHead(404, { 'Content-Type': 'text/plain; charset=utf-8' });
-            res.end('Not Found');
-          } else {
-            res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
-            res.end(indexContent);
-          }
-        });
+      if (err.code === 'ENOENT' || err.code === 'EISDIR') {
+        res.writeHead(404, { 'Content-Type': 'text/plain; charset=utf-8' });
+        res.end('Not Found');
       } else {
         res.writeHead(500, { 'Content-Type': 'text/plain; charset=utf-8' });
         res.end(`Server Error: ${err.code}`);
@@ -105,17 +125,19 @@ function serveStatic(res, filePath) {
 }
 
 const server = http.createServer(async (req, res) => {
+  res.setHeader('Content-Security-Policy', "default-src 'self'; img-src 'self' data: blob:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; connect-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'self'");
+  res.setHeader('Permissions-Policy', 'camera=(), microphone=(), geolocation=()');
+  res.setHeader('Referrer-Policy', 'same-origin');
+  res.setHeader('X-Content-Type-Options', 'nosniff');
+  res.setHeader('X-Frame-Options', 'DENY');
+
   const parsedUrl = url.parse(req.url, true);
   const pathname = parsedUrl.pathname;
   const method = req.method.toUpperCase();
 
   // Handle CORS preflight
   if (method === 'OPTIONS') {
-    res.writeHead(204, {
-      'Access-Control-Allow-Origin': '*',
-      'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
-      'Access-Control-Allow-Headers': 'Content-Type, Authorization'
-    });
+    res.writeHead(204);
     res.end();
     return;
   }
@@ -125,6 +147,11 @@ const server = http.createServer(async (req, res) => {
     try {
       // 0. ADMIN AUTHENTICATION
       if (pathname === '/api/admin/login' && method === 'POST') {
+        const throttle = getLoginThrottle(req);
+        if (throttle.blocked) {
+          res.setHeader('Retry-After', String(throttle.retryAfterSeconds));
+          return sendJSON(res, 429, { error: 'محاولات تسجيل دخول كثيرة. حاول مرة أخرى لاحقاً.' });
+        }
         const bodyStr = await parseRequestBody(req);
         let username = 'cne_admin';
         let password = '';
@@ -135,6 +162,7 @@ const server = http.createServer(async (req, res) => {
         } catch (_) {}
 
         if (db.verifyAdmin(username, password)) {
+          LOGIN_FAILURES.delete(throttle.address);
           const token = crypto.randomBytes(32).toString('hex');
           ACTIVE_ADMIN_TOKENS.set(token, Date.now() + 24 * 60 * 60 * 1000); // 24hr validity
           return sendJSON(res, 200, {
@@ -144,6 +172,7 @@ const server = http.createServer(async (req, res) => {
             message: 'تم تسجيل الدخول بنجاح كمسؤول'
           });
         }
+        recordLoginFailure(throttle.address);
         return sendJSON(res, 401, { success: false, error: 'اسم المستخدم أو كلمة المرور غير صحيحة' });
       }
 
@@ -165,10 +194,14 @@ const server = http.createServer(async (req, res) => {
         if (!isAuthorizedAdmin(req)) return sendJSON(res, 401, { error: 'غير مصرح' });
         const bodyStr = await parseRequestBody(req);
         const { newUsername, newPassword } = JSON.parse(bodyStr || '{}');
-        if (!newPassword || newPassword.length < 6) {
-          return sendJSON(res, 400, { error: 'كلمة المرور الجديدة يجب ألا تقل عن 6 خانات' });
+        if (typeof newUsername !== 'string' || !newUsername.trim()) {
+          return sendJSON(res, 400, { error: 'اسم المستخدم الجديد مطلوب' });
+        }
+        if (typeof newPassword !== 'string' || newPassword.length < 12) {
+          return sendJSON(res, 400, { error: 'كلمة المرور الجديدة يجب ألا تقل عن 12 خانة' });
         }
         db.updateAdminCredentials(newUsername, newPassword);
+        ACTIVE_ADMIN_TOKENS.clear();
         return sendJSON(res, 200, { success: true, message: 'تم تحديث بيانات حساب المشرف بنجاح' });
       }
 
@@ -245,6 +278,7 @@ const server = http.createServer(async (req, res) => {
       const submitQuizMatch = pathname.match(/^\/api\/quizzes\/([^\/]+)\/submit$/);
       if (submitQuizMatch && method === 'POST') {
         const quizId = decodeURIComponent(submitQuizMatch[1]);
+        if (!db.getQuizForStudent(quizId)) return sendJSON(res, 404, { error: 'الاختبار غير موجود' });
         const bodyStr = await parseRequestBody(req);
         const payload = JSON.parse(bodyStr);
         const result = db.gradeSubmission(quizId, payload.answers || {});
@@ -274,6 +308,7 @@ const server = http.createServer(async (req, res) => {
       if (quizMatch) {
         const quizId = decodeURIComponent(quizMatch[1]);
         if (method === 'GET') {
+          if (!isAuthorizedAdmin(req)) return sendJSON(res, 401, { error: 'غير مصرح' });
           const qz = db.getQuizById(quizId);
           if (!qz) return sendJSON(res, 404, { error: 'الاختبار غير موجود' });
           return sendJSON(res, 200, qz);
@@ -297,6 +332,7 @@ const server = http.createServer(async (req, res) => {
       // 4. QUESTIONS & QUESTION BANK
       if (pathname === '/api/questions') {
         if (method === 'GET') {
+          if (!isAuthorizedAdmin(req)) return sendJSON(res, 401, { error: 'غير مصرح' });
           const data = db.getQuestions(parsedUrl.query);
           return sendJSON(res, 200, data);
         }
@@ -320,6 +356,7 @@ const server = http.createServer(async (req, res) => {
       if (questionMatch) {
         const questionId = decodeURIComponent(questionMatch[1]);
         if (method === 'GET') {
+          if (!isAuthorizedAdmin(req)) return sendJSON(res, 401, { error: 'غير مصرح' });
           const q = db.getQuestionById(questionId);
           if (!q) return sendJSON(res, 404, { error: 'السؤال غير موجود' });
           return sendJSON(res, 200, q);
@@ -342,7 +379,10 @@ const server = http.createServer(async (req, res) => {
 
       // 6. RANDOM QUIZ
       if (pathname === '/api/random-quiz' && method === 'GET') {
-        const count = parseInt(parsedUrl.query.count || '10', 10);
+        const count = Number(parsedUrl.query.count || 10);
+        if (!Number.isInteger(count) || count < 1 || count > 100) {
+          return sendJSON(res, 400, { error: 'عدد الأسئلة يجب أن يكون بين 1 و100' });
+        }
         const randomQuiz = db.generateRandomQuiz({
           subjectId: parsedUrl.query.subjectId || null,
           count,
@@ -355,7 +395,14 @@ const server = http.createServer(async (req, res) => {
       if (pathname === '/api/random-quiz/submit' && method === 'POST') {
         const bodyStr = await parseRequestBody(req);
         const payload = JSON.parse(bodyStr);
-        const result = db.gradeRandomQuiz(payload.questionIds || [], payload.answers || {});
+        const questionIds = payload.questionIds;
+        if (!Array.isArray(questionIds) || questionIds.length < 1 || questionIds.length > 100 ||
+            new Set(questionIds).size !== questionIds.length ||
+            !questionIds.every(id => typeof id === 'string' &&
+              db.data.questions.some(q => q.id === id && q.status === 'Verified'))) {
+          return sendJSON(res, 400, { error: 'قائمة أسئلة التدريب غير صالحة' });
+        }
+        const result = db.gradeRandomQuiz(questionIds, payload.answers || {});
         return sendJSON(res, 200, result);
       }
 
@@ -417,14 +464,30 @@ const server = http.createServer(async (req, res) => {
         if (!isAuthorizedAdmin(req)) return sendJSON(res, 401, { error: 'غير مصرح' });
         const bodyStr = await parseRequestBody(req);
         const payload = JSON.parse(bodyStr);
+        if (!payload || !Array.isArray(payload.subjects) || !Array.isArray(payload.questions)) {
+          return sendJSON(res, 400, { error: 'ملف النسخة الاحتياطية غير صالح أو تالف' });
+        }
+        if (payload.admin &&
+            (typeof payload.admin.username !== 'string' ||
+             typeof payload.admin.salt !== 'string' ||
+             typeof payload.admin.passwordHash !== 'string')) {
+          return sendJSON(res, 400, { error: 'بيانات حساب المشرف في النسخة الاحتياطية غير صالحة' });
+        }
+        if (!['127.0.0.1', 'localhost', '::1'].includes(HOST) && !process.env.ADMIN_PASSWORD &&
+            payload.admin && db.matchesPassword('cne_committee_2025', payload.admin)) {
+          return sendJSON(res, 400, { error: 'لا يمكن استعادة كلمة المرور الافتراضية على خادم عام' });
+        }
         db.restoreBackup(payload);
+        ACTIVE_ADMIN_TOKENS.clear();
         return sendJSON(res, 200, { success: true, message: 'تم استعادة قاعدة البيانات بنجاح' });
       }
 
       return sendJSON(res, 404, { error: 'نقطة النهاية غير موجودة' });
     } catch (apiErr) {
-      console.error('API Error:', apiErr);
-      return sendJSON(res, 500, { error: apiErr.message || 'خطأ داخلي في الخادم' });
+      const status = apiErr instanceof SyntaxError ? 400 :
+        apiErr.message === 'Payload too large' ? 413 : 500;
+      if (status === 500) console.error('API Error:', apiErr);
+      return sendJSON(res, status, { error: apiErr.message || 'خطأ داخلي في الخادم' });
     }
   }
 
@@ -434,8 +497,9 @@ const server = http.createServer(async (req, res) => {
     safePath = '/index.html';
   }
 
-  const requestedFile = path.normalize(path.join(PUBLIC_DIR, safePath));
-  if (!requestedFile.startsWith(PUBLIC_DIR)) {
+  const requestedFile = path.resolve(PUBLIC_DIR, `.${safePath}`);
+  const relativePath = path.relative(PUBLIC_DIR, requestedFile);
+  if (relativePath === '..' || relativePath.startsWith(`..${path.sep}`) || path.isAbsolute(relativePath)) {
     res.writeHead(403, { 'Content-Type': 'text/plain' });
     return res.end('Access Denied');
   }
@@ -443,10 +507,14 @@ const server = http.createServer(async (req, res) => {
   serveStatic(res, requestedFile);
 });
 
-server.listen(PORT, () => {
-  console.log(`=======================================================`);
-  console.log(`CNE Quizzes Platform is running!`);
-  console.log(`URL: http://localhost:${PORT}`);
-  console.log(`PWA Manifest: http://localhost:${PORT}/manifest.json`);
-  console.log(`=======================================================`);
-});
+if (require.main === module) {
+  server.listen(PORT, HOST, () => {
+    console.log(`=======================================================`);
+    console.log(`CNE Quizzes Platform is running!`);
+    console.log(`URL: http://${HOST}:${PORT}`);
+    console.log(`PWA Manifest: http://localhost:${PORT}/manifest.json`);
+    console.log(`=======================================================`);
+  });
+}
+
+module.exports = server;

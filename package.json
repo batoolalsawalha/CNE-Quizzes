@@ -5,7 +5,7 @@
   "main": "server/server.js",
   "scripts": {
     "start": "node server/server.js",
-    "test": "node test_api.js",
+    "test": "node test_api.js && node test_http.js",
     "seed": "node scripts/extract_initial_data.js"
   },
   "keywords": [

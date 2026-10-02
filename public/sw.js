@@ -1,4 +1,4 @@
-const CACHE_NAME = 'cne-quizzes-v1';
+const CACHE_NAME = 'cne-quizzes-v2';
 const STATIC_ASSETS = [
   '/',
   '/index.html',
@@ -42,23 +42,16 @@ self.addEventListener('fetch', (event) => {
   const url = new URL(req.url);
 
   // Bypass API requests to network
-  if (url.pathname.startsWith('/api/')) {
+  if (url.origin !== self.location.origin || req.method !== 'GET' || url.pathname.startsWith('/api/')) {
     return;
   }
 
   event.respondWith(
-    caches.match(req).then((cached) => {
-      return cached || fetch(req).then((networkRes) => {
-        if (req.method === 'GET' && networkRes.status === 200) {
-          const clone = networkRes.clone();
-          caches.open(CACHE_NAME).then((cache) => cache.put(req, clone));
-        }
-        return networkRes;
-      }).catch(() => {
-        if (req.mode === 'navigate') {
-          return caches.match('/index.html');
-        }
-      });
+    fetch(req).catch(async () => {
+      const cached = await caches.match(req);
+      if (cached) return cached;
+      if (req.mode === 'navigate') return caches.match('/index.html');
+      return Response.error();
     })
   );
 });

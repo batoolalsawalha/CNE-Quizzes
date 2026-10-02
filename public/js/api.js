@@ -150,7 +150,7 @@ const API = {
   },
 
   async getQuiz(id) {
-    const res = await fetch(`/api/quizzes/${encodeURIComponent(id)}`);
+    const res = await fetch(`/api/quizzes/${encodeURIComponent(id)}`, { headers: this.getAuthHeaders() });
     if (!res.ok) throw new Error('Quiz not found');
     return res.json();
   },
@@ -212,13 +212,13 @@ const API = {
   // Questions
   async getQuestions(params = {}) {
     const query = new URLSearchParams(params).toString();
-    const res = await fetch(`/api/questions?${query}`);
+    const res = await fetch(`/api/questions?${query}`, { headers: this.getAuthHeaders() });
     if (!res.ok) throw new Error('Failed to fetch questions');
     return res.json();
   },
 
   async getQuestion(id) {
-    const res = await fetch(`/api/questions/${encodeURIComponent(id)}`);
+    const res = await fetch(`/api/questions/${encodeURIComponent(id)}`, { headers: this.getAuthHeaders() });
     if (!res.ok) throw new Error('Question not found');
     return res.json();
   },
@@ -322,6 +322,12 @@ const API = {
     });
     if (!res.ok) throw new Error('Backup failed');
     return res.json();
+  },
+
+  async downloadBackup() {
+    const res = await fetch('/api/backup/download', { headers: this.getAuthHeaders() });
+    if (!res.ok) throw new Error('تعذر تنزيل النسخة الاحتياطية');
+    return res.blob();
   },
 
   async restoreBackup(backupData) {

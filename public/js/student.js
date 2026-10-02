@@ -127,10 +127,11 @@ const StudentQuizPlayer = {
               ${(q.options || []).map(opt => {
                 const isSelected = this.userAnswers[q.id] === opt.id;
                 return `
-                  <div class="option-item ${isSelected ? 'selected' : ''}" data-qid="${q.id}" data-optid="${opt.id}">
-                    <span class="option-letter">${opt.id.toUpperCase()}</span>
+                  <label class="option-item ${isSelected ? 'selected' : ''}" data-qid="${this.escapeHTML(q.id)}" data-optid="${this.escapeHTML(opt.id)}">
+                    <input type="radio" class="option-input" name="answer-${this.escapeHTML(q.id)}" value="${this.escapeHTML(opt.id)}" ${isSelected ? 'checked' : ''}>
+                    <span class="option-letter">${this.escapeHTML(String(opt.id).toUpperCase())}</span>
                     <span class="option-text">${this.escapeHTML(opt.text)}</span>
-                  </div>
+                  </label>
                 `;
               }).join('')}
             </div>
@@ -208,10 +209,11 @@ const StudentQuizPlayer = {
 
   attachEventListeners() {
     // اختيار الخيارات وتغيير الإجابة بحرية
-    document.querySelectorAll('.option-item').forEach(el => {
-      el.addEventListener('click', () => {
-        const qid = el.dataset.qid;
-        const optid = el.dataset.optid;
+    document.querySelectorAll('.option-input').forEach(input => {
+      input.addEventListener('change', () => {
+        const option = input.closest('.option-item');
+        const qid = option.dataset.qid;
+        const optid = option.dataset.optid;
         this.selectOption(qid, optid);
       });
     });

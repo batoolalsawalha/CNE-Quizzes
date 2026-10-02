@@ -336,7 +336,7 @@
       const params = new URLSearchParams(window.location.search);
       const quizId = params.get('id');
       const isKey = params.get('key') === '1';
-      let token = params.get('token') || localStorage.getItem('cne_admin_token') || '';
+      const token = localStorage.getItem('cne_admin_token') || '';
 
       const paper = document.getElementById('exam-paper');
       const toolbarTitle = document.getElementById('toolbar-title');
@@ -379,7 +379,7 @@
             const isCorrect = isKey && q.correctAnswer && q.correctAnswer.toLowerCase() === opt.id.toLowerCase();
             return `
               <div class="option-row ${isCorrect ? 'correct-choice' : ''}">
-                <span class="bubble">${opt.id.toUpperCase()}</span>
+                <span class="bubble">${escapeHTML(String(opt.id).toUpperCase())}</span>
                 <span>${escapeHTML(opt.text)} ${isCorrect ? '✓' : ''}</span>
               </div>
             `;

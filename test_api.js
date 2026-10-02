@@ -1,15 +1,43 @@
 const db = require('./server/db');
 const assert = require('assert');
+const fs = require('fs');
+const path = require('path');
 
 console.log('Running CNE Quizzes Test Suite...\n');
 
 // 1. Check stats and curriculum sync
 const stats = db.getStats();
 console.log('System Stats:', stats);
+assert.strictEqual(new Set(db.data.questions.map(q => q.id)).size, db.data.questions.length,
+  'Question IDs must be unique so answers and grading map to one question');
+assert.strictEqual(db.assertDataIntegrity(), true, 'The complete database must pass the integrity gate');
+for (const question of db.data.questions.filter(q => q.status === 'Verified' && q.imageUrl)) {
+  const imagePath = path.join(__dirname, 'public', question.imageUrl);
+  assert(fs.existsSync(imagePath), `Verified question ${question.id} has a missing image`);
+}
+const invalidDatabase = JSON.parse(JSON.stringify(db.data));
+invalidDatabase.questions[0].subjectId = 'missing-subject';
+assert.throws(() => db.assertDataIntegrity(invalidDatabase), /مادة غير موجودة/,
+  'Orphan questions must be rejected');
+const duplicateDatabase = JSON.parse(JSON.stringify(db.data));
+duplicateDatabase.questions.push({ ...duplicateDatabase.questions[0], id: 'duplicate-content-test' });
+assert.throws(() => db.assertDataIntegrity(duplicateDatabase), /مكرران داخل الاختبار نفسه/,
+  'Duplicate question content in one quiz must be rejected');
+const questionCountBeforeRejectedImport = db.data.questions.length;
+const rejectedImport = db.importQuestions([{
+  id: 'invalid-import-test',
+  subjectId: 'missing-subject',
+  question: 'This row must be rejected',
+  options: ['One', 'Two'],
+  correctAnswer: 'a'
+}]);
+assert.strictEqual(rejectedImport.importedCount, 0);
+assert.strictEqual(db.data.questions.length, questionCountBeforeRejectedImport,
+  'A rejected import must not modify the in-memory database');
 assert(stats.totalSubjects >= 45, `Should have all 45 subjects synced (found: ${stats.totalSubjects})`);
 assert(stats.totalQuizzes >= 80, `Should have at least 80 quizzes generated (found: ${stats.totalQuizzes})`);
 assert(stats.totalQuestions >= 60, `Should have questions seeded (found: ${stats.totalQuestions})`);
-console.log('✓ Stats & 45-Subject Curriculum verified');
+console.log('✓ Stats, relationships, duplicate protection, images & 45-Subject Curriculum verified');
 
 // 2. Admin Authentication & PBKDF2 Password Hashing
 assert(db.verifyAdmin('cne_admin', 'cne_committee_2025'), 'Default admin credentials should verify');
@@ -41,6 +69,18 @@ for (const q of studentQuiz.questions) {
   assert.strictEqual(q.sourcePage, undefined, 'Student quiz MUST NOT expose sourcePage (Privacy Rule)');
 }
 console.log(`✓ Student Privacy & Sanitization verified (${studentQuiz.questions.length} questions checked; zero answers/sources leaked)`);
+
+const reviewQuizId = 'quiz-subj-circuits1-mid';
+const reviewQuestionId = 'CIRC1-REV-001';
+assert(!db.getQuizForStudent(reviewQuizId).questions.some(q => q.id === reviewQuestionId),
+  'Questions awaiting review must not appear in student quizzes');
+assert(!db.gradeSubmission(reviewQuizId, {}).breakdown.some(q => q.questionId === reviewQuestionId),
+  'Questions awaiting review must not affect grades');
+assert(!db.getQuizForPrint(reviewQuizId, false).questions.some(q => q.id === reviewQuestionId),
+  'Questions awaiting review must not appear on printed exams');
+assert.strictEqual(db.getQuizzes({ activeOnly: true }).find(q => q.id === reviewQuizId).questionCount,
+  db.getQuizForStudent(reviewQuizId).totalQuestions,
+  'The public question count must match the quiz students receive');
 
 // 5. Grading Engine & Score out of 100
 const firstQ = db.data.questions.find(q => q.quizId === sampleQuiz.id);

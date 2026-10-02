@@ -67,15 +67,35 @@ const App = {
   setupModals() {
     const backdrop = document.getElementById('modal-backdrop');
     const closeBtn = document.getElementById('modal-close-btn');
+    const modalContainer = document.getElementById('modal-container');
+    let previousModalFocus = null;
+
+    const getFocusableElements = () => Array.from(modalContainer.querySelectorAll(
+      'button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), a[href]'
+    )).filter(element => element.offsetParent !== null);
 
     window.openModal = ({ title, content }) => {
+      previousModalFocus = document.activeElement;
       document.getElementById('modal-title').textContent = title || '';
       document.getElementById('modal-body').innerHTML = content || '';
+      document.querySelectorAll('#modal-body .form-label').forEach((label, index) => {
+        const formGroup = label.closest('.form-group');
+        const control = formGroup ? formGroup.querySelector('input, select, textarea') : null;
+        if (!control) return;
+        if (!control.id) control.id = `modal-control-${index}`;
+        label.htmlFor = control.id;
+      });
       backdrop.classList.remove('hidden');
+      const focusable = getFocusableElements();
+      if (focusable.length > 0) focusable[0].focus();
     };
 
     window.closeModal = () => {
       backdrop.classList.add('hidden');
+      if (previousModalFocus && typeof previousModalFocus.focus === 'function') {
+        previousModalFocus.focus();
+      }
+      previousModalFocus = null;
     };
 
     if (closeBtn) closeBtn.onclick = () => window.closeModal();
@@ -84,6 +104,27 @@ const App = {
         if (e.target === backdrop) window.closeModal();
       };
     }
+
+    document.addEventListener('keydown', (event) => {
+      if (backdrop.classList.contains('hidden')) return;
+      if (event.key === 'Escape') {
+        event.preventDefault();
+        window.closeModal();
+        return;
+      }
+      if (event.key !== 'Tab') return;
+      const focusable = getFocusableElements();
+      if (focusable.length === 0) return;
+      const first = focusable[0];
+      const last = focusable[focusable.length - 1];
+      if (event.shiftKey && document.activeElement === first) {
+        event.preventDefault();
+        last.focus();
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault();
+        first.focus();
+      }
+    });
 
     // Global Toast Notification in Arabic
     window.showToast = (message, type = 'info') => {
@@ -188,7 +229,7 @@ const App = {
                 تدرّب على أسئلة امتحانات الميد والفاينل للسنوات السابقة، واطّلع على خطوات الحل الرياضية والاشتقاقات التفصيلية، واختبر جاهزيتك قبل دخول قاعة الامتحان.
               </p>
               <div class="hero-actions">
-                <a href="#subjects" class="btn btn-primary btn-lg">استعراض كافة المواد (45 مادة)</a>
+                <a href="#subjects" class="btn btn-primary btn-lg">استعراض كافة المواد (${stats.activeSubjects} مادة)</a>
                 <a href="#practice" class="btn btn-secondary btn-lg" style="color: var(--primary); background: #ffffff;">⚡ وضع التدريب السريع</a>
               </div>
             </div>
@@ -196,20 +237,20 @@ const App = {
             <!-- شريط الإحصائيات -->
             <div class="hero-stats">
               <div class="hero-stat-card">
-                <span class="hero-stat-num">${stats.totalSubjects}</span>
+                <span class="hero-stat-num">${stats.activeSubjects}</span>
                 <span class="hero-stat-label">مواد التخصص والخطة</span>
               </div>
               <div class="hero-stat-card">
-                <span class="hero-stat-num">${stats.totalQuizzes}</span>
+                <span class="hero-stat-num">${stats.activeQuizzes}</span>
                 <span class="hero-stat-label">امتحانات ميد وفاينل</span>
               </div>
               <div class="hero-stat-card">
-                <span class="hero-stat-num">${stats.totalQuestions || stats.verifiedQuestions}+</span>
+                <span class="hero-stat-num">${stats.verifiedQuestions}</span>
                 <span class="hero-stat-label">أسئلة امتحانية معتمدة</span>
               </div>
               <div class="hero-stat-card">
-                <span class="hero-stat-num">100%</span>
-                <span class="hero-stat-label">دقة وتوثيق المصدر</span>
+                <span class="hero-stat-num">${stats.reviewQuestions}</span>
+                <span class="hero-stat-label">أسئلة قيد المراجعة</span>
               </div>
             </div>
           </section>

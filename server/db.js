@@ -4,6 +4,9 @@ const crypto = require('crypto');
 
 const DB_PATH = path.join(__dirname, '..', 'data', 'database.json');
 const BACKUP_DIR = path.join(__dirname, '..', 'data', 'backups');
+const PUBLIC_DIR = path.join(__dirname, '..', 'public');
+const QUESTION_STATUSES = new Set(['Verified', 'Needs Review', 'Imported']);
+const SAFE_ID_PATTERN = /^[A-Za-z0-9][A-Za-z0-9._:-]*$/;
 
 class DatabaseManager {
   constructor() {
@@ -18,15 +21,7 @@ class DatabaseManager {
     if (!fs.existsSync(BACKUP_DIR)) fs.mkdirSync(BACKUP_DIR, { recursive: true });
   }
 
-  loadData() {
-    try {
-      if (fs.existsSync(DB_PATH)) {
-        const raw = fs.readFileSync(DB_PATH, 'utf-8');
-        return JSON.parse(raw);
-      }
-    } catch (err) {
-      console.error('Error loading database.json:', err);
-    }
+  createEmptyData() {
     return {
       version: '2.0.0',
       name: 'CNE Quizzes Master Database',
@@ -38,8 +33,148 @@ class DatabaseManager {
     };
   }
 
+  assertDataIntegrity(data = this.data) {
+    const errors = [];
+    if (!data || typeof data !== 'object') throw new Error('قاعدة البيانات غير صالحة');
+    for (const collection of ['subjects', 'quizzes', 'questions']) {
+      if (!Array.isArray(data[collection])) errors.push(`${collection} يجب أن تكون قائمة`);
+    }
+    if (errors.length > 0) throw new Error(errors.join('، '));
+
+    const subjectIds = new Set();
+    for (const subject of data.subjects) {
+      if (!subject.id || typeof subject.id !== 'string' || !SAFE_ID_PATTERN.test(subject.id)) {
+        errors.push('يوجد معرّف مادة مفقود أو غير صالح');
+      } else if (subjectIds.has(subject.id)) {
+        errors.push(`معرّف المادة مكرر: ${subject.id}`);
+      } else {
+        subjectIds.add(subject.id);
+      }
+    }
+
+    const quizIds = new Set();
+    for (const quiz of data.quizzes) {
+      if (!quiz.id || typeof quiz.id !== 'string' || !SAFE_ID_PATTERN.test(quiz.id)) {
+        errors.push('يوجد معرّف اختبار مفقود أو غير صالح');
+      } else if (quizIds.has(quiz.id)) {
+        errors.push(`معرّف الاختبار مكرر: ${quiz.id}`);
+      } else {
+        quizIds.add(quiz.id);
+      }
+      if (!subjectIds.has(quiz.subjectId)) {
+        errors.push(`الاختبار ${quiz.id || '(بدون معرّف)'} مرتبط بمادة غير موجودة`);
+      }
+    }
+
+    const questionIds = new Set();
+    const contentKeys = new Map();
+    const quizzesById = new Map(data.quizzes.map(quiz => [quiz.id, quiz]));
+    for (const question of data.questions) {
+      const questionId = question.id || '(بدون معرّف)';
+      if (!question.id || typeof question.id !== 'string' || !SAFE_ID_PATTERN.test(question.id)) {
+        errors.push('يوجد معرّف سؤال مفقود أو غير صالح');
+      } else if (questionIds.has(question.id)) {
+        errors.push(`معرّف السؤال مكرر: ${question.id}`);
+      } else {
+        questionIds.add(question.id);
+      }
+
+      if (!subjectIds.has(question.subjectId)) {
+        errors.push(`السؤال ${questionId} مرتبط بمادة غير موجودة`);
+      }
+      if (question.quizId) {
+        const quiz = quizzesById.get(question.quizId);
+        if (!quiz) {
+          errors.push(`السؤال ${questionId} مرتبط باختبار غير موجود`);
+        } else if (quiz.subjectId !== question.subjectId) {
+          errors.push(`السؤال ${questionId} واختباره مرتبطان بمادتين مختلفتين`);
+        }
+      }
+      if (!String(question.question || '').trim() && !question.imageUrl) {
+        errors.push(`السؤال ${questionId} لا يحتوي نصاً أو صورة`);
+      }
+      if (!Array.isArray(question.options) || question.options.length < 2) {
+        errors.push(`السؤال ${questionId} يجب أن يحتوي خيارين على الأقل`);
+      } else {
+        const optionIds = question.options.map(option => String(option.id || '').trim().toLowerCase());
+        if (optionIds.some(id => !SAFE_ID_PATTERN.test(id)) || new Set(optionIds).size !== optionIds.length) {
+          errors.push(`السؤال ${questionId} يحتوي معرّفات خيارات فارغة أو مكررة`);
+        }
+        if (!optionIds.includes(String(question.correctAnswer || '').trim().toLowerCase())) {
+          errors.push(`الإجابة الصحيحة للسؤال ${questionId} لا تطابق أي خيار`);
+        }
+      }
+      if (!QUESTION_STATUSES.has(question.status)) {
+        errors.push(`حالة السؤال ${questionId} غير مدعومة`);
+      }
+
+      if (question.imageUrl) {
+        const imageUrl = String(question.imageUrl).split(/[?#]/, 1)[0];
+        if (!imageUrl.startsWith('/images/') || /['"`<>\\]/.test(String(question.imageUrl))) {
+          errors.push(`صورة السؤال ${questionId} يجب أن تكون داخل مجلد الصور المحلي`);
+        } else {
+          let imagePath = '';
+          try {
+            imagePath = path.resolve(PUBLIC_DIR, `.${decodeURIComponent(imageUrl)}`);
+          } catch {
+            errors.push(`رابط صورة السؤال ${questionId} غير صالح`);
+          }
+          if (imagePath && (!imagePath.startsWith(`${path.resolve(PUBLIC_DIR)}${path.sep}`) ||
+              (question.status === 'Verified' && !fs.existsSync(imagePath)))) {
+            errors.push(`صورة السؤال المعتمد ${questionId} غير موجودة: ${question.imageUrl}`);
+          }
+        }
+      }
+
+      const normalizedText = String(question.question || '').toLowerCase().replace(/\s+/g, ' ').trim();
+      const normalizedOptions = Array.isArray(question.options)
+        ? question.options.map(option => `${String(option.id || '').toLowerCase()}:${String(option.text || '').toLowerCase().replace(/\s+/g, ' ').trim()}`).join('|')
+        : '';
+      const placementKey = question.quizId || `subject:${question.subjectId}`;
+      const contentKey = `${placementKey}|${normalizedText}|${question.imageUrl || ''}|${normalizedOptions}`;
+      if (contentKeys.has(contentKey)) {
+        errors.push(`السؤالان ${contentKeys.get(contentKey)} و${questionId} مكرران داخل الاختبار نفسه`);
+      } else {
+        contentKeys.set(contentKey, questionId);
+      }
+    }
+
+    if (errors.length > 0) {
+      const shown = errors.slice(0, 10).join('؛ ');
+      const remaining = errors.length > 10 ? `؛ و${errors.length - 10} أخطاء إضافية` : '';
+      throw new Error(`فشل فحص سلامة قاعدة البيانات: ${shown}${remaining}`);
+    }
+    return true;
+  }
+
+  loadData() {
+    if (fs.existsSync(DB_PATH)) {
+      try {
+        const raw = fs.readFileSync(DB_PATH, 'utf-8');
+        const data = JSON.parse(raw);
+        this.assertDataIntegrity(data);
+        return data;
+      } catch (err) {
+        throw new Error(`تعذر تحميل قاعدة البيانات دون المساس بالملف الأصلي: ${err.message}`);
+      }
+    }
+    return this.createEmptyData();
+  }
+
   saveData() {
-    this.data.lastUpdated = new Date().toISOString();
+    this.assertDataIntegrity(this.data);
+    const lastUpdated = new Date().toISOString();
+    this.data.lastUpdated = lastUpdated;
+    this.data.stats = {
+      totalSubjects: this.data.subjects.length,
+      activeSubjects: this.data.subjects.filter(subject => subject.isActive !== false).length,
+      totalQuizzes: this.data.quizzes.length,
+      activeQuizzes: this.data.quizzes.filter(quiz => quiz.isActive !== false).length,
+      totalQuestions: this.data.questions.length,
+      verifiedQuestions: this.data.questions.filter(question => question.status === 'Verified').length,
+      reviewQuestions: this.data.questions.filter(question => question.status === 'Needs Review').length,
+      lastUpdated
+    };
     const tempPath = `${DB_PATH}.tmp`;
     fs.writeFileSync(tempPath, JSON.stringify(this.data, null, 2), 'utf-8');
     fs.renameSync(tempPath, DB_PATH);
@@ -56,8 +191,7 @@ class DatabaseManager {
     if (!backupData || !Array.isArray(backupData.subjects) || !Array.isArray(backupData.questions)) {
       throw new Error('ملف النسخة الاحتياطية غير صالح أو تالف');
     }
-    this.createBackup(); // Create safety snapshot before restoring
-    this.data = {
+    const restoredData = {
       version: backupData.version || '2.0.0',
       name: backupData.name || 'CNE Quizzes Master Database',
       lastUpdated: new Date().toISOString(),
@@ -66,6 +200,9 @@ class DatabaseManager {
       quizzes: backupData.quizzes || [],
       questions: backupData.questions
     };
+    this.assertDataIntegrity(restoredData);
+    this.createBackup(); // Create safety snapshot before restoring
+    this.data = restoredData;
     this.saveData();
     return true;
   }
@@ -75,30 +212,51 @@ class DatabaseManager {
   }
 
   // ================= ADMIN AUTHENTICATION =================
-  hashPassword(password, salt) {
-    return crypto.pbkdf2Sync(password, salt, 10000, 64, 'sha512').toString('hex');
+  hashPassword(password, salt, iterations = 100000) {
+    return crypto.pbkdf2Sync(password, salt, iterations, 64, 'sha512').toString('hex');
+  }
+
+  matchesPassword(password, admin) {
+    const storedHash = Buffer.from(admin.passwordHash, 'hex');
+    const iterations = admin.iterations ? [admin.iterations] : [10000, 100000];
+    return iterations.some(count => {
+      const computedHash = Buffer.from(this.hashPassword(password, admin.salt, count), 'hex');
+      return storedHash.length === computedHash.length && crypto.timingSafeEqual(storedHash, computedHash);
+    });
   }
 
   ensureAdminInitialized() {
+    if (process.env.ADMIN_PASSWORD &&
+        (process.env.ADMIN_PASSWORD.length < 12 ||
+         ['cne_committee_2025', 'replace-with-a-unique-password'].includes(process.env.ADMIN_PASSWORD))) {
+      throw new Error('ADMIN_PASSWORD must be a unique password of at least 12 characters');
+    }
     if (!this.data.admin || !this.data.admin.passwordHash) {
       const salt = crypto.randomBytes(16).toString('hex');
       const defaultPassword = process.env.ADMIN_PASSWORD || 'cne_committee_2025';
       this.data.admin = {
         username: 'cne_admin',
         salt,
+        iterations: 100000,
         passwordHash: this.hashPassword(defaultPassword, salt),
         updatedAt: new Date().toISOString()
       };
       this.saveData();
+    } else if (process.env.ADMIN_PASSWORD && this.usesDefaultAdminPassword()) {
+      this.updateAdminCredentials(this.data.admin.username, process.env.ADMIN_PASSWORD);
     }
+  }
+
+  usesDefaultAdminPassword() {
+    const admin = this.data.admin;
+    return this.matchesPassword('cne_committee_2025', admin);
   }
 
   verifyAdmin(username, password) {
     this.ensureAdminInitialized();
     const admin = this.data.admin;
     if (admin.username !== username) return false;
-    const computedHash = this.hashPassword(password, admin.salt);
-    return crypto.timingSafeEqual(Buffer.from(computedHash), Buffer.from(admin.passwordHash));
+    return this.matchesPassword(password, admin);
   }
 
   updateAdminCredentials(newUsername, newPassword) {
@@ -107,6 +265,7 @@ class DatabaseManager {
     this.data.admin = {
       username: (newUsername || 'cne_admin').trim(),
       salt,
+      iterations: 100000,
       passwordHash,
       updatedAt: new Date().toISOString()
     };
@@ -143,11 +302,13 @@ class DatabaseManager {
     return result.map(subject => {
       const subjectQuizzes = this.data.quizzes.filter(q => q.subjectId === subject.id);
       const subjectQuestions = this.data.questions.filter(q => q.subjectId === subject.id);
+      const verifiedQuestions = subjectQuestions.filter(q => q.status === 'Verified');
       return {
         ...subject,
         quizCount: subjectQuizzes.length,
-        questionCount: subjectQuestions.length,
-        verifiedQuestionCount: subjectQuestions.filter(q => q.status === 'Verified').length,
+        questionCount: query.activeOnly === 'true' || query.activeOnly === true
+          ? verifiedQuestions.length : subjectQuestions.length,
+        verifiedQuestionCount: verifiedQuestions.length,
         reviewQuestionCount: subjectQuestions.filter(q => q.status === 'Needs Review').length
       };
     });
@@ -180,6 +341,7 @@ class DatabaseManager {
       isActive: payload.isActive !== undefined ? payload.isActive : true,
       createdAt: new Date().toISOString()
     };
+    this.assertDataIntegrity({ ...this.data, subjects: [...this.data.subjects, newSubject] });
     this.data.subjects.push(newSubject);
     this.saveData();
     return newSubject;
@@ -195,7 +357,10 @@ class DatabaseManager {
       id: existing.id,
       updatedAt: new Date().toISOString()
     };
-    this.data.subjects[idx] = updated;
+    const subjects = [...this.data.subjects];
+    subjects[idx] = updated;
+    this.assertDataIntegrity({ ...this.data, subjects });
+    this.data.subjects = subjects;
     this.saveData();
     return updated;
   }
@@ -203,7 +368,9 @@ class DatabaseManager {
   deleteSubject(id) {
     const idx = this.data.subjects.findIndex(s => s.id === id);
     if (idx === -1) return false;
-    this.data.subjects.splice(idx, 1);
+    const subjects = this.data.subjects.filter(subject => subject.id !== id);
+    this.assertDataIntegrity({ ...this.data, subjects });
+    this.data.subjects = subjects;
     this.saveData();
     return true;
   }
@@ -224,13 +391,15 @@ class DatabaseManager {
     return result.map(quiz => {
       const subject = this.data.subjects.find(s => s.id === quiz.subjectId);
       const quizQuestions = this.data.questions.filter(q => q.quizId === quiz.id);
+      const verifiedQuestions = quizQuestions.filter(q => q.status === 'Verified');
       return {
         ...quiz,
         subjectName: subject ? (subject.nameAr || subject.name) : 'Unknown Subject',
         subjectNameEn: subject ? subject.name : '',
         subjectCode: subject ? subject.code : '',
-        questionCount: quizQuestions.length,
-        verifiedCount: quizQuestions.filter(q => q.status === 'Verified').length
+        questionCount: query.activeOnly === 'true' || query.activeOnly === true
+          ? verifiedQuestions.length : quizQuestions.length,
+        verifiedCount: verifiedQuestions.length
       };
     });
   }
@@ -249,11 +418,15 @@ class DatabaseManager {
     };
   }
 
+  getPlayableQuestions(quiz) {
+    return quiz.questions.filter(q => q.status === 'Verified');
+  }
+
   // Safe quiz payload for students: Strips correct answers, explanations AND internal source references
   getQuizForStudent(id) {
     const quiz = this.getQuizById(id);
-    if (!quiz) return null;
-    const sanitizedQuestions = (quiz.questions || []).map((q, idx) => ({
+    if (!quiz || quiz.isActive === false) return null;
+    const sanitizedQuestions = this.getPlayableQuestions(quiz).map((q, idx) => ({
       index: idx + 1,
       id: q.id,
       question: q.question,
@@ -292,6 +465,7 @@ class DatabaseManager {
       isActive: payload.isActive !== undefined ? payload.isActive : true,
       createdAt: new Date().toISOString()
     };
+    this.assertDataIntegrity({ ...this.data, quizzes: [...this.data.quizzes, newQuiz] });
     this.data.quizzes.push(newQuiz);
     this.saveData();
     return newQuiz;
@@ -307,7 +481,10 @@ class DatabaseManager {
       id: existing.id,
       updatedAt: new Date().toISOString()
     };
-    this.data.quizzes[idx] = updated;
+    const quizzes = [...this.data.quizzes];
+    quizzes[idx] = updated;
+    this.assertDataIntegrity({ ...this.data, quizzes });
+    this.data.quizzes = quizzes;
     this.saveData();
     return updated;
   }
@@ -315,7 +492,9 @@ class DatabaseManager {
   deleteQuiz(id) {
     const idx = this.data.quizzes.findIndex(q => q.id === id);
     if (idx === -1) return false;
-    this.data.quizzes.splice(idx, 1);
+    const quizzes = this.data.quizzes.filter(quiz => quiz.id !== id);
+    this.assertDataIntegrity({ ...this.data, quizzes });
+    this.data.quizzes = quizzes;
     this.saveData();
     return true;
   }
@@ -323,9 +502,9 @@ class DatabaseManager {
   // Grade student quiz submission (Returns score out of 100, percentage, answers, solutions, NO source references)
   gradeSubmission(quizId, userAnswers = {}) {
     const quiz = this.getQuizById(quizId);
-    if (!quiz) throw new Error('الاختبار غير موجود');
+    if (!quiz || quiz.isActive === false) throw new Error('الاختبار غير موجود');
 
-    const questions = quiz.questions || [];
+    const questions = this.getPlayableQuestions(quiz);
     let correctCount = 0;
     let incorrectCount = 0;
     let unansweredCount = 0;
@@ -454,6 +633,9 @@ class DatabaseManager {
     if (!payload.subjectId) {
       throw new Error('المادة مطلوبة');
     }
+    if (payload.id && this.data.questions.some(q => q.id === payload.id)) {
+      throw new Error('معرف السؤال موجود مسبقاً');
+    }
     const newQuestion = {
       id: payload.id || this.generateId('q'),
       subjectId: payload.subjectId,
@@ -477,6 +659,7 @@ class DatabaseManager {
       updatedAt: new Date().toISOString()
     };
 
+    this.assertDataIntegrity({ ...this.data, questions: [...this.data.questions, newQuestion] });
     this.data.questions.push(newQuestion);
     this.saveData();
     return newQuestion;
@@ -492,7 +675,10 @@ class DatabaseManager {
       id: existing.id,
       updatedAt: new Date().toISOString()
     };
-    this.data.questions[idx] = updated;
+    const questions = [...this.data.questions];
+    questions[idx] = updated;
+    this.assertDataIntegrity({ ...this.data, questions });
+    this.data.questions = questions;
     this.saveData();
     return updated;
   }
@@ -518,7 +704,11 @@ class DatabaseManager {
       pool = pool.filter(q => (q.difficulty || '').toLowerCase() === difficulty.toLowerCase());
     }
 
-    const shuffled = [...pool].sort(() => 0.5 - Math.random());
+    const shuffled = [...pool];
+    for (let index = shuffled.length - 1; index > 0; index--) {
+      const swapIndex = crypto.randomInt(index + 1);
+      [shuffled[index], shuffled[swapIndex]] = [shuffled[swapIndex], shuffled[index]];
+    }
     const selected = shuffled.slice(0, Math.min(count, shuffled.length));
     const subject = this.data.subjects.find(s => s.id === subjectId);
 
@@ -605,7 +795,7 @@ class DatabaseManager {
     const quiz = this.getQuizById(quizId);
     if (!quiz) return null;
     const subject = this.data.subjects.find(s => s.id === quiz.subjectId);
-    const questions = (quiz.questions || []).map((q, idx) => {
+    const questions = this.getPlayableQuestions(quiz).map((q, idx) => {
       const base = {
         index: idx + 1,
         id: q.id,
@@ -640,18 +830,23 @@ class DatabaseManager {
     if (!Array.isArray(items)) throw new Error('بيانات الاستيراد يجب أن تكون مصفوفة من الأسئلة');
     const imported = [];
     const errors = [];
+    const usedIds = new Set(this.data.questions.map(q => q.id));
 
     items.forEach((item, index) => {
       try {
         const subjectId = item.subjectId || defaultSubjectId;
         if (!subjectId) throw new Error('معرف المادة (subjectId) مفقود');
         if (!item.question && !item.imageUrl) throw new Error('نص السؤال أو صورته مفقودة');
+        if (item.id && usedIds.has(item.id)) {
+          throw new Error('معرف السؤال موجود مسبقاً');
+        }
 
         let options = [];
         if (Array.isArray(item.options)) {
-          options = item.options.map(opt => {
-            if (typeof opt === 'string') return { id: this.generateId('opt'), text: opt };
-            return { id: opt.id || this.generateId('opt'), text: opt.text || '' };
+          options = item.options.map((opt, index) => {
+            const optionId = String.fromCharCode(97 + index);
+            if (typeof opt === 'string') return { id: optionId, text: opt };
+            return { id: String(opt.id || optionId).trim().toLowerCase(), text: opt.text || '' };
           });
         } else if (item.optionA || item.optionB || item.optionC || item.optionD) {
           options = [
@@ -660,6 +855,10 @@ class DatabaseManager {
             { id: 'c', text: item.optionC || '' },
             { id: 'd', text: item.optionD || '' }
           ];
+        }
+        const correctAnswer = (item.correctAnswer || 'a').toLowerCase().trim();
+        if (!options.some(option => option.id === correctAnswer)) {
+          throw new Error('الإجابة الصحيحة لا تطابق أي خيار');
         }
 
         const newQ = {
@@ -670,7 +869,7 @@ class DatabaseManager {
           question: (item.question || '').trim(),
           imageUrl: item.imageUrl || null,
           options,
-          correctAnswer: (item.correctAnswer || 'a').toLowerCase().trim(),
+          correctAnswer,
           explanation: item.explanation || '',
           difficulty: item.difficulty || 'Medium',
           sourceFile: item.sourceFile || 'Bulk Import',
@@ -680,7 +879,9 @@ class DatabaseManager {
           updatedAt: new Date().toISOString()
         };
 
+        this.assertDataIntegrity({ ...this.data, questions: [...this.data.questions, newQ] });
         this.data.questions.push(newQ);
+        usedIds.add(newQ.id);
         imported.push(newQ);
       } catch (err) {
         errors.push({ row: index + 1, error: err.message });

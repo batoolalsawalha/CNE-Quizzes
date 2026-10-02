@@ -6,6 +6,7 @@ const AdminPanel = {
   currentTab: 'overview',
   subjects: [],
   quizzes: [],
+  reviewQuestions: [],
   questionsData: { questions: [], total: 0, page: 1, totalPages: 1 },
   stats: {},
   filters: {
@@ -70,12 +71,12 @@ const AdminPanel = {
 
           <form id="admin-login-form">
             <div class="form-group" style="margin-bottom: 1.25rem;">
-              <label class="form-label" style="font-weight: 700;">اسم المستخدم</label>
+              <label class="form-label" for="login-username" style="font-weight: 700;">اسم المستخدم</label>
               <input type="text" class="form-control" id="login-username" value="cne_admin" required autofocus />
             </div>
 
             <div class="form-group" style="margin-bottom: 1.5rem;">
-              <label class="form-label" style="font-weight: 700;">كلمة المرور</label>
+              <label class="form-label" for="login-password" style="font-weight: 700;">كلمة المرور</label>
               <input type="password" class="form-control" id="login-password" placeholder="أدخل كلمة مرور المشرف" required />
             </div>
 
@@ -108,14 +109,16 @@ const AdminPanel = {
   },
 
   async fetchInitialData() {
-    const [stats, subjects, quizzes] = await Promise.all([
+    const [stats, subjects, quizzes, reviewQueue] = await Promise.all([
       API.getStats(),
       API.getSubjects(),
-      API.getQuizzes()
+      API.getQuizzes(),
+      API.getReviewQueue()
     ]);
     this.stats = stats;
     this.subjects = subjects;
     this.quizzes = quizzes;
+    this.reviewQuestions = reviewQueue.questions || [];
 
     const reviewBadge = document.getElementById('nav-review-badge');
     if (reviewBadge) {
@@ -394,7 +397,7 @@ const AdminPanel = {
                   <td>
                     <div style="display: flex; gap: 0.35rem; flex-wrap: wrap;">
                       <a href="/quiz-print.html?id=${encodeURIComponent(q.id)}" target="_blank" class="btn btn-secondary btn-sm" title="طباعة ورقة الامتحان للطلاب بدون حلول">📄 امتحان</a>
-                      <a href="/quiz-print.html?id=${encodeURIComponent(q.id)}&key=1&token=${encodeURIComponent(API.getToken())}" target="_blank" class="btn btn-secondary btn-sm" style="color: var(--danger); font-weight: 800;" title="طباعة نموذج الإجابة الرسمي والحلول النموذجية والشروحات">🔑 حلول</a>
+                      <a href="/quiz-print.html?id=${encodeURIComponent(q.id)}&key=1" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm" style="color: var(--danger); font-weight: 800;" title="طباعة نموذج الإجابة الرسمي والحلول النموذجية والشروحات">🔑 حلول</a>
                       <button class="btn btn-secondary btn-sm" onclick="AdminPanel.openQuizModal('${q.id}')">تعديل</button>
                       <button class="btn btn-outline-danger btn-sm" onclick="AdminPanel.deleteQuiz('${q.id}')">حذف</button>
                     </div>
@@ -432,28 +435,28 @@ const AdminPanel = {
         <!-- شريط الفلاتر والبحث -->
         <div class="search-filter-bar">
           <div class="search-input-wrap">
-            <input type="text" id="qb-search" class="search-input" placeholder="ابحث في نص السؤال، الشرح، أو المعادلة..." value="${this.filters.search}">
+            <input type="text" id="qb-search" class="search-input" aria-label="البحث في بنك الأسئلة" placeholder="ابحث في نص السؤال، الشرح، أو المعادلة..." value="${this.filters.search}">
             <svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <circle cx="11" cy="11" r="8"></circle>
               <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
             </svg>
           </div>
 
-          <select id="qb-subject-filter" class="filter-select">
+          <select id="qb-subject-filter" class="filter-select" aria-label="تصفية الأسئلة حسب المادة">
             <option value="">جميع المواد الدراسية</option>
             ${this.subjects.map(s => `
               <option value="${s.id}" ${this.filters.subjectId === s.id ? 'selected' : ''}>${s.nameAr || s.name}</option>
             `).join('')}
           </select>
 
-          <select id="qb-status-filter" class="filter-select">
+          <select id="qb-status-filter" class="filter-select" aria-label="تصفية الأسئلة حسب الحالة">
             <option value="">جميع الحالات</option>
             <option value="Verified" ${this.filters.status === 'Verified' ? 'selected' : ''}>معتمد (Verified)</option>
             <option value="Needs Review" ${this.filters.status === 'Needs Review' ? 'selected' : ''}>بحاجة لمراجعة (Needs Review)</option>
             <option value="Imported" ${this.filters.status === 'Imported' ? 'selected' : ''}>مستورد حديثاً (Imported)</option>
           </select>
 
-          <select id="qb-difficulty-filter" class="filter-select">
+          <select id="qb-difficulty-filter" class="filter-select" aria-label="تصفية الأسئلة حسب الصعوبة">
             <option value="">جميع درجات الصعوبة</option>
             <option value="Easy" ${this.filters.difficulty === 'Easy' ? 'selected' : ''}>سهل (Easy)</option>
             <option value="Medium" ${this.filters.difficulty === 'Medium' ? 'selected' : ''}>متوسط (Medium)</option>
@@ -553,7 +556,7 @@ const AdminPanel = {
                 <td><code style="font-size: 0.85rem;">${q.id}</code></td>
                 <td>
                   <div style="display: flex; align-items: center; gap: 0.5rem;">
-                    ${q.imageUrl ? `<span title="يحتوي على رسم أو مخطط هندسي" onclick="window.openImageZoom('${this.escapeHTML(q.imageUrl)}')" style="cursor: pointer; font-size: 1.15rem;">🖼️</span>` : ''}
+                    ${q.imageUrl ? `<button type="button" class="image-icon-button" aria-label="عرض صورة السؤال" title="يحتوي على رسم أو مخطط هندسي" onclick="window.openImageZoom('${this.escapeHTML(q.imageUrl)}')">🖼️</button>` : ''}
                     <div style="max-width: 380px; font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; direction: ltr; text-align: left;">
                       ${this.escapeHTML(q.question)}
                     </div>
@@ -600,13 +603,9 @@ const AdminPanel = {
   },
 
   // ================= 5. تبويب قائمة المراجعة =================
-  async renderReviewQueueTab() {
-    try {
-      const { questions } = await API.getReviewQueue();
-      const container = document.getElementById('admin-content-area');
-      if (!container) return '';
-
-      return `
+  renderReviewQueueTab() {
+    const questions = this.reviewQuestions;
+    return `
         <div>
           <div style="margin-bottom: 1.5rem;">
             <h2 style="font-size: 1.4rem; font-weight: 900; color: var(--danger);">
@@ -626,7 +625,7 @@ const AdminPanel = {
           ` : `
             <div style="display: flex; flex-direction: column; gap: 1.25rem;">
               ${questions.map(q => `
-                <div class="review-item" style="border-right: 6px solid var(--danger); padding: 1.5rem;">
+                <div class="review-item" style="border: 1px solid var(--danger-border); background: var(--danger-light); padding: 1.5rem;">
                   <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 1rem; flex-wrap: wrap; gap: 0.75rem;">
                     <div>
                       <span class="quiz-badge badge-review" style="margin-bottom: 0.5rem;">بحاجة لتدقيق ومراجعة</span>
@@ -659,10 +658,7 @@ const AdminPanel = {
             </div>
           `}
         </div>
-      `;
-    } catch (err) {
-      return `<p style="color: var(--danger);">فشل تحميل قائمة المراجعة: ${err.message}</p>`;
-    }
+    `;
   },
 
   // ================= النوافذ المنبثقة =================
@@ -1029,9 +1025,20 @@ const AdminPanel = {
     }
   },
 
-  downloadBackup() {
-    const token = API.getToken();
-    window.open(`/api/backup/download?token=${encodeURIComponent(token)}`, '_blank');
+  async downloadBackup() {
+    try {
+      const backup = await API.downloadBackup();
+      const downloadUrl = URL.createObjectURL(backup);
+      const link = document.createElement('a');
+      link.href = downloadUrl;
+      link.download = 'cne-quizzes-backup.json';
+      document.body.appendChild(link);
+      link.click();
+      link.remove();
+      setTimeout(() => URL.revokeObjectURL(downloadUrl), 1000);
+    } catch (err) {
+      window.showToast(err.message, 'error');
+    }
   },
 
   openRestoreModal() {
@@ -1086,12 +1093,12 @@ const AdminPanel = {
             <input type="text" class="form-control" id="new-admin-user" value="${this.escapeHTML(uName)}" required />
           </div>
           <div class="form-group" style="margin-bottom: 1rem;">
-            <label class="form-label">كلمة المرور الجديدة (6 خانات على الأقل)</label>
-            <input type="password" class="form-control" id="new-admin-pass" placeholder="أدخل كلمة المرور الجديدة" required minlength="6" />
+            <label class="form-label">كلمة المرور الجديدة (12 خانة على الأقل)</label>
+            <input type="password" class="form-control" id="new-admin-pass" placeholder="أدخل كلمة المرور الجديدة" required minlength="12" />
           </div>
           <div class="form-group" style="margin-bottom: 1.5rem;">
             <label class="form-label">تأكيد كلمة المرور الجديدة</label>
-            <input type="password" class="form-control" id="confirm-admin-pass" placeholder="أعد إدخال كلمة المرور" required minlength="6" />
+            <input type="password" class="form-control" id="confirm-admin-pass" placeholder="أعد إدخال كلمة المرور" required minlength="12" />
           </div>
           <div style="display: flex; justify-content: flex-end; gap: 0.75rem;">
             <button type="button" class="btn btn-secondary" onclick="window.closeModal()">إلغاء</button>
