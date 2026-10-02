@@ -1,24 +1,6 @@
-const CACHE_NAME = 'cne-quizzes-v2';
-const STATIC_ASSETS = [
-  '/',
-  '/index.html',
-  '/css/styles.css',
-  '/js/api.js',
-  '/js/app.js',
-  '/js/student.js',
-  '/js/results.js',
-  '/js/admin.js',
-  '/js/importer.js',
-  '/manifest.json',
-  '/icons/icon.svg'
-];
+const CACHE_NAME = 'cne-quizzes-v4';
 
 self.addEventListener('install', (event) => {
-  event.waitUntil(
-    caches.open(CACHE_NAME).then((cache) => {
-      return cache.addAll(STATIC_ASSETS);
-    })
-  );
   self.skipWaiting();
 });
 
@@ -26,31 +8,32 @@ self.addEventListener('activate', (event) => {
   event.waitUntil(
     caches.keys().then((keys) => {
       return Promise.all(
-        keys.map((key) => {
-          if (key !== CACHE_NAME) {
-            return caches.delete(key);
-          }
-        })
+        keys.map((key) => caches.delete(key))
       );
-    })
+    }).then(() => self.clients.claim())
   );
-  self.clients.claim();
 });
 
+// Network-First Strategy: always fetch fresh from server
 self.addEventListener('fetch', (event) => {
   const req = event.request;
   const url = new URL(req.url);
 
-  // Bypass API requests to network
+  // Bypass API requests and non-GET requests to network directly
   if (url.origin !== self.location.origin || req.method !== 'GET' || url.pathname.startsWith('/api/')) {
     return;
   }
 
   event.respondWith(
-    fetch(req).catch(async () => {
+    fetch(req).then((networkRes) => {
+      return networkRes;
+    }).catch(async () => {
       const cached = await caches.match(req);
       if (cached) return cached;
-      if (req.mode === 'navigate') return caches.match('/index.html');
+      if (req.mode === 'navigate') {
+        const fallback = await caches.match('/index.html');
+        if (fallback) return fallback;
+      }
       return Response.error();
     })
   );
