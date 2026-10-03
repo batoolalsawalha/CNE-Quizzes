@@ -573,8 +573,15 @@ const AdminPanel = {
                   ${q.sourceFile ? `${this.escapeHTML(q.sourceFile)}${q.sourcePage ? ` (p.${q.sourcePage})` : ''}` : '—'}
                 </td>
                 <td>
-                  <button class="btn btn-secondary btn-sm" onclick="AdminPanel.openQuestionModal('${q.id}')">تعديل</button>
-                  <button class="btn btn-outline-danger btn-sm" onclick="AdminPanel.deleteQuestion('${q.id}')">حذف</button>
+                  <div style="display: flex; gap: 0.35rem; align-items: center; flex-wrap: wrap;">
+                    ${q.status !== 'Verified' ? `
+                      <button class="btn btn-success btn-sm" onclick="AdminPanel.verifyQuestionQuick('${q.id}')" title="اعتماد السؤال فوراً وجعله معتمداً للطلاب" style="padding: 0.25rem 0.6rem; font-size: 0.8rem; background: #16a34a; border-color: #16a34a; color: #fff; font-weight: 700;">
+                        ✅ اعتماد
+                      </button>
+                    ` : ''}
+                    <button class="btn btn-secondary btn-sm" onclick="AdminPanel.openQuestionModal('${q.id}')">تعديل</button>
+                    <button class="btn btn-outline-danger btn-sm" onclick="AdminPanel.deleteQuestion('${q.id}')">حذف</button>
+                  </div>
                 </td>
               </tr>
             `).join('')}
@@ -631,9 +638,14 @@ const AdminPanel = {
                       <span class="quiz-badge badge-review" style="margin-bottom: 0.5rem;">بحاجة لتدقيق ومراجعة</span>
                       <h4 style="font-size: 1.2rem; font-weight: 800; direction: ltr; text-align: left;">${this.escapeHTML(q.question)}</h4>
                     </div>
-                    <button class="btn btn-primary btn-sm" onclick="AdminPanel.openQuestionModal('${q.id}')">
-                      ✏️ مراجعة واعتماد السؤال
-                    </button>
+                    <div style="display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap;">
+                      <button class="btn btn-success btn-sm" onclick="AdminPanel.verifyQuestionQuick('${q.id}')" style="background: #16a34a; border-color: #16a34a; color: #fff; font-weight: 700; box-shadow: 0 2px 4px rgba(22, 163, 74, 0.2);" title="اعتماد هذا السؤال فوراً وتحويله لمعتمد بنقرة واحدة">
+                        ✅ اعتماد السؤال فوراً
+                      </button>
+                      <button class="btn btn-primary btn-sm" onclick="AdminPanel.openQuestionModal('${q.id}')">
+                        ✏️ مراجعة وتعديل السؤال
+                      </button>
+                    </div>
                   </div>
 
                   ${q.imageUrl ? `
@@ -856,6 +868,17 @@ const AdminPanel = {
       title: isEdit ? `تعديل السؤال (${q.id})` : 'إضافة سؤال جديد لبنك الأسئلة',
       content: `
         <form id="question-form">
+          ${q && q.status === 'Needs Review' ? `
+            <div style="background: #ecfdf5; border: 1.5px solid #10b981; border-radius: 8px; padding: 0.85rem 1rem; margin-bottom: 1.25rem; display: flex; align-items: flex-start; gap: 0.75rem;">
+              <span style="font-size: 1.4rem; line-height: 1;">💡</span>
+              <div>
+                <strong style="color: #065f46; font-size: 0.95rem; display: block; margin-bottom: 0.25rem;">اعتماد السؤال بعد التصحيح:</strong>
+                <span style="font-size: 0.85rem; color: #047857; line-height: 1.4; display: block;">
+                  هذا السؤال في قائمة المراجعة. بمجرد الانتهاء من تصحيحه، يمكنك النقر على زر <strong>"✅ حفظ واعتماد السؤال كمعتمد (Verified)"</strong> بالأسفل ليتم اعتماده وخروجه من المراجعة فوراً ليصبح متاحاً للطلاب.
+                </span>
+              </div>
+            </div>
+          ` : ''}
           <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
             <div class="form-group">
               <label class="form-label">المادة الدراسية *</label>
@@ -915,12 +938,15 @@ const AdminPanel = {
               </select>
             </div>
             <div class="form-group">
-              <label class="form-label">حالة السؤال *</label>
-              <select class="form-control" id="q-status">
-                <option value="Verified" ${!q || q.status === 'Verified' ? 'selected' : ''}>معتمد ومؤكد (Verified)</option>
-                <option value="Needs Review" ${q && q.status === 'Needs Review' ? 'selected' : ''}>بحاجة لمراجعة (Needs Review)</option>
-                <option value="Imported" ${q && q.status === 'Imported' ? 'selected' : ''}>مستورد (Imported)</option>
+              <label class="form-label" style="font-weight: 700;">حالة السؤال *</label>
+              <select class="form-control" id="q-status" style="border: 1.5px solid var(--primary); font-weight: 700;">
+                <option value="Verified" ${!q || q.status === 'Verified' || q.status === 'Needs Review' ? 'selected' : ''}>✅ معتمد ومؤكد (Verified)</option>
+                <option value="Needs Review" ${q && q.status === 'Needs Review' && false ? 'selected' : ''}>⚠️ بحاجة لمراجعة (Needs Review)</option>
+                <option value="Imported" ${q && q.status === 'Imported' ? 'selected' : ''}>📥 مستورد (Imported)</option>
               </select>
+              <small style="color: var(--text-muted); font-size: 0.8rem; display: block; margin-top: 0.25rem;">
+                اختر "معتمد ومؤكد (Verified)" ليكون السؤال متاحاً رسمياً للطلاب في الاختبارات.
+              </small>
             </div>
             <div class="form-group">
               <label class="form-label">مستوى الصعوبة</label>
@@ -958,13 +984,35 @@ const AdminPanel = {
             </div>
           </div>
 
-          <div style="display: flex; justify-content: flex-end; gap: 0.75rem; margin-top: 1.5rem;">
+          <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 1.5rem; flex-wrap: wrap; gap: 0.75rem;">
             <button type="button" class="btn btn-secondary" onclick="window.closeModal()">إلغاء</button>
-            <button type="submit" class="btn btn-primary">${isEdit ? 'حفظ وتأكيد التعديلات' : 'إضافة السؤال لبنك الأسئلة'}</button>
+            <div style="display: flex; gap: 0.75rem; flex-wrap: wrap;">
+              ${isEdit && q.status !== 'Verified' ? `
+                <button type="button" class="btn btn-success" id="btn-save-as-verified" style="background: #16a34a; border-color: #16a34a; color: #fff; font-weight: 700; display: inline-flex; align-items: center; gap: 0.4rem; box-shadow: 0 2px 4px rgba(22, 163, 74, 0.25);">
+                  <span>✅</span>
+                  <span>حفظ واعتماد السؤال كمعتمد (Verified)</span>
+                </button>
+              ` : ''}
+              <button type="submit" class="btn btn-primary" id="btn-save-default">
+                ${isEdit ? 'حفظ التعديلات' : 'إضافة السؤال لبنك الأسئلة'}
+              </button>
+            </div>
           </div>
         </form>
       `
     });
+
+    const saveVerifiedBtn = document.getElementById('btn-save-as-verified');
+    if (saveVerifiedBtn) {
+      saveVerifiedBtn.onclick = () => {
+        const statusSelect = document.getElementById('q-status');
+        if (statusSelect) statusSelect.value = 'Verified';
+        const form = document.getElementById('question-form');
+        if (form.reportValidity()) {
+          form.requestSubmit();
+        }
+      };
+    }
 
     document.getElementById('question-form').onsubmit = async (e) => {
       e.preventDefault();
@@ -990,18 +1038,47 @@ const AdminPanel = {
       try {
         if (isEdit) {
           await API.updateQuestion(q.id, payload);
-          window.showToast('تم تحديث السؤال بنجاح', 'success');
+          if (payload.status === 'Verified') {
+            window.showToast('✅ تم حفظ واعتماد السؤال بنجاح كمعتمد (Verified)!', 'success');
+          } else {
+            window.showToast('تم تحديث السؤال بنجاح', 'success');
+          }
         } else {
           await API.createQuestion(payload);
           window.showToast('تمت إضافة السؤال لبنك الأسئلة', 'success');
         }
         window.closeModal();
         await this.fetchInitialData();
-        this.renderLayout();
+        if (this.currentTab === 'review') {
+          this.renderLayout();
+        } else if (this.currentTab === 'questions') {
+          const page = (this.questionsData && this.questionsData.page) || 1;
+          this.fetchQuestions(page);
+        } else {
+          this.renderLayout();
+        }
       } catch (err) {
         window.showToast(err.message, 'error');
       }
     };
+  },
+
+  async verifyQuestionQuick(id) {
+    try {
+      await API.updateQuestion(id, { status: 'Verified' });
+      window.showToast('✅ تم اعتماد السؤال بنجاح وأصبح متاحاً للطلاب كمعتمد (Verified)', 'success');
+      await this.fetchInitialData();
+      if (this.currentTab === 'review') {
+        this.renderLayout();
+      } else if (this.currentTab === 'questions') {
+        const page = (this.questionsData && this.questionsData.page) || 1;
+        this.fetchQuestions(page);
+      } else {
+        this.renderLayout();
+      }
+    } catch (err) {
+      window.showToast(err.message, 'error');
+    }
   },
 
   async deleteQuestion(id) {

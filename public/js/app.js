@@ -223,7 +223,7 @@ const App = {
           <!-- قسم البانر الرئيسي (Hero) -->
           <section class="hero-section">
             <div class="hero-content">
-              <span class="hero-tag">🎓 المنصة الرسمية لطلاب هندسة شبكات الحاسوب</span>
+              <span class="hero-tag">🎓 المنصة الرسمية لطلاب هندسة شبكات وحاسوب</span>
               <h1 class="hero-title">منصة CNE Quizzes للاختبارات الأكاديمية</h1>
               <p class="hero-subtitle">
                 تدرّب على أسئلة امتحانات الميد والفاينل للسنوات السابقة، واطّلع على خطوات الحل الرياضية والاشتقاقات التفصيلية، واختبر جاهزيتك قبل دخول قاعة الامتحان.
@@ -289,7 +289,7 @@ const App = {
               <div>
                 <h2 class="section-title">🔥 أكثر المواد طلباً وتدريباً</h2>
                 <p style="color: var(--text-secondary); font-size: 0.95rem;">
-                  المساقات الأساسية الأكثر ممارسة وحلاً من قبل طلاب هندسة شبكات الحاسوب.
+                  المساقات الأساسية الأكثر ممارسة وحلاً من قبل طلاب هندسة شبكات وحاسوب.
                 </p>
               </div>
               <a href="#subjects" class="btn btn-secondary btn-sm" style="display: inline-flex; align-items: center; gap: 0.35rem;">
@@ -490,7 +490,7 @@ const App = {
             <div>
               <h1 style="font-size: 2.1rem; font-weight: 900;">دليل المواد الدراسية وبنوك الأسئلة</h1>
               <p style="color: var(--text-secondary); font-size: 1rem;">
-                تصفح كافة مواد خطة هندسة شبكات الحاسوب (45 مادة) مع إمكانية البحث الفوري والتصفية حسب التخصص.
+                تصفح كافة مواد خطة هندسة شبكات وحاسوب (45 مادة) مع إمكانية البحث الفوري والتصفية حسب التخصص.
               </p>
             </div>
             <a href="#practice" class="btn btn-primary">⚡ وضع التدريب السريع</a>

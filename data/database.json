@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-01T20:26:25.742Z",
+  "lastUpdated": "2026-10-03T18:24:20.205Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -78237,9 +78237,9 @@
       "imageUrl": "/images/questions/Final Lab Logic 4.jpg",
       "sourceFile": "Final Lab Logic 4.jpg",
       "sourcePage": 1,
-      "status": "Needs Review",
+      "status": "Verified",
       "createdAt": "2026-09-28T17:34:45.391Z",
-      "updatedAt": "2026-09-28T17:34:45.391Z"
+      "updatedAt": "2026-10-03T18:24:20.085Z"
     },
     {
       "id": "EXP-LAB-LOG-002",
@@ -127024,10 +127024,12 @@
   },
   "stats": {
     "totalSubjects": 45,
+    "activeSubjects": 45,
     "totalQuizzes": 90,
+    "activeQuizzes": 90,
     "totalQuestions": 3801,
     "verifiedQuestions": 3801,
-    "pendingVerification": 0,
-    "lastUpdated": "2026-10-03T17:22:00.178Z"
+    "reviewQuestions": 0,
+    "lastUpdated": "2026-10-03T18:24:20.205Z"
   }
 }
