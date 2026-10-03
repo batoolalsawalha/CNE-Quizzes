@@ -14,7 +14,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800;900&family=Inter:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/styles.css?v=3.0">
+  <link rel="stylesheet" href="/css/styles.css?v=5.0">
 </head>
 <body>
   <!-- ترويسة التطبيق الرئيسية -->
@@ -133,17 +133,17 @@
   </div>
 
   <!-- ملفات الجافاسكريبت المحدثة -->
-  <script src="/js/api.js?v=3.0"></script>
-  <script src="/js/student.js?v=3.0"></script>
-  <script src="/js/results.js?v=3.0"></script>
-  <script src="/js/admin.js?v=3.0"></script>
-  <script src="/js/importer.js?v=3.0"></script>
-  <script src="/js/app.js?v=3.0"></script>
+  <script src="/js/api.js?v=5.0"></script>
+  <script src="/js/student.js?v=5.0"></script>
+  <script src="/js/results.js?v=5.0"></script>
+  <script src="/js/admin.js?v=5.0"></script>
+  <script src="/js/importer.js?v=5.0"></script>
+  <script src="/js/app.js?v=5.0"></script>
   <script>
     // PWA Service Worker Registration with automatic update check
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/sw.js?v=3.0')
+        navigator.serviceWorker.register('/sw.js?v=5.0')
           .then(reg => {
             reg.update();
           })
