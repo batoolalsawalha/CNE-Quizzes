@@ -1,6 +1,23 @@
 const CACHE_NAME = 'cne-quizzes-v6';
+const STATIC_ASSETS = [
+  '/',
+  '/index.html',
+  '/css/styles.css?v=6.0',
+  '/js/api.js?v=6.0',
+  '/js/app.js?v=6.0',
+  '/js/student.js?v=6.0',
+  '/js/results.js?v=6.0',
+  '/js/admin.js?v=6.0',
+  '/js/importer.js?v=6.0',
+  '/quiz-print.html',
+  '/manifest.json',
+  '/icons/icon.svg'
+];
 
 self.addEventListener('install', (event) => {
+  event.waitUntil(
+    caches.open(CACHE_NAME).then((cache) => cache.addAll(STATIC_ASSETS))
+  );
   self.skipWaiting();
 });
 
@@ -8,7 +25,7 @@ self.addEventListener('activate', (event) => {
   event.waitUntil(
     caches.keys().then((keys) => {
       return Promise.all(
-        keys.map((key) => caches.delete(key))
+        keys.filter((key) => key !== CACHE_NAME).map((key) => caches.delete(key))
       );
     }).then(() => self.clients.claim())
   );
@@ -26,6 +43,11 @@ self.addEventListener('fetch', (event) => {
 
   event.respondWith(
     fetch(req).then((networkRes) => {
+      if (networkRes.ok) {
+        event.waitUntil(
+          caches.open(CACHE_NAME).then((cache) => cache.put(req, networkRes.clone()))
+        );
+      }
       return networkRes;
     }).catch(async () => {
       const cached = await caches.match(req);

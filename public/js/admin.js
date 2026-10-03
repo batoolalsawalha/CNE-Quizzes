@@ -940,8 +940,8 @@ const AdminPanel = {
             <div class="form-group">
               <label class="form-label" style="font-weight: 700;">حالة السؤال *</label>
               <select class="form-control" id="q-status" style="border: 1.5px solid var(--primary); font-weight: 700;">
-                <option value="Verified" ${!q || q.status === 'Verified' || q.status === 'Needs Review' ? 'selected' : ''}>✅ معتمد ومؤكد (Verified)</option>
-                <option value="Needs Review" ${q && q.status === 'Needs Review' && false ? 'selected' : ''}>⚠️ بحاجة لمراجعة (Needs Review)</option>
+                <option value="Verified" ${!q || q.status === 'Verified' ? 'selected' : ''}>✅ معتمد ومؤكد (Verified)</option>
+                <option value="Needs Review" ${q && q.status === 'Needs Review' ? 'selected' : ''}>⚠️ بحاجة لمراجعة (Needs Review)</option>
                 <option value="Imported" ${q && q.status === 'Imported' ? 'selected' : ''}>📥 مستورد (Imported)</option>
               </select>
               <small style="color: var(--text-muted); font-size: 0.8rem; display: block; margin-top: 0.25rem;">
