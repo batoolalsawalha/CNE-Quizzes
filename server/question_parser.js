@@ -168,11 +168,19 @@ function parseQuestionsFromText(rawText, defaultSubjectId = null, defaultQuizId 
  * Extracts text from a PDF Buffer and parses questions
  */
 async function parseQuestionsFromPDF(pdfBuffer, defaultSubjectId = null, defaultQuizId = null, sourceFile = 'PDF Import') {
-  if (!pdfBuffer || !(pdfBuffer instanceof Uint8Array || Buffer.isBuffer(pdfBuffer))) {
+  if (!pdfBuffer) {
     throw new Error('ملف PDF غير صالح أو فارغ');
   }
 
-  const uint8 = pdfBuffer instanceof Uint8Array ? pdfBuffer : new Uint8Array(pdfBuffer);
+  let uint8;
+  if (Buffer.isBuffer(pdfBuffer)) {
+    uint8 = new Uint8Array(pdfBuffer.buffer, pdfBuffer.byteOffset, pdfBuffer.byteLength);
+  } else if (pdfBuffer instanceof Uint8Array) {
+    uint8 = pdfBuffer;
+  } else {
+    uint8 = new Uint8Array(pdfBuffer);
+  }
+
   const parser = new PDFParse(uint8);
   const result = await parser.getText();
   const text = typeof result === 'string' ? result : (result && result.text ? result.text : '');
