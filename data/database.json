@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-03T18:24:20.205Z",
+  "lastUpdated": "2026-10-11T16:48:58.040Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -127018,9 +127018,10 @@
   ],
   "admin": {
     "username": "cne_admin",
-    "salt": "47aa79d36c683f0594f4ad51f16bcaa3",
-    "passwordHash": "962e68410023a6854c193ef6da23242dac8f51805d9bff1061055cea6be190956d34adea095688c60b865b2939135265e04af864a317439003073777d1836e7d",
-    "updatedAt": "2026-09-27T20:58:39.725Z"
+    "salt": "2bbd5f3709af8c1fbae972e3cdb80e7d",
+    "iterations": 100000,
+    "passwordHash": "bdc7e938b98f02efb1de85a24102c77302234bf49db6ff8ccf1471c760597e200ba9e5936d19672a376212ada2154e1afd9866a5ea2862e984adc26f9845f923",
+    "updatedAt": "2026-10-11T16:48:57.656Z"
   },
   "stats": {
     "totalSubjects": 45,
@@ -127030,6 +127031,6 @@
     "totalQuestions": 3801,
     "verifiedQuestions": 3801,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-03T18:24:20.205Z"
+    "lastUpdated": "2026-10-11T16:48:58.040Z"
   }
 }
