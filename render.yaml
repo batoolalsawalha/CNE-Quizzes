@@ -1,0 +1,12 @@
+services:
+  - type: web
+    name: cne-quizzes
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node server/server.js
+    envVars:
+      - key: HOST
+        value: 0.0.0.0
+      - key: ADMIN_PASSWORD
+        generateValue: true

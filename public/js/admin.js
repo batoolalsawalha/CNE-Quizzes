@@ -149,6 +149,9 @@ const AdminPanel = {
             </p>
           </div>
           <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+            <button class="btn btn-sm btn-primary" id="btn-cloud-sync" style="background-color: #10b981; border-color: #10b981;" onclick="AdminPanel.triggerCloudSync()">
+              ☁️ حفظ ومزامنة دائم
+            </button>
             <button class="btn btn-secondary btn-sm" onclick="AdminPanel.openChangeCredentialsModal()">
               🔐 حساب المشرف
             </button>
@@ -1214,6 +1217,25 @@ const AdminPanel = {
     if (adminNav) adminNav.style.display = 'none';
     window.showToast('تم تسجيل الخروج بنجاح', 'info');
     location.hash = '#home';
+  },
+
+  async triggerCloudSync() {
+    const btn = document.getElementById('btn-cloud-sync');
+    if (btn) {
+      btn.disabled = true;
+      btn.textContent = '⏳ جاري الحفظ والمزامنة...';
+    }
+    try {
+      const res = await API.pushSync();
+      window.showToast('✅ تم حفظ كافة البيانات ومزامنتها سحابياً بنجاح! لن تضيع التعديلات بعد اليوم.', 'success');
+    } catch (err) {
+      window.showToast('تنبيه: ' + err.message, 'warning');
+    } finally {
+      if (btn) {
+        btn.disabled = false;
+        btn.textContent = '☁️ حفظ ومزامنة دائم';
+      }
+    }
   },
 
   escapeHTML(str) {

@@ -314,6 +314,53 @@ const API = {
     return res.json();
   },
 
+  async importPDF(payload) {
+    const res = await fetch('/api/import/pdf', {
+      method: 'POST',
+      headers: this.getAuthHeaders({ 'Content-Type': 'application/json' }),
+      body: JSON.stringify(payload)
+    });
+    if (!res.ok) {
+      const err = await res.json().catch(() => ({}));
+      throw new Error(err.error || 'فشل استيراد ملف الـ PDF');
+    }
+    return res.json();
+  },
+
+  async importText(payload) {
+    const res = await fetch('/api/import/text', {
+      method: 'POST',
+      headers: this.getAuthHeaders({ 'Content-Type': 'application/json' }),
+      body: JSON.stringify(payload)
+    });
+    if (!res.ok) {
+      const err = await res.json().catch(() => ({}));
+      throw new Error(err.error || 'فشل استيراد نصوص الأسئلة');
+    }
+    return res.json();
+  },
+
+  // Cloud Persistence & GitHub Sync
+  async getSyncStatus() {
+    try {
+      const res = await fetch('/api/sync/status');
+      if (res.ok) return res.json();
+    } catch (_) {}
+    return { enabled: false, status: 'disabled' };
+  },
+
+  async pushSync() {
+    const res = await fetch('/api/sync/push', {
+      method: 'POST',
+      headers: this.getAuthHeaders()
+    });
+    if (!res.ok) {
+      const err = await res.json().catch(() => ({}));
+      throw new Error(err.error || 'فشل تنفيذ المزامنة السحابية');
+    }
+    return res.json();
+  },
+
   // Backup & Restore
   async triggerBackup() {
     const res = await fetch('/api/backup', {

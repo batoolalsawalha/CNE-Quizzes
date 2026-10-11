@@ -4,6 +4,7 @@ const path = require('path');
 const url = require('url');
 const crypto = require('crypto');
 const db = require('./db');
+const githubSync = require('./github_sync');
 
 const PORT = process.env.PORT || 3000;
 const HOST = process.env.HOST || '127.0.0.1';
@@ -444,7 +445,41 @@ const server = http.createServer(async (req, res) => {
         return sendJSON(res, 200, result);
       }
 
-      // 8. BACKUP & RESTORE (Admin Only)
+      if (pathname === '/api/import/pdf' && method === 'POST') {
+        if (!isAuthorizedAdmin(req)) return sendJSON(res, 401, { error: 'غير مصرح' });
+        const bodyStr = await parseRequestBody(req);
+        const payload = JSON.parse(bodyStr);
+        if (!payload.pdfBase64) return sendJSON(res, 400, { error: 'ملف الـ PDF مفقود' });
+
+        const base64Data = payload.pdfBase64.replace(/^data:application\/pdf;base64,/, '');
+        const pdfBuffer = Buffer.from(base64Data, 'base64');
+        const fileName = payload.fileName || 'PDF Import';
+        const result = await db.parsePDF(pdfBuffer, payload.defaultSubjectId || null, payload.defaultQuizId || null, fileName);
+        return sendJSON(res, 200, result);
+      }
+
+      if (pathname === '/api/import/text' && method === 'POST') {
+        if (!isAuthorizedAdmin(req)) return sendJSON(res, 401, { error: 'غير مصرح' });
+        const bodyStr = await parseRequestBody(req);
+        const payload = JSON.parse(bodyStr);
+        if (!payload.text) return sendJSON(res, 400, { error: 'النص المطلوب مفقود' });
+
+        const result = db.parseTextQuestions(payload.text, payload.defaultSubjectId || null, payload.defaultQuizId || null, payload.sourceFile || 'Text Import');
+        return sendJSON(res, 200, result);
+      }
+
+      // 8. CLOUD PERSISTENCE (GitHub Sync)
+      if (pathname === '/api/sync/status' && method === 'GET') {
+        return sendJSON(res, 200, githubSync.getStatus());
+      }
+
+      if (pathname === '/api/sync/push' && method === 'POST') {
+        if (!isAuthorizedAdmin(req)) return sendJSON(res, 401, { error: 'غير مصرح' });
+        const syncResult = await githubSync.pushNow();
+        return sendJSON(res, syncResult.success ? 200 : 500, syncResult);
+      }
+
+      // 9. BACKUP & RESTORE (Admin Only)
       if (pathname === '/api/backup' && method === 'POST') {
         if (!isAuthorizedAdmin(req)) return sendJSON(res, 401, { error: 'غير مصرح' });
         const backupPath = db.createBackup();

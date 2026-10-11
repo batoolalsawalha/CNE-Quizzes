@@ -14,3 +14,5 @@ data/backups/
 
 # Environment files
 .env
+.vercel
+.env*

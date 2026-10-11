@@ -1,0 +1,15 @@
+qu
+qu/**
+.bin
+.bin/**
+scripts
+scripts/**
+data/backups
+data/backups/**
+Dockerfile
+docker-compose.yml
+*.bat
+*.sh
+test_api.js
+test_http.js
+dry_files.json

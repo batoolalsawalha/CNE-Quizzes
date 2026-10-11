@@ -1,6 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const crypto = require('crypto');
+const githubSync = require('./github_sync');
 
 const DB_PATH = path.join(__dirname, '..', 'data', 'database.json');
 const BACKUP_DIR = path.join(__dirname, '..', 'data', 'backups');
@@ -13,6 +14,17 @@ class DatabaseManager {
     this.ensureDirs();
     this.data = this.loadData();
     this.ensureAdminInitialized();
+
+    if (githubSync && typeof githubSync.pullLatest === 'function') {
+      githubSync.pullLatest().then(updated => {
+        if (updated) {
+          this.data = this.loadData();
+          this.ensureAdminInitialized();
+        }
+      }).catch(err => {
+        console.warn('[DB] GitHub pull check skipped:', err.message);
+      });
+    }
   }
 
   ensureDirs() {
@@ -178,6 +190,9 @@ class DatabaseManager {
     const tempPath = `${DB_PATH}.tmp`;
     fs.writeFileSync(tempPath, JSON.stringify(this.data, null, 2), 'utf-8');
     fs.renameSync(tempPath, DB_PATH);
+    if (githubSync && typeof githubSync.schedulePush === 'function') {
+      githubSync.schedulePush();
+    }
   }
 
   createBackup() {
@@ -952,6 +967,18 @@ class DatabaseManager {
       });
     }
 
+    return this.importQuestions(items, defaultSubjectId, defaultQuizId);
+  }
+
+  async parsePDF(pdfBuffer, defaultSubjectId = null, defaultQuizId = null, sourceFile = 'PDF Import') {
+    const questionParser = require('./question_parser');
+    const items = await questionParser.parseQuestionsFromPDF(pdfBuffer, defaultSubjectId, defaultQuizId, sourceFile);
+    return this.importQuestions(items, defaultSubjectId, defaultQuizId);
+  }
+
+  parseTextQuestions(rawText, defaultSubjectId = null, defaultQuizId = null, sourceFile = 'Text Import') {
+    const questionParser = require('./question_parser');
+    const items = questionParser.parseQuestionsFromText(rawText, defaultSubjectId, defaultQuizId, sourceFile);
     return this.importQuestions(items, defaultSubjectId, defaultQuizId);
   }
 
