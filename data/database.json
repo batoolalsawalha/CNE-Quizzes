@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-12T04:56:15.936Z",
+  "lastUpdated": "2026-10-12T05:10:06.645Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -124242,6 +124242,74 @@
       "status": "Verified",
       "createdAt": "2026-10-03T17:13:05.646Z",
       "updatedAt": "2026-10-03T17:13:05.646Z"
+    },
+    {
+      "id": "q-45d476a0",
+      "subjectId": "subj-machine",
+      "quizId": null,
+      "topicId": null,
+      "question": "What is the standard port for HTTPS?",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "80"
+        },
+        {
+          "id": "b",
+          "text": "443"
+        },
+        {
+          "id": "c",
+          "text": "8080"
+        },
+        {
+          "id": "d",
+          "text": "22"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "HTTPS uses port 443 by default.",
+      "difficulty": "Medium",
+      "sourceFile": "Text Import",
+      "sourcePage": null,
+      "status": "Verified",
+      "createdAt": "2026-10-12T05:10:05.420Z",
+      "updatedAt": "2026-10-12T05:10:05.420Z"
+    },
+    {
+      "id": "q-12050864",
+      "subjectId": "subj-machine",
+      "quizId": null,
+      "topicId": null,
+      "question": "ما هو البروتوكول المسؤول عن ترجمة أسماء النطاقات إلى عناوين IP؟",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "DHCP"
+        },
+        {
+          "id": "b",
+          "text": "DNS"
+        },
+        {
+          "id": "c",
+          "text": "ARP"
+        },
+        {
+          "id": "d",
+          "text": "ICMP"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "",
+      "difficulty": "Medium",
+      "sourceFile": "Text Import",
+      "sourcePage": null,
+      "status": "Verified",
+      "createdAt": "2026-10-12T05:10:05.739Z",
+      "updatedAt": "2026-10-12T05:10:05.739Z"
     }
   ],
   "admin": {
@@ -124256,9 +124324,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3717,
-    "verifiedQuestions": 3717,
+    "totalQuestions": 3719,
+    "verifiedQuestions": 3719,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-12T04:56:15.936Z"
+    "lastUpdated": "2026-10-12T05:10:06.645Z"
   }
 }
