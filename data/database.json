@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-11T18:04:40.159Z",
+  "lastUpdated": "2026-10-12T04:50:36.946Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -43922,138 +43922,6 @@
       "updatedAt": "2026-10-03T17:22:00.012Z"
     },
     {
-      "id": "ML-MID-024",
-      "subjectId": "subj-machine",
-      "quizId": "quiz-subj-machine-mid",
-      "question": "A Decision Tree splits nodes based on the feature that maximizes:",
-      "options": [
-        {
-          "id": "a",
-          "text": "The number of leaves"
-        },
-        {
-          "id": "b",
-          "text": "The weight magnitude"
-        },
-        {
-          "id": "c",
-          "text": "The execution time"
-        },
-        {
-          "id": "d",
-          "text": "Information Gain (or reduction in Impurity such as Gini Impurity or Entropy)"
-        }
-      ],
-      "correctAnswer": "d",
-      "explanation": "Greedy recursive splitting selects highest purity gain.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Mid 24-25 Machines.pdf",
-      "sourcePage": 4,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:22:00.012Z",
-      "updatedAt": "2026-10-03T17:22:00.012Z"
-    },
-    {
-      "id": "ML-MID-025",
-      "subjectId": "subj-machine",
-      "quizId": "quiz-subj-machine-mid",
-      "question": "Entropy H(S) in information theory measures:",
-      "options": [
-        {
-          "id": "a",
-          "text": "The amount of uncertainty or impurity in a set of examples"
-        },
-        {
-          "id": "b",
-          "text": "The physical temperature of the CPU"
-        },
-        {
-          "id": "c",
-          "text": "The speed of classification"
-        },
-        {
-          "id": "d",
-          "text": "The number of features"
-        }
-      ],
-      "correctAnswer": "a",
-      "explanation": "H(S) = -Σ p_i log₂(p_i). Equal distribution = maximum entropy.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Mid 24-25 Machines.pdf",
-      "sourcePage": 5,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:22:00.012Z",
-      "updatedAt": "2026-10-03T17:22:00.012Z"
-    },
-    {
-      "id": "ML-MID-026",
-      "subjectId": "subj-machine",
-      "quizId": "quiz-subj-machine-mid",
-      "question": "If a node in a decision tree contains examples belonging entirely to a SINGLE class (pure node), its Entropy is:",
-      "options": [
-        {
-          "id": "a",
-          "text": "1"
-        },
-        {
-          "id": "b",
-          "text": "0"
-        },
-        {
-          "id": "c",
-          "text": "0.5"
-        },
-        {
-          "id": "d",
-          "text": "Infinity"
-        }
-      ],
-      "correctAnswer": "b",
-      "explanation": "-1 * log₂(1) = 0. No uncertainty remains.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Mid 24-25 Machines.pdf",
-      "sourcePage": 6,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:22:00.012Z",
-      "updatedAt": "2026-10-03T17:22:00.012Z"
-    },
-    {
-      "id": "ML-MID-027",
-      "subjectId": "subj-machine",
-      "quizId": "quiz-subj-machine-mid",
-      "question": "Gini Impurity for a node with class proportions p_i is calculated as:",
-      "options": [
-        {
-          "id": "a",
-          "text": "-Σ p_i log p_i"
-        },
-        {
-          "id": "b",
-          "text": "Σ p_i"
-        },
-        {
-          "id": "c",
-          "text": "1 - Σ (p_i)²"
-        },
-        {
-          "id": "d",
-          "text": "1 / Σ p_i"
-        }
-      ],
-      "correctAnswer": "c",
-      "explanation": "Alternative impurity measure used by CART decision trees.",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Mid 24-25 Machines.pdf",
-      "sourcePage": 7,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:22:00.012Z",
-      "updatedAt": "2026-10-03T17:22:00.012Z"
-    },
-    {
       "id": "ML-MID-028",
       "subjectId": "subj-machine",
       "quizId": "quiz-subj-machine-mid",
@@ -44082,39 +43950,6 @@
       "imageUrl": null,
       "sourceFile": "Mid 24-25 Machines.pdf",
       "sourcePage": 8,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:22:00.012Z",
-      "updatedAt": "2026-10-03T17:22:00.012Z"
-    },
-    {
-      "id": "ML-MID-029",
-      "subjectId": "subj-machine",
-      "quizId": "quiz-subj-machine-mid",
-      "question": "In evaluation of classification models, a Confusion Matrix contains which four counts?",
-      "options": [
-        {
-          "id": "a",
-          "text": "True Positives (TP), False Positives (FP), True Negatives (TN), and False Negatives (FN)"
-        },
-        {
-          "id": "b",
-          "text": "Precision, Recall, Accuracy, and F1"
-        },
-        {
-          "id": "c",
-          "text": "Bias, Variance, Noise, and Error"
-        },
-        {
-          "id": "d",
-          "text": "Inputs, Weights, Biases, and Outputs"
-        }
-      ],
-      "correctAnswer": "a",
-      "explanation": "Foundation of classification metrics.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Mid 24-25 Machines.pdf",
-      "sourcePage": 9,
       "status": "Verified",
       "createdAt": "2026-10-03T17:22:00.012Z",
       "updatedAt": "2026-10-03T17:22:00.012Z"
@@ -127028,9 +126863,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3801,
-    "verifiedQuestions": 3801,
+    "totalQuestions": 3796,
+    "verifiedQuestions": 3796,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-11T18:04:40.159Z"
+    "lastUpdated": "2026-10-12T04:50:36.946Z"
   }
 }
