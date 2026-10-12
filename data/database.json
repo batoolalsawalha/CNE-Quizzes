@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-12T04:50:36.946Z",
+  "lastUpdated": "2026-10-12T04:51:08.942Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -43460,138 +43460,6 @@
       "updatedAt": "2026-10-03T17:22:00.012Z"
     },
     {
-      "id": "ML-MID-010",
-      "subjectId": "subj-machine",
-      "quizId": "quiz-subj-machine-mid",
-      "question": "Batch Gradient Descent computes the gradient using:",
-      "options": [
-        {
-          "id": "a",
-          "text": "A single randomly chosen training example"
-        },
-        {
-          "id": "b",
-          "text": "The entire training dataset in every single update step"
-        },
-        {
-          "id": "c",
-          "text": "A small mini-batch of 32 examples"
-        },
-        {
-          "id": "d",
-          "text": "Validation data only"
-        }
-      ],
-      "correctAnswer": "b",
-      "explanation": "Batch uses all m examples per step; stable but slow for massive data.",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Mid 24-25 Machines.pdf",
-      "sourcePage": 10,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:22:00.012Z",
-      "updatedAt": "2026-10-03T17:22:00.012Z"
-    },
-    {
-      "id": "ML-MID-011",
-      "subjectId": "subj-machine",
-      "quizId": "quiz-subj-machine-mid",
-      "question": "Stochastic Gradient Descent (SGD) updates parameters using:",
-      "options": [
-        {
-          "id": "a",
-          "text": "The entire dataset at once"
-        },
-        {
-          "id": "b",
-          "text": "The test dataset"
-        },
-        {
-          "id": "c",
-          "text": "Exactly ONE training example chosen randomly per step"
-        },
-        {
-          "id": "d",
-          "text": "Only misclassified examples"
-        }
-      ],
-      "correctAnswer": "c",
-      "explanation": "Fast and noisy updates that can jump out of local minima.",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Mid 24-25 Machines.pdf",
-      "sourcePage": 1,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:22:00.012Z",
-      "updatedAt": "2026-10-03T17:22:00.012Z"
-    },
-    {
-      "id": "ML-MID-012",
-      "subjectId": "subj-machine",
-      "quizId": "quiz-subj-machine-mid",
-      "question": "Mini-Batch Gradient Descent strikes a balance by updating parameters using:",
-      "options": [
-        {
-          "id": "a",
-          "text": "Only 1 example"
-        },
-        {
-          "id": "b",
-          "text": "The entire dataset"
-        },
-        {
-          "id": "c",
-          "text": "All test examples"
-        },
-        {
-          "id": "d",
-          "text": "A small random subset (mini-batch) of training examples (e.g. 32, 64, or 128) per step"
-        }
-      ],
-      "correctAnswer": "d",
-      "explanation": "Standard practice in modern deep learning exploiting GPU vectorization.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Mid 24-25 Machines.pdf",
-      "sourcePage": 2,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:22:00.012Z",
-      "updatedAt": "2026-10-03T17:22:00.012Z"
-    },
-    {
-      "id": "ML-MID-013",
-      "subjectId": "subj-machine",
-      "quizId": "quiz-subj-machine-mid",
-      "question": "Feature Scaling (standardization or normalization) is important before gradient descent because:",
-      "options": [
-        {
-          "id": "a",
-          "text": "It ensures the cost surface contours are spherical rather than elongated, allowing faster and smoother convergence"
-        },
-        {
-          "id": "b",
-          "text": "It increases the number of features"
-        },
-        {
-          "id": "c",
-          "text": "It eliminates the need for labels"
-        },
-        {
-          "id": "d",
-          "text": "It prevents all underfitting"
-        }
-      ],
-      "correctAnswer": "a",
-      "explanation": "Normalized features prevent oscillation across wide axes.",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Mid 24-25 Machines.pdf",
-      "sourcePage": 3,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:22:00.012Z",
-      "updatedAt": "2026-10-03T17:22:00.012Z"
-    },
-    {
       "id": "ML-MID-014",
       "subjectId": "subj-machine",
       "quizId": "quiz-subj-machine-mid",
@@ -43620,72 +43488,6 @@
       "imageUrl": null,
       "sourceFile": "Mid 24-25 Machines.pdf",
       "sourcePage": 4,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:22:00.012Z",
-      "updatedAt": "2026-10-03T17:22:00.012Z"
-    },
-    {
-      "id": "ML-MID-015",
-      "subjectId": "subj-machine",
-      "quizId": "quiz-subj-machine-mid",
-      "question": "The decision boundary in standard Logistic Regression is:",
-      "options": [
-        {
-          "id": "a",
-          "text": "Always circular"
-        },
-        {
-          "id": "b",
-          "text": "A polynomial curve"
-        },
-        {
-          "id": "c",
-          "text": "Linear: θ^T x = 0 (where σ(z) = 0.5)"
-        },
-        {
-          "id": "d",
-          "text": "A step function"
-        }
-      ],
-      "correctAnswer": "c",
-      "explanation": "Separates feature space into two halves with a hyperplane.",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Mid 24-25 Machines.pdf",
-      "sourcePage": 5,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:22:00.012Z",
-      "updatedAt": "2026-10-03T17:22:00.012Z"
-    },
-    {
-      "id": "ML-MID-016",
-      "subjectId": "subj-machine",
-      "quizId": "quiz-subj-machine-mid",
-      "question": "The standard loss function used to train Logistic Regression is:",
-      "options": [
-        {
-          "id": "a",
-          "text": "Mean Squared Error (MSE)"
-        },
-        {
-          "id": "b",
-          "text": "Mean Absolute Error (MAE)"
-        },
-        {
-          "id": "c",
-          "text": "R² score"
-        },
-        {
-          "id": "d",
-          "text": "Binary Cross-Entropy (Log Loss)"
-        }
-      ],
-      "correctAnswer": "d",
-      "explanation": "Ensures a convex cost function without flat plateau local traps.",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Mid 24-25 Machines.pdf",
-      "sourcePage": 6,
       "status": "Verified",
       "createdAt": "2026-10-03T17:22:00.012Z",
       "updatedAt": "2026-10-03T17:22:00.012Z"
@@ -126863,9 +126665,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3796,
-    "verifiedQuestions": 3796,
+    "totalQuestions": 3790,
+    "verifiedQuestions": 3790,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-12T04:50:36.946Z"
+    "lastUpdated": "2026-10-12T04:51:08.942Z"
   }
 }
