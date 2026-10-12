@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-12T05:28:40.135Z",
+  "lastUpdated": "2026-10-12T14:01:27.774Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -124344,6 +124344,1130 @@
       "status": "Verified",
       "createdAt": "2026-10-12T05:28:39.626Z",
       "updatedAt": "2026-10-12T05:28:39.626Z"
+    },
+    {
+      "id": "q-82f9962d",
+      "subjectId": "subj-machine",
+      "quizId": "quiz-subj-machine-mid",
+      "topicId": null,
+      "question": "Consider the linear DC machine as shown, with R = 0.5\\,\\Omega, B = 0.25\\,\\text{T}, and L = 2\\,\\text{m}, with no-load steady-state velocity of 300\\,\\text{m/s}. Find the induced voltage (e_{ind}) and source voltage (V_B\t:(",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "e_{ind} = 150\\,\\text{V}, V_B = 150\\,\\text{V\t{ -- 5 of 17 --"
+        },
+        {
+          "id": "b",
+          "text": "e_{ind} = 300\\,\\text{V}, V_B = 300\\,\\text{V\t{"
+        },
+        {
+          "id": "c",
+          "text": "e_{ind} = 75\\,\\text{V}, V_B = 75\\,\\text{V\t{"
+        },
+        {
+          "id": "d",
+          "text": "e_{ind} = 0\\,\\text{V}, V_B = 150\\,\\text{V\t{ وابﺟﻟا\t:ﺢﯾﺣﺻﻟا\tA) e_{ind} = 150\\,\\text{V}, V_B = 150\\,\\text{V\t{ ﺔﻘﯾطر\tلﺣﻟا\t)\tSolution\t:( ونﻧﺎﻗ\tدﮭﺟﻟا\tوثﺛﺣﻣﻟا\t)\tInduced Voltage\t:( ضﯾوﻌﺗﻟﺎﺑ\t)\tSubstitution\t:( ﻲﻓ\tﺔﻟﺎﺣ\tﻻ\tلﻣﺣ\t)\tNo-load\t،(\tرﺎﯾﺗﻟا\ti = 0\t،\tإذن\tنﻣ\tﺔﻟدﺎﻌﻣ\tرة:ﺋداﻟا ؤالﺳﻟا\tﻲﻧﺎﺛﻟا\tنﻣ)\tﺔﻠﺋﺳأ\tMid MCQs Q1\t("
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "",
+      "difficulty": "Medium",
+      "sourceFile": "‎⁨ماشين⁩.pdf",
+      "sourcePage": null,
+      "status": "Needs Review",
+      "createdAt": "2026-10-12T14:01:16.376Z",
+      "updatedAt": "2026-10-12T14:01:16.376Z"
+    },
+    {
+      "id": "q-1db46264",
+      "subjectId": "subj-machine",
+      "quizId": "quiz-subj-machine-mid",
+      "topicId": null,
+      "question": "For the non-load linear DC machine, if the source voltage is 200\\,\\text{V}, resistance R =",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "خيار 1"
+        },
+        {
+          "id": "b",
+          "text": "خيار 2"
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "",
+      "difficulty": "Medium",
+      "sourceFile": "‎⁨ماشين⁩.pdf",
+      "sourcePage": null,
+      "status": "Needs Review",
+      "createdAt": "2026-10-12T14:01:16.870Z",
+      "updatedAt": "2026-10-12T14:01:16.870Z"
+    },
+    {
+      "id": "q-30012256",
+      "subjectId": "subj-machine",
+      "quizId": "quiz-subj-machine-mid",
+      "topicId": null,
+      "question": "5\\,\\Omega, B = 0.1\\,\\text{T}, and l = 5.0\\,\\text{m}, the starting current (I_{starting}) is\t:",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "100\\,\\text{A\t{"
+        },
+        {
+          "id": "b",
+          "text": "300\\,\\text{A\t{"
+        },
+        {
+          "id": "c",
+          "text": "400\\,\\text{A\t{"
+        },
+        {
+          "id": "d",
+          "text": "200\\,\\text{A\t{ وابﺟﻟا\t:ﺢﯾﺣﺻﻟا\tC) 400\\,\\text{A\t{ ﺔﻘﯾطر\tلﺣﻟا\t)\tSolution\t:( دﻧﻋ\tدءﺑﻟا\t)\tAt starting\t،(\tونﻛﺗ\tﺔﻋرﺳﻟا\tرًاﻔﺻ\t)\tv = 0\t(\tﻲﻟﺎﺗﻟﺎﺑو\tدﮭﺟﻟا\tوثﺛﺣﻣﻟا\te_{ind} = 0\t. ونﻧﺎﻗ\tرﺎﯾﺗﻟا\t)\tCurrent Formula\t:( ؤالﺳﻟا\tثﻟﺎﺛﻟا\tنﻣ)\tﺔﻠﺋﺳأ\tTransformers Q17\t("
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "",
+      "difficulty": "Medium",
+      "sourceFile": "‎⁨ماشين⁩.pdf",
+      "sourcePage": null,
+      "status": "Needs Review",
+      "createdAt": "2026-10-12T14:01:17.266Z",
+      "updatedAt": "2026-10-12T14:01:17.266Z"
+    },
+    {
+      "id": "q-cd5f64d0",
+      "subjectId": "subj-machine",
+      "quizId": "quiz-subj-machine-mid",
+      "topicId": null,
+      "question": "A transformer with primary winding having 500 turns, secondary winding having 100 turns. If 200\\,\\text{V} is applied to the primary winding, the voltage at the secondary winding (V_s) will be\t:",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "2000\\,\\text{V\t{"
+        },
+        {
+          "id": "b",
+          "text": "1000\\,\\text{V\t{"
+        },
+        {
+          "id": "c",
+          "text": "500\\,\\text{V\t{"
+        },
+        {
+          "id": "d",
+          "text": "40\\,\\text{V\t{ وابﺟﻟا\t:ﺢﯾﺣﺻﻟا\tD) 40\\,\\text{V\t{ ﺔﻘﯾطر\tلﺣﻟا\t)\tSolution\t:( ونﻧﺎﻗ\tبﺳﻧ\tلﯾوﺣﺗ\tتﻻوﺣﻣﻟا\t)\tTransformer Turns Ratio\t:( ضﯾوﻌﺗﻟﺎﺑ\t)\tSubstitution\t:( ؤالﺳﻟا\tﻊﺑراﻟا\tنﻣ)\tراتﺎﺑﺗﺧا\tرةﺋداﻟا\tرةﯾﺻﻘﻟا\tShort Circuit Test Q36\t("
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "",
+      "difficulty": "Medium",
+      "sourceFile": "‎⁨ماشين⁩.pdf",
+      "sourcePage": null,
+      "status": "Needs Review",
+      "createdAt": "2026-10-12T14:01:17.470Z",
+      "updatedAt": "2026-10-12T14:01:17.470Z"
+    },
+    {
+      "id": "q-3f53972d",
+      "subjectId": "subj-machine",
+      "quizId": "quiz-subj-machine-mid",
+      "topicId": null,
+      "question": "Short circuit test on transformers is conducted to determine\t:",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "Copper losses"
+        },
+        {
+          "id": "b",
+          "text": "Core losses"
+        },
+        {
+          "id": "c",
+          "text": "Eddy current losses"
+        },
+        {
+          "id": "d",
+          "text": "Hysteresis losses وابﺟﻟا\t:ﺢﯾﺣﺻﻟا\tA) Copper losses ﺔﻘﯾطر\tلﺣﻟا\t)\tSolution\t:( رﺎﺑﺗﺧا\tرﺻﻘﻟا\t)\tShort Circuit Test - SC Test\t(\tمﺗﯾ\tراؤهﺟإ\tدﯾدﺣﺗﻟ\tوداتﻘﻔﻣ\tسﺎﺣﻧﻟا\t)\tCopper Losses\t(\tأو\tوداتﻘﻔﻣﻟا ﻲﻓ\tتﺎﻔﻠﻣﻟا\tدﻧﻋ\tلﻣﺣﻟا\tل،ﻣﺎﻛﻟا\tﺎﻣﻧﯾﺑ\tرﺎﺑﺗﺧا\tلﻣﺣﻼﻟا\t)\tOpen Circuit Test\t(\tددﺣﯾ\tوداتﻘﻔﻣ\tبﻠﻘﻟا\t)\tCore Losses\t.( ؤالﺳﻟا\tسﻣﺎﺧﻟا\tنﻣ)\tمﯾﻣﺻﺗ\tبﻠﻘﻟا\tديﯾدﺣﻟا\tCore Design Q48\t("
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "",
+      "difficulty": "Medium",
+      "sourceFile": "‎⁨ماشين⁩.pdf",
+      "sourcePage": null,
+      "status": "Needs Review",
+      "createdAt": "2026-10-12T14:01:17.968Z",
+      "updatedAt": "2026-10-12T14:01:17.968Z"
+    },
+    {
+      "id": "q-5bb97966",
+      "subjectId": "subj-machine",
+      "quizId": "quiz-subj-machine-mid",
+      "topicId": null,
+      "question": "Transformer uses laminated core in order to\t:",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "Reduce eddy current loss"
+        },
+        {
+          "id": "b",
+          "text": "Reduce eddy current and hysteresis loss"
+        },
+        {
+          "id": "c",
+          "text": "Ensure good magnetic coupling"
+        },
+        {
+          "id": "d",
+          "text": "All of these -- 7 of 17 -- وابﺟﻟا\t:ﺢﯾﺣﺻﻟا\tA) Reduce eddy current loss ﺔﻘﯾطر\tلﺣﻟا\t)\tSolution\t:( دامﺧﺗﺳا\tبﻠﻘﻟا\tﻲﻘﺋﺎﻗرﻟا\t)\tLaminated Core\t(\tﻲﻓ\tتﻻوﺣﻣﻟا\tدفﮭﯾ\t ًﺎﺳﺎﺳأ\tﻰﻟإ\tلﯾﻠﻘﺗ\tﺔﻣوﺎﻘﻣ\tراتﺎﯾﺗﻟا\tﺔﯾﻣدواﻟا\tﻲﻟﺎﺗﻟﺎﺑو\tلﯾﻠﻘﺗ وداتﻘﻔﻣ\tرﺎﯾﺗﻟا\tﻲﻣدواﻟا\t)\tEddy Current Loss\t(\tنﻋ\tقﯾطر\tدةﺎﯾز\tﺔﻣوﺎﻘﻣﻟا\tﺔﯾﺋﺎﺑرﮭﻛﻟا\tب.ﻠﻘﻠﻟ ؤالﺳﻟا\tدسﺎﺳﻟا\tنﻣ)\tدئﺎﺑﻣ\tتﻻوﺣﻣﻟا\tWorking Principle Q64\t("
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "",
+      "difficulty": "Medium",
+      "sourceFile": "‎⁨ماشين⁩.pdf",
+      "sourcePage": null,
+      "status": "Needs Review",
+      "createdAt": "2026-10-12T14:01:18.268Z",
+      "updatedAt": "2026-10-12T14:01:18.269Z"
+    },
+    {
+      "id": "q-9a1b99cd",
+      "subjectId": "subj-machine",
+      "quizId": "quiz-subj-machine-mid",
+      "topicId": null,
+      "question": "The working principle of a transformer depends upon\t:",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "Ohm’s law"
+        },
+        {
+          "id": "b",
+          "text": "Lenz’s law"
+        },
+        {
+          "id": "c",
+          "text": "Fleming’s left-hand rule"
+        },
+        {
+          "id": "d",
+          "text": "Faraday’s law of electromagnetic induction وابﺟﻟا\t:ﺢﯾﺣﺻﻟا\tD) Faraday’s law of electromagnetic induction ﺔﻘﯾطر\tلﺣﻟا\t)\tSolution\t:( دﻣﺗﻌﯾ\tلﻣﻋ\tولﺣﻣﻟا\tﻲﺳﺎﺳﻷا\tﻰﻠﻋ\tونﻧﺎﻗ\tرادايﺎﻓ\tثﺣﻟﻼﻟ\tﻲﺳﯾطﺎﻧﻐﻣروﮭﻛﻟا\t)\tFaraday's Law of Electromagnetic Induction\t(\tثﯾﺣ\tدﻟوﺗﯾ\tدﮭﺟ\tوثﺛﺣﻣ\tﺔﺟﯾﺗﻧ\tرﯾﻐﺗ\tقﻓدﺗﻟا\tﻲﺳﯾطﺎﻧﻐﻣﻟا\tرﺑﻋ\tن.ﻣزﻟا ؤالﺳﻟا\tﻊﺑﺎﺳﻟا\tنﻣ)\tتﺎﻛرﺣﻣ\tرﺎﯾﺗﻟا\tرﻣﺗﺳﻣﻟا\tDC Motors Q11\t("
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "",
+      "difficulty": "Medium",
+      "sourceFile": "‎⁨ماشين⁩.pdf",
+      "sourcePage": null,
+      "status": "Needs Review",
+      "createdAt": "2026-10-12T14:01:18.474Z",
+      "updatedAt": "2026-10-12T14:01:18.474Z"
+    },
+    {
+      "id": "q-fbba5ccb",
+      "subjectId": "subj-machine",
+      "quizId": "quiz-subj-machine-mid",
+      "topicId": null,
+      "question": "The torque in a DC shunt motor is proportional to\t:",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "Armature current (I_a\t("
+        },
+        {
+          "id": "b",
+          "text": "Field current only (I_f\t("
+        },
+        {
+          "id": "c",
+          "text": "Square of armature current (I_a^2\t("
+        },
+        {
+          "id": "d",
+          "text": "Armature resistance (R_a\t( وابﺟﻟا\t:ﺢﯾﺣﺻﻟا\tA) Armature current (I_a\t( ﺔﻘﯾطر\tلﺣﻟا\t)\tSolution\t:( ﻲﻓ\tركﺣﻣ\tوازيﺗﻟا\t)\tDC Shunt Motor\t،(\tونﻛﯾ\tضﯾﻔﻟا\tﻲﺳﯾطﺎﻧﻐﻣﻟا\t\\)\tphi\t(\tﺎًﺗﺑﺎﺛ\t.ﺎًﺑﯾرﻘﺗ\tﺎﻣﺑ\tأن\tزمﻌﻟا\tدﻣﺗﻌﯾ\tﻰﻠﻋ\tﺔﻗﻼﻌﻟا\t\\\ttau = k \\cdot \\phi \\cdot I_a\t،\tنﺈﻓ\tزمﻌﻟا\tبﺳﺎﻧﺗﯾ\t ًﺎﯾطرد\tﻊﻣ\tرﺎﯾﺗ\tﺞﺗﻧﻣﻟا\t)\tArmature Current - I_a\t.( ؤالﺳﻟا\tنﻣﺎﺛﻟا\tلﯾوﺣﺗ)\tنﻣ\tFinal Problems Q1\tﻰﻟإ\t(رةﺋدا"
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "",
+      "difficulty": "Medium",
+      "sourceFile": "‎⁨ماشين⁩.pdf",
+      "sourcePage": null,
+      "status": "Needs Review",
+      "createdAt": "2026-10-12T14:01:18.766Z",
+      "updatedAt": "2026-10-12T14:01:18.766Z"
+    },
+    {
+      "id": "q-7946a1c2",
+      "subjectId": "subj-machine",
+      "quizId": "quiz-subj-machine-mid",
+      "topicId": null,
+      "question": "A separately excited DC motor is rated at 430\\,\\text{V}, 400\\,\\text{A}, with armature resistance R_a = 0.05\\,\\Omega. If the back EMF (E_A) is 410\\,\\text{V}, the armature current (I_a) is\t:",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "400\\,\\text{A\t{ -- 8 of 17 --"
+        },
+        {
+          "id": "b",
+          "text": "200\\,\\text{A\t{"
+        },
+        {
+          "id": "c",
+          "text": "500\\,\\text{A\t{"
+        },
+        {
+          "id": "d",
+          "text": "300\\,\\text{A\t{ وابﺟﻟا\t:ﺢﯾﺣﺻﻟا\tA) 400\\,\\text{A\t{ ﺔﻘﯾطر\tلﺣﻟا\t)\tSolution\t:( ﺔﻟدﺎﻌﻣ\tدﮭﺟﻟا\tركﺣﻣﻟ\tتﺛﺣﺗﻟا\tلﺻﻔﻧﻣﻟا\t)\tSeparately Excited DC Motor\t:( دةﺎﻋإ\tبﯾﺗرﺗ\tﺔﻟدﺎﻌﻣﻟا\tدﺎﺟﯾﻹ\tرﺎﯾﺗ\tﺞﺗﻧﻣﻟا\t)\tI_a\t:( ؤالﺳﻟا\tﻊﺳﺎﺗﻟا\tنﻣ)\tظروف\tدﯾﻟوﺗ\tداتﻟوﻣﻟا\tDC Generators Q46\t("
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "",
+      "difficulty": "Medium",
+      "sourceFile": "‎⁨ماشين⁩.pdf",
+      "sourcePage": null,
+      "status": "Needs Review",
+      "createdAt": "2026-10-12T14:01:18.977Z",
+      "updatedAt": "2026-10-12T14:01:18.977Z"
+    },
+    {
+      "id": "q-34831c32",
+      "subjectId": "subj-machine",
+      "quizId": "quiz-subj-machine-mid",
+      "topicId": null,
+      "question": "For self-excitation of a DC shunt generator, which condition is necessary\t?",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "Field winding must have residual magnetism"
+        },
+        {
+          "id": "b",
+          "text": "Field resistance > critical resistance"
+        },
+        {
+          "id": "c",
+          "text": "Load must be connected before starting"
+        },
+        {
+          "id": "d",
+          "text": "External DC supply is mandatory وابﺟﻟا\t:ﺢﯾﺣﺻﻟا\tA) Field winding must have residual magnetism ﺔﻘﯾطر\tلﺣﻟا\t)\tSolution\t:( ﻲﻛﻟ\tدأﺑﯾ\tدﻟوﻣ\tوازيﺗﻟا\tﻲﺗذاﻟا\t)\tSelf-excited DC Shunt Generator\t(\tﺔﯾﻠﻣﻋ\tءﺎﻧﺑ\tدﮭﺟﻟا\t)\tVoltage Buildup\t،(\tبﺟﯾ\tأن ويﺗﺣﯾ\tبﻠﻗ\tفﻠﻣﻟا\tﻰﻠﻋ\tﺔﯾﺳﯾطﺎﻧﻐﻣ\tﺔﯾﻘﺑﺗﻣ\t)\tResidual Magnetism\t(\tءﺎﺷﻧﻹ\tقﻓدﺗﻟا\t.ﻲﻟوﻷا ؤالﺳﻟا\tرﺷﺎﻌﻟا\tنﻣ)\tصﺋﺎﺻﺧ\tﺔﻋرﺳﻟا\tﻲﻓ\tتﺎﻛرﺣﻣ\tرﺎﯾﺗﻟا\tرﻣﺗﺳﻣﻟا\tQ15\t("
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "",
+      "difficulty": "Medium",
+      "sourceFile": "‎⁨ماشين⁩.pdf",
+      "sourcePage": null,
+      "status": "Needs Review",
+      "createdAt": "2026-10-12T14:01:19.865Z",
+      "updatedAt": "2026-10-12T14:01:19.865Z"
+    },
+    {
+      "id": "q-c5bbdbc6",
+      "subjectId": "subj-machine",
+      "quizId": "quiz-subj-machine-mid",
+      "topicId": null,
+      "question": "In a DC motor, the speed (n) is\t:",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "Proportional to flux (\\phi\t("
+        },
+        {
+          "id": "b",
+          "text": "Proportional to square of flux (\\phi^2\t("
+        },
+        {
+          "id": "c",
+          "text": "Inversely proportional to flux (\\phi\t("
+        },
+        {
+          "id": "d",
+          "text": "Independent of flux وابﺟﻟا\t:ﺢﯾﺣﺻﻟا\tC) Inversely proportional to flux (\\phi\t( ﺔﻘﯾطر\tلﺣﻟا\t)\tSolution\t:( ﺔﻟدﺎﻌﻣ\tﺔﻋرﺳﻟا\tﻲﻓ\tركﺣﻣ\tرﺎﯾﺗﻟا\tرﻣﺗﺳﻣﻟا\t:ﻲھ نﻣ\tﺔﻟدﺎﻌﻣﻟا\tنﯾﺑﺗﯾ\tأن\tﺔﻋرﺳﻟا\tبﺳﺎﻧﺗﺗ\t ًﺎﯾﺳﻛﻋ\tﻊﻣ\tضﯾﻔﻟا\tﻲﺳﯾطﺎﻧﻐﻣﻟا\t)\tInversely proportional to flux - \\phi\t.( -- 9 of 17 --"
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "",
+      "difficulty": "Medium",
+      "sourceFile": "‎⁨ماشين⁩.pdf",
+      "sourcePage": null,
+      "status": "Needs Review",
+      "createdAt": "2026-10-12T14:01:20.075Z",
+      "updatedAt": "2026-10-12T14:01:20.075Z"
+    },
+    {
+      "id": "q-1845f7f4",
+      "subjectId": "subj-machine",
+      "quizId": "quiz-subj-machine-mid",
+      "topicId": null,
+      "question": "For the non-load linear DC machine, if the source voltage is 250\\,\\text{V}, resistance R =",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "خيار 1"
+        },
+        {
+          "id": "b",
+          "text": "خيار 2"
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "",
+      "difficulty": "Medium",
+      "sourceFile": "‎⁨ماشين⁩.pdf",
+      "sourcePage": null,
+      "status": "Needs Review",
+      "createdAt": "2026-10-12T14:01:20.279Z",
+      "updatedAt": "2026-10-12T14:01:20.279Z"
+    },
+    {
+      "id": "q-d3f77ac0",
+      "subjectId": "subj-machine",
+      "quizId": "quiz-subj-machine-mid",
+      "topicId": null,
+      "question": "5\\,\\Omega, magnetic field B = 0.2\\,\\text{T}, and length l = 2.0\\,\\text{m}, what is the starting current (I_{starting\t?({",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "100\\,\\text{A\t{"
+        },
+        {
+          "id": "b",
+          "text": "500\\,\\text{A\t{"
+        },
+        {
+          "id": "c",
+          "text": "250\\,\\text{A\t{"
+        },
+        {
+          "id": "d",
+          "text": "1000\\,\\text{A\t{ وابﺟﻟا\t:ﺢﯾﺣﺻﻟا\tB) 500\\,\\text{A\t{ ﺔﻘﯾطر\tلﺣﻟا\t)\tSolution\t:( دﻧﻋ\tدءﺑﻟا\t)\tAt starting velocity v = 0\t،(\tونﻛﯾ\tدﮭﺟﻟا\tوثﺛﺣﻣﻟا\te_{ind} = 0\t. ونﻧﺎﻗ\tرﺎﯾﺗﻟا\tﻲﺋداﺗﺑﻻا\t)\tStarting Current\t:( ؤالﺳﻟا\tﻲﻧﺎﺛﻟا\tنﻣ)\tMid MCQs\t-\tتﻻوﺣﻣﻟا\tTransformers\t("
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "",
+      "difficulty": "Medium",
+      "sourceFile": "‎⁨ماشين⁩.pdf",
+      "sourcePage": null,
+      "status": "Needs Review",
+      "createdAt": "2026-10-12T14:01:20.565Z",
+      "updatedAt": "2026-10-12T14:01:20.565Z"
+    },
+    {
+      "id": "q-4aa6239d",
+      "subjectId": "subj-machine",
+      "quizId": "quiz-subj-machine-mid",
+      "topicId": null,
+      "question": "A single-phase transformer has 1000 turns on the primary winding and 200 turns on the secondary winding. If the secondary voltage is 100\\,\\text{V}, the primary voltage (V_p) is\t:",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "500\\,\\text{V\t{"
+        },
+        {
+          "id": "b",
+          "text": "2000\\,\\text{V\t{"
+        },
+        {
+          "id": "c",
+          "text": "100\\,\\text{V\t{"
+        },
+        {
+          "id": "d",
+          "text": "50\\,\\text{V\t{ وابﺟﻟا\t:ﺢﯾﺣﺻﻟا\tA) 500\\,\\text{V\t{ ﺔﻘﯾطر\tلﺣﻟا\t)\tSolution\t:( ﺔﺑﺳﻧ\tلﯾوﺣﺗﻟا\tتﻻوﺣﻣﻠﻟ\t)\tTurns Ratio\t:( ضﯾوﻌﺗﻟﺎﺑ\t)\tSubstitution\t:( ؤالﺳﻟا\tثﻟﺎﺛﻟا\tنﻣ)\tMid MCQs\t-\tرﺎﺑﺗﺧا\tرةﺋداﻟا\tرةﯾﺻﻘﻟا\tShort Circuit Test\t("
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "",
+      "difficulty": "Medium",
+      "sourceFile": "‎⁨ماشين⁩.pdf",
+      "sourcePage": null,
+      "status": "Needs Review",
+      "createdAt": "2026-10-12T14:01:21.070Z",
+      "updatedAt": "2026-10-12T14:01:21.070Z"
+    },
+    {
+      "id": "q-90002b2c",
+      "subjectId": "subj-machine",
+      "quizId": "quiz-subj-machine-mid",
+      "topicId": null,
+      "question": "Short circuit test (SC test) on a transformer gives\t:",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "Parallel parameters of equivalent circuit and core losses"
+        },
+        {
+          "id": "b",
+          "text": "Series parameters of equivalent circuit (R_{eq} and X_{eq}) and copper losses"
+        },
+        {
+          "id": "c",
+          "text": "Only magnetic leakage flux"
+        },
+        {
+          "id": "d",
+          "text": "Efficiency directly at no-load -- 10 of 17 -- وابﺟﻟا\t:ﺢﯾﺣﺻﻟا\tB) Series parameters of equivalent circuit (R_{eq} and X_{eq}) and copper losses ﺔﻘﯾطر\tلﺣﻟا\t)\tSolution\t:( رﺎﺑﺗﺧا\tرﺻﻘﻟا\t)\tShort Circuit Test\t(\tدمﺧﺗﺳُﯾ\tدﯾدﺣﺗﻟ\tتﻼﻣﺎﻌﻣﻟا\tﺔﯾﻠﺳﻠﺳﺗﻟا\tرةﺋداﻠﻟ\tﺔﺋﻓﺎﻛﻣﻟا\t)\tSeries parameters\t- ﺔﻣوﺎﻘﻣﻟا\tﺔﻠﻋﺎﻔﻣﻟوا\t(ﺔﺋﻓﺎﻛﻣﻟا\tﺔﻓﺎﺿﻹﺎﺑ\tﻰﻟإ\tوداتﻘﻔﻣ\tسﺎﺣﻧﻟا\t)\tCopper losses\t.( ؤالﺳﻟا\tﻊﺑراﻟا\tنﻣ)\tMid MCQs\t-\tرﺎﺑﺗﺧا\tلﻣﺣﻼﻟا\tOpen Circuit Test\t("
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "",
+      "difficulty": "Medium",
+      "sourceFile": "‎⁨ماشين⁩.pdf",
+      "sourcePage": null,
+      "status": "Needs Review",
+      "createdAt": "2026-10-12T14:01:21.278Z",
+      "updatedAt": "2026-10-12T14:01:21.278Z"
+    },
+    {
+      "id": "q-94bf5f93",
+      "subjectId": "subj-machine",
+      "quizId": "quiz-subj-machine-mid",
+      "topicId": null,
+      "question": "In an Open Circuit test (OC test) of a transformer, all the power supplied is utilized for\t:",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "Copper losses"
+        },
+        {
+          "id": "b",
+          "text": "Core losses (Iron losses\t("
+        },
+        {
+          "id": "c",
+          "text": "Mechanical friction losses"
+        },
+        {
+          "id": "d",
+          "text": "Armature reaction وابﺟﻟا\t:ﺢﯾﺣﺻﻟا\tB) Core losses (Iron losses\t( ﺔﻘﯾطر\tلﺣﻟا\t)\tSolution\t:( ﻲﻓ\tرﺎﺑﺗﺧا\tلﻣﺣﻼﻟا\t)\tOC Test\t،(\tونﻛﯾ\tرﺎﯾﺗﻟا\tرﺎﻣﻟا\tﻲﻓ\tتﺎﻔﻠﻣﻟا\t ًراﯾﻐﺻ\tداً،ﺟ\tذاﻟ\tلﻣﮭﺗ\tوداتﻘﻔﻣ\tسﺎﺣﻧﻟا\tونﻛﺗو\tدرةﻘﻟا\tﺔﺑوﺣﺳﻣﻟا ﺔﺻﺻﺧﻣ\tلﻣﺎﻛﻟﺎﺑ\tـﻟ\tوداتﻘﻔﻣ\tبﻠﻘﻟا\tأو\tدﯾدﺣﻟا\t)\tCore/Iron losses\t.( ؤالﺳﻟا\tسﻣﺎﺧﻟا\tنﻣ)\tMid MCQs\t-\tمﯾﻣﺻﺗ\tبﻠﻘﻟا\tCore Design\t("
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "",
+      "difficulty": "Medium",
+      "sourceFile": "‎⁨ماشين⁩.pdf",
+      "sourcePage": null,
+      "status": "Needs Review",
+      "createdAt": "2026-10-12T14:01:21.568Z",
+      "updatedAt": "2026-10-12T14:01:21.568Z"
+    },
+    {
+      "id": "q-81bbbc03",
+      "subjectId": "subj-machine",
+      "quizId": "quiz-subj-machine-mid",
+      "topicId": null,
+      "question": "Transformer core is laminated in order to reduce\t:",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "Eddy current loss"
+        },
+        {
+          "id": "b",
+          "text": "Hysteresis loss"
+        },
+        {
+          "id": "c",
+          "text": "Winding resistance"
+        },
+        {
+          "id": "d",
+          "text": "Copper loss وابﺟﻟا\t:ﺢﯾﺣﺻﻟا\tA) Eddy current loss ﺔﻘﯾطر\tلﺣﻟا\t)\tSolution\t:( دامﺧﺗﺳا\tﺢﺋراﺷﻟا\tﺔﯾﻘﺋﺎﻗرﻟا\tﻲﻓ\tبﻠﻗ\tولﺣﻣﻟا\t)\tLaminated Core\t(\tدفﮭﯾ\tلﻛﺷﺑ\tﻲﺳﺎﺳأ\tﻰﻟإ\tدةﺎﯾز\tﺔﻣوﺎﻘﻣﻟا\tراتﺎﯾﺗﻠﻟ\tدةﻟوﺗﻣﻟا لﯾﻠﻘﺗو\tوداتﻘﻔﻣ\tرﺎﯾﺗﻟا\tﻲﻣدواﻟا\t)\tEddy current loss\t.( ؤالﺳﻟا\tدسﺎﺳﻟا\tنﻣ)\tMid MCQs\t-\tدأﺑﻣ\tلﻣﻌﻟا\tWorking Principle\t("
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "",
+      "difficulty": "Medium",
+      "sourceFile": "‎⁨ماشين⁩.pdf",
+      "sourcePage": null,
+      "status": "Needs Review",
+      "createdAt": "2026-10-12T14:01:21.773Z",
+      "updatedAt": "2026-10-12T14:01:21.773Z"
+    },
+    {
+      "id": "q-3cc0800e",
+      "subjectId": "subj-machine",
+      "quizId": "quiz-subj-machine-mid",
+      "topicId": null,
+      "question": "The working principle of a transformer depends upon\t:",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "Ohm’s law -- 11 of 17 --"
+        },
+        {
+          "id": "b",
+          "text": "Coulomb's law"
+        },
+        {
+          "id": "c",
+          "text": "Faraday’s law of electromagnetic induction"
+        },
+        {
+          "id": "d",
+          "text": "Biot-Savart law وابﺟﻟا\t:ﺢﯾﺣﺻﻟا\tC) Faraday’s law of electromagnetic induction ﺔﻘﯾطر\tلﺣﻟا\t)\tSolution\t:( دﻣﺗﻌﯾ\tلﻣﻋ\tولﺣﻣﻟا\tﻲﺋﺎﺑرﮭﻛﻟا\t ًﺎﺳﺎﺳأ\tﻰﻠﻋ\tونﻧﺎﻗ\tرادايﺎﻓ\tثﺣﻟﻼﻟ\tﻲﺳﯾطﺎﻧﻐﻣروﮭﻛﻟا\t)\tFaraday's law of electromagnetic induction\t(\tﺔﺟﯾﺗﻧ\tرﯾﻐﺗ\tقﻓدﺗﻟا\tﻲﺳﯾطﺎﻧﻐﻣﻟا\tدل.ﺎﺑﺗﻣﻟا ؤالﺳﻟا\tﻊﺑﺎﺳﻟا\tنﻣ)\tMid MCQs\t-\tصﺋﺎﺻﺧﻟا\tﺔﯾﻟﺎﺛﻣﻟا\tIdeal Transformer\t("
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "",
+      "difficulty": "Medium",
+      "sourceFile": "‎⁨ماشين⁩.pdf",
+      "sourcePage": null,
+      "status": "Needs Review",
+      "createdAt": "2026-10-12T14:01:21.979Z",
+      "updatedAt": "2026-10-12T14:01:21.980Z"
+    },
+    {
+      "id": "q-a0d205a3",
+      "subjectId": "subj-machine",
+      "quizId": "quiz-subj-machine-mid",
+      "topicId": null,
+      "question": "An ideal transformer is one which has\t:",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "No winding resistance and 100% efficiency"
+        },
+        {
+          "id": "b",
+          "text": "High magnetic leakage"
+        },
+        {
+          "id": "c",
+          "text": "Iron losses equal to copper losses"
+        },
+        {
+          "id": "d",
+          "text": "Variable turns ratio with frequency وابﺟﻟا\t:ﺢﯾﺣﺻﻟا\tA) No winding resistance and 100% efficiency ﺔﻘﯾطر\tلﺣﻟا\t)\tSolution\t:( ولﺣﻣﻟا\tﻲﻟﺎﺛﻣﻟا\t)\tIdeal Transformer\t(\tوھ\tراضﺗﻓا\tظريﻧ\tزﯾﻣﺗﯾ\tـﺑ\tدمﻋ\tودﺟو\tﺔﻣوﺎﻘﻣ\tتﺎﻔﻠﻣﻠﻟ\t)\tNo winding resistance\t،(\tدمﻋو\tودﺟو\tبﯾرﺳﺗ\t،ﻲﺳﯾطﺎﻧﻐﻣ\tءةﺎﻔﻛو\tلﺻﺗ\tﻰﻟإ\t100\t.% ؤالﺳﻟا\tنﻣﺎﺛﻟا\tنﻣ)\tMid MCQs\t-\tرﺋدواﻟا\tﺔﯾﺳﯾطﺎﻧﻐﻣﻟا\tMagnetic Circuits\t("
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "",
+      "difficulty": "Medium",
+      "sourceFile": "‎⁨ماشين⁩.pdf",
+      "sourcePage": null,
+      "status": "Needs Review",
+      "createdAt": "2026-10-12T14:01:22.565Z",
+      "updatedAt": "2026-10-12T14:01:22.565Z"
+    },
+    {
+      "id": "q-e3da94bd",
+      "subjectId": "subj-machine",
+      "quizId": "quiz-subj-machine-mid",
+      "topicId": null,
+      "question": "The property of a material which opposes the creation of magnetic flux in it is called\t:",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "Permeability"
+        },
+        {
+          "id": "b",
+          "text": "Reluctance"
+        },
+        {
+          "id": "c",
+          "text": "Inductance"
+        },
+        {
+          "id": "d",
+          "text": "Conductance وابﺟﻟا\t:ﺢﯾﺣﺻﻟا\tB) Reluctance ﺔﻘﯾطر\tلﺣﻟا\t)\tSolution\t:( ﺔﯾﺻﺎﺧﻟا\tﻲﺗﻟا\tرضﺎﻌﺗ\tنﯾوﻛﺗ\tقﻓدﺗﻟا\tﻲﺳﯾطﺎﻧﻐﻣﻟا\tﻲھ\tﺔﻌﻧﺎﻣﻣﻟا\tﺔﯾﺳﯾطﺎﻧﻐﻣﻟا\t)\tReluctance\t،(\tﻲھو\tلﺑﺎﻘﻣﻟا\tﻲﺳﯾطﺎﻧﻐﻣﻟا\tﺔﻣوﺎﻘﻣﻠﻟ .ﺔﯾﺋﺎﺑرﮭﻛﻟا ؤالﺳﻟا\tﻊﺳﺎﺗﻟا\tنﻣ)\tMid Problems\t-\t(لﺋﺎﺳﻣﻟا -- 12 of 17 --"
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "",
+      "difficulty": "Medium",
+      "sourceFile": "‎⁨ماشين⁩.pdf",
+      "sourcePage": null,
+      "status": "Needs Review",
+      "createdAt": "2026-10-12T14:01:22.772Z",
+      "updatedAt": "2026-10-12T14:01:22.772Z"
+    },
+    {
+      "id": "q-a791f0a6",
+      "subjectId": "subj-machine",
+      "quizId": "quiz-subj-machine-mid",
+      "topicId": null,
+      "question": "A magnetic circuit has a core with cross-sectional area A = 0.002\\,\\text{m}^2 and total flux \\Phi = 0.001\\,\\text{Wb}. What is the magnetic flux density (B) in the core\t?",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "0.5\\,\\text{T\t{"
+        },
+        {
+          "id": "b",
+          "text": "2.0\\,\\text{T\t{"
+        },
+        {
+          "id": "c",
+          "text": "0.002\\,\\text{T\t{"
+        },
+        {
+          "id": "d",
+          "text": "1.0\\,\\text{T\t{ وابﺟﻟا\t:ﺢﯾﺣﺻﻟا\tA) 0.5\\,\\text{T\t{ ﺔﻘﯾطر\tلﺣﻟا\t)\tSolution\t:( ونﻧﺎﻗ\tﺔﻓﺎﺛﻛ\tقﻓدﺗﻟا\tﻲﺳﯾطﺎﻧﻐﻣﻟا\t)\tMagnetic Flux Density\t:( ضﯾوﻌﺗﻟﺎﺑ\t)\tSubstitution\t:( ؤالﺳﻟا\tرﺷﺎﻌﻟا\tنﻣ)\tMid MCQs\t-\tلﯾﺻوﺗ\tتﻻوﺣﻣﻟا\tDelta-Delta\t("
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "",
+      "difficulty": "Medium",
+      "sourceFile": "‎⁨ماشين⁩.pdf",
+      "sourcePage": null,
+      "status": "Needs Review",
+      "createdAt": "2026-10-12T14:01:22.971Z",
+      "updatedAt": "2026-10-12T14:01:22.971Z"
+    },
+    {
+      "id": "q-b36db8a5",
+      "subjectId": "subj-machine",
+      "quizId": "quiz-subj-machine-mid",
+      "topicId": null,
+      "question": "In a delta-delta (\\Delta-\\Delta) connected transformer bank, what is the relation between line current (I_L) and phase current (I_{ph}) on the winding side\t?",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "I_L = I_{ph\t{"
+        },
+        {
+          "id": "b",
+          "text": "I_L = \\sqrt{3} I_{ph\t{"
+        },
+        {
+          "id": "c",
+          "text": "I_{ph} = \\sqrt{3} I_L"
+        },
+        {
+          "id": "d",
+          "text": "I_L = 3 I_{ph\t{ وابﺟﻟا\t:ﺢﯾﺣﺻﻟا\tB) I_L = \\sqrt{3} I_{ph\t{ ﺔﻘﯾطر\tلﺣﻟا\t)\tSolution\t:( ﻲﻓ\tﺔﻠﯾﺻوﺗ\tﺎﺗﻟدﻟا\t)\tDelta connection\t،(\tونﻛﯾ\tرﺎﯾﺗ\tطﺧﻟا\tويﺎﺳﯾ\tذرﺟ\t3\t ًﺎﺑروﺿﻣ\tﻲﻓ\tرﺎﯾﺗ\tﮫﺟوﻟا\t)\tI_L = \\sqrt{3} I_{ph\t،({\tﺎﻣﻧﯾﺑ\tوىﺎﺳﺗﯾ\tدﮭﺟﻟا\tﻲطﺧﻟا\tﻊﻣ\tدﮭﺟ\t.ﮫﺟوﻟا"
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "",
+      "difficulty": "Medium",
+      "sourceFile": "‎⁨ماشين⁩.pdf",
+      "sourcePage": null,
+      "status": "Needs Review",
+      "createdAt": "2026-10-12T14:01:23.177Z",
+      "updatedAt": "2026-10-12T14:01:23.177Z"
+    },
+    {
+      "id": "q-6e0827e7",
+      "subjectId": "subj-machine",
+      "quizId": "quiz-subj-machine-mid",
+      "topicId": null,
+      "question": "A single-phase transformer with a ratio of 10:1 (Primary to Secondary turns ratio \\frac{N_p}{N_s} = 10), if the primary voltage is 230\\,\\text{V}, the secondary voltage (V_s) is\t:",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "2300\\,\\text{V\t{"
+        },
+        {
+          "id": "b",
+          "text": "23\\,\\text{V\t{"
+        },
+        {
+          "id": "c",
+          "text": "115\\,\\text{V\t{"
+        },
+        {
+          "id": "d",
+          "text": "460\\,\\text{V\t{ وابﺟﻟا\t:ﺢﯾﺣﺻﻟا\tB) 23\\,\\text{V\t{ -- 13 of 17 -- ﺔﻘﯾطر\tلﺣﻟا\t)\tSolution\t:( ونﻧﺎﻗ\tبﺳﻧ\tلﯾوﺣﺗ\tودﮭﺟﻟا\tددﻋو\tتﺎﻔﻠﻟا\t)\tTurns Ratio & Voltage Ratio\t:( ضﯾوﻌﺗﻟﺎﺑ\t)\tSubstitution\t:( ؤالﺳﻟا\tﻲﻧﺎﺛﻟا\tرﺷﻋ\tنﻣ)\tMid MCQs\t-\tﺎﻣ\tذيﻟا\tرﯾﻐﺗﯾ\tءﺎﻧﺛأ\tلﯾوﺣﺗﻟا\tﻲﻓ\t(تﻻوﺣﻣﻟا"
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "",
+      "difficulty": "Medium",
+      "sourceFile": "‎⁨ماشين⁩.pdf",
+      "sourcePage": null,
+      "status": "Needs Review",
+      "createdAt": "2026-10-12T14:01:23.765Z",
+      "updatedAt": "2026-10-12T14:01:23.765Z"
+    },
+    {
+      "id": "q-6277b0fe",
+      "subjectId": "subj-machine",
+      "quizId": "quiz-subj-machine-mid",
+      "topicId": null,
+      "question": "Which parameter changes during transformation action in a transformer\t?",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "Frequency\t(رددﺗﻟا)"
+        },
+        {
+          "id": "b",
+          "text": "Power\t(درةﻘﻟا)"
+        },
+        {
+          "id": "c",
+          "text": "Voltage and Current levels\tتﺎﯾوﺗﺳﻣ)\tدﮭﺟﻟا\t(رﺎﯾﺗﻟوا"
+        },
+        {
+          "id": "d",
+          "text": "Total magnetic flux\tقﻓدﺗﻟا)\tﻲﺳﯾطﺎﻧﻐﻣﻟا\t(ﻲﻠﻛﻟا وابﺟﻟا\t:ﺢﯾﺣﺻﻟا\tC) Voltage and Current levels ﺔﻘﯾطر\tلﺣﻟا\t)\tSolution\t:( ﺔﻔﯾوظ\tولﺣﻣﻟا\tﺔﯾﺳﺎﺳﻷا\tﻲھ\tرﯾﯾﻐﺗ\tتﺎﯾوﺗﺳﻣ\tدﮭﺟﻟا\tرﺎﯾﺗﻟوا\tﻊﻓر)\tأو\t(ضﻔﺧ\tﺎﻣﻧﯾﺑ\tظلﯾ\tرددﺗﻟا\t)\tFrequency\t(\tدرةﻘﻟوا\t)\tPower\t( نﯾﺗﺑﺎﺛ\t.ًﺎﺑﯾرﻘﺗ ؤالﺳﻟا\tثﻟﺎﺛﻟا\tرﺷﻋ\tنﻣ)\tMid MCQs\t-\tتﻼﺻوﻣﻟا\tﺔﯾﺑطﻘﻟوا\tوةﻗو\t(زﺗﻧورﻟ"
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "",
+      "difficulty": "Medium",
+      "sourceFile": "‎⁨ماشين⁩.pdf",
+      "sourcePage": null,
+      "status": "Needs Review",
+      "createdAt": "2026-10-12T14:01:23.973Z",
+      "updatedAt": "2026-10-12T14:01:23.973Z"
+    },
+    {
+      "id": "q-edf98e99",
+      "subjectId": "subj-machine",
+      "quizId": "quiz-subj-machine-mid",
+      "topicId": null,
+      "question": "If a conductor is moving parallel to a uniform magnetic field, the induced voltage (e_{ind}) in the conductor will be\t:",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "Maximum"
+        },
+        {
+          "id": "b",
+          "text": "Zero"
+        },
+        {
+          "id": "c",
+          "text": "Equal to B \\cdot l \\cdot v"
+        },
+        {
+          "id": "d",
+          "text": "Negative maximum وابﺟﻟا\t:ﺢﯾﺣﺻﻟا\tB) Zero ﺔﻘﯾطر\tلﺣﻟا\t)\tSolution\t:( ونﻧﺎﻗ\tدﮭﺟﻟا\tوثﺛﺣﻣﻟا\tﻲﻓ\tلﺻوﻣ\tركﺣﺗﯾ\tﻲﻓ\tلﺎﺟﻣ\tﻲﺳﯾطﺎﻧﻐﻣ\tو:ھ ﺎﻣدﻧﻋ\tركﺣﺗﯾ\tلﺻوﻣﻟا\tلﻛﺷﺑ\tوازيﻣ\t)\tparallel\t(\tل،ﺎﺟﻣﻠﻟ\tونﻛﺗ\tﺔﯾزاوﻟا\t\\\ttheta = 0\t،\tﻲﻟﺎﺗﻟﺎﺑو\t\\\tsin(0) = 0\tﺢﺑﺻﯾو\tدﮭﺟﻟا وثﺛﺣﻣﻟا\t ًراﻔﺻ\t)\tZero\t.( ؤالﺳﻟا\tﻊﺑراﻟا\tرﺷﻋ\tنﻣ)\tMid MCQs\t-\tهﺎﺟﺗا\tوةﻘﻟا\tدةﻋﺎﻗو\tدﯾﻟا\t(رىﺳﯾﻟا"
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "",
+      "difficulty": "Medium",
+      "sourceFile": "‎⁨ماشين⁩.pdf",
+      "sourcePage": null,
+      "status": "Needs Review",
+      "createdAt": "2026-10-12T14:01:24.267Z",
+      "updatedAt": "2026-10-12T14:01:24.267Z"
+    },
+    {
+      "id": "q-c56423b1",
+      "subjectId": "subj-machine",
+      "quizId": "quiz-subj-machine-mid",
+      "topicId": null,
+      "question": "The relation between the direction of the force, magnetic field, and current in a current-carrying conductor is given by\t: -- 14 of 17 --",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "Faraday’s Law"
+        },
+        {
+          "id": "b",
+          "text": "Lenz’s Law"
+        },
+        {
+          "id": "c",
+          "text": "Fleming’s Left-Hand Rule"
+        },
+        {
+          "id": "d",
+          "text": "Ohm’s Law وابﺟﻟا\t:ﺢﯾﺣﺻﻟا\tC) Fleming’s Left-Hand Rule ﺔﻘﯾطر\tلﺣﻟا\t)\tSolution\t:( دﯾدﺣﺗﻟ\tهﺎﺟﺗا\tوةﻘﻟا\tرةﺛؤﻣﻟا\tﻰﻠﻋ\tلﺻوﻣ\tلﻣﺣﯾ\t ًراﺎﯾﺗ\tلﺧدا\tلﺎﺟﻣ\tﻲﺳﯾطﺎﻧﻐﻣ\tﻲﻓ)\t،(تﺎﻛرﺣﻣﻟا\tدمﺧﺗﺳﻧ\tدةﻋﺎﻗ\tﺞﻧﻣﯾﻠﻓ\tدﯾﻠﻟ\tرىﺳﯾﻟا )\tFleming's Left-Hand Rule\t.( ؤالﺳﻟا\tسﻣﺎﺧﻟا\tرﺷﻋ\tنﻣ)\tMid MCQs\t-\tبﺎطﻗأ\tتﻻوﺣﻣﻟا\tتﺎﻔﻠﻣﻟوا\tﺔﯾﺋداﺗﺑﻻا\t(ﺔﯾوﻧﺎﺛﻟوا"
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "",
+      "difficulty": "Medium",
+      "sourceFile": "‎⁨ماشين⁩.pdf",
+      "sourcePage": null,
+      "status": "Needs Review",
+      "createdAt": "2026-10-12T14:01:24.475Z",
+      "updatedAt": "2026-10-12T14:01:24.475Z"
+    },
+    {
+      "id": "q-b68dc670",
+      "subjectId": "subj-machine",
+      "quizId": "quiz-subj-machine-mid",
+      "topicId": null,
+      "question": "Primary winding of a transformer is defined as the winding that\t:",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "Is always connected to the load"
+        },
+        {
+          "id": "b",
+          "text": "Is always a high voltage side"
+        },
+        {
+          "id": "c",
+          "text": "Is connected to the electrical power source (AC supply\t("
+        },
+        {
+          "id": "d",
+          "text": "Has always fewer turns than secondary وابﺟﻟا\t:ﺢﯾﺣﺻﻟا\tC) Is connected to the electrical power source (AC supply\t( ﺔﻘﯾطر\tلﺣﻟا\t)\tSolution\t:( فﻠﻣﻟا\tﻲﺋداﺗﺑﻻا\t)\tPrimary Winding\t(\tﻲﻓ\tولﺣﻣﻟا\tوھ\t ًﺎﻣﺋدا\tفﻠﻣﻟا\tذيﻟا\tمﺗﯾ\tﮫﻠﯾﺻوﺗ\tـﺑ\tدرﺻﻣ\tﺔﻗﺎطﻟا\tﺔﯾﺋﺎﺑرﮭﻛﻟا\t)\tAC Supply source\t،(\tضﻐﺑ\tظرﻧﻟا\tﺎﻣﻋ\tإذا\tنﺎﻛ\tدهﮭﺟ\tﻰﻠﻋأ\tأو\tلﻗأ\tنﻣ\tوي.ﻧﺎﺛﻟا ؤالﺳﻟا\tدسﺎﺳﻟا\tرﺷﻋ\tنﻣ)\tMid Problems\t-\tتﺎﺑﺎﺳﺣ\tﺔﻟﻵا\tﺔﯾطﺧﻟا\tرﺎﯾﺗﻠﻟ\t(رﻣﺗﺳﻣﻟا"
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "",
+      "difficulty": "Medium",
+      "sourceFile": "‎⁨ماشين⁩.pdf",
+      "sourcePage": null,
+      "status": "Needs Review",
+      "createdAt": "2026-10-12T14:01:24.972Z",
+      "updatedAt": "2026-10-12T14:01:24.972Z"
+    },
+    {
+      "id": "q-1586352a",
+      "subjectId": "subj-machine",
+      "quizId": "quiz-subj-machine-mid",
+      "topicId": null,
+      "question": "In a non-load linear DC machine, if the source voltage V_B = 100\\,\\text{V}, resistance R = 0.2\\,\\Omega, magnetic field B = 0.5\\,\\text{T}, and length l = 2\\,\\text{m}, what is the steady-state no-load velocity (v\t?(",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "100\\,\\text{m/s\t{"
+        },
+        {
+          "id": "b",
+          "text": "50\\,\\text{m/s\t{"
+        },
+        {
+          "id": "c",
+          "text": "200\\,\\text{m/s\t{"
+        },
+        {
+          "id": "d",
+          "text": "20\\,\\text{m/s\t{ وابﺟﻟا\t:ﺢﯾﺣﺻﻟا\tA) 100\\,\\text{m/s\t{ ﺔﻘﯾطر\tلﺣﻟا\t)\tSolution\t:( -- 15 of 17 -- ﻲﻓ\tﺔﻟﺎﺣ\tلﻣﺣﻼﻟا\t)\tNo-load\t،(\tونﻛﯾ\tرﺎﯾﺗﻟا\ti = 0\t،\tﻲﻟﺎﺗﻟﺎﺑو\tونﻛﯾ\tدﮭﺟﻟا\tوثﺛﺣﻣﻟا\t ًﺎﯾوﺎﺳﻣ\tدﮭﺟﻟ\tدر:ﺻﻣﻟا ونﻧﺎﻗ\tدﮭﺟﻟا\tوثﺛﺣﻣﻟا\tﺔﻟﻶﻟ\t:ﺔﯾطﺧﻟا ضﯾوﻌﺗﻟﺎﺑ\tدﺎﺟﯾﻹ\tﺔﻋرﺳﻟا\t)\tv\t:( ؤالﺳﻟا\tﻊﺑﺎﺳﻟا\tرﺷﻋ\tنﻣ)\tMid MCQs\t-\tوداتﻘﻔﻣ\tبﻠﻘﻟا\tديﯾدﺣﻟا\tCore Losses\t("
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "",
+      "difficulty": "Medium",
+      "sourceFile": "‎⁨ماشين⁩.pdf",
+      "sourcePage": null,
+      "status": "Needs Review",
+      "createdAt": "2026-10-12T14:01:25.267Z",
+      "updatedAt": "2026-10-12T14:01:25.267Z"
+    },
+    {
+      "id": "q-48e29913",
+      "subjectId": "subj-machine",
+      "quizId": "quiz-subj-machine-mid",
+      "topicId": null,
+      "question": "Core losses in a transformer consist of\t:",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "Hysteresis losses only"
+        },
+        {
+          "id": "b",
+          "text": "Eddy current losses only"
+        },
+        {
+          "id": "c",
+          "text": "Both Hysteresis and Eddy current losses"
+        },
+        {
+          "id": "d",
+          "text": "Copper losses and stray losses وابﺟﻟا\t:ﺢﯾﺣﺻﻟا\tC) Both Hysteresis and Eddy current losses ﺔﻘﯾطر\tلﺣﻟا\t)\tSolution\t:( وداتﻘﻔﻣ\tبﻠﻘﻟا\tأو\tدﯾدﺣﻟا\t)\tCore Losses / Iron Losses\t(\tونﻛﺗﺗ\t ًﺎﻣﺋدا\tنﻣ\tنﯾﻋوﻧ\tن:ﯾﯾﺳﺎﺳأ\tوداتﻘﻔﻣ\tسﯾطﺎﺧﺗﻟا\tﻲﺳﯾطﺎﻧﻐﻣﻟا )\tHysteresis losses\t(\tوداتﻘﻔﻣو\tراتﺎﯾﺗﻟا\tﺔﯾﻣدواﻟا\t)\tEddy current losses\t.( ؤالﺳﻟا\tنﻣﺎﺛﻟا\tرﺷﻋ\tنﻣ)\tMid MCQs\t-\tﺔﯾدﺎﻣﺗﻋﻻا\tﻲﻓ\tرﺋدواﻟا\t(ﺔﯾﺳﯾطﺎﻧﻐﻣﻟا"
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "",
+      "difficulty": "Medium",
+      "sourceFile": "‎⁨ماشين⁩.pdf",
+      "sourcePage": null,
+      "status": "Needs Review",
+      "createdAt": "2026-10-12T14:01:25.478Z",
+      "updatedAt": "2026-10-12T14:01:25.478Z"
+    },
+    {
+      "id": "q-3a4af4c8",
+      "subjectId": "subj-machine",
+      "quizId": "quiz-subj-machine-mid",
+      "topicId": null,
+      "question": "The magnetic flux (\\Phi) in a magnetic circuit is directly proportional to\t:",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "Reluctance"
+        },
+        {
+          "id": "b",
+          "text": "Magnetomotive Force (MMF\t("
+        },
+        {
+          "id": "c",
+          "text": "Core length"
+        },
+        {
+          "id": "d",
+          "text": "Cross-sectional area inversion وابﺟﻟا\t:ﺢﯾﺣﺻﻟا\tB) Magnetomotive Force (MMF\t( ﺔﻘﯾطر\tلﺣﻟا\t)\tSolution\t:( بﺳﺣ\tونﻧﺎﻗ\tرﺋدواﻟا\tﺔﯾﺳﯾطﺎﻧﻐﻣﻟا\t\\)\tPhi = \\frac{\\text{MMF}}{\\text{Reluctance\t،({{\tبﺳﺎﻧﺗﯾ\tقﻓدﺗﻟا\tﻲﺳﯾطﺎﻧﻐﻣﻟا\t ًﺎﯾطرد ﻊﻣ\tوةﻘﻟا\tﺔﻌﻓداﻟا\tﺔﯾﺳﯾطﺎﻧﻐﻣﻟا\t)\tMMF\t(\t ًﺎﯾﺳﻛﻋو\tﻊﻣ\tﺔﻌﻧﺎﻣﻣﻟا\t)\tReluctance\t.( ؤالﺳﻟا\tﻊﺳﺎﺗﻟا\tرﺷﻋ\tنﻣ)\tMid MCQs\t-\tﺔﻠﯾﺻوﺗ\tتﻻوﺣﻣﻟا\tDelta-Star\t("
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "",
+      "difficulty": "Medium",
+      "sourceFile": "‎⁨ماشين⁩.pdf",
+      "sourcePage": null,
+      "status": "Needs Review",
+      "createdAt": "2026-10-12T14:01:25.769Z",
+      "updatedAt": "2026-10-12T14:01:25.769Z"
+    },
+    {
+      "id": "q-d08eb29a",
+      "subjectId": "subj-machine",
+      "quizId": "quiz-subj-machine-mid",
+      "topicId": null,
+      "question": "In a step-up transformer connected in Delta-Star (\\Delta-Y), what is the voltage transformation relation for line voltages if the turns ratio per phase is a (where a = N_p / N_s\t?(",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "V_{L,primary} = a \\cdot V_{L,secondary\t{ -- 16 of 17 --"
+        },
+        {
+          "id": "b",
+          "text": "V_{L,secondary} = \\sqrt{3} \\cdot a \\cdot V_{L,primary\t{\tأو)\tبﺳﺣﺑ\tﺔﺑﺳﻧﻟا\tﺔﯾﺳﻛﻌﻟا\tراتﺎﺑﺗﻋﻻ\tﻊﻓرﻟا (ضﯾﻔﺧﺗﻟوا"
+        },
+        {
+          "id": "c",
+          "text": "Line voltages are equal"
+        },
+        {
+          "id": "d",
+          "text": "V_{L,secondary} = \\frac{a}{\\sqrt{3}} V_{L,primary\t{ وابﺟﻟا\t:ﺢﯾﺣﺻﻟا\tD) V_{L,secondary} = \\frac{a}{\\sqrt{3}} V_{L,primary\t{\tأو)\tرﯾﺑﻌﺗﻟا\tمﺎﻌﻟا\tﺔﺑﺳﻧﻟ\tطوطﺧ\tدﮭﺟﻟا ﻲﻓ\tﺔﻠﯾﺻوﺗ\t.(رﺎﺗﺳ-ﺎﺗﻟدﻟا ؤالﺳﻟا\tنﯾرﺷﻌﻟا\tنﻣ)\tMid Problems\t-\tتﺎﺑﺎﺳﺣ\tﺔﻣوﺎﻘﻣﻟا\tﺔﺋﻓﺎﻛﻣﻟا\t(تﻻوﺣﻣﻠﻟ"
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "",
+      "difficulty": "Medium",
+      "sourceFile": "‎⁨ماشين⁩.pdf",
+      "sourcePage": null,
+      "status": "Needs Review",
+      "createdAt": "2026-10-12T14:01:26.265Z",
+      "updatedAt": "2026-10-12T14:01:26.265Z"
+    },
+    {
+      "id": "q-4a93ad2a",
+      "subjectId": "subj-machine",
+      "quizId": "quiz-subj-machine-mid",
+      "topicId": null,
+      "question": "A single-phase transformer has R_1 = 0.2\\,\\Omega and secondary resistance R_2 =",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "خيار 1"
+        },
+        {
+          "id": "b",
+          "text": "خيار 2"
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "",
+      "difficulty": "Medium",
+      "sourceFile": "‎⁨ماشين⁩.pdf",
+      "sourcePage": null,
+      "status": "Needs Review",
+      "createdAt": "2026-10-12T14:01:26.475Z",
+      "updatedAt": "2026-10-12T14:01:26.475Z"
+    },
+    {
+      "id": "q-8e0862b3",
+      "subjectId": "subj-machine",
+      "quizId": "quiz-subj-machine-mid",
+      "topicId": null,
+      "question": "002\\,\\Omega with a turns ratio a = 10. The total equivalent resistance referred to the secondary side (R_{eq2}) is\t:",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "0.022\\,\\Omega"
+        },
+        {
+          "id": "b",
+          "text": "0.202\\,\\Omega"
+        },
+        {
+          "id": "c",
+          "text": "2.0\\,\\Omega"
+        },
+        {
+          "id": "d",
+          "text": "0.004\\,\\Omega وابﺟﻟا\t:ﺢﯾﺣﺻﻟا\tA) 0.022\\,\\Omega ﺔﻘﯾطر\tلﺣﻟا\t)\tSolution\t:( ونﻧﺎﻗ\tﺔﻣوﺎﻘﻣﻟا\tﺔﺋﻓﺎﻛﻣﻟا\tﺔﺑوﺳﻧﻣ\tويﻧﺎﺛﻠﻟ\t)\tR_{eq2\t:({ ضﯾوﻌﺗﻟﺎﺑ\t)\tSubstitution\t:( ﺔظﺣﻼﻣ)\tﺔﻌﯾرﺳ\tﺢﯾﺣﺻﺗﻠﻟ\t:ﻲﺑﺎﺳﺣﻟا\t0.002\t+\t0.002\t=\t0.004\t\\,\\\tOmega\t،\tإذن\tرﺎﯾﺧﻟا\tﺢﯾﺣﺻﻟا\tوھ\tD)"
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "",
+      "difficulty": "Medium",
+      "sourceFile": "‎⁨ماشين⁩.pdf",
+      "sourcePage": null,
+      "status": "Needs Review",
+      "createdAt": "2026-10-12T14:01:26.765Z",
+      "updatedAt": "2026-10-12T14:01:26.765Z"
+    },
+    {
+      "id": "q-74e88d8a",
+      "subjectId": "subj-machine",
+      "quizId": "quiz-subj-machine-mid",
+      "topicId": null,
+      "question": "004\\,\\Omega\t ًءﺎﻧﺑ\tﻰﻠﻋ\tبﺎﺳﺣﻟا\t(قﯾﻗدﻟا -- 17 of 17 --",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "خيار 1"
+        },
+        {
+          "id": "b",
+          "text": "خيار 2"
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "",
+      "difficulty": "Medium",
+      "sourceFile": "‎⁨ماشين⁩.pdf",
+      "sourcePage": null,
+      "status": "Needs Review",
+      "createdAt": "2026-10-12T14:01:26.972Z",
+      "updatedAt": "2026-10-12T14:01:26.972Z"
     }
   ],
   "admin": {
@@ -124358,9 +125482,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3720,
+    "totalQuestions": 3754,
     "verifiedQuestions": 3720,
-    "reviewQuestions": 0,
-    "lastUpdated": "2026-10-12T05:28:40.135Z"
+    "reviewQuestions": 34,
+    "lastUpdated": "2026-10-12T14:01:27.774Z"
   }
 }
