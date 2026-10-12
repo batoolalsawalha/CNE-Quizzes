@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-12T04:52:15.935Z",
+  "lastUpdated": "2026-10-12T04:52:40.842Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -43491,204 +43491,6 @@
       "status": "Verified",
       "createdAt": "2026-10-03T17:22:00.012Z",
       "updatedAt": "2026-10-03T17:22:00.012Z"
-    },
-    {
-      "id": "ML-FIN-003",
-      "subjectId": "subj-machine",
-      "quizId": "quiz-subj-machine-final",
-      "question": "The Receiver Operating Characteristic (ROC) curve plots which metrics against each other at various thresholds?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Precision vs Recall"
-        },
-        {
-          "id": "b",
-          "text": "Accuracy vs Loss"
-        },
-        {
-          "id": "c",
-          "text": "True Positive Rate (Recall) vs False Positive Rate (FPR = 1 - Specificity)"
-        },
-        {
-          "id": "d",
-          "text": "Bias vs Variance"
-        }
-      ],
-      "correctAnswer": "c",
-      "explanation": "Evaluates trade-off between TPR and FPR across all decision thresholds.",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Final Machines.pdf",
-      "sourcePage": 3,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:22:00.013Z",
-      "updatedAt": "2026-10-03T17:22:00.013Z"
-    },
-    {
-      "id": "ML-FIN-007",
-      "subjectId": "subj-machine",
-      "quizId": "quiz-subj-machine-final",
-      "question": "The Kernel Trick in SVM allows the algorithm to:",
-      "options": [
-        {
-          "id": "a",
-          "text": "Speed up compilation"
-        },
-        {
-          "id": "b",
-          "text": "Normalize labels"
-        },
-        {
-          "id": "c",
-          "text": "Classify non-linearly separable data by mapping features implicitly into a higher-dimensional space without computing coordinates"
-        },
-        {
-          "id": "d",
-          "text": "Avoid using support vectors"
-        }
-      ],
-      "correctAnswer": "c",
-      "explanation": "Computes inner products in high-dimensional feature space via kernel function K(x, z).",
-      "difficulty": "Hard",
-      "imageUrl": null,
-      "sourceFile": "Final Machines.pdf",
-      "sourcePage": 7,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:22:00.013Z",
-      "updatedAt": "2026-10-03T17:22:00.013Z"
-    },
-    {
-      "id": "ML-FIN-008",
-      "subjectId": "subj-machine",
-      "quizId": "quiz-subj-machine-final",
-      "question": "Which of the following is a widely used SVM kernel function for infinite-dimensional feature mapping?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Sigmoid kernel"
-        },
-        {
-          "id": "b",
-          "text": "Linear kernel"
-        },
-        {
-          "id": "c",
-          "text": "Polynomial kernel"
-        },
-        {
-          "id": "d",
-          "text": "RBF (Radial Basis Function / Gaussian kernel): K(x, z) = exp(-γ ||x - z||²)"
-        }
-      ],
-      "correctAnswer": "d",
-      "explanation": "Gaussian RBF kernel handles complex nonlinear boundaries.",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Final Machines.pdf",
-      "sourcePage": 8,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:22:00.013Z",
-      "updatedAt": "2026-10-03T17:22:00.013Z"
-    },
-    {
-      "id": "ML-FIN-009",
-      "subjectId": "subj-machine",
-      "quizId": "quiz-subj-machine-final",
-      "question": "K-Nearest Neighbors (KNN) is an instance-based (lazy learning) algorithm because it:",
-      "options": [
-        {
-          "id": "a",
-          "text": "Stores the entire training dataset and defers computation until a query point needs classification"
-        },
-        {
-          "id": "b",
-          "text": "Learns explicit parameters θ during training"
-        },
-        {
-          "id": "c",
-          "text": "Trains a deep neural network"
-        },
-        {
-          "id": "d",
-          "text": "Uses decision trees"
-        }
-      ],
-      "correctAnswer": "a",
-      "explanation": "No explicit training phase; computes distances to all training points at prediction time.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Final Machines.pdf",
-      "sourcePage": 9,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:22:00.013Z",
-      "updatedAt": "2026-10-03T17:22:00.013Z"
-    },
-    {
-      "id": "ML-FIN-010",
-      "subjectId": "subj-machine",
-      "quizId": "quiz-subj-machine-final",
-      "question": "In KNN classification, an odd value of k (e.g. k = 3 or 5) is typically chosen for binary problems to:",
-      "options": [
-        {
-          "id": "a",
-          "text": "Speed up calculation"
-        },
-        {
-          "id": "b",
-          "text": "Prevent ties during majority voting"
-        },
-        {
-          "id": "c",
-          "text": "Reduce memory by half"
-        },
-        {
-          "id": "d",
-          "text": "Ensure linear decision boundaries"
-        }
-      ],
-      "correctAnswer": "b",
-      "explanation": "Odd k eliminates 50-50 tie situations in 2-class voting.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Final Machines.pdf",
-      "sourcePage": 10,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:22:00.013Z",
-      "updatedAt": "2026-10-03T17:22:00.013Z"
-    },
-    {
-      "id": "ML-FIN-011",
-      "subjectId": "subj-machine",
-      "quizId": "quiz-subj-machine-final",
-      "question": "What happens to the decision boundary in KNN when k = 1?",
-      "options": [
-        {
-          "id": "a",
-          "text": "It becomes a flat straight line"
-        },
-        {
-          "id": "b",
-          "text": "It achieves 0% training accuracy"
-        },
-        {
-          "id": "c",
-          "text": "It becomes highly complex and sensitive to noise/outliers (high variance, overfitting)"
-        },
-        {
-          "id": "d",
-          "text": "It underfits the data"
-        }
-      ],
-      "correctAnswer": "c",
-      "explanation": "k = 1 fits training data with 100% accuracy but overfits heavily.",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Final Machines.pdf",
-      "sourcePage": 1,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:22:00.013Z",
-      "updatedAt": "2026-10-03T17:22:00.013Z"
     },
     {
       "id": "ML-FIN-012",
@@ -126137,9 +125939,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3774,
-    "verifiedQuestions": 3774,
+    "totalQuestions": 3768,
+    "verifiedQuestions": 3768,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-12T04:52:15.935Z"
+    "lastUpdated": "2026-10-12T04:52:40.842Z"
   }
 }
