@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-12T05:10:06.645Z",
+  "lastUpdated": "2026-10-12T05:28:40.135Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -124310,6 +124310,40 @@
       "status": "Verified",
       "createdAt": "2026-10-12T05:10:05.739Z",
       "updatedAt": "2026-10-12T05:10:05.739Z"
+    },
+    {
+      "id": "q-a15f21c1",
+      "subjectId": "subj-machine",
+      "quizId": null,
+      "topicId": null,
+      "question": "If a DC motor has a full-load speed of 750 RPM and speed-regulation of 10%, the no-load speed of this motor is:",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "825"
+        },
+        {
+          "id": "b",
+          "text": "77"
+        },
+        {
+          "id": "c",
+          "text": "800"
+        },
+        {
+          "id": "d",
+          "text": "888"
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "قانون تنظيم السرعة (Speed Regulation - SR):\n N_{nl} = 750 + 75 = 825 دورة في الدقيقة (RPM).",
+      "difficulty": "Medium",
+      "sourceFile": "",
+      "sourcePage": null,
+      "status": "Verified",
+      "createdAt": "2026-10-12T05:28:39.626Z",
+      "updatedAt": "2026-10-12T05:28:39.626Z"
     }
   ],
   "admin": {
@@ -124324,9 +124358,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3719,
-    "verifiedQuestions": 3719,
+    "totalQuestions": 3720,
+    "verifiedQuestions": 3720,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-12T05:10:06.645Z"
+    "lastUpdated": "2026-10-12T05:28:40.135Z"
   }
 }
