@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-12T14:06:55.070Z",
+  "lastUpdated": "2026-10-12T16:41:43.293Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -124375,9 +124375,9 @@
       "difficulty": "Medium",
       "sourceFile": "‎⁨ماشين⁩.pdf",
       "sourcePage": null,
-      "status": "Needs Review",
+      "status": "Verified",
       "createdAt": "2026-10-12T14:01:16.376Z",
-      "updatedAt": "2026-10-12T14:01:16.376Z"
+      "updatedAt": "2026-10-12T16:41:42.611Z"
     },
     {
       "id": "q-1db46264",
@@ -125517,8 +125517,8 @@
     "totalQuizzes": 90,
     "activeQuizzes": 90,
     "totalQuestions": 3755,
-    "verifiedQuestions": 3720,
-    "reviewQuestions": 35,
-    "lastUpdated": "2026-10-12T14:06:55.070Z"
+    "verifiedQuestions": 3721,
+    "reviewQuestions": 34,
+    "lastUpdated": "2026-10-12T16:41:43.293Z"
   }
 }
