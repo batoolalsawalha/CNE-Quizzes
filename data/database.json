@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-12T04:53:34.748Z",
+  "lastUpdated": "2026-10-12T04:53:50.046Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -43917,105 +43917,6 @@
       "imageUrl": null,
       "sourceFile": "Final Machines.pdf",
       "sourcePage": 7,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:22:00.013Z",
-      "updatedAt": "2026-10-03T17:22:00.013Z"
-    },
-    {
-      "id": "ML-FIN-038",
-      "subjectId": "subj-machine",
-      "quizId": "quiz-subj-machine-final",
-      "question": "A Recurrent Neural Network (RNN) is designed for sequential/time-series data by:",
-      "options": [
-        {
-          "id": "a",
-          "text": "Processing all words independently with no memory"
-        },
-        {
-          "id": "b",
-          "text": "Maintaining an internal hidden state that acts as memory across time steps: h_t = f(W h_{t-1} + U x_t)"
-        },
-        {
-          "id": "c",
-          "text": "Discarding past inputs"
-        },
-        {
-          "id": "d",
-          "text": "Using only max-pooling"
-        }
-      ],
-      "correctAnswer": "b",
-      "explanation": "Feedback loops process variable-length sequences.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Final Machines.pdf",
-      "sourcePage": 8,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:22:00.013Z",
-      "updatedAt": "2026-10-03T17:22:00.013Z"
-    },
-    {
-      "id": "ML-FIN-039",
-      "subjectId": "subj-machine",
-      "quizId": "quiz-subj-machine-final",
-      "question": "LSTM (Long Short-Term Memory) networks resolve the vanishing gradient problem of standard RNNs by using:",
-      "options": [
-        {
-          "id": "a",
-          "text": "Larger learning rates"
-        },
-        {
-          "id": "b",
-          "text": "Removing hidden states"
-        },
-        {
-          "id": "c",
-          "text": "A Cell State highway regulated by Input, Forget, and Output gates"
-        },
-        {
-          "id": "d",
-          "text": "Convolutional kernels"
-        }
-      ],
-      "correctAnswer": "c",
-      "explanation": "Gated mechanisms allow gradients to flow unchanged over long time horizons.",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Final Machines.pdf",
-      "sourcePage": 9,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:22:00.013Z",
-      "updatedAt": "2026-10-03T17:22:00.013Z"
-    },
-    {
-      "id": "ML-FIN-040",
-      "subjectId": "subj-machine",
-      "quizId": "quiz-subj-machine-final",
-      "question": "The Transformer architecture (Vaswani et al., 2017) revolutionized NLP by replacing recurrence with:",
-      "options": [
-        {
-          "id": "a",
-          "text": "Deep convolutional layers only"
-        },
-        {
-          "id": "b",
-          "text": "Decision forests"
-        },
-        {
-          "id": "c",
-          "text": "Genetic algorithms"
-        },
-        {
-          "id": "d",
-          "text": "Self-Attention mechanisms, processing all tokens in parallel"
-        }
-      ],
-      "correctAnswer": "d",
-      "explanation": "\"Attention Is All You Need\": parallel self-attention replaced sequential RNNs.",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Final Machines.pdf",
-      "sourcePage": 10,
       "status": "Verified",
       "createdAt": "2026-10-03T17:22:00.013Z",
       "updatedAt": "2026-10-03T17:22:00.013Z"
@@ -125510,9 +125411,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3755,
-    "verifiedQuestions": 3755,
+    "totalQuestions": 3752,
+    "verifiedQuestions": 3752,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-12T04:53:34.748Z"
+    "lastUpdated": "2026-10-12T04:53:50.046Z"
   }
 }
