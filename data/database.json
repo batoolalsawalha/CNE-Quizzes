@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-12T04:52:40.842Z",
+  "lastUpdated": "2026-10-12T04:52:55.242Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -43491,105 +43491,6 @@
       "status": "Verified",
       "createdAt": "2026-10-03T17:22:00.012Z",
       "updatedAt": "2026-10-03T17:22:00.012Z"
-    },
-    {
-      "id": "ML-FIN-012",
-      "subjectId": "subj-machine",
-      "quizId": "quiz-subj-machine-final",
-      "question": "As k increases toward the total number of training samples n in KNN, the decision boundary:",
-      "options": [
-        {
-          "id": "a",
-          "text": "Becomes more complex"
-        },
-        {
-          "id": "b",
-          "text": "Overfits the data"
-        },
-        {
-          "id": "c",
-          "text": "Oscillates wildly"
-        },
-        {
-          "id": "d",
-          "text": "Becomes smoother and simpler, eventually predicting the majority class everywhere (high bias, underfitting)"
-        }
-      ],
-      "correctAnswer": "d",
-      "explanation": "Large k averages over large neighborhoods.",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Final Machines.pdf",
-      "sourcePage": 2,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:22:00.013Z",
-      "updatedAt": "2026-10-03T17:22:00.013Z"
-    },
-    {
-      "id": "ML-FIN-013",
-      "subjectId": "subj-machine",
-      "quizId": "quiz-subj-machine-final",
-      "question": "K-Means is an unsupervised clustering algorithm that partitions data into K clusters by:",
-      "options": [
-        {
-          "id": "a",
-          "text": "Iteratively assigning points to the nearest centroid and updating centroids to the mean of assigned points"
-        },
-        {
-          "id": "b",
-          "text": "Supervised classification using support vectors"
-        },
-        {
-          "id": "c",
-          "text": "Building a hierarchical tree"
-        },
-        {
-          "id": "d",
-          "text": "Maximizing the margin"
-        }
-      ],
-      "correctAnswer": "a",
-      "explanation": "Lloyd's algorithm: Assign -> Update -> Repeat until convergence.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Final Machines.pdf",
-      "sourcePage": 3,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:22:00.013Z",
-      "updatedAt": "2026-10-03T17:22:00.013Z"
-    },
-    {
-      "id": "ML-FIN-014",
-      "subjectId": "subj-machine",
-      "quizId": "quiz-subj-machine-final",
-      "question": "The objective function that K-Means minimizes is:",
-      "options": [
-        {
-          "id": "a",
-          "text": "Cross-Entropy"
-        },
-        {
-          "id": "b",
-          "text": "Inertia / Within-Cluster Sum of Squares (WCSS): Σ ||x - μ_k||²"
-        },
-        {
-          "id": "c",
-          "text": "Hinge loss"
-        },
-        {
-          "id": "d",
-          "text": "Maximum likelihood of labels"
-        }
-      ],
-      "correctAnswer": "b",
-      "explanation": "Sum of squared Euclidean distances to cluster centers.",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Final Machines.pdf",
-      "sourcePage": 4,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:22:00.013Z",
-      "updatedAt": "2026-10-03T17:22:00.013Z"
     },
     {
       "id": "ML-FIN-015",
@@ -125939,9 +125840,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3768,
-    "verifiedQuestions": 3768,
+    "totalQuestions": 3765,
+    "verifiedQuestions": 3765,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-12T04:52:40.842Z"
+    "lastUpdated": "2026-10-12T04:52:55.242Z"
   }
 }
