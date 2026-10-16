@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-16T17:47:05.136Z",
+  "lastUpdated": "2026-10-16T17:50:21.640Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -124418,34 +124418,34 @@
       "subjectId": "subj-machine",
       "quizId": "quiz-subj-machine-mid",
       "topicId": null,
-      "question": "The working principle of a transformer depends upon\t:",
+      "question": "An ideal transformer is one which has:",
       "imageUrl": null,
       "options": [
         {
           "id": "a",
-          "text": "Ohm’s law"
+          "text": "High winding resistance"
         },
         {
           "id": "b",
-          "text": "Lenz’s law"
+          "text": "No winding resistance and no magnetic leakage"
         },
         {
           "id": "c",
-          "text": "Fleming’s left-hand rule"
+          "text": "Variable magnetic flux"
         },
         {
           "id": "d",
-          "text": "Faraday’s law of electromagnetic induction وابﺟﻟا\t:ﺢﯾﺣﺻﻟا\tD) Faraday’s law of electromagnetic induction ﺔﻘﯾطر\tلﺣﻟا\t)\tSolution\t:( دﻣﺗﻌﯾ\tلﻣﻋ\tولﺣﻣﻟا\tﻲﺳﺎﺳﻷا\tﻰﻠﻋ\tونﻧﺎﻗ\tرادايﺎﻓ\tثﺣﻟﻼﻟ\tﻲﺳﯾطﺎﻧﻐﻣروﮭﻛﻟا\t)\tFaraday's Law of Electromagnetic Induction\t(\tثﯾﺣ\tدﻟوﺗﯾ\tدﮭﺟ\tوثﺛﺣﻣ\tﺔﺟﯾﺗﻧ\tرﯾﻐﺗ\tقﻓدﺗﻟا\tﻲﺳﯾطﺎﻧﻐﻣﻟا\tرﺑﻋ\tن.ﻣزﻟا ؤالﺳﻟا\tﻊﺑﺎﺳﻟا\tنﻣ)\tتﺎﻛرﺣﻣ\tرﺎﯾﺗﻟا\tرﻣﺗﺳﻣﻟا\tDC Motors Q11\t("
+          "text": "Core losses equal to copper losses"
         }
       ],
-      "correctAnswer": "a",
-      "explanation": "",
+      "correctAnswer": "b",
+      "explanation": "المحول المثالي لا يملك مقاومة للملفات، ولا تسريب مغناطيسي، وكفاءته 100%.",
       "difficulty": "Medium",
       "sourceFile": "‎⁨ماشين⁩.pdf",
       "sourcePage": null,
-      "status": "Needs Review",
+      "status": "Verified",
       "createdAt": "2026-10-12T14:01:18.474Z",
-      "updatedAt": "2026-10-12T14:01:18.474Z"
+      "updatedAt": "2026-10-16T17:50:21.261Z"
     },
     {
       "id": "q-fbba5ccb",
@@ -125389,8 +125389,8 @@
     "totalQuizzes": 90,
     "activeQuizzes": 90,
     "totalQuestions": 3751,
-    "verifiedQuestions": 3722,
-    "reviewQuestions": 29,
-    "lastUpdated": "2026-10-16T17:47:05.136Z"
+    "verifiedQuestions": 3723,
+    "reviewQuestions": 28,
+    "lastUpdated": "2026-10-16T17:50:21.640Z"
   }
 }
