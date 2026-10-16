@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-16T23:11:23.536Z",
+  "lastUpdated": "2026-10-16T23:11:39.939Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -125262,40 +125262,6 @@
       "status": "Needs Review",
       "createdAt": "2026-10-12T14:01:26.265Z",
       "updatedAt": "2026-10-12T14:01:26.265Z"
-    },
-    {
-      "id": "q-57d97f1b",
-      "subjectId": "subj-machine",
-      "quizId": null,
-      "topicId": null,
-      "question": "A separately excited DC motor is rated at 430\\,\\text{V}, 400\\,\\text{A}, with armature resistance R_a = 0.05\\,\\Omega. If the back EMF (E_A) is 410\\,\\text{V}, the armature current (I_a) is\t:",
-      "imageUrl": null,
-      "options": [
-        {
-          "id": "a",
-          "text": "400\\,\\text{A\t{"
-        },
-        {
-          "id": "b",
-          "text": "200\\,\\text{A\t{"
-        },
-        {
-          "id": "c",
-          "text": "500\\,\\text{A\t{"
-        },
-        {
-          "id": "d",
-          "text": "300\\,\\text{A\t{ وابﺟﻟا\t:ﺢﯾﺣﺻﻟا\tA) 400\\,\\text{A\t{ ﺔﻘﯾطر\tلﺣﻟا\t)\tSolution\t:( ﺔﻟدﺎﻌﻣ\tدﮭﺟﻟا\tركﺣﻣﻟ\tتﺛﺣﺗﻟا\tلﺻﻔﻧﻣﻟا\t)\tSeparately Excited DC Motor\t:( -- 1 of 1 --"
-        }
-      ],
-      "correctAnswer": "a",
-      "explanation": "",
-      "difficulty": "Medium",
-      "sourceFile": "Test.pdf",
-      "sourcePage": null,
-      "status": "Needs Review",
-      "createdAt": "2026-10-12T14:06:54.474Z",
-      "updatedAt": "2026-10-12T14:06:54.474Z"
     }
   ],
   "admin": {
@@ -125310,9 +125276,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3748,
+    "totalQuestions": 3747,
     "verifiedQuestions": 3745,
-    "reviewQuestions": 3,
-    "lastUpdated": "2026-10-16T23:11:23.536Z"
+    "reviewQuestions": 2,
+    "lastUpdated": "2026-10-16T23:11:39.939Z"
   }
 }
