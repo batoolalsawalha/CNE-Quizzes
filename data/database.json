@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-16T22:08:26.901Z",
+  "lastUpdated": "2026-10-16T22:30:22.231Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -125030,34 +125030,34 @@
       "subjectId": "subj-machine",
       "quizId": "quiz-subj-machine-mid",
       "topicId": null,
-      "question": "If a conductor is moving parallel to a uniform magnetic field, the induced voltage (e_{ind}) in the conductor will be\t:",
+      "question": "A 30 kVA, 3000/300 V, 1-phase transformer has R1 = 1 Ω, R2 = 0.01 Ω. Find total equivalent resistance referred to the primary side (a = 10).",
       "imageUrl": null,
       "options": [
         {
           "id": "a",
-          "text": "Maximum"
+          "text": "0.02"
         },
         {
           "id": "b",
-          "text": "Zero"
+          "text": "1.01"
         },
         {
           "id": "c",
-          "text": "Equal to B \\cdot l \\cdot v"
+          "text": "2.00"
         },
         {
           "id": "d",
-          "text": "Negative maximum وابﺟﻟا\t:ﺢﯾﺣﺻﻟا\tB) Zero ﺔﻘﯾطر\tلﺣﻟا\t)\tSolution\t:( ونﻧﺎﻗ\tدﮭﺟﻟا\tوثﺛﺣﻣﻟا\tﻲﻓ\tلﺻوﻣ\tركﺣﺗﯾ\tﻲﻓ\tلﺎﺟﻣ\tﻲﺳﯾطﺎﻧﻐﻣ\tو:ھ ﺎﻣدﻧﻋ\tركﺣﺗﯾ\tلﺻوﻣﻟا\tلﻛﺷﺑ\tوازيﻣ\t)\tparallel\t(\tل،ﺎﺟﻣﻠﻟ\tونﻛﺗ\tﺔﯾزاوﻟا\t\\\ttheta = 0\t،\tﻲﻟﺎﺗﻟﺎﺑو\t\\\tsin(0) = 0\tﺢﺑﺻﯾو\tدﮭﺟﻟا وثﺛﺣﻣﻟا\t ًراﻔﺻ\t)\tZero\t.( ؤالﺳﻟا\tﻊﺑراﻟا\tرﺷﻋ\tنﻣ)\tMid MCQs\t-\tهﺎﺟﺗا\tوةﻘﻟا\tدةﻋﺎﻗو\tدﯾﻟا\t(رىﺳﯾﻟا"
+          "text": "1.10"
         }
       ],
-      "correctAnswer": "a",
-      "explanation": "",
+      "correctAnswer": "c",
+      "explanation": "نسبة التحويل a = 3000 / 300 = 10. المقاومة المكافئة المنسوبة للابتدائي Req1 = R1 + (a^2 * R2) = 1 + (10^2 * 0.01) = 1 + 1 = 2 Ω.",
       "difficulty": "Medium",
       "sourceFile": "‎⁨ماشين⁩.pdf",
       "sourcePage": null,
-      "status": "Needs Review",
+      "status": "Verified",
       "createdAt": "2026-10-12T14:01:24.267Z",
-      "updatedAt": "2026-10-12T14:01:24.267Z"
+      "updatedAt": "2026-10-16T22:30:21.564Z"
     },
     {
       "id": "q-c56423b1",
@@ -125397,8 +125397,8 @@
     "totalQuizzes": 90,
     "activeQuizzes": 90,
     "totalQuestions": 3751,
-    "verifiedQuestions": 3740,
-    "reviewQuestions": 11,
-    "lastUpdated": "2026-10-16T22:08:26.901Z"
+    "verifiedQuestions": 3741,
+    "reviewQuestions": 10,
+    "lastUpdated": "2026-10-16T22:30:22.231Z"
   }
 }
