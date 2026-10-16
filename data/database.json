@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-16T17:59:38.333Z",
+  "lastUpdated": "2026-10-16T18:02:40.135Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -124520,34 +124520,34 @@
       "subjectId": "subj-machine",
       "quizId": "quiz-subj-machine-mid",
       "topicId": null,
-      "question": "For self-excitation of a DC shunt generator, which condition is necessary\t?",
+      "question": "The open circuit test and short circuit test on a transformer are used to determine:",
       "imageUrl": null,
       "options": [
         {
           "id": "a",
-          "text": "Field winding must have residual magnetism"
+          "text": "Equivalent circuit parameters, losses, efficiency, and regulation"
         },
         {
           "id": "b",
-          "text": "Field resistance > critical resistance"
+          "text": "Efficiency and regulation only"
         },
         {
           "id": "c",
-          "text": "Load must be connected before starting"
+          "text": "Winding temperature"
         },
         {
           "id": "d",
-          "text": "External DC supply is mandatory وابﺟﻟا\t:ﺢﯾﺣﺻﻟا\tA) Field winding must have residual magnetism ﺔﻘﯾطر\tلﺣﻟا\t)\tSolution\t:( ﻲﻛﻟ\tدأﺑﯾ\tدﻟوﻣ\tوازيﺗﻟا\tﻲﺗذاﻟا\t)\tSelf-excited DC Shunt Generator\t(\tﺔﯾﻠﻣﻋ\tءﺎﻧﺑ\tدﮭﺟﻟا\t)\tVoltage Buildup\t،(\tبﺟﯾ\tأن ويﺗﺣﯾ\tبﻠﻗ\tفﻠﻣﻟا\tﻰﻠﻋ\tﺔﯾﺳﯾطﺎﻧﻐﻣ\tﺔﯾﻘﺑﺗﻣ\t)\tResidual Magnetism\t(\tءﺎﺷﻧﻹ\tقﻓدﺗﻟا\t.ﻲﻟوﻷا ؤالﺳﻟا\tرﺷﺎﻌﻟا\tنﻣ)\tصﺋﺎﺻﺧ\tﺔﻋرﺳﻟا\tﻲﻓ\tتﺎﻛرﺣﻣ\tرﺎﯾﺗﻟا\tرﻣﺗﺳﻣﻟا\tQ15\t("
+          "text": "Magnetic flux density only"
         }
       ],
       "correctAnswer": "a",
-      "explanation": "",
+      "explanation": "بتجميع نتائج الاختبارين نحصل على قيم المقاومات والمفاعلات المكافئة والمفاقيد الكلية، مما يسمح بحساب الكفاءة وتنظيم الجهد.",
       "difficulty": "Medium",
       "sourceFile": "‎⁨ماشين⁩.pdf",
       "sourcePage": null,
-      "status": "Needs Review",
+      "status": "Verified",
       "createdAt": "2026-10-12T14:01:19.865Z",
-      "updatedAt": "2026-10-12T14:01:19.865Z"
+      "updatedAt": "2026-10-16T18:02:39.770Z"
     },
     {
       "id": "q-c5bbdbc6",
@@ -125389,8 +125389,8 @@
     "totalQuizzes": 90,
     "activeQuizzes": 90,
     "totalQuestions": 3751,
-    "verifiedQuestions": 3725,
-    "reviewQuestions": 26,
-    "lastUpdated": "2026-10-16T17:59:38.333Z"
+    "verifiedQuestions": 3726,
+    "reviewQuestions": 25,
+    "lastUpdated": "2026-10-16T18:02:40.135Z"
   }
 }
