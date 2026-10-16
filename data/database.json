@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-16T21:09:04.092Z",
+  "lastUpdated": "2026-10-16T21:21:40.106Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -124690,34 +124690,34 @@
       "subjectId": "subj-machine",
       "quizId": "quiz-subj-machine-mid",
       "topicId": null,
-      "question": "Short circuit test (SC test) on a transformer gives\t:",
+      "question": "In a separately excited DC motor, the relation between speed and back EMF (E_a) at constant flux is:",
       "imageUrl": null,
       "options": [
         {
           "id": "a",
-          "text": "Parallel parameters of equivalent circuit and core losses"
+          "text": "Speed is directly proportional to back EMF"
         },
         {
           "id": "b",
-          "text": "Series parameters of equivalent circuit (R_{eq} and X_{eq}) and copper losses"
+          "text": "Speed is independent of back EMF"
         },
         {
           "id": "c",
-          "text": "Only magnetic leakage flux"
+          "text": "Speed is equal to square root of EMF"
         },
         {
           "id": "d",
-          "text": "Efficiency directly at no-load -- 10 of 17 -- وابﺟﻟا\t:ﺢﯾﺣﺻﻟا\tB) Series parameters of equivalent circuit (R_{eq} and X_{eq}) and copper losses ﺔﻘﯾطر\tلﺣﻟا\t)\tSolution\t:( رﺎﺑﺗﺧا\tرﺻﻘﻟا\t)\tShort Circuit Test\t(\tدمﺧﺗﺳُﯾ\tدﯾدﺣﺗﻟ\tتﻼﻣﺎﻌﻣﻟا\tﺔﯾﻠﺳﻠﺳﺗﻟا\tرةﺋداﻠﻟ\tﺔﺋﻓﺎﻛﻣﻟا\t)\tSeries parameters\t- ﺔﻣوﺎﻘﻣﻟا\tﺔﻠﻋﺎﻔﻣﻟوا\t(ﺔﺋﻓﺎﻛﻣﻟا\tﺔﻓﺎﺿﻹﺎﺑ\tﻰﻟإ\tوداتﻘﻔﻣ\tسﺎﺣﻧﻟا\t)\tCopper losses\t.( ؤالﺳﻟا\tﻊﺑراﻟا\tنﻣ)\tMid MCQs\t-\tرﺎﺑﺗﺧا\tلﻣﺣﻼﻟا\tOpen Circuit Test\t("
+          "text": "Speed is inversely proportional to back EMF"
         }
       ],
       "correctAnswer": "a",
-      "explanation": "",
+      "explanation": "من المعادلة w = E_a / (K * phi) يتضح العلاقة الطردية المباشرة عند ثبات التدفق.",
       "difficulty": "Medium",
       "sourceFile": "‎⁨ماشين⁩.pdf",
       "sourcePage": null,
-      "status": "Needs Review",
+      "status": "Verified",
       "createdAt": "2026-10-12T14:01:21.278Z",
-      "updatedAt": "2026-10-12T14:01:21.278Z"
+      "updatedAt": "2026-10-16T21:21:39.871Z"
     },
     {
       "id": "q-94bf5f93",
@@ -125397,8 +125397,8 @@
     "totalQuizzes": 90,
     "activeQuizzes": 90,
     "totalQuestions": 3751,
-    "verifiedQuestions": 3730,
-    "reviewQuestions": 21,
-    "lastUpdated": "2026-10-16T21:09:04.092Z"
+    "verifiedQuestions": 3731,
+    "reviewQuestions": 20,
+    "lastUpdated": "2026-10-16T21:21:40.106Z"
   }
 }
