@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-16T17:50:21.640Z",
+  "lastUpdated": "2026-10-16T17:53:44.937Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -124452,34 +124452,34 @@
       "subjectId": "subj-machine",
       "quizId": "quiz-subj-machine-mid",
       "topicId": null,
-      "question": "The torque in a DC shunt motor is proportional to\t:",
+      "question": "السؤال: Primary winding of a transformer:",
       "imageUrl": null,
       "options": [
         {
           "id": "a",
-          "text": "Armature current (I_a\t("
+          "text": "Is always a high voltage side"
         },
         {
           "id": "b",
-          "text": "Field current only (I_f\t("
+          "text": "Is always connected to the load"
         },
         {
           "id": "c",
-          "text": "Square of armature current (I_a^2\t("
+          "text": "Is connected to the AC power supply source"
         },
         {
           "id": "d",
-          "text": "Armature resistance (R_a\t( وابﺟﻟا\t:ﺢﯾﺣﺻﻟا\tA) Armature current (I_a\t( ﺔﻘﯾطر\tلﺣﻟا\t)\tSolution\t:( ﻲﻓ\tركﺣﻣ\tوازيﺗﻟا\t)\tDC Shunt Motor\t،(\tونﻛﯾ\tضﯾﻔﻟا\tﻲﺳﯾطﺎﻧﻐﻣﻟا\t\\)\tphi\t(\tﺎًﺗﺑﺎﺛ\t.ﺎًﺑﯾرﻘﺗ\tﺎﻣﺑ\tأن\tزمﻌﻟا\tدﻣﺗﻌﯾ\tﻰﻠﻋ\tﺔﻗﻼﻌﻟا\t\\\ttau = k \\cdot \\phi \\cdot I_a\t،\tنﺈﻓ\tزمﻌﻟا\tبﺳﺎﻧﺗﯾ\t ًﺎﯾطرد\tﻊﻣ\tرﺎﯾﺗ\tﺞﺗﻧﻣﻟا\t)\tArmature Current - I_a\t.( ؤالﺳﻟا\tنﻣﺎﺛﻟا\tلﯾوﺣﺗ)\tنﻣ\tFinal Problems Q1\tﻰﻟإ\t(رةﺋدا"
+          "text": "Has more turns than secondary always"
         }
       ],
-      "correctAnswer": "a",
-      "explanation": "",
-      "difficulty": "Medium",
+      "correctAnswer": "c",
+      "explanation": "الملف الابتدائي (Primary winding) هو الذي يُوصل دائماً بمصدر الطاقة الكهربائية.",
+      "difficulty": "Easy",
       "sourceFile": "‎⁨ماشين⁩.pdf",
       "sourcePage": null,
-      "status": "Needs Review",
+      "status": "Verified",
       "createdAt": "2026-10-12T14:01:18.766Z",
-      "updatedAt": "2026-10-12T14:01:18.766Z"
+      "updatedAt": "2026-10-16T17:53:44.538Z"
     },
     {
       "id": "q-7946a1c2",
@@ -125389,8 +125389,8 @@
     "totalQuizzes": 90,
     "activeQuizzes": 90,
     "totalQuestions": 3751,
-    "verifiedQuestions": 3723,
-    "reviewQuestions": 28,
-    "lastUpdated": "2026-10-16T17:50:21.640Z"
+    "verifiedQuestions": 3724,
+    "reviewQuestions": 27,
+    "lastUpdated": "2026-10-16T17:53:44.937Z"
   }
 }
