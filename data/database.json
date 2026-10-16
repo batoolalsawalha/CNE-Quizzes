@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-16T17:32:17.443Z",
+  "lastUpdated": "2026-10-16T17:37:40.540Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -124350,34 +124350,34 @@
       "subjectId": "subj-machine",
       "quizId": "quiz-subj-machine-mid",
       "topicId": null,
-      "question": "Short circuit test on transformers is conducted to determine\t:",
+      "question": "The core of a transformer must have:",
       "imageUrl": null,
       "options": [
         {
           "id": "a",
-          "text": "Copper losses"
+          "text": "High hysteresis loss"
         },
         {
           "id": "b",
-          "text": "Core losses"
+          "text": "Low resistance"
         },
         {
           "id": "c",
-          "text": "Eddy current losses"
+          "text": "High reluctance"
         },
         {
           "id": "d",
-          "text": "Hysteresis losses وابﺟﻟا\t:ﺢﯾﺣﺻﻟا\tA) Copper losses ﺔﻘﯾطر\tلﺣﻟا\t)\tSolution\t:( رﺎﺑﺗﺧا\tرﺻﻘﻟا\t)\tShort Circuit Test - SC Test\t(\tمﺗﯾ\tراؤهﺟإ\tدﯾدﺣﺗﻟ\tوداتﻘﻔﻣ\tسﺎﺣﻧﻟا\t)\tCopper Losses\t(\tأو\tوداتﻘﻔﻣﻟا ﻲﻓ\tتﺎﻔﻠﻣﻟا\tدﻧﻋ\tلﻣﺣﻟا\tل،ﻣﺎﻛﻟا\tﺎﻣﻧﯾﺑ\tرﺎﺑﺗﺧا\tلﻣﺣﻼﻟا\t)\tOpen Circuit Test\t(\tددﺣﯾ\tوداتﻘﻔﻣ\tبﻠﻘﻟا\t)\tCore Losses\t.( ؤالﺳﻟا\tسﻣﺎﺧﻟا\tنﻣ)\tمﯾﻣﺻﺗ\tبﻠﻘﻟا\tديﯾدﺣﻟا\tCore Design Q48\t("
+          "text": "Low reluctance"
         }
       ],
-      "correctAnswer": "a",
-      "explanation": "",
-      "difficulty": "Medium",
+      "correctAnswer": "d",
+      "explanation": "لضمان انتقال الفيض المغناطيسي بكفاءة عالية وبأقل طاقة مفقودة، يجب أن تتمتع مادة القلب بممانعة مغناطيسية منخفضة (Low reluctance).",
+      "difficulty": "Easy",
       "sourceFile": "‎⁨ماشين⁩.pdf",
       "sourcePage": null,
-      "status": "Needs Review",
+      "status": "Verified",
       "createdAt": "2026-10-12T14:01:17.968Z",
-      "updatedAt": "2026-10-12T14:01:17.968Z"
+      "updatedAt": "2026-10-16T17:37:40.188Z"
     },
     {
       "id": "q-5bb97966",
@@ -125389,8 +125389,8 @@
     "totalQuizzes": 90,
     "activeQuizzes": 90,
     "totalQuestions": 3751,
-    "verifiedQuestions": 3720,
-    "reviewQuestions": 31,
-    "lastUpdated": "2026-10-16T17:32:17.443Z"
+    "verifiedQuestions": 3721,
+    "reviewQuestions": 30,
+    "lastUpdated": "2026-10-16T17:37:40.540Z"
   }
 }
