@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-16T17:54:01.937Z",
+  "lastUpdated": "2026-10-16T17:59:38.333Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -124486,34 +124486,34 @@
       "subjectId": "subj-machine",
       "quizId": "quiz-subj-machine-mid",
       "topicId": null,
-      "question": "A separately excited DC motor is rated at 430\\,\\text{V}, 400\\,\\text{A}, with armature resistance R_a = 0.05\\,\\Omega. If the back EMF (E_A) is 410\\,\\text{V}, the armature current (I_a) is\t:",
+      "question": "Which parameter changes during transformation action in a transformer?",
       "imageUrl": null,
       "options": [
         {
           "id": "a",
-          "text": "400\\,\\text{A\t{ -- 8 of 17 --"
+          "text": "Total energy"
         },
         {
           "id": "b",
-          "text": "200\\,\\text{A\t{"
+          "text": "Frequency"
         },
         {
           "id": "c",
-          "text": "500\\,\\text{A\t{"
+          "text": "Power"
         },
         {
           "id": "d",
-          "text": "300\\,\\text{A\t{ وابﺟﻟا\t:ﺢﯾﺣﺻﻟا\tA) 400\\,\\text{A\t{ ﺔﻘﯾطر\tلﺣﻟا\t)\tSolution\t:( ﺔﻟدﺎﻌﻣ\tدﮭﺟﻟا\tركﺣﻣﻟ\tتﺛﺣﺗﻟا\tلﺻﻔﻧﻣﻟا\t)\tSeparately Excited DC Motor\t:( دةﺎﻋإ\tبﯾﺗرﺗ\tﺔﻟدﺎﻌﻣﻟا\tدﺎﺟﯾﻹ\tرﺎﯾﺗ\tﺞﺗﻧﻣﻟا\t)\tI_a\t:( ؤالﺳﻟا\tﻊﺳﺎﺗﻟا\tنﻣ)\tظروف\tدﯾﻟوﺗ\tداتﻟوﻣﻟا\tDC Generators Q46\t("
+          "text": "Voltage and Current levels"
         }
       ],
-      "correctAnswer": "a",
-      "explanation": "",
-      "difficulty": "Medium",
+      "correctAnswer": "d",
+      "explanation": "المحول يغير قيم الجهد والتطبيق (يرفع أو يخفض) مع ثبات التردد والقدرة تقريباً.",
+      "difficulty": "Easy",
       "sourceFile": "‎⁨ماشين⁩.pdf",
       "sourcePage": null,
-      "status": "Needs Review",
+      "status": "Verified",
       "createdAt": "2026-10-12T14:01:18.977Z",
-      "updatedAt": "2026-10-12T14:01:18.977Z"
+      "updatedAt": "2026-10-16T17:59:37.874Z"
     },
     {
       "id": "q-34831c32",
@@ -125389,8 +125389,8 @@
     "totalQuizzes": 90,
     "activeQuizzes": 90,
     "totalQuestions": 3751,
-    "verifiedQuestions": 3724,
-    "reviewQuestions": 27,
-    "lastUpdated": "2026-10-16T17:54:01.937Z"
+    "verifiedQuestions": 3725,
+    "reviewQuestions": 26,
+    "lastUpdated": "2026-10-16T17:59:38.333Z"
   }
 }
