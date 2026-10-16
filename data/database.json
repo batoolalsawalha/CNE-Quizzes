@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-16T17:21:46.545Z",
+  "lastUpdated": "2026-10-16T17:21:54.134Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -124248,34 +124248,34 @@
       "subjectId": "subj-machine",
       "quizId": "quiz-subj-machine-mid",
       "topicId": null,
-      "question": "For the non-load linear DC machine, if the szzzource voltage is 200\\,\\text{V}, resistance R =",
+      "question": "The open circuit test and short circuit test on a transformer are used to determine:",
       "imageUrl": null,
       "options": [
         {
           "id": "a",
-          "text": "خيار 1"
+          "text": "Efficiency and regulation only"
         },
         {
           "id": "b",
-          "text": "خيار 2"
+          "text": "Equivalent circuit parameters, losses, and efficiency"
         },
         {
           "id": "c",
-          "text": "1"
+          "text": "Winding temperature"
         },
         {
           "id": "d",
-          "text": "22"
+          "text": "Magnetic flux density only"
         }
       ],
-      "correctAnswer": "a",
-      "explanation": "",
-      "difficulty": "Medium",
+      "correctAnswer": "b",
+      "explanation": "اختبار الـ Open Circuit يعطينا معاملات الفرع المغناطيسي (Iron losses)، واختبار الـ Short Circuit يعطينا معاملات الملفات (Copper losses)، ومن خلالهما نحسب الكفاءة وتنظيم الجهد.",
+      "difficulty": "Easy",
       "sourceFile": "‎⁨ماشين⁩.pdf",
       "sourcePage": null,
       "status": "Verified",
       "createdAt": "2026-10-12T14:01:16.870Z",
-      "updatedAt": "2026-10-16T17:21:46.023Z"
+      "updatedAt": "2026-10-16T17:21:53.570Z"
     },
     {
       "id": "q-30012256",
@@ -125391,6 +125391,6 @@
     "totalQuestions": 3751,
     "verifiedQuestions": 3718,
     "reviewQuestions": 33,
-    "lastUpdated": "2026-10-16T17:21:46.545Z"
+    "lastUpdated": "2026-10-16T17:21:54.134Z"
   }
 }
