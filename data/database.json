@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-16T21:21:40.106Z",
+  "lastUpdated": "2026-10-16T21:24:49.900Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -124724,34 +124724,34 @@
       "subjectId": "subj-machine",
       "quizId": "quiz-subj-machine-mid",
       "topicId": null,
-      "question": "In an Open Circuit test (OC test) of a transformer, all the power supplied is utilized for\t:",
+      "question": "Calculate the induced EMF in a coil of 100 turns when subjected to a magnetic flux change rate of (d phi / dt) = 0.2 Wb/sec.",
       "imageUrl": null,
       "options": [
         {
           "id": "a",
-          "text": "Copper losses"
+          "text": "10 A"
         },
         {
           "id": "b",
-          "text": "Core losses (Iron losses\t("
+          "text": "200 A"
         },
         {
           "id": "c",
-          "text": "Mechanical friction losses"
+          "text": "2 A"
         },
         {
           "id": "d",
-          "text": "Armature reaction وابﺟﻟا\t:ﺢﯾﺣﺻﻟا\tB) Core losses (Iron losses\t( ﺔﻘﯾطر\tلﺣﻟا\t)\tSolution\t:( ﻲﻓ\tرﺎﺑﺗﺧا\tلﻣﺣﻼﻟا\t)\tOC Test\t،(\tونﻛﯾ\tرﺎﯾﺗﻟا\tرﺎﻣﻟا\tﻲﻓ\tتﺎﻔﻠﻣﻟا\t ًراﯾﻐﺻ\tداً،ﺟ\tذاﻟ\tلﻣﮭﺗ\tوداتﻘﻔﻣ\tسﺎﺣﻧﻟا\tونﻛﺗو\tدرةﻘﻟا\tﺔﺑوﺣﺳﻣﻟا ﺔﺻﺻﺧﻣ\tلﻣﺎﻛﻟﺎﺑ\tـﻟ\tوداتﻘﻔﻣ\tبﻠﻘﻟا\tأو\tدﯾدﺣﻟا\t)\tCore/Iron losses\t.( ؤالﺳﻟا\tسﻣﺎﺧﻟا\tنﻣ)\tMid MCQs\t-\tمﯾﻣﺻﺗ\tبﻠﻘﻟا\tCore Design\t("
+          "text": "20 A"
         }
       ],
-      "correctAnswer": "a",
+      "correctAnswer": "d",
       "explanation": "",
       "difficulty": "Medium",
       "sourceFile": "‎⁨ماشين⁩.pdf",
       "sourcePage": null,
-      "status": "Needs Review",
+      "status": "Verified",
       "createdAt": "2026-10-12T14:01:21.568Z",
-      "updatedAt": "2026-10-12T14:01:21.568Z"
+      "updatedAt": "2026-10-16T21:24:49.487Z"
     },
     {
       "id": "q-81bbbc03",
@@ -125397,8 +125397,8 @@
     "totalQuizzes": 90,
     "activeQuizzes": 90,
     "totalQuestions": 3751,
-    "verifiedQuestions": 3731,
-    "reviewQuestions": 20,
-    "lastUpdated": "2026-10-16T21:21:40.106Z"
+    "verifiedQuestions": 3732,
+    "reviewQuestions": 19,
+    "lastUpdated": "2026-10-16T21:24:49.900Z"
   }
 }
