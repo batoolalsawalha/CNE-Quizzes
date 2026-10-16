@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-16T22:32:39.939Z",
+  "lastUpdated": "2026-10-16T22:35:17.428Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -125064,34 +125064,34 @@
       "subjectId": "subj-machine",
       "quizId": "quiz-subj-machine-mid",
       "topicId": null,
-      "question": "The relation between the direction of the force, magnetic field, and current in a current-carrying conductor is given by\t: -- 14 of 17 --",
+      "question": "A shunt generator delivers 450 A to a load at 230 V. Shunt field resistance is 115 Ω and armature resistance is 0.02 Ω. Calculate the generated EMF (E_a).",
       "imageUrl": null,
       "options": [
         {
           "id": "a",
-          "text": "Faraday’s Law"
+          "text": "230.0v"
         },
         {
           "id": "b",
-          "text": "Lenz’s Law"
+          "text": "239.04v"
         },
         {
           "id": "c",
-          "text": "Fleming’s Left-Hand Rule"
+          "text": "240.0v"
         },
         {
           "id": "d",
-          "text": "Ohm’s Law وابﺟﻟا\t:ﺢﯾﺣﺻﻟا\tC) Fleming’s Left-Hand Rule ﺔﻘﯾطر\tلﺣﻟا\t)\tSolution\t:( دﯾدﺣﺗﻟ\tهﺎﺟﺗا\tوةﻘﻟا\tرةﺛؤﻣﻟا\tﻰﻠﻋ\tلﺻوﻣ\tلﻣﺣﯾ\t ًراﺎﯾﺗ\tلﺧدا\tلﺎﺟﻣ\tﻲﺳﯾطﺎﻧﻐﻣ\tﻲﻓ)\t،(تﺎﻛرﺣﻣﻟا\tدمﺧﺗﺳﻧ\tدةﻋﺎﻗ\tﺞﻧﻣﯾﻠﻓ\tدﯾﻠﻟ\tرىﺳﯾﻟا )\tFleming's Left-Hand Rule\t.( ؤالﺳﻟا\tسﻣﺎﺧﻟا\tرﺷﻋ\tنﻣ)\tMid MCQs\t-\tبﺎطﻗأ\tتﻻوﺣﻣﻟا\tتﺎﻔﻠﻣﻟوا\tﺔﯾﺋداﺗﺑﻻا\t(ﺔﯾوﻧﺎﺛﻟوا"
+          "text": "220.96v"
         }
       ],
-      "correctAnswer": "a",
-      "explanation": "",
-      "difficulty": "Medium",
+      "correctAnswer": "b",
+      "explanation": "تيار المجال I_f = V_t / R_f = 230 / 115 = 2 A. تيار المنتج I_a = I_L + I_f = 450 + 2 = 452 A. القوة الدافعة الكهربائية المتولدة E_a = V_t + (I_a * R_a) = 230 + (452 * 0.02) = 230 + 9.04 = 239.04 V.",
+      "difficulty": "Hard",
       "sourceFile": "‎⁨ماشين⁩.pdf",
       "sourcePage": null,
-      "status": "Needs Review",
+      "status": "Verified",
       "createdAt": "2026-10-12T14:01:24.475Z",
-      "updatedAt": "2026-10-12T14:01:24.475Z"
+      "updatedAt": "2026-10-16T22:35:17.016Z"
     },
     {
       "id": "q-b68dc670",
@@ -125397,8 +125397,8 @@
     "totalQuizzes": 90,
     "activeQuizzes": 90,
     "totalQuestions": 3751,
-    "verifiedQuestions": 3741,
-    "reviewQuestions": 10,
-    "lastUpdated": "2026-10-16T22:32:39.939Z"
+    "verifiedQuestions": 3742,
+    "reviewQuestions": 9,
+    "lastUpdated": "2026-10-16T22:35:17.428Z"
   }
 }
