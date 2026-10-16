@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-16T23:11:39.939Z",
+  "lastUpdated": "2026-10-16T23:14:23.832Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -125200,34 +125200,34 @@
       "subjectId": "subj-machine",
       "quizId": "quiz-subj-machine-mid",
       "topicId": null,
-      "question": "The magnetic flux (\\Phi) in a magnetic circuit is directly proportional to\t:",
+      "question": "A linear DC machine reaches a no-load steady-state speed v_ss with V = 120 V, B = 1.5 T, l = 0.8 m. Calculate v_ss.",
       "imageUrl": null,
       "options": [
         {
           "id": "a",
-          "text": "Reluctance"
+          "text": "150 m/s"
         },
         {
           "id": "b",
-          "text": "Magnetomotive Force (MMF\t("
+          "text": "200 m/s"
         },
         {
           "id": "c",
-          "text": "Core length"
+          "text": "80 m/s"
         },
         {
           "id": "d",
-          "text": "Cross-sectional area inversion وابﺟﻟا\t:ﺢﯾﺣﺻﻟا\tB) Magnetomotive Force (MMF\t( ﺔﻘﯾطر\tلﺣﻟا\t)\tSolution\t:( بﺳﺣ\tونﻧﺎﻗ\tرﺋدواﻟا\tﺔﯾﺳﯾطﺎﻧﻐﻣﻟا\t\\)\tPhi = \\frac{\\text{MMF}}{\\text{Reluctance\t،({{\tبﺳﺎﻧﺗﯾ\tقﻓدﺗﻟا\tﻲﺳﯾطﺎﻧﻐﻣﻟا\t ًﺎﯾطرد ﻊﻣ\tوةﻘﻟا\tﺔﻌﻓداﻟا\tﺔﯾﺳﯾطﺎﻧﻐﻣﻟا\t)\tMMF\t(\t ًﺎﯾﺳﻛﻋو\tﻊﻣ\tﺔﻌﻧﺎﻣﻣﻟا\t)\tReluctance\t.( ؤالﺳﻟا\tﻊﺳﺎﺗﻟا\tرﺷﻋ\tنﻣ)\tMid MCQs\t-\tﺔﻠﯾﺻوﺗ\tتﻻوﺣﻣﻟا\tDelta-Star\t("
+          "text": "100 m/s"
         }
       ],
-      "correctAnswer": "a",
-      "explanation": "",
-      "difficulty": "Medium",
+      "correctAnswer": "d",
+      "explanation": "عند الاستقرار في حالة اللاحمل، يكون التسارع صفراً، التيار i = 0 والجهد العكسي e_ind = V. وبالتالي: e_ind = B * l * v_ss => v_ss = V / (B * l) = 120 / (1.5 * 0.8) = 120 / 1.2 = 100 m/s.",
+      "difficulty": "Hard",
       "sourceFile": "‎⁨ماشين⁩.pdf",
       "sourcePage": null,
-      "status": "Needs Review",
+      "status": "Verified",
       "createdAt": "2026-10-12T14:01:25.769Z",
-      "updatedAt": "2026-10-12T14:01:25.769Z"
+      "updatedAt": "2026-10-16T23:14:23.615Z"
     },
     {
       "id": "q-d08eb29a",
@@ -125277,8 +125277,8 @@
     "totalQuizzes": 90,
     "activeQuizzes": 90,
     "totalQuestions": 3747,
-    "verifiedQuestions": 3745,
-    "reviewQuestions": 2,
-    "lastUpdated": "2026-10-16T23:11:39.939Z"
+    "verifiedQuestions": 3746,
+    "reviewQuestions": 1,
+    "lastUpdated": "2026-10-16T23:14:23.832Z"
   }
 }
