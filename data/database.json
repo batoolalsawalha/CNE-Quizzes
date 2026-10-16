@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-16T21:37:12.803Z",
+  "lastUpdated": "2026-10-16T21:44:48.899Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -124860,34 +124860,34 @@
       "subjectId": "subj-machine",
       "quizId": "quiz-subj-machine-mid",
       "topicId": null,
-      "question": "The property of a material which opposes the creation of magnetic flux in it is called\t:",
+      "question": "- السؤال: If the rated voltage of a DC motor is 240 V and Ia Ra = 20 V, find the back EMF E_a at rated conditions.",
       "imageUrl": null,
       "options": [
         {
           "id": "a",
-          "text": "Permeability"
+          "text": "200"
         },
         {
           "id": "b",
-          "text": "Reluctance"
+          "text": "240"
         },
         {
           "id": "c",
-          "text": "Inductance"
+          "text": "220"
         },
         {
           "id": "d",
-          "text": "Conductance وابﺟﻟا\t:ﺢﯾﺣﺻﻟا\tB) Reluctance ﺔﻘﯾطر\tلﺣﻟا\t)\tSolution\t:( ﺔﯾﺻﺎﺧﻟا\tﻲﺗﻟا\tرضﺎﻌﺗ\tنﯾوﻛﺗ\tقﻓدﺗﻟا\tﻲﺳﯾطﺎﻧﻐﻣﻟا\tﻲھ\tﺔﻌﻧﺎﻣﻣﻟا\tﺔﯾﺳﯾطﺎﻧﻐﻣﻟا\t)\tReluctance\t،(\tﻲھو\tلﺑﺎﻘﻣﻟا\tﻲﺳﯾطﺎﻧﻐﻣﻟا\tﺔﻣوﺎﻘﻣﻠﻟ .ﺔﯾﺋﺎﺑرﮭﻛﻟا ؤالﺳﻟا\tﻊﺳﺎﺗﻟا\tنﻣ)\tMid Problems\t-\t(لﺋﺎﺳﻣﻟا -- 12 of 17 --"
+          "text": "260"
         }
       ],
-      "correctAnswer": "a",
-      "explanation": "",
+      "correctAnswer": "c",
+      "explanation": "- طريقة الحل: V_t = E_a + (Ia * Ra) => E_a = 240 - 20 = 220 V",
       "difficulty": "Medium",
       "sourceFile": "‎⁨ماشين⁩.pdf",
       "sourcePage": null,
-      "status": "Needs Review",
+      "status": "Verified",
       "createdAt": "2026-10-12T14:01:22.772Z",
-      "updatedAt": "2026-10-12T14:01:22.772Z"
+      "updatedAt": "2026-10-16T21:44:48.574Z"
     },
     {
       "id": "q-a791f0a6",
@@ -125397,8 +125397,8 @@
     "totalQuizzes": 90,
     "activeQuizzes": 90,
     "totalQuestions": 3751,
-    "verifiedQuestions": 3735,
-    "reviewQuestions": 16,
-    "lastUpdated": "2026-10-16T21:37:12.803Z"
+    "verifiedQuestions": 3736,
+    "reviewQuestions": 15,
+    "lastUpdated": "2026-10-16T21:44:48.899Z"
   }
 }
