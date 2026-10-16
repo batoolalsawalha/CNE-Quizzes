@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-16T21:28:48.297Z",
+  "lastUpdated": "2026-10-16T21:33:09.299Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -124792,34 +124792,34 @@
       "subjectId": "subj-machine",
       "quizId": "quiz-subj-machine-mid",
       "topicId": null,
-      "question": "The working principle of a transformer depends upon\t:",
+      "question": "A DC motor delivers 15 kW at 1000 RPM. If total losses are 2.5 kW, calculate the input power to the motor.",
       "imageUrl": null,
       "options": [
         {
           "id": "a",
-          "text": "Ohm’s law -- 11 of 17 --"
+          "text": "12.5W"
         },
         {
           "id": "b",
-          "text": "Coulomb's law"
+          "text": "20W"
         },
         {
           "id": "c",
-          "text": "Faraday’s law of electromagnetic induction"
+          "text": "12W"
         },
         {
           "id": "d",
-          "text": "Biot-Savart law وابﺟﻟا\t:ﺢﯾﺣﺻﻟا\tC) Faraday’s law of electromagnetic induction ﺔﻘﯾطر\tلﺣﻟا\t)\tSolution\t:( دﻣﺗﻌﯾ\tلﻣﻋ\tولﺣﻣﻟا\tﻲﺋﺎﺑرﮭﻛﻟا\t ًﺎﺳﺎﺳأ\tﻰﻠﻋ\tونﻧﺎﻗ\tرادايﺎﻓ\tثﺣﻟﻼﻟ\tﻲﺳﯾطﺎﻧﻐﻣروﮭﻛﻟا\t)\tFaraday's law of electromagnetic induction\t(\tﺔﺟﯾﺗﻧ\tرﯾﻐﺗ\tقﻓدﺗﻟا\tﻲﺳﯾطﺎﻧﻐﻣﻟا\tدل.ﺎﺑﺗﻣﻟا ؤالﺳﻟا\tﻊﺑﺎﺳﻟا\tنﻣ)\tMid MCQs\t-\tصﺋﺎﺻﺧﻟا\tﺔﯾﻟﺎﺛﻣﻟا\tIdeal Transformer\t("
+          "text": "17.5W"
         }
       ],
-      "correctAnswer": "a",
-      "explanation": "",
+      "correctAnswer": "d",
+      "explanation": "P_in = P_out + P_losses = 15 + 2.5 = 17.5 kW",
       "difficulty": "Medium",
       "sourceFile": "‎⁨ماشين⁩.pdf",
       "sourcePage": null,
-      "status": "Needs Review",
+      "status": "Verified",
       "createdAt": "2026-10-12T14:01:21.979Z",
-      "updatedAt": "2026-10-12T14:01:21.980Z"
+      "updatedAt": "2026-10-16T21:33:09.007Z"
     },
     {
       "id": "q-a0d205a3",
@@ -125397,8 +125397,8 @@
     "totalQuizzes": 90,
     "activeQuizzes": 90,
     "totalQuestions": 3751,
-    "verifiedQuestions": 3733,
-    "reviewQuestions": 18,
-    "lastUpdated": "2026-10-16T21:28:48.297Z"
+    "verifiedQuestions": 3734,
+    "reviewQuestions": 17,
+    "lastUpdated": "2026-10-16T21:33:09.299Z"
   }
 }
