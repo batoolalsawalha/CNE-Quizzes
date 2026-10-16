@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-16T21:44:48.899Z",
+  "lastUpdated": "2026-10-16T21:54:37.599Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -124894,34 +124894,34 @@
       "subjectId": "subj-machine",
       "quizId": "quiz-subj-machine-mid",
       "topicId": null,
-      "question": "A magnetic circuit has a core with cross-sectional area A = 0.002\\,\\text{m}^2 and total flux \\Phi = 0.001\\,\\text{Wb}. What is the magnetic flux density (B) in the core\t?",
+      "question": "A torque tau = 100 N*m acts on a freely rotating shaft doing work of 1000 J. Find the angular rotation in radians.",
       "imageUrl": null,
       "options": [
         {
           "id": "a",
-          "text": "0.5\\,\\text{T\t{"
+          "text": "1 rad"
         },
         {
           "id": "b",
-          "text": "2.0\\,\\text{T\t{"
+          "text": "100 rad"
         },
         {
           "id": "c",
-          "text": "0.002\\,\\text{T\t{"
+          "text": "0.1 rad"
         },
         {
           "id": "d",
-          "text": "1.0\\,\\text{T\t{ وابﺟﻟا\t:ﺢﯾﺣﺻﻟا\tA) 0.5\\,\\text{T\t{ ﺔﻘﯾطر\tلﺣﻟا\t)\tSolution\t:( ونﻧﺎﻗ\tﺔﻓﺎﺛﻛ\tقﻓدﺗﻟا\tﻲﺳﯾطﺎﻧﻐﻣﻟا\t)\tMagnetic Flux Density\t:( ضﯾوﻌﺗﻟﺎﺑ\t)\tSubstitution\t:( ؤالﺳﻟا\tرﺷﺎﻌﻟا\tنﻣ)\tMid MCQs\t-\tلﯾﺻوﺗ\tتﻻوﺣﻣﻟا\tDelta-Delta\t("
+          "text": "10 rad"
         }
       ],
-      "correctAnswer": "a",
-      "explanation": "",
+      "correctAnswer": "d",
+      "explanation": "Work = tau * theta => theta = 1000 / 100 = 10 rad",
       "difficulty": "Medium",
       "sourceFile": "‎⁨ماشين⁩.pdf",
       "sourcePage": null,
-      "status": "Needs Review",
+      "status": "Verified",
       "createdAt": "2026-10-12T14:01:22.971Z",
-      "updatedAt": "2026-10-12T14:01:22.971Z"
+      "updatedAt": "2026-10-16T21:54:37.296Z"
     },
     {
       "id": "q-b36db8a5",
@@ -125397,8 +125397,8 @@
     "totalQuizzes": 90,
     "activeQuizzes": 90,
     "totalQuestions": 3751,
-    "verifiedQuestions": 3736,
-    "reviewQuestions": 15,
-    "lastUpdated": "2026-10-16T21:44:48.899Z"
+    "verifiedQuestions": 3737,
+    "reviewQuestions": 14,
+    "lastUpdated": "2026-10-16T21:54:37.599Z"
   }
 }
