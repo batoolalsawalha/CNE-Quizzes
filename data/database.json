@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-16T22:46:15.838Z",
+  "lastUpdated": "2026-10-16T23:08:03.129Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -125132,34 +125132,34 @@
       "subjectId": "subj-machine",
       "quizId": "quiz-subj-machine-mid",
       "topicId": null,
-      "question": "In a non-load linear DC machine, if the source voltage V_B = 100\\,\\text{V}, resistance R = 0.2\\,\\Omega, magnetic field B = 0.5\\,\\text{T}, and length l = 2\\,\\text{m}, what is the steady-state no-load velocity (v\t?(",
+      "question": "In a DC machine, if total coil conductors Z = 100, speed N = 1500 RPM, flux per pole Phi = 0.02 Wb, 4 poles, and wave-wound (a = 2), calculate generated EMF (E).",
       "imageUrl": null,
       "options": [
         {
           "id": "a",
-          "text": "100\\,\\text{m/s\t{"
+          "text": "100 V"
         },
         {
           "id": "b",
-          "text": "50\\,\\text{m/s\t{"
+          "text": "50 V"
         },
         {
           "id": "c",
-          "text": "200\\,\\text{m/s\t{"
+          "text": "120 V"
         },
         {
           "id": "d",
-          "text": "20\\,\\text{m/s\t{ وابﺟﻟا\t:ﺢﯾﺣﺻﻟا\tA) 100\\,\\text{m/s\t{ ﺔﻘﯾطر\tلﺣﻟا\t)\tSolution\t:( -- 15 of 17 -- ﻲﻓ\tﺔﻟﺎﺣ\tلﻣﺣﻼﻟا\t)\tNo-load\t،(\tونﻛﯾ\tرﺎﯾﺗﻟا\ti = 0\t،\tﻲﻟﺎﺗﻟﺎﺑو\tونﻛﯾ\tدﮭﺟﻟا\tوثﺛﺣﻣﻟا\t ًﺎﯾوﺎﺳﻣ\tدﮭﺟﻟ\tدر:ﺻﻣﻟا ونﻧﺎﻗ\tدﮭﺟﻟا\tوثﺛﺣﻣﻟا\tﺔﻟﻶﻟ\t:ﺔﯾطﺧﻟا ضﯾوﻌﺗﻟﺎﺑ\tدﺎﺟﯾﻹ\tﺔﻋرﺳﻟا\t)\tv\t:( ؤالﺳﻟا\tﻊﺑﺎﺳﻟا\tرﺷﻋ\tنﻣ)\tMid MCQs\t-\tوداتﻘﻔﻣ\tبﻠﻘﻟا\tديﯾدﺣﻟا\tCore Losses\t("
+          "text": "200 V"
         }
       ],
       "correctAnswer": "a",
-      "explanation": "",
-      "difficulty": "Medium",
+      "explanation": "E = (Phi * Z * N / 60) * (P / a) = (0.02 * 100 * 1500 / 60) * (4 / 2) = 50 * 2 = 100 V.",
+      "difficulty": "Hard",
       "sourceFile": "‎⁨ماشين⁩.pdf",
       "sourcePage": null,
-      "status": "Needs Review",
+      "status": "Verified",
       "createdAt": "2026-10-12T14:01:25.267Z",
-      "updatedAt": "2026-10-12T14:01:25.267Z"
+      "updatedAt": "2026-10-16T23:08:02.811Z"
     },
     {
       "id": "q-48e29913",
@@ -125397,8 +125397,8 @@
     "totalQuizzes": 90,
     "activeQuizzes": 90,
     "totalQuestions": 3751,
-    "verifiedQuestions": 3743,
-    "reviewQuestions": 8,
-    "lastUpdated": "2026-10-16T22:46:15.838Z"
+    "verifiedQuestions": 3744,
+    "reviewQuestions": 7,
+    "lastUpdated": "2026-10-16T23:08:03.129Z"
   }
 }
