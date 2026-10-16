@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-16T23:11:04.537Z",
+  "lastUpdated": "2026-10-16T23:11:16.040Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -125290,40 +125290,6 @@
       "updatedAt": "2026-10-12T14:01:26.475Z"
     },
     {
-      "id": "q-8e0862b3",
-      "subjectId": "subj-machine",
-      "quizId": "quiz-subj-machine-mid",
-      "topicId": null,
-      "question": "002\\,\\Omega with a turns ratio a = 10. The total equivalent resistance referred to the secondary side (R_{eq2}) is\t:",
-      "imageUrl": null,
-      "options": [
-        {
-          "id": "a",
-          "text": "0.022\\,\\Omega"
-        },
-        {
-          "id": "b",
-          "text": "0.202\\,\\Omega"
-        },
-        {
-          "id": "c",
-          "text": "2.0\\,\\Omega"
-        },
-        {
-          "id": "d",
-          "text": "0.004\\,\\Omega وابﺟﻟا\t:ﺢﯾﺣﺻﻟا\tA) 0.022\\,\\Omega ﺔﻘﯾطر\tلﺣﻟا\t)\tSolution\t:( ونﻧﺎﻗ\tﺔﻣوﺎﻘﻣﻟا\tﺔﺋﻓﺎﻛﻣﻟا\tﺔﺑوﺳﻧﻣ\tويﻧﺎﺛﻠﻟ\t)\tR_{eq2\t:({ ضﯾوﻌﺗﻟﺎﺑ\t)\tSubstitution\t:( ﺔظﺣﻼﻣ)\tﺔﻌﯾرﺳ\tﺢﯾﺣﺻﺗﻠﻟ\t:ﻲﺑﺎﺳﺣﻟا\t0.002\t+\t0.002\t=\t0.004\t\\,\\\tOmega\t،\tإذن\tرﺎﯾﺧﻟا\tﺢﯾﺣﺻﻟا\tوھ\tD)"
-        }
-      ],
-      "correctAnswer": "a",
-      "explanation": "",
-      "difficulty": "Medium",
-      "sourceFile": "‎⁨ماشين⁩.pdf",
-      "sourcePage": null,
-      "status": "Needs Review",
-      "createdAt": "2026-10-12T14:01:26.765Z",
-      "updatedAt": "2026-10-12T14:01:26.765Z"
-    },
-    {
       "id": "q-57d97f1b",
       "subjectId": "subj-machine",
       "quizId": null,
@@ -125370,9 +125336,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3750,
+    "totalQuestions": 3749,
     "verifiedQuestions": 3745,
-    "reviewQuestions": 5,
-    "lastUpdated": "2026-10-16T23:11:04.537Z"
+    "reviewQuestions": 4,
+    "lastUpdated": "2026-10-16T23:11:16.040Z"
   }
 }
