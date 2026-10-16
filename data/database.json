@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-16T17:37:40.540Z",
+  "lastUpdated": "2026-10-16T17:47:05.136Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -124384,34 +124384,34 @@
       "subjectId": "subj-machine",
       "quizId": "quiz-subj-machine-mid",
       "topicId": null,
-      "question": "Transformer uses laminated core in order to\t:",
+      "question": "The working principle of a transformer depends upon:",
       "imageUrl": null,
       "options": [
         {
           "id": "a",
-          "text": "Reduce eddy current loss"
+          "text": "Ohm's Law"
         },
         {
           "id": "b",
-          "text": "Reduce eddy current and hysteresis loss"
+          "text": "Mutual induction"
         },
         {
           "id": "c",
-          "text": "Ensure good magnetic coupling"
+          "text": "Self-induction only"
         },
         {
           "id": "d",
-          "text": "All of these -- 7 of 17 -- وابﺟﻟا\t:ﺢﯾﺣﺻﻟا\tA) Reduce eddy current loss ﺔﻘﯾطر\tلﺣﻟا\t)\tSolution\t:( دامﺧﺗﺳا\tبﻠﻘﻟا\tﻲﻘﺋﺎﻗرﻟا\t)\tLaminated Core\t(\tﻲﻓ\tتﻻوﺣﻣﻟا\tدفﮭﯾ\t ًﺎﺳﺎﺳأ\tﻰﻟإ\tلﯾﻠﻘﺗ\tﺔﻣوﺎﻘﻣ\tراتﺎﯾﺗﻟا\tﺔﯾﻣدواﻟا\tﻲﻟﺎﺗﻟﺎﺑو\tلﯾﻠﻘﺗ وداتﻘﻔﻣ\tرﺎﯾﺗﻟا\tﻲﻣدواﻟا\t)\tEddy Current Loss\t(\tنﻋ\tقﯾطر\tدةﺎﯾز\tﺔﻣوﺎﻘﻣﻟا\tﺔﯾﺋﺎﺑرﮭﻛﻟا\tب.ﻠﻘﻠﻟ ؤالﺳﻟا\tدسﺎﺳﻟا\tنﻣ)\tدئﺎﺑﻣ\tتﻻوﺣﻣﻟا\tWorking Principle Q64\t("
+          "text": "Coulomb's Law"
         }
       ],
-      "correctAnswer": "a",
-      "explanation": "",
-      "difficulty": "Medium",
+      "correctAnswer": "b",
+      "explanation": "يعمل المحول بمبدأ الحث المتبادل (Mutual induction) بين الملف الابتدائي والثانوي عبر القلب المغناطيسي.",
+      "difficulty": "Easy",
       "sourceFile": "‎⁨ماشين⁩.pdf",
       "sourcePage": null,
-      "status": "Needs Review",
+      "status": "Verified",
       "createdAt": "2026-10-12T14:01:18.268Z",
-      "updatedAt": "2026-10-12T14:01:18.269Z"
+      "updatedAt": "2026-10-16T17:47:04.822Z"
     },
     {
       "id": "q-9a1b99cd",
@@ -125389,8 +125389,8 @@
     "totalQuizzes": 90,
     "activeQuizzes": 90,
     "totalQuestions": 3751,
-    "verifiedQuestions": 3721,
-    "reviewQuestions": 30,
-    "lastUpdated": "2026-10-16T17:37:40.540Z"
+    "verifiedQuestions": 3722,
+    "reviewQuestions": 29,
+    "lastUpdated": "2026-10-16T17:47:05.136Z"
   }
 }
