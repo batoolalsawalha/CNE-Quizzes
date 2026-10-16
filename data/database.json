@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-16T21:54:37.599Z",
+  "lastUpdated": "2026-10-16T21:59:04.298Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -124928,34 +124928,34 @@
       "subjectId": "subj-machine",
       "quizId": "quiz-subj-machine-mid",
       "topicId": null,
-      "question": "In a delta-delta (\\Delta-\\Delta) connected transformer bank, what is the relation between line current (I_L) and phase current (I_{ph}) on the winding side\t?",
+      "question": "Consider a linear DC machine with R = 0.5 Ω, magnetic field B = 2 T, and bar length l = 0.5 m, connected to V = 100 V. Find the initial starting current at rest (v = 0).",
       "imageUrl": null,
       "options": [
         {
           "id": "a",
-          "text": "I_L = I_{ph\t{"
+          "text": "50 A"
         },
         {
           "id": "b",
-          "text": "I_L = \\sqrt{3} I_{ph\t{"
+          "text": "100 A"
         },
         {
           "id": "c",
-          "text": "I_{ph} = \\sqrt{3} I_L"
+          "text": "200"
         },
         {
           "id": "d",
-          "text": "I_L = 3 I_{ph\t{ وابﺟﻟا\t:ﺢﯾﺣﺻﻟا\tB) I_L = \\sqrt{3} I_{ph\t{ ﺔﻘﯾطر\tلﺣﻟا\t)\tSolution\t:( ﻲﻓ\tﺔﻠﯾﺻوﺗ\tﺎﺗﻟدﻟا\t)\tDelta connection\t،(\tونﻛﯾ\tرﺎﯾﺗ\tطﺧﻟا\tويﺎﺳﯾ\tذرﺟ\t3\t ًﺎﺑروﺿﻣ\tﻲﻓ\tرﺎﯾﺗ\tﮫﺟوﻟا\t)\tI_L = \\sqrt{3} I_{ph\t،({\tﺎﻣﻧﯾﺑ\tوىﺎﺳﺗﯾ\tدﮭﺟﻟا\tﻲطﺧﻟا\tﻊﻣ\tدﮭﺟ\t.ﮫﺟوﻟا"
+          "text": "400 A"
         }
       ],
-      "correctAnswer": "a",
-      "explanation": "",
-      "difficulty": "Medium",
+      "correctAnswer": "c",
+      "explanation": "عند السكون v = 0 => e_ind = B * l * v = 0. التيار i = (V - e_ind) / R = (100 - 0) / 0.5 = 200 A.",
+      "difficulty": "Hard",
       "sourceFile": "‎⁨ماشين⁩.pdf",
       "sourcePage": null,
-      "status": "Needs Review",
+      "status": "Verified",
       "createdAt": "2026-10-12T14:01:23.177Z",
-      "updatedAt": "2026-10-12T14:01:23.177Z"
+      "updatedAt": "2026-10-16T21:59:04.028Z"
     },
     {
       "id": "q-6e0827e7",
@@ -125397,8 +125397,8 @@
     "totalQuizzes": 90,
     "activeQuizzes": 90,
     "totalQuestions": 3751,
-    "verifiedQuestions": 3737,
-    "reviewQuestions": 14,
-    "lastUpdated": "2026-10-16T21:54:37.599Z"
+    "verifiedQuestions": 3738,
+    "reviewQuestions": 13,
+    "lastUpdated": "2026-10-16T21:59:04.298Z"
   }
 }
