@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-16T22:03:18.205Z",
+  "lastUpdated": "2026-10-16T22:08:26.901Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -124996,34 +124996,34 @@
       "subjectId": "subj-machine",
       "quizId": "quiz-subj-machine-mid",
       "topicId": null,
-      "question": "Which parameter changes during transformation action in a transformer\t?",
+      "question": "If a DC shunt motor is running at full load and its shunt field circuit accidentally opens, what will happen?",
       "imageUrl": null,
       "options": [
         {
           "id": "a",
-          "text": "Frequency\t(رددﺗﻟا)"
+          "text": "Speed increases dangerously to extremely high levels"
         },
         {
           "id": "b",
-          "text": "Power\t(درةﻘﻟا)"
+          "text": "Motor stops immediately"
         },
         {
           "id": "c",
-          "text": "Voltage and Current levels\tتﺎﯾوﺗﺳﻣ)\tدﮭﺟﻟا\t(رﺎﯾﺗﻟوا"
+          "text": "Voltage output becomes zero"
         },
         {
           "id": "d",
-          "text": "Total magnetic flux\tقﻓدﺗﻟا)\tﻲﺳﯾطﺎﻧﻐﻣﻟا\t(ﻲﻠﻛﻟا وابﺟﻟا\t:ﺢﯾﺣﺻﻟا\tC) Voltage and Current levels ﺔﻘﯾطر\tلﺣﻟا\t)\tSolution\t:( ﺔﻔﯾوظ\tولﺣﻣﻟا\tﺔﯾﺳﺎﺳﻷا\tﻲھ\tرﯾﯾﻐﺗ\tتﺎﯾوﺗﺳﻣ\tدﮭﺟﻟا\tرﺎﯾﺗﻟوا\tﻊﻓر)\tأو\t(ضﻔﺧ\tﺎﻣﻧﯾﺑ\tظلﯾ\tرددﺗﻟا\t)\tFrequency\t(\tدرةﻘﻟوا\t)\tPower\t( نﯾﺗﺑﺎﺛ\t.ًﺎﺑﯾرﻘﺗ ؤالﺳﻟا\tثﻟﺎﺛﻟا\tرﺷﻋ\tنﻣ)\tMid MCQs\t-\tتﻼﺻوﻣﻟا\tﺔﯾﺑطﻘﻟوا\tوةﻗو\t(زﺗﻧورﻟ"
+          "text": "Rotation direction reverses"
         }
       ],
       "correctAnswer": "a",
-      "explanation": "",
+      "explanation": "انقطاع دائرة المجال يجعل الفيض يهبط لفيض المتبقية (Residual flux) القريب من الصفر، فتزداد السرعة طردياً مع مقلوب الفيض لقيمة خطيرة جداً.",
       "difficulty": "Medium",
       "sourceFile": "‎⁨ماشين⁩.pdf",
       "sourcePage": null,
-      "status": "Needs Review",
+      "status": "Verified",
       "createdAt": "2026-10-12T14:01:23.973Z",
-      "updatedAt": "2026-10-12T14:01:23.973Z"
+      "updatedAt": "2026-10-16T22:08:26.673Z"
     },
     {
       "id": "q-edf98e99",
@@ -125397,8 +125397,8 @@
     "totalQuizzes": 90,
     "activeQuizzes": 90,
     "totalQuestions": 3751,
-    "verifiedQuestions": 3739,
-    "reviewQuestions": 12,
-    "lastUpdated": "2026-10-16T22:03:18.205Z"
+    "verifiedQuestions": 3740,
+    "reviewQuestions": 11,
+    "lastUpdated": "2026-10-16T22:08:26.901Z"
   }
 }
