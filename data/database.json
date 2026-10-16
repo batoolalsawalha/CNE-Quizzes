@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-16T22:35:17.428Z",
+  "lastUpdated": "2026-10-16T22:46:15.838Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -125098,34 +125098,34 @@
       "subjectId": "subj-machine",
       "quizId": "quiz-subj-machine-mid",
       "topicId": null,
-      "question": "Primary winding of a transformer is defined as the winding that\t:",
+      "question": "A separately excited DC motor runs at 1200 RPM with E_a = 200 V. If E_a drops to 180 V due to load change (at constant field flux), find the new speed.",
       "imageUrl": null,
       "options": [
         {
           "id": "a",
-          "text": "Is always connected to the load"
+          "text": "1000 RBM"
         },
         {
           "id": "b",
-          "text": "Is always a high voltage side"
+          "text": "1200 RBM"
         },
         {
           "id": "c",
-          "text": "Is connected to the electrical power source (AC supply\t("
+          "text": "960 RBM"
         },
         {
           "id": "d",
-          "text": "Has always fewer turns than secondary وابﺟﻟا\t:ﺢﯾﺣﺻﻟا\tC) Is connected to the electrical power source (AC supply\t( ﺔﻘﯾطر\tلﺣﻟا\t)\tSolution\t:( فﻠﻣﻟا\tﻲﺋداﺗﺑﻻا\t)\tPrimary Winding\t(\tﻲﻓ\tولﺣﻣﻟا\tوھ\t ًﺎﻣﺋدا\tفﻠﻣﻟا\tذيﻟا\tمﺗﯾ\tﮫﻠﯾﺻوﺗ\tـﺑ\tدرﺻﻣ\tﺔﻗﺎطﻟا\tﺔﯾﺋﺎﺑرﮭﻛﻟا\t)\tAC Supply source\t،(\tضﻐﺑ\tظرﻧﻟا\tﺎﻣﻋ\tإذا\tنﺎﻛ\tدهﮭﺟ\tﻰﻠﻋأ\tأو\tلﻗأ\tنﻣ\tوي.ﻧﺎﺛﻟا ؤالﺳﻟا\tدسﺎﺳﻟا\tرﺷﻋ\tنﻣ)\tMid Problems\t-\tتﺎﺑﺎﺳﺣ\tﺔﻟﻵا\tﺔﯾطﺧﻟا\tرﺎﯾﺗﻠﻟ\t(رﻣﺗﺳﻣﻟا"
+          "text": "1333 RBM"
         }
       ],
       "correctAnswer": "a",
-      "explanation": "",
-      "difficulty": "Medium",
+      "explanation": "(N2 / N1) = (E_a2 / E_a1) => N2 = 1200 * (180 / 200) = 1080 RPM.",
+      "difficulty": "Hard",
       "sourceFile": "‎⁨ماشين⁩.pdf",
       "sourcePage": null,
-      "status": "Needs Review",
+      "status": "Verified",
       "createdAt": "2026-10-12T14:01:24.972Z",
-      "updatedAt": "2026-10-12T14:01:24.972Z"
+      "updatedAt": "2026-10-16T22:46:15.601Z"
     },
     {
       "id": "q-1586352a",
@@ -125397,8 +125397,8 @@
     "totalQuizzes": 90,
     "activeQuizzes": 90,
     "totalQuestions": 3751,
-    "verifiedQuestions": 3742,
-    "reviewQuestions": 9,
-    "lastUpdated": "2026-10-16T22:35:17.428Z"
+    "verifiedQuestions": 3743,
+    "reviewQuestions": 8,
+    "lastUpdated": "2026-10-16T22:46:15.838Z"
   }
 }
