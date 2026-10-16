@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-16T17:27:14.037Z",
+  "lastUpdated": "2026-10-16T17:32:17.443Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -124316,34 +124316,34 @@
       "subjectId": "subj-machine",
       "quizId": "quiz-subj-machine-mid",
       "topicId": null,
-      "question": "A transformer with primary winding having 500 turns, secondary winding having 100 turns. If 200\\,\\text{V} is applied to the primary winding, the voltage at the secondary winding (V_s) will be\t:",
+      "question": "The law describing the electromotive force induced in a conductor placed in varying magnetic field is:",
       "imageUrl": null,
       "options": [
         {
           "id": "a",
-          "text": "2000\\,\\text{V\t{"
+          "text": "Faraday's Law of Induction"
         },
         {
           "id": "b",
-          "text": "1000\\,\\text{V\t{"
+          "text": "Coulomb's Law"
         },
         {
           "id": "c",
-          "text": "500\\,\\text{V\t{"
+          "text": "Gauss's Law"
         },
         {
           "id": "d",
-          "text": "40\\,\\text{V\t{ وابﺟﻟا\t:ﺢﯾﺣﺻﻟا\tD) 40\\,\\text{V\t{ ﺔﻘﯾطر\tلﺣﻟا\t)\tSolution\t:( ونﻧﺎﻗ\tبﺳﻧ\tلﯾوﺣﺗ\tتﻻوﺣﻣﻟا\t)\tTransformer Turns Ratio\t:( ضﯾوﻌﺗﻟﺎﺑ\t)\tSubstitution\t:( ؤالﺳﻟا\tﻊﺑراﻟا\tنﻣ)\tراتﺎﺑﺗﺧا\tرةﺋداﻟا\tرةﯾﺻﻘﻟا\tShort Circuit Test Q36\t("
+          "text": "Ampere's Law"
         }
       ],
       "correctAnswer": "a",
-      "explanation": "",
-      "difficulty": "Medium",
+      "explanation": "قانون فاراداي ينص على أن القوة الدافعة الكهربائية المحتثة تتناسب طردياً مع معدل التغير في التدفق المغناطيسي.",
+      "difficulty": "Easy",
       "sourceFile": "‎⁨ماشين⁩.pdf",
       "sourcePage": null,
-      "status": "Needs Review",
+      "status": "Verified",
       "createdAt": "2026-10-12T14:01:17.470Z",
-      "updatedAt": "2026-10-12T14:01:17.470Z"
+      "updatedAt": "2026-10-16T17:32:17.069Z"
     },
     {
       "id": "q-3f53972d",
@@ -125389,8 +125389,8 @@
     "totalQuizzes": 90,
     "activeQuizzes": 90,
     "totalQuestions": 3751,
-    "verifiedQuestions": 3719,
-    "reviewQuestions": 32,
-    "lastUpdated": "2026-10-16T17:27:14.037Z"
+    "verifiedQuestions": 3720,
+    "reviewQuestions": 31,
+    "lastUpdated": "2026-10-16T17:32:17.443Z"
   }
 }
