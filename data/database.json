@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-16T21:03:25.093Z",
+  "lastUpdated": "2026-10-16T21:09:04.092Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -124656,34 +124656,34 @@
       "subjectId": "subj-machine",
       "quizId": "quiz-subj-machine-mid",
       "topicId": null,
-      "question": "A single-phase transformer has 1000 turns on the primary winding and 200 turns on the secondary winding. If the secondary voltage is 100\\,\\text{V}, the primary voltage (V_p) is\t:",
+      "question": "The torque in a DC shunt motor is proportional to:",
       "imageUrl": null,
       "options": [
         {
           "id": "a",
-          "text": "500\\,\\text{V\t{"
+          "text": "Field resistance R_f only"
         },
         {
           "id": "b",
-          "text": "2000\\,\\text{V\t{"
+          "text": "Armature current I_a (assuming constant flux)"
         },
         {
           "id": "c",
-          "text": "100\\,\\text{V\t{"
+          "text": "Speed squared \\omega^2"
         },
         {
           "id": "d",
-          "text": "50\\,\\text{V\t{ وابﺟﻟا\t:ﺢﯾﺣﺻﻟا\tA) 500\\,\\text{V\t{ ﺔﻘﯾطر\tلﺣﻟا\t)\tSolution\t:( ﺔﺑﺳﻧ\tلﯾوﺣﺗﻟا\tتﻻوﺣﻣﻠﻟ\t)\tTurns Ratio\t:( ضﯾوﻌﺗﻟﺎﺑ\t)\tSubstitution\t:( ؤالﺳﻟا\tثﻟﺎﺛﻟا\tنﻣ)\tMid MCQs\t-\tرﺎﺑﺗﺧا\tرةﺋداﻟا\tرةﯾﺻﻘﻟا\tShort Circuit Test\t("
+          "text": "Terminal voltage squared V^2"
         }
       ],
       "correctAnswer": "a",
-      "explanation": "",
+      "explanation": "بما أن العزم T = K * phi * Ia وبما أن التدفق phi ثابت تقريباً في محرك التوازي، فإن العزم يتناسب طردياً مع شدة تيار المنتج Ia.",
       "difficulty": "Medium",
       "sourceFile": "‎⁨ماشين⁩.pdf",
       "sourcePage": null,
-      "status": "Needs Review",
+      "status": "Verified",
       "createdAt": "2026-10-12T14:01:21.070Z",
-      "updatedAt": "2026-10-12T14:01:21.070Z"
+      "updatedAt": "2026-10-16T21:09:03.586Z"
     },
     {
       "id": "q-90002b2c",
@@ -125397,8 +125397,8 @@
     "totalQuizzes": 90,
     "activeQuizzes": 90,
     "totalQuestions": 3751,
-    "verifiedQuestions": 3729,
-    "reviewQuestions": 22,
-    "lastUpdated": "2026-10-16T21:03:25.093Z"
+    "verifiedQuestions": 3730,
+    "reviewQuestions": 21,
+    "lastUpdated": "2026-10-16T21:09:04.092Z"
   }
 }
