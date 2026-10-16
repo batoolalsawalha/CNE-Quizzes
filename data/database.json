@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-16T20:56:00.993Z",
+  "lastUpdated": "2026-10-16T20:58:01.193Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -124588,26 +124588,34 @@
       "subjectId": "subj-machine",
       "quizId": "quiz-subj-machine-mid",
       "topicId": null,
-      "question": "For the non-load linear DC machine, if the source voltage is 250\\,\\text{V}, resistance R =",
+      "question": "What is the effect of armature reaction on the output voltage of a DC generator?",
       "imageUrl": null,
       "options": [
         {
           "id": "a",
-          "text": "خيار 1"
+          "text": "Drops/decreases the terminal voltage"
         },
         {
           "id": "b",
-          "text": "خيار 2"
+          "text": "Increases the terminal voltage"
+        },
+        {
+          "id": "c",
+          "text": "Eliminates voltage ripples"
+        },
+        {
+          "id": "d",
+          "text": "Keeps terminal voltage constant"
         }
       ],
       "correctAnswer": "a",
-      "explanation": "",
+      "explanation": "تأثير رد فعل المنتج (Armature reaction) يسبب إضعافاً وتشويهاً للمجال الرئيسي (Demagnetizing effect)، مما يقلل الجهد المتولد والطرفي.",
       "difficulty": "Medium",
       "sourceFile": "‎⁨ماشين⁩.pdf",
       "sourcePage": null,
-      "status": "Needs Review",
+      "status": "Verified",
       "createdAt": "2026-10-12T14:01:20.279Z",
-      "updatedAt": "2026-10-12T14:01:20.279Z"
+      "updatedAt": "2026-10-16T20:58:00.561Z"
     },
     {
       "id": "q-d3f77ac0",
@@ -125389,8 +125397,8 @@
     "totalQuizzes": 90,
     "activeQuizzes": 90,
     "totalQuestions": 3751,
-    "verifiedQuestions": 3727,
-    "reviewQuestions": 24,
-    "lastUpdated": "2026-10-16T20:56:00.993Z"
+    "verifiedQuestions": 3728,
+    "reviewQuestions": 23,
+    "lastUpdated": "2026-10-16T20:58:01.193Z"
   }
 }
