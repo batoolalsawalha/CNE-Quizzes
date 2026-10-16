@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-16T18:02:40.135Z",
+  "lastUpdated": "2026-10-16T20:56:00.993Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -124554,34 +124554,34 @@
       "subjectId": "subj-machine",
       "quizId": "quiz-subj-machine-mid",
       "topicId": null,
-      "question": "In a DC motor, the speed (n) is\t:",
+      "question": "A transformer with primary winding having 100 turns, secondary winding having 500 turns. If primary current is 200 A, the secondary current is:",
       "imageUrl": null,
       "options": [
         {
           "id": "a",
-          "text": "Proportional to flux (\\phi\t("
+          "text": "200 A"
         },
         {
           "id": "b",
-          "text": "Proportional to square of flux (\\phi^2\t("
+          "text": "40 A"
         },
         {
           "id": "c",
-          "text": "Inversely proportional to flux (\\phi\t("
+          "text": "100 A"
         },
         {
           "id": "d",
-          "text": "Independent of flux وابﺟﻟا\t:ﺢﯾﺣﺻﻟا\tC) Inversely proportional to flux (\\phi\t( ﺔﻘﯾطر\tلﺣﻟا\t)\tSolution\t:( ﺔﻟدﺎﻌﻣ\tﺔﻋرﺳﻟا\tﻲﻓ\tركﺣﻣ\tرﺎﯾﺗﻟا\tرﻣﺗﺳﻣﻟا\t:ﻲھ نﻣ\tﺔﻟدﺎﻌﻣﻟا\tنﯾﺑﺗﯾ\tأن\tﺔﻋرﺳﻟا\tبﺳﺎﻧﺗﺗ\t ًﺎﯾﺳﻛﻋ\tﻊﻣ\tضﯾﻔﻟا\tﻲﺳﯾطﺎﻧﻐﻣﻟا\t)\tInversely proportional to flux - \\phi\t.( -- 9 of 17 --"
+          "text": "50 A"
         }
       ],
-      "correctAnswer": "a",
-      "explanation": "",
+      "correctAnswer": "b",
+      "explanation": "(I2 / I1) = (N1 / N2) => I2 = 200 x (100 / 500) = 40 A",
       "difficulty": "Medium",
       "sourceFile": "‎⁨ماشين⁩.pdf",
       "sourcePage": null,
-      "status": "Needs Review",
+      "status": "Verified",
       "createdAt": "2026-10-12T14:01:20.075Z",
-      "updatedAt": "2026-10-12T14:01:20.075Z"
+      "updatedAt": "2026-10-16T20:56:00.378Z"
     },
     {
       "id": "q-1845f7f4",
@@ -125389,8 +125389,8 @@
     "totalQuizzes": 90,
     "activeQuizzes": 90,
     "totalQuestions": 3751,
-    "verifiedQuestions": 3726,
-    "reviewQuestions": 25,
-    "lastUpdated": "2026-10-16T18:02:40.135Z"
+    "verifiedQuestions": 3727,
+    "reviewQuestions": 24,
+    "lastUpdated": "2026-10-16T20:56:00.993Z"
   }
 }
