@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-16T17:53:44.937Z",
+  "lastUpdated": "2026-10-16T17:54:01.937Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -124440,12 +124440,12 @@
       ],
       "correctAnswer": "b",
       "explanation": "المحول المثالي لا يملك مقاومة للملفات، ولا تسريب مغناطيسي، وكفاءته 100%.",
-      "difficulty": "Medium",
+      "difficulty": "Easy",
       "sourceFile": "‎⁨ماشين⁩.pdf",
       "sourcePage": null,
       "status": "Verified",
       "createdAt": "2026-10-12T14:01:18.474Z",
-      "updatedAt": "2026-10-16T17:50:21.261Z"
+      "updatedAt": "2026-10-16T17:54:01.628Z"
     },
     {
       "id": "q-fbba5ccb",
@@ -125391,6 +125391,6 @@
     "totalQuestions": 3751,
     "verifiedQuestions": 3724,
     "reviewQuestions": 27,
-    "lastUpdated": "2026-10-16T17:53:44.937Z"
+    "lastUpdated": "2026-10-16T17:54:01.937Z"
   }
 }
