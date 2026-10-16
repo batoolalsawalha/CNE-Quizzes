@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-16T16:50:36.327Z",
+  "lastUpdated": "2026-10-16T17:21:46.545Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -124248,7 +124248,7 @@
       "subjectId": "subj-machine",
       "quizId": "quiz-subj-machine-mid",
       "topicId": null,
-      "question": "For the non-load linear DC machine, if the source voltage is 200\\,\\text{V}, resistance R =",
+      "question": "For the non-load linear DC machine, if the szzzource voltage is 200\\,\\text{V}, resistance R =",
       "imageUrl": null,
       "options": [
         {
@@ -124258,6 +124258,14 @@
         {
           "id": "b",
           "text": "خيار 2"
+        },
+        {
+          "id": "c",
+          "text": "1"
+        },
+        {
+          "id": "d",
+          "text": "22"
         }
       ],
       "correctAnswer": "a",
@@ -124265,9 +124273,9 @@
       "difficulty": "Medium",
       "sourceFile": "‎⁨ماشين⁩.pdf",
       "sourcePage": null,
-      "status": "Needs Review",
+      "status": "Verified",
       "createdAt": "2026-10-12T14:01:16.870Z",
-      "updatedAt": "2026-10-12T14:01:16.870Z"
+      "updatedAt": "2026-10-16T17:21:46.023Z"
     },
     {
       "id": "q-30012256",
@@ -125381,8 +125389,8 @@
     "totalQuizzes": 90,
     "activeQuizzes": 90,
     "totalQuestions": 3751,
-    "verifiedQuestions": 3717,
-    "reviewQuestions": 34,
-    "lastUpdated": "2026-10-16T16:50:36.327Z"
+    "verifiedQuestions": 3718,
+    "reviewQuestions": 33,
+    "lastUpdated": "2026-10-16T17:21:46.545Z"
   }
 }
