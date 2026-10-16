@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-16T21:33:09.299Z",
+  "lastUpdated": "2026-10-16T21:37:12.803Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -124826,34 +124826,34 @@
       "subjectId": "subj-machine",
       "quizId": "quiz-subj-machine-mid",
       "topicId": null,
-      "question": "An ideal transformer is one which has\t:",
+      "question": "A core of ferromagnetic material has a cross-sectional area of 100 cm^2. If the magnetic flux is 0.01 Wb, calculate the magnetic flux density B.",
       "imageUrl": null,
       "options": [
         {
           "id": "a",
-          "text": "No winding resistance and 100% efficiency"
+          "text": "100 T"
         },
         {
           "id": "b",
-          "text": "High magnetic leakage"
+          "text": "0.01"
         },
         {
           "id": "c",
-          "text": "Iron losses equal to copper losses"
+          "text": "1 T"
         },
         {
           "id": "d",
-          "text": "Variable turns ratio with frequency وابﺟﻟا\t:ﺢﯾﺣﺻﻟا\tA) No winding resistance and 100% efficiency ﺔﻘﯾطر\tلﺣﻟا\t)\tSolution\t:( ولﺣﻣﻟا\tﻲﻟﺎﺛﻣﻟا\t)\tIdeal Transformer\t(\tوھ\tراضﺗﻓا\tظريﻧ\tزﯾﻣﺗﯾ\tـﺑ\tدمﻋ\tودﺟو\tﺔﻣوﺎﻘﻣ\tتﺎﻔﻠﻣﻠﻟ\t)\tNo winding resistance\t،(\tدمﻋو\tودﺟو\tبﯾرﺳﺗ\t،ﻲﺳﯾطﺎﻧﻐﻣ\tءةﺎﻔﻛو\tلﺻﺗ\tﻰﻟإ\t100\t.% ؤالﺳﻟا\tنﻣﺎﺛﻟا\tنﻣ)\tMid MCQs\t-\tرﺋدواﻟا\tﺔﯾﺳﯾطﺎﻧﻐﻣﻟا\tMagnetic Circuits\t("
+          "text": "0.1 T"
         }
       ],
-      "correctAnswer": "a",
-      "explanation": "",
+      "correctAnswer": "c",
+      "explanation": "المساحة A = 100 * 10^-4 m^2 = 0.01 m^2. كثافة الفيض B = Phi / A = 0.01 / 0.01 = 1 Tesla.",
       "difficulty": "Medium",
       "sourceFile": "‎⁨ماشين⁩.pdf",
       "sourcePage": null,
-      "status": "Needs Review",
+      "status": "Verified",
       "createdAt": "2026-10-12T14:01:22.565Z",
-      "updatedAt": "2026-10-12T14:01:22.565Z"
+      "updatedAt": "2026-10-16T21:37:12.564Z"
     },
     {
       "id": "q-e3da94bd",
@@ -125397,8 +125397,8 @@
     "totalQuizzes": 90,
     "activeQuizzes": 90,
     "totalQuestions": 3751,
-    "verifiedQuestions": 3734,
-    "reviewQuestions": 17,
-    "lastUpdated": "2026-10-16T21:33:09.299Z"
+    "verifiedQuestions": 3735,
+    "reviewQuestions": 16,
+    "lastUpdated": "2026-10-16T21:37:12.803Z"
   }
 }
