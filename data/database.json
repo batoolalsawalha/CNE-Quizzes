@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-16T21:59:04.298Z",
+  "lastUpdated": "2026-10-16T22:03:18.205Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -124962,34 +124962,34 @@
       "subjectId": "subj-machine",
       "quizId": "quiz-subj-machine-mid",
       "topicId": null,
-      "question": "A single-phase transformer with a ratio of 10:1 (Primary to Secondary turns ratio \\frac{N_p}{N_s} = 10), if the primary voltage is 230\\,\\text{V}, the secondary voltage (V_s) is\t:",
+      "question": "No-load speed of which DC motor type is dangerously highest and theoretically approaches infinity?",
       "imageUrl": null,
       "options": [
         {
           "id": "a",
-          "text": "2300\\,\\text{V\t{"
+          "text": "Series motor"
         },
         {
           "id": "b",
-          "text": "23\\,\\text{V\t{"
+          "text": "Shunt motor"
         },
         {
           "id": "c",
-          "text": "115\\,\\text{V\t{"
+          "text": "Differentially compound motor"
         },
         {
           "id": "d",
-          "text": "460\\,\\text{V\t{ وابﺟﻟا\t:ﺢﯾﺣﺻﻟا\tB) 23\\,\\text{V\t{ -- 13 of 17 -- ﺔﻘﯾطر\tلﺣﻟا\t)\tSolution\t:( ونﻧﺎﻗ\tبﺳﻧ\tلﯾوﺣﺗ\tودﮭﺟﻟا\tددﻋو\tتﺎﻔﻠﻟا\t)\tTurns Ratio & Voltage Ratio\t:( ضﯾوﻌﺗﻟﺎﺑ\t)\tSubstitution\t:( ؤالﺳﻟا\tﻲﻧﺎﺛﻟا\tرﺷﻋ\tنﻣ)\tMid MCQs\t-\tﺎﻣ\tذيﻟا\tرﯾﻐﺗﯾ\tءﺎﻧﺛأ\tلﯾوﺣﺗﻟا\tﻲﻓ\t(تﻻوﺣﻣﻟا"
+          "text": "Cumulative compound motor"
         }
       ],
       "correctAnswer": "a",
-      "explanation": "",
-      "difficulty": "Medium",
+      "explanation": "في محرك التوالي I_f = I_a. عند عدم وجود حمل يقترب التيار I_a من الصفر فيؤول الفيض phi إلى الصفر. وبما أن w = E_a / (K * phi) فإن السرعة تتسارع لقيم خطيرة جداً وتؤول نظرياً إلى ما لا نهاية.",
+      "difficulty": "Hard",
       "sourceFile": "‎⁨ماشين⁩.pdf",
       "sourcePage": null,
-      "status": "Needs Review",
+      "status": "Verified",
       "createdAt": "2026-10-12T14:01:23.765Z",
-      "updatedAt": "2026-10-12T14:01:23.765Z"
+      "updatedAt": "2026-10-16T22:03:17.820Z"
     },
     {
       "id": "q-6277b0fe",
@@ -125397,8 +125397,8 @@
     "totalQuizzes": 90,
     "activeQuizzes": 90,
     "totalQuestions": 3751,
-    "verifiedQuestions": 3738,
-    "reviewQuestions": 13,
-    "lastUpdated": "2026-10-16T21:59:04.298Z"
+    "verifiedQuestions": 3739,
+    "reviewQuestions": 12,
+    "lastUpdated": "2026-10-16T22:03:18.205Z"
   }
 }
