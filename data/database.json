@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-16T17:21:54.134Z",
+  "lastUpdated": "2026-10-16T17:27:14.037Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -124282,34 +124282,34 @@
       "subjectId": "subj-machine",
       "quizId": "quiz-subj-machine-mid",
       "topicId": null,
-      "question": "5\\,\\Omega, B = 0.1\\,\\text{T}, and l = 5.0\\,\\text{m}, the starting current (I_{starting}) is\t:",
+      "question": "On open circuit transformer test, voltage at rated frequency is applied to:",
       "imageUrl": null,
       "options": [
         {
           "id": "a",
-          "text": "100\\,\\text{A\t{"
+          "text": "Low voltage winding"
         },
         {
           "id": "b",
-          "text": "300\\,\\text{A\t{"
+          "text": "High voltage winding"
         },
         {
           "id": "c",
-          "text": "400\\,\\text{A\t{"
+          "text": "Any winding freely"
         },
         {
           "id": "d",
-          "text": "200\\,\\text{A\t{ وابﺟﻟا\t:ﺢﯾﺣﺻﻟا\tC) 400\\,\\text{A\t{ ﺔﻘﯾطر\tلﺣﻟا\t)\tSolution\t:( دﻧﻋ\tدءﺑﻟا\t)\tAt starting\t،(\tونﻛﺗ\tﺔﻋرﺳﻟا\tرًاﻔﺻ\t)\tv = 0\t(\tﻲﻟﺎﺗﻟﺎﺑو\tدﮭﺟﻟا\tوثﺛﺣﻣﻟا\te_{ind} = 0\t. ونﻧﺎﻗ\tرﺎﯾﺗﻟا\t)\tCurrent Formula\t:( ؤالﺳﻟا\tثﻟﺎﺛﻟا\tنﻣ)\tﺔﻠﺋﺳأ\tTransformers Q17\t("
+          "text": "Secondary winding always"
         }
       ],
       "correctAnswer": "a",
-      "explanation": "",
+      "explanation": "عادة يتم إجراء اختبار اللاحمل (OC Test) بتطبيق الجهد المقنن على الطرف المنخفض الجهد (LV side) لتسهيل القياس وأمان المعدات.",
       "difficulty": "Medium",
       "sourceFile": "‎⁨ماشين⁩.pdf",
       "sourcePage": null,
-      "status": "Needs Review",
+      "status": "Verified",
       "createdAt": "2026-10-12T14:01:17.266Z",
-      "updatedAt": "2026-10-12T14:01:17.266Z"
+      "updatedAt": "2026-10-16T17:27:13.669Z"
     },
     {
       "id": "q-cd5f64d0",
@@ -125389,8 +125389,8 @@
     "totalQuizzes": 90,
     "activeQuizzes": 90,
     "totalQuestions": 3751,
-    "verifiedQuestions": 3718,
-    "reviewQuestions": 33,
-    "lastUpdated": "2026-10-16T17:21:54.134Z"
+    "verifiedQuestions": 3719,
+    "reviewQuestions": 32,
+    "lastUpdated": "2026-10-16T17:27:14.037Z"
   }
 }
