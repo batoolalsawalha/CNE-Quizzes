@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-16T23:08:03.129Z",
+  "lastUpdated": "2026-10-16T23:10:50.939Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -125166,34 +125166,34 @@
       "subjectId": "subj-machine",
       "quizId": "quiz-subj-machine-mid",
       "topicId": null,
-      "question": "Core losses in a transformer consist of\t:",
+      "question": "السؤال: What is the specific purpose of Interpoles (commutation poles) fitted in the neutral zone of DC machines?",
       "imageUrl": null,
       "options": [
         {
           "id": "a",
-          "text": "Hysteresis losses only"
+          "text": "Increase main pole flux density"
         },
         {
           "id": "b",
-          "text": "Eddy current losses only"
+          "text": "Neutralize armature reaction in commutation zone and eliminate sparking"
         },
         {
           "id": "c",
-          "text": "Both Hysteresis and Eddy current losses"
+          "text": "Control motor speed directly"
         },
         {
           "id": "d",
-          "text": "Copper losses and stray losses وابﺟﻟا\t:ﺢﯾﺣﺻﻟا\tC) Both Hysteresis and Eddy current losses ﺔﻘﯾطر\tلﺣﻟا\t)\tSolution\t:( وداتﻘﻔﻣ\tبﻠﻘﻟا\tأو\tدﯾدﺣﻟا\t)\tCore Losses / Iron Losses\t(\tونﻛﺗﺗ\t ًﺎﻣﺋدا\tنﻣ\tنﯾﻋوﻧ\tن:ﯾﯾﺳﺎﺳأ\tوداتﻘﻔﻣ\tسﯾطﺎﺧﺗﻟا\tﻲﺳﯾطﺎﻧﻐﻣﻟا )\tHysteresis losses\t(\tوداتﻘﻔﻣو\tراتﺎﯾﺗﻟا\tﺔﯾﻣدواﻟا\t)\tEddy current losses\t.( ؤالﺳﻟا\tنﻣﺎﺛﻟا\tرﺷﻋ\tنﻣ)\tMid MCQs\t-\tﺔﯾدﺎﻣﺗﻋﻻا\tﻲﻓ\tرﺋدواﻟا\t(ﺔﯾﺳﯾطﺎﻧﻐﻣﻟا"
+          "text": "Reduce mechanical friction"
         }
       ],
-      "correctAnswer": "a",
-      "explanation": "",
-      "difficulty": "Medium",
+      "correctAnswer": "b",
+      "explanation": "تلغي الأقطاب المساعدة التفاعل المغناطيسي الضار في المنطقة المحايدة وتساعد في العكس السريع للتيار لمنع التشرر عند الفحمات.",
+      "difficulty": "Hard",
       "sourceFile": "‎⁨ماشين⁩.pdf",
       "sourcePage": null,
-      "status": "Needs Review",
+      "status": "Verified",
       "createdAt": "2026-10-12T14:01:25.478Z",
-      "updatedAt": "2026-10-12T14:01:25.478Z"
+      "updatedAt": "2026-10-16T23:10:50.664Z"
     },
     {
       "id": "q-3a4af4c8",
@@ -125397,8 +125397,8 @@
     "totalQuizzes": 90,
     "activeQuizzes": 90,
     "totalQuestions": 3751,
-    "verifiedQuestions": 3744,
-    "reviewQuestions": 7,
-    "lastUpdated": "2026-10-16T23:08:03.129Z"
+    "verifiedQuestions": 3745,
+    "reviewQuestions": 6,
+    "lastUpdated": "2026-10-16T23:10:50.939Z"
   }
 }
