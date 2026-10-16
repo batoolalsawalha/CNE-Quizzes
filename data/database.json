@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-16T20:58:01.193Z",
+  "lastUpdated": "2026-10-16T21:03:25.093Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -124622,34 +124622,34 @@
       "subjectId": "subj-machine",
       "quizId": "quiz-subj-machine-mid",
       "topicId": null,
-      "question": "5\\,\\Omega, magnetic field B = 0.2\\,\\text{T}, and length l = 2.0\\,\\text{m}, what is the starting current (I_{starting\t?({",
+      "question": "The main advantage of wave winding over lap winding in DC machines is:",
       "imageUrl": null,
       "options": [
         {
           "id": "a",
-          "text": "100\\,\\text{A\t{"
+          "text": "Lower manufacturing cost"
         },
         {
           "id": "b",
-          "text": "500\\,\\text{A\t{"
+          "text": "Higher current rating"
         },
         {
           "id": "c",
-          "text": "250\\,\\text{A\t{"
+          "text": "Better mechanical balance"
         },
         {
           "id": "d",
-          "text": "1000\\,\\text{A\t{ وابﺟﻟا\t:ﺢﯾﺣﺻﻟا\tB) 500\\,\\text{A\t{ ﺔﻘﯾطر\tلﺣﻟا\t)\tSolution\t:( دﻧﻋ\tدءﺑﻟا\t)\tAt starting velocity v = 0\t،(\tونﻛﯾ\tدﮭﺟﻟا\tوثﺛﺣﻣﻟا\te_{ind} = 0\t. ونﻧﺎﻗ\tرﺎﯾﺗﻟا\tﻲﺋداﺗﺑﻻا\t)\tStarting Current\t:( ؤالﺳﻟا\tﻲﻧﺎﺛﻟا\tنﻣ)\tMid MCQs\t-\tتﻻوﺣﻣﻟا\tTransformers\t("
+          "text": "Higher voltage rating"
         }
       ],
-      "correctAnswer": "a",
-      "explanation": "",
+      "correctAnswer": "d",
+      "explanation": "اللف الموجي (Wave winding) يحتوي على مسارين متوازيين فقط ($a=2$) مما يجعل الملفات متصلة بالتوالي فيعطي جهداً أعلى.",
       "difficulty": "Medium",
       "sourceFile": "‎⁨ماشين⁩.pdf",
       "sourcePage": null,
-      "status": "Needs Review",
+      "status": "Verified",
       "createdAt": "2026-10-12T14:01:20.565Z",
-      "updatedAt": "2026-10-12T14:01:20.565Z"
+      "updatedAt": "2026-10-16T21:03:24.741Z"
     },
     {
       "id": "q-4aa6239d",
@@ -125397,8 +125397,8 @@
     "totalQuizzes": 90,
     "activeQuizzes": 90,
     "totalQuestions": 3751,
-    "verifiedQuestions": 3728,
-    "reviewQuestions": 23,
-    "lastUpdated": "2026-10-16T20:58:01.193Z"
+    "verifiedQuestions": 3729,
+    "reviewQuestions": 22,
+    "lastUpdated": "2026-10-16T21:03:25.093Z"
   }
 }
