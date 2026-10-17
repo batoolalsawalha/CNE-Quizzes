@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-17T16:37:15.625Z",
+  "lastUpdated": "2026-10-17T16:40:46.937Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -125704,6 +125704,40 @@
       "status": "Verified",
       "createdAt": "2026-10-17T16:27:34.916Z",
       "updatedAt": "2026-10-17T16:37:15.208Z"
+    },
+    {
+      "id": "q-e01a862f",
+      "subjectId": "subj-machine",
+      "quizId": "quiz-subj-machine-final",
+      "topicId": null,
+      "question": "A 3-phase transformer has a primary connected in Delta and a secondary connected in Star. The line voltage ratio is",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "Independent of the phase voltage ratio"
+        },
+        {
+          "id": "b",
+          "text": "Equal to the phase voltage ratio"
+        },
+        {
+          "id": "c",
+          "text": "√3 times the phase voltage ratio"
+        },
+        {
+          "id": "d",
+          "text": "1/√3 times the phase voltage ratio"
+        }
+      ],
+      "correctAnswer": "c",
+      "explanation": "In Delta, VL = Vph. In Star, VL = √3 x Vph\nتتأثر النسبة بمعامل الجذر 3",
+      "difficulty": "Hard",
+      "sourceFile": "",
+      "sourcePage": null,
+      "status": "Verified",
+      "createdAt": "2026-10-17T16:40:46.488Z",
+      "updatedAt": "2026-10-17T16:40:46.488Z"
     }
   ],
   "admin": {
@@ -125718,9 +125752,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3760,
-    "verifiedQuestions": 3760,
+    "totalQuestions": 3761,
+    "verifiedQuestions": 3761,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-17T16:37:15.625Z"
+    "lastUpdated": "2026-10-17T16:40:46.937Z"
   }
 }
