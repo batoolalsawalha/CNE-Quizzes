@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-17T17:10:03.328Z",
+  "lastUpdated": "2026-10-17T17:22:01.234Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -125840,6 +125840,40 @@
       "status": "Verified",
       "createdAt": "2026-10-17T17:10:02.850Z",
       "updatedAt": "2026-10-17T17:10:02.850Z"
+    },
+    {
+      "id": "q-bf2ae5b8",
+      "subjectId": "subj-machine",
+      "quizId": "quiz-subj-machine-final",
+      "topicId": null,
+      "question": "A DC shunt generator delivers 20 A at 220 V. If Ra = 0.4 ohm and Rsh = 110 ohm, the generated EMF is:",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "224 V"
+        },
+        {
+          "id": "b",
+          "text": "228 V"
+        },
+        {
+          "id": "c",
+          "text": "235 V"
+        },
+        {
+          "id": "d",
+          "text": "230 V"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "If = 220/110 = 2 A.\nIa = 20 + 2 = 22 A.\nEg = 220 + (22 x 0.4) = 228.8 V.",
+      "difficulty": "Medium",
+      "sourceFile": "",
+      "sourcePage": null,
+      "status": "Verified",
+      "createdAt": "2026-10-17T17:22:00.844Z",
+      "updatedAt": "2026-10-17T17:22:00.844Z"
     }
   ],
   "admin": {
@@ -125854,9 +125888,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3764,
-    "verifiedQuestions": 3764,
+    "totalQuestions": 3765,
+    "verifiedQuestions": 3765,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-17T17:10:03.328Z"
+    "lastUpdated": "2026-10-17T17:22:01.234Z"
   }
 }
