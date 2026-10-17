@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-17T16:27:35.725Z",
+  "lastUpdated": "2026-10-17T16:37:15.625Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -125698,12 +125698,12 @@
       ],
       "correctAnswer": "b",
       "explanation": "The no-load current is mainly inductive, resulting in a low power factor.",
-      "difficulty": "Easy",
+      "difficulty": "Medium",
       "sourceFile": "",
       "sourcePage": null,
       "status": "Verified",
       "createdAt": "2026-10-17T16:27:34.916Z",
-      "updatedAt": "2026-10-17T16:27:34.916Z"
+      "updatedAt": "2026-10-17T16:37:15.208Z"
     }
   ],
   "admin": {
@@ -125721,6 +125721,6 @@
     "totalQuestions": 3760,
     "verifiedQuestions": 3760,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-17T16:27:35.725Z"
+    "lastUpdated": "2026-10-17T16:37:15.625Z"
   }
 }
