@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-17T13:24:41.509Z",
+  "lastUpdated": "2026-10-17T13:32:50.209Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -125534,6 +125534,40 @@
       "status": "Verified",
       "createdAt": "2026-10-17T13:24:41.136Z",
       "updatedAt": "2026-10-17T13:24:41.136Z"
+    },
+    {
+      "id": "q-083d9964",
+      "subjectId": "subj-machine",
+      "quizId": "quiz-subj-machine-final",
+      "topicId": null,
+      "question": "A separately excited DC motor rotates at 1000 rpm. The no-load terminal voltage varies with field current as follows:\n\nIf (A): 0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8\nVt (V): 0, 30, 60, 85, 102, 115, 124, 130, 134\n\nThe field supply is 24 V, the armature resistance is 0.2 ohm, and the armature terminal voltage is 130 V.\n\nCalculate the field current at no-load, the armature voltage at 1200 rpm when the field resistance is 60 ohm, and the torque under this condition.",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "If = 0.4 A, Va = 130 V, T = 38 N.m"
+        },
+        {
+          "id": "b",
+          "text": "If = 0.7 A, Va = 122.4 V, T = 36.9 N.m"
+        },
+        {
+          "id": "c",
+          "text": "If = 0.7 A, Va = 102 V, T = 40 N.m"
+        },
+        {
+          "id": "d",
+          "text": "If = 0.5 A, Va = 115 V, T = 36.9 N.m"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "1) من الجدول: If = 0.7 A عند Vt = 130 V.\n2) If = 24/60 = 0.4 A.\n3) Ea = 102 x (1200/1000) = 122.4 V.\n4) Ia = (130 - 122.4)/0.2 = 38 A.\n5) T = (122.4 x 38)/(2 x pi x 1200/60) = 36.9 N.m",
+      "difficulty": "Hard",
+      "sourceFile": "",
+      "sourcePage": null,
+      "status": "Verified",
+      "createdAt": "2026-10-17T13:32:49.859Z",
+      "updatedAt": "2026-10-17T13:32:49.859Z"
     }
   ],
   "admin": {
@@ -125548,9 +125582,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3755,
-    "verifiedQuestions": 3755,
+    "totalQuestions": 3756,
+    "verifiedQuestions": 3756,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-17T13:24:41.509Z"
+    "lastUpdated": "2026-10-17T13:32:50.209Z"
   }
 }
