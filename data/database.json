@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-17T13:04:51.605Z",
+  "lastUpdated": "2026-10-17T13:05:15.304Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -125404,7 +125404,7 @@
       "subjectId": "subj-machine",
       "quizId": "quiz-subj-machine-final",
       "topicId": null,
-      "question": "The speed of this motor when the line current is 100A:",
+      "question": "The speed of this motor when the line current is 100A:\n(Motor Type: DC Shunt Motor with Compensating Windings | Rated Power: 50 hp (36.775 kW) | Terminal Voltage (VT): 250 V | No-load Speed: 1200 RPM | Armature Resistance (RA): 0.06 ohms | Field Circuit Resistance (Radj + RF): 50 ohms | Field Windings (NF): 1200 turns/pole | Currents: Line Current (IL), Armature Current (IA), Field Current (IF) | Counter-EMF: Back EMF (EA).)",
       "imageUrl": null,
       "options": [
         {
@@ -125431,7 +125431,7 @@
       "sourcePage": null,
       "status": "Verified",
       "createdAt": "2026-10-17T11:55:03.613Z",
-      "updatedAt": "2026-10-17T11:55:03.613Z"
+      "updatedAt": "2026-10-17T13:05:14.618Z"
     }
   ],
   "admin": {
@@ -125449,6 +125449,6 @@
     "totalQuestions": 3752,
     "verifiedQuestions": 3752,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-17T13:04:51.605Z"
+    "lastUpdated": "2026-10-17T13:05:15.304Z"
   }
 }
