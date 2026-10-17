@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-17T13:05:23.706Z",
+  "lastUpdated": "2026-10-17T13:09:37.506Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -125432,6 +125432,40 @@
       "status": "Verified",
       "createdAt": "2026-10-17T11:55:03.613Z",
       "updatedAt": "2026-10-17T13:05:14.618Z"
+    },
+    {
+      "id": "q-4eb751c8",
+      "subjectId": "subj-machine",
+      "quizId": "quiz-subj-machine-final",
+      "topicId": null,
+      "question": "The speed of this motor at rated current:\n(Motor Type: DC Shunt Motor with Compensating Windings | Rated Power: 50 hp (36.775 kW) | Terminal Voltage (VT): 250 V | No-load Speed: 1200 RPM | Armature Resistance (RA): 0.06 ohms | Field Circuit Resistance (Radj + RF): 50 ohms | Field Windings (NF): 1200 turns/pole | Currents: Line Current (IL), Armature Current (IA), Field Current (IF) | Counter-EMF: Back EMF (EA).)",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "1020"
+        },
+        {
+          "id": "b",
+          "text": "987 RBM"
+        },
+        {
+          "id": "c",
+          "text": "1157.6 RBM"
+        },
+        {
+          "id": "d",
+          "text": "1173 RBM"
+        }
+      ],
+      "correctAnswer": "c",
+      "explanation": "تعويض تيار الحمل الكامل في قانون السرعة المرتبط بالجهد العكسي والفيض.",
+      "difficulty": "Hard",
+      "sourceFile": "",
+      "sourcePage": null,
+      "status": "Verified",
+      "createdAt": "2026-10-17T13:09:37.159Z",
+      "updatedAt": "2026-10-17T13:09:37.159Z"
     }
   ],
   "admin": {
@@ -125446,9 +125480,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3752,
-    "verifiedQuestions": 3752,
+    "totalQuestions": 3753,
+    "verifiedQuestions": 3753,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-17T13:05:23.706Z"
+    "lastUpdated": "2026-10-17T13:09:37.506Z"
   }
 }
