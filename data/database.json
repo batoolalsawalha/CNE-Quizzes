@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-17T17:35:37.825Z",
+  "lastUpdated": "2026-10-17T17:37:44.636Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -126078,6 +126078,40 @@
       "status": "Verified",
       "createdAt": "2026-10-17T17:35:37.251Z",
       "updatedAt": "2026-10-17T17:35:37.251Z"
+    },
+    {
+      "id": "q-54e1b67a",
+      "subjectId": "subj-machine",
+      "quizId": "quiz-subj-machine-final",
+      "topicId": null,
+      "question": "If the field winding of a DC shunt motor opens during operation, the motor will:",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "Run at constant speed"
+        },
+        {
+          "id": "b",
+          "text": "Stop immediately"
+        },
+        {
+          "id": "c",
+          "text": "Run at half speed"
+        },
+        {
+          "id": "d",
+          "text": "Run at dangerously high speed"
+        }
+      ],
+      "correctAnswer": "d",
+      "explanation": "Loss of field flux causes the motor speed to increase dangerously.",
+      "difficulty": "Medium",
+      "sourceFile": "",
+      "sourcePage": null,
+      "status": "Verified",
+      "createdAt": "2026-10-17T17:37:44.263Z",
+      "updatedAt": "2026-10-17T17:37:44.263Z"
     }
   ],
   "admin": {
@@ -126092,9 +126126,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3771,
-    "verifiedQuestions": 3771,
+    "totalQuestions": 3772,
+    "verifiedQuestions": 3772,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-17T17:35:37.825Z"
+    "lastUpdated": "2026-10-17T17:37:44.636Z"
   }
 }
