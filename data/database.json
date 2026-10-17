@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-17T17:50:45.939Z",
+  "lastUpdated": "2026-10-17T17:53:46.027Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -126248,6 +126248,40 @@
       "status": "Verified",
       "createdAt": "2026-10-17T17:50:45.686Z",
       "updatedAt": "2026-10-17T17:50:45.686Z"
+    },
+    {
+      "id": "q-fe42e4ad",
+      "subjectId": "subj-machine",
+      "quizId": "quiz-subj-machine-final",
+      "topicId": null,
+      "question": "The speed-torque characteristic of a DC series motor is:",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "Nearly constant torque"
+        },
+        {
+          "id": "b",
+          "text": "Constant speed"
+        },
+        {
+          "id": "c",
+          "text": "Linear speed-torque relationship"
+        },
+        {
+          "id": "d",
+          "text": "High starting torque, with speed decreasing as load increases"
+        }
+      ],
+      "correctAnswer": "d",
+      "explanation": "A DC series motor produces high starting torque and slows down as load increases.",
+      "difficulty": "Easy",
+      "sourceFile": "",
+      "sourcePage": null,
+      "status": "Verified",
+      "createdAt": "2026-10-17T17:53:45.523Z",
+      "updatedAt": "2026-10-17T17:53:45.523Z"
     }
   ],
   "admin": {
@@ -126262,9 +126296,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3776,
-    "verifiedQuestions": 3776,
+    "totalQuestions": 3777,
+    "verifiedQuestions": 3777,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-17T17:50:45.939Z"
+    "lastUpdated": "2026-10-17T17:53:46.027Z"
   }
 }
