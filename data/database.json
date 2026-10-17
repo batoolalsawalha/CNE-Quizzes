@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-17T16:56:54.725Z",
+  "lastUpdated": "2026-10-17T17:07:03.831Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -125772,6 +125772,40 @@
       "status": "Verified",
       "createdAt": "2026-10-17T16:56:54.227Z",
       "updatedAt": "2026-10-17T16:56:54.227Z"
+    },
+    {
+      "id": "q-ef67d397",
+      "subjectId": "subj-machine",
+      "quizId": "quiz-subj-machine-final",
+      "topicId": null,
+      "question": "A DC motor has a full-load speed of 750 RPM and speed regulation of 15%. The no-load speed is:",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "800.5 RPM"
+        },
+        {
+          "id": "b",
+          "text": "862.5 RPM"
+        },
+        {
+          "id": "c",
+          "text": "750 RPM"
+        },
+        {
+          "id": "d",
+          "text": "None of the above"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "No-load speed = 750 x (1 + 0.15) = 862.5 RPM.",
+      "difficulty": "Easy",
+      "sourceFile": "",
+      "sourcePage": null,
+      "status": "Verified",
+      "createdAt": "2026-10-17T17:07:03.120Z",
+      "updatedAt": "2026-10-17T17:07:03.120Z"
     }
   ],
   "admin": {
@@ -125786,9 +125820,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3762,
-    "verifiedQuestions": 3762,
+    "totalQuestions": 3763,
+    "verifiedQuestions": 3763,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-17T16:56:54.725Z"
+    "lastUpdated": "2026-10-17T17:07:03.831Z"
   }
 }
