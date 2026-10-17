@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-17T13:32:50.209Z",
+  "lastUpdated": "2026-10-17T13:50:32.799Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -125568,6 +125568,40 @@
       "status": "Verified",
       "createdAt": "2026-10-17T13:32:49.859Z",
       "updatedAt": "2026-10-17T13:32:49.859Z"
+    },
+    {
+      "id": "q-24e7ba11",
+      "subjectId": "subj-machine",
+      "quizId": "quiz-subj-machine-final",
+      "topicId": null,
+      "question": "The full-load copper loss of a transformer is 4000 W. At half-load, the copper loss will be",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "1000 w"
+        },
+        {
+          "id": "b",
+          "text": "2000 w"
+        },
+        {
+          "id": "c",
+          "text": "400 w"
+        },
+        {
+          "id": "d",
+          "text": "500 w"
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "Copper loss = 4000 x (0.5)^2 = 1000 W.",
+      "difficulty": "Easy",
+      "sourceFile": "",
+      "sourcePage": null,
+      "status": "Verified",
+      "createdAt": "2026-10-17T13:50:32.360Z",
+      "updatedAt": "2026-10-17T13:50:32.360Z"
     }
   ],
   "admin": {
@@ -125582,9 +125616,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3756,
-    "verifiedQuestions": 3756,
+    "totalQuestions": 3757,
+    "verifiedQuestions": 3757,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-17T13:32:50.209Z"
+    "lastUpdated": "2026-10-17T13:50:32.799Z"
   }
 }
