@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-17T17:07:03.831Z",
+  "lastUpdated": "2026-10-17T17:10:03.328Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -125806,6 +125806,40 @@
       "status": "Verified",
       "createdAt": "2026-10-17T17:07:03.120Z",
       "updatedAt": "2026-10-17T17:07:03.120Z"
+    },
+    {
+      "id": "q-54ebced6",
+      "subjectId": "subj-machine",
+      "quizId": "quiz-subj-machine-final",
+      "topicId": null,
+      "question": "16. A DC motor has a rated speed of 1200 RPM and rated torque of 40 N.m. The rated power is:",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "3 KW"
+        },
+        {
+          "id": "b",
+          "text": "30 kW"
+        },
+        {
+          "id": "c",
+          "text": "5 KW"
+        },
+        {
+          "id": "d",
+          "text": "0.5 KW"
+        }
+      ],
+      "correctAnswer": "c",
+      "explanation": "P = T x (2πN/60) = 40 x (2π x 1200/60) ≈ 5 kW.",
+      "difficulty": "Medium",
+      "sourceFile": "",
+      "sourcePage": null,
+      "status": "Verified",
+      "createdAt": "2026-10-17T17:10:02.850Z",
+      "updatedAt": "2026-10-17T17:10:02.850Z"
     }
   ],
   "admin": {
@@ -125820,9 +125854,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3763,
-    "verifiedQuestions": 3763,
+    "totalQuestions": 3764,
+    "verifiedQuestions": 3764,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-17T17:07:03.831Z"
+    "lastUpdated": "2026-10-17T17:10:03.328Z"
   }
 }
