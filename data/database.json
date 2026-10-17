@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-17T17:37:44.636Z",
+  "lastUpdated": "2026-10-17T17:39:51.829Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -126112,6 +126112,40 @@
       "status": "Verified",
       "createdAt": "2026-10-17T17:37:44.263Z",
       "updatedAt": "2026-10-17T17:37:44.263Z"
+    },
+    {
+      "id": "q-e97e315a",
+      "subjectId": "subj-machine",
+      "quizId": "quiz-subj-machine-final",
+      "topicId": null,
+      "question": "The most common method of speed control in a DC shunt motor is:",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "Field flux control"
+        },
+        {
+          "id": "b",
+          "text": "Armature resistance control"
+        },
+        {
+          "id": "c",
+          "text": "Scott-T connection"
+        },
+        {
+          "id": "d",
+          "text": "Increasing armature resistance only"
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "Varying the field current changes the flux and controls motor speed.",
+      "difficulty": "Easy",
+      "sourceFile": "",
+      "sourcePage": null,
+      "status": "Verified",
+      "createdAt": "2026-10-17T17:39:51.434Z",
+      "updatedAt": "2026-10-17T17:39:51.434Z"
     }
   ],
   "admin": {
@@ -126126,9 +126160,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3772,
-    "verifiedQuestions": 3772,
+    "totalQuestions": 3773,
+    "verifiedQuestions": 3773,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-17T17:37:44.636Z"
+    "lastUpdated": "2026-10-17T17:39:51.829Z"
   }
 }
