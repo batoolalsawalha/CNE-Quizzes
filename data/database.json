@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-17T11:18:07.169Z",
+  "lastUpdated": "2026-10-17T11:55:04.379Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -125398,6 +125398,40 @@
       "status": "Verified",
       "createdAt": "2026-10-17T11:18:06.424Z",
       "updatedAt": "2026-10-17T11:18:06.424Z"
+    },
+    {
+      "id": "q-06419765",
+      "subjectId": "subj-machine",
+      "quizId": "quiz-subj-machine-final",
+      "topicId": null,
+      "question": "The speed of this motor when the line current is 100A:",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "1173 RBM"
+        },
+        {
+          "id": "b",
+          "text": "987 RBM"
+        },
+        {
+          "id": "c",
+          "text": "1157.6 RBM"
+        },
+        {
+          "id": "d",
+          "text": "None of the above"
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "حساب عزم الدوران والتيار عند 100A واستخدام معادلات السرعة مع تيار الأناتشر ومقاومة الأناتشر 0.06 أوم",
+      "difficulty": "Hard",
+      "sourceFile": "",
+      "sourcePage": null,
+      "status": "Verified",
+      "createdAt": "2026-10-17T11:55:03.613Z",
+      "updatedAt": "2026-10-17T11:55:03.613Z"
     }
   ],
   "admin": {
@@ -125412,9 +125446,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3751,
-    "verifiedQuestions": 3751,
+    "totalQuestions": 3752,
+    "verifiedQuestions": 3752,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-17T11:18:07.169Z"
+    "lastUpdated": "2026-10-17T11:55:04.379Z"
   }
 }
