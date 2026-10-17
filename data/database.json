@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-17T13:13:25.612Z",
+  "lastUpdated": "2026-10-17T13:24:41.509Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -125500,6 +125500,40 @@
       "status": "Verified",
       "createdAt": "2026-10-17T13:13:25.260Z",
       "updatedAt": "2026-10-17T13:13:25.260Z"
+    },
+    {
+      "id": "q-f0b79abd",
+      "subjectId": "subj-machine",
+      "quizId": "quiz-subj-machine-final",
+      "topicId": null,
+      "question": "A six-pole DC generator has a flux per pole of 30 mWb, 536 armature conductors connected as a simplex progressive lap winding, speed of 1050 rpm, and armature current of 225 A. The field and armature resistances are Rf = Ra = 0.05 ohm. Rotational losses are 2 kW. Calculate Eg, Pdev, Tdev, Vt, and efficiency.",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "Eg = 281.4 V, Pdev = 63.315 kW, Tdev = 575.8 N.m, Vt = 258.9 V, efficiency = 89.2%"
+        },
+        {
+          "id": "b",
+          "text": "Eg = 258.9 V, Pdev = 58.25 kW, Tdev = 530 N.m, Vt = 281.4 V, efficiency = 91%"
+        },
+        {
+          "id": "c",
+          "text": "Eg = 300 V, Pdev = 67.5 kW, Tdev = 615 N.m, Vt = 277.5 V, efficiency = 90%"
+        },
+        {
+          "id": "d",
+          "text": "Eg = 281.4 V, Pdev = 58.25 kW, Tdev = 530 N.m, Vt = 258.9 V, efficiency = 85%"
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "1. Generated voltage:\n    Eg = (Phi x Z x N) / 60\n    Eg = (0.03 x 536 x 1050) / 60 = 281.4 V\n2. Developed power:\n    Pdev = Eg x Ia = 281.4 x 225 = 63.315 kW\n3. Developed torque:\n    Tdev = Pdev / (2 x pi x N / 60) = 575.8 N.m\n4. Terminal voltage:\n    Vt = Eg - Ia(Ra + Rf)\n    Vt = 281.4 - 225(0.05 + 0.05) = 258.9 V\n5. Efficiency:\n    Efficiency = Output power / Input power x 100\n    Efficiency = 58.2525 / 65.315 x 100 = 89.2%",
+      "difficulty": "Hard",
+      "sourceFile": "",
+      "sourcePage": null,
+      "status": "Verified",
+      "createdAt": "2026-10-17T13:24:41.136Z",
+      "updatedAt": "2026-10-17T13:24:41.136Z"
     }
   ],
   "admin": {
@@ -125514,9 +125548,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3754,
-    "verifiedQuestions": 3754,
+    "totalQuestions": 3755,
+    "verifiedQuestions": 3755,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-17T13:13:25.612Z"
+    "lastUpdated": "2026-10-17T13:24:41.509Z"
   }
 }
