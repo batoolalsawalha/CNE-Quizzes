@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-17T13:50:32.799Z",
+  "lastUpdated": "2026-10-17T13:52:15.112Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -125602,6 +125602,40 @@
       "status": "Verified",
       "createdAt": "2026-10-17T13:50:32.360Z",
       "updatedAt": "2026-10-17T13:50:32.360Z"
+    },
+    {
+      "id": "q-bc25a1cd",
+      "subjectId": "subj-machine",
+      "quizId": "quiz-subj-machine-final",
+      "topicId": null,
+      "question": "A transformer has 100 primary turns and 500 secondary turns. If the primary current is 200 A, the secondary current is:",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "500 A"
+        },
+        {
+          "id": "b",
+          "text": "100 A"
+        },
+        {
+          "id": "c",
+          "text": "1000 A"
+        },
+        {
+          "id": "d",
+          "text": "40  A"
+        }
+      ],
+      "correctAnswer": "d",
+      "explanation": "Is = Ip x (Np/Ns) = 200 x (100/500) = 40 A.",
+      "difficulty": "Easy",
+      "sourceFile": "",
+      "sourcePage": null,
+      "status": "Verified",
+      "createdAt": "2026-10-17T13:52:14.722Z",
+      "updatedAt": "2026-10-17T13:52:14.723Z"
     }
   ],
   "admin": {
@@ -125616,9 +125650,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3757,
-    "verifiedQuestions": 3757,
+    "totalQuestions": 3758,
+    "verifiedQuestions": 3758,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-17T13:50:32.799Z"
+    "lastUpdated": "2026-10-17T13:52:15.112Z"
   }
 }
