@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-17T17:22:01.234Z",
+  "lastUpdated": "2026-10-17T17:23:34.137Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -125874,6 +125874,40 @@
       "status": "Verified",
       "createdAt": "2026-10-17T17:22:00.844Z",
       "updatedAt": "2026-10-17T17:22:00.844Z"
+    },
+    {
+      "id": "q-85f4d73f",
+      "subjectId": "subj-machine",
+      "quizId": "quiz-subj-machine-final",
+      "topicId": null,
+      "question": "A DC motor is connected to a 220 V supply, draws 25 A, and has armature resistance of 0.6 ohm. The back EMF is:",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "205 V"
+        },
+        {
+          "id": "b",
+          "text": "190 V"
+        },
+        {
+          "id": "c",
+          "text": "220 V"
+        },
+        {
+          "id": "d",
+          "text": "210 V"
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "Eb = V - IaRa = 220 - (25 x 0.6) = 205 V.",
+      "difficulty": "Easy",
+      "sourceFile": "",
+      "sourcePage": null,
+      "status": "Verified",
+      "createdAt": "2026-10-17T17:23:33.795Z",
+      "updatedAt": "2026-10-17T17:23:33.795Z"
     }
   ],
   "admin": {
@@ -125888,9 +125922,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3765,
-    "verifiedQuestions": 3765,
+    "totalQuestions": 3766,
+    "verifiedQuestions": 3766,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-17T17:22:01.234Z"
+    "lastUpdated": "2026-10-17T17:23:34.137Z"
   }
 }
