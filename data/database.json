@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-17T10:30:20.222Z",
+  "lastUpdated": "2026-10-17T10:32:48.130Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -125296,6 +125296,40 @@
       "status": "Verified",
       "createdAt": "2026-10-17T10:30:19.440Z",
       "updatedAt": "2026-10-17T10:30:19.440Z"
+    },
+    {
+      "id": "q-bc154696",
+      "subjectId": "subj-machine",
+      "quizId": "quiz-subj-machine-final",
+      "topicId": null,
+      "question": "A transformer with primary turns 100, secondary turns 500, if 200A is flowing into primary, secondary current is:",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "100 A"
+        },
+        {
+          "id": "b",
+          "text": "40 A"
+        },
+        {
+          "id": "c",
+          "text": "1000 A"
+        },
+        {
+          "id": "d",
+          "text": "50 A"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "نسبة المحول: I2 / I1 = N1 / N2 => I2 = I1 * (N1 / N2) = 200 * (100 / 500) = 40 A.",
+      "difficulty": "Easy",
+      "sourceFile": "",
+      "sourcePage": null,
+      "status": "Verified",
+      "createdAt": "2026-10-17T10:32:47.701Z",
+      "updatedAt": "2026-10-17T10:32:47.701Z"
     }
   ],
   "admin": {
@@ -125310,9 +125344,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3748,
-    "verifiedQuestions": 3748,
+    "totalQuestions": 3749,
+    "verifiedQuestions": 3749,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-17T10:30:20.222Z"
+    "lastUpdated": "2026-10-17T10:32:48.130Z"
   }
 }
