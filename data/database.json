@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-17T11:14:41.567Z",
+  "lastUpdated": "2026-10-17T11:18:07.169Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -125364,6 +125364,40 @@
       "status": "Verified",
       "createdAt": "2026-10-17T11:14:40.857Z",
       "updatedAt": "2026-10-17T11:14:40.857Z"
+    },
+    {
+      "id": "q-347071bd",
+      "subjectId": "subj-machine",
+      "quizId": "quiz-subj-machine-final",
+      "topicId": null,
+      "question": "The rated current of this motor is (للموتور 50hp، 250V):",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "199.5 A"
+        },
+        {
+          "id": "b",
+          "text": "147.1 A"
+        },
+        {
+          "id": "c",
+          "text": "248.6 A"
+        },
+        {
+          "id": "d",
+          "text": "None of the above"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "حساب القدرة الناتجة بالواط مقسومة على جهد الأطراف مع مراعاة القدرة الحصانية ($50 \\times 746$ أو القيمة المعطاة $36775\\text{ W} / 250\\text{V}$",
+      "difficulty": "Medium",
+      "sourceFile": "",
+      "sourcePage": null,
+      "status": "Verified",
+      "createdAt": "2026-10-17T11:18:06.424Z",
+      "updatedAt": "2026-10-17T11:18:06.424Z"
     }
   ],
   "admin": {
@@ -125378,9 +125412,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3750,
-    "verifiedQuestions": 3750,
+    "totalQuestions": 3751,
+    "verifiedQuestions": 3751,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-17T11:14:41.567Z"
+    "lastUpdated": "2026-10-17T11:18:07.169Z"
   }
 }
