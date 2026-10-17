@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-17T17:53:46.027Z",
+  "lastUpdated": "2026-10-17T17:58:13.339Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -126282,6 +126282,40 @@
       "status": "Verified",
       "createdAt": "2026-10-17T17:53:45.523Z",
       "updatedAt": "2026-10-17T17:53:45.523Z"
+    },
+    {
+      "id": "q-9678aa7c",
+      "subjectId": "subj-machine",
+      "quizId": "quiz-subj-machine-final",
+      "topicId": null,
+      "question": "33. A 240 V, 100 A DC shunt motor has Ra = 0.14 ohm, Rf = 200 ohm, and adjustable field resistance Radj = 120 ohm. The field current is:",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "0.75 A"
+        },
+        {
+          "id": "b",
+          "text": "0.5 A"
+        },
+        {
+          "id": "c",
+          "text": "2 A"
+        },
+        {
+          "id": "d",
+          "text": "1.2 A"
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "9. The full-load copper loss of a transformer is 4000 W. At half-load, the copper loss will be:\n\nA) 400 W\nB) 2000 W\nC) 1000 W\nD) 500 W\n\nCorrect Answer: C) 1000 W\nSolution: Copper loss = 4000 x (0.5)^2 = 1000 W.\n\n\n10. A transformer has 100 primary turns and 500 secondary turns. If the primary current is 200 A, the secondary current is:\n\nA) 40 A\nB) 100 A\nC) 500 A\nD) 1000 A\n\nCorrect Answer: A) 40 A\nSolution: Is = Ip x (Np/Ns) = 200 x (100/500) = 40 A.\n\n\n11. A transformer has 500 primary turns and 100 secondary turns. If 200 V is applied to the primary, the secondary voltage is:\n\nA) 2000 V\nB) 1000 V\nC) 500 V\nD) 40 V\n\nCorrect Answer: D) 40 V\nSolution: Vs = Vp x (Ns/Np) = 200 x (100/500) = 40 V.\n\n\n12. The power factor of a transformer at no-load is poor due to:\n\nA) Magnetizing reactance of the transformer\nB) Open-circuited secondary\nC) Low primary winding resistance\nD) Low no-load current\n\nCorrect Answer: A) Magnetizing reactance of the transformer\nSolution: The no-load current is mainly inductive, resulting in a low power factor.\n\n\n13. A 3-phase transformer has a primary connected in Delta and a secondary connected in Star. The line voltage ratio is:\n\nA) Equal to the phase voltage ratio\nB) √3 times the phase voltage ratio\nC) 1/√3 times the phase voltage ratio\nD) Independent of the phase voltage ratio\n\nCorrect Answer: B) √3 times the phase voltage ratio\nSolution: In Delta, VL = Vph. In Star, VL = √3 x Vph.\n\n\n14. The main reason for using a Delta connection on the primary side is:\n\nA) To reduce copper loss\nB) To provide a path for third-harmonic currents\nC) To increase voltage rating\nD) To increase current rating\n\nCorrect Answer: B) To provide a path for third-harmonic currents\nSolution: The closed Delta connection allows third-harmonic currents to circulate.\n\n\n15. A DC motor has a full-load speed of 750 RPM and speed regulation of 15%. The no-load speed is:\n\nA) 862.5 RPM\nB) 800.5 RPM\nC) 750 RPM\nD) None of the above\n\nCorrect Answer: A) 862.5 RPM\nSolution: No-load speed = 750 x (1 + 0.15) = 862.5 RPM.\n\n\n16. A DC motor has a rated speed of 1200 RPM and rated torque of 40 N.m. The rated power is:\n\nA) 30 kW\nB) 5 kW\nC) 3 kW\nD) 0.5 kW\n\nCorrect Answer: B) 5 kW\nSolution: P = T x (2πN/60) = 40 x (2π x 1200/60) ≈ 5 kW.\n\n\n17. A 4-pole DC generator has a wave-wound armature with 720 conductors, flux of 0.025 Wb, and speed of 600 RPM. The generated EMF is:\n\nA) 150 V\nB) 180 V\nC) 216 V\nD) 240 V\n\nCorrect Answer: B) 180 V\nSolution: Eg = (Φ x Z x N x P)/(60 x A), where A = 2 for wave winding.\nEg = (0.025 x 720 x 600 x 4)/(60 x 2) = 3600 V.\n\nNote: The given answer of 180 V does not match the stated data.\n\n\n18. A DC shunt generator delivers 20 A at 220 V. If Ra = 0.4 ohm and Rsh = 110 ohm, the generated EMF is:\n\nA) 224 V\nB) 228 V\nC) 230 V\nD) 235 V\n\nCorrect Answer: B) 228 V\nSolution: If = 220/110 = 2 A.\nIa = 20 + 2 = 22 A.\nEg = 220 + (22 x 0.4) = 228.8 V.\n\n\n19. A DC motor is connected to a 220 V supply, draws 25 A, and has armature resistance of 0.6 ohm. The back EMF is:\n\nA) 190 V\nB) 205 V\nC) 210 V\nD) 220 V\n\nCorrect Answer: B) 205 V\nSolution: Eb = V - IaRa = 220 - (25 x 0.6) = 205 V.\n\n\n20. A DC shunt motor has flux of 0.03 Wb, armature current of 20 A, and torque constant K = 1. The developed torque is:\n\nA) 0.6 N.m\nB) 1.2 N.m\nC) 2.4 N.m\nD) 6.0 N.m\n\nCorrect Answer: A) 0.6 N.m\nSolution: T = K x Φ x Ia = 1 x 0.03 x 20 = 0.6 N.m.\n\n\n21. A DC motor develops 10 kW at 1000 RPM. The developed torque is approximately:\n\nA) 47.7 N.m\nB) 95.5 N.m\nC) 143 N.m\nD) 191 N.m\n\nCorrect Answer: B) 95.5 N.m\nSolution: T = P/(2πN/60) = 10000/(2π x 1000/60) = 95.5 N.m.\n\n\n22. A DC generator supplies 50 A at 240 V and has total losses of 2 kW. Its efficiency is:\n\nA) 80%\nB) 85.7%\nC) 88%\nD) 92%\n\nCorrect Answer: B) 85.7%\nSolution: Efficiency = Output/(Output + Losses) x 100\n= 12000/(12000 + 2000) x 100 = 85.7%.\n\n\n23. A constant current flows in a horizontal wire in the plane of the paper from east to west. The magnetic field direction at a point directly above the wire is determined using:\n\nA) The right-hand rule\nB) Fleming's left-hand rule\nC) Fleming's right-hand rule\nD) Lenz's law\n\nCorrect Answer: A) The right-hand rule\nSolution: Use the right-hand grip rule to determine the magnetic field direction.\n\n\n24. The torque in a DC shunt motor is proportional to:\n\nA) Armature current\nB) Field current only\nC) Square of armature current\nD) Armature resistance\n\nCorrect Answer: A) Armature current\nSolution: T ∝ ΦIa. Since flux is approximately constant, T ∝ Ia.\n\n\n25. If the field winding of a DC shunt motor opens during operation, the motor will:\n\nA) Stop immediately\nB) Run at dangerously high speed\nC) Run at constant speed\nD) Run at half speed\n\nCorrect Answer: B) Run at dangerously high speed\nSolution: Loss of field flux causes the motor speed to increase dangerously.\n\n\n26. The most common method of speed control in a DC shunt motor is:\n\nA) Armature resistance control\nB) Field flux control\nC) Scott-T connection\nD) Increasing armature resistance only\n\nCorrect Answer: B) Field flux control\nSolution: Varying the field current changes the flux and controls motor speed.\n\n\n27. A motor does 1000 J of work while producing a torque of 10 N.m. The number of complete revolutions is approximately:\n\nA) 100/π\nB) 50/π\nC) 100π\nD) 50π\n\nCorrect Answer: B) 50/π\nSolution: W = Tθ, so θ = 1000/10 = 100 rad.\nRevolutions = 100/(2π) = 50/π ≈ 15.9 revolutions.\n\n\n28. To reduce sparking in DC machines, the following are provided:\n\nA) Dummy coils\nB) Interpoles (commutating poles)\nC) Extra insulation\nD) Compensating winding only\n\nCorrect Answer: B) Interpoles (commutating poles)\nSolution: Interpoles improve commutation and reduce sparking.\n\n\n29. In a separately excited DC motor, the speed is approximately:\n\nA) Directly proportional to field current\nB) Directly proportional to the square of field current\nC) Inversely proportional to field flux\nD) Inversely proportional to the square of field current\n\nCorrect Answer: C) Inversely proportional to field flux\nSolution: N ∝ 1/Φ, assuming constant armature voltage. Before magnetic saturation, Φ is approximately proportional to If.\n\n\n30. The speed-torque characteristic of a DC series motor is:\n\nA) Constant speed\nB) Nearly constant torque\nC) High starting torque, with speed decreasing as load increases\nD) Linear speed-torque relationship\n\nCorrect Answer: C) High starting torque, with speed decreasing as load increases\nSolution: A DC series motor produces high starting torque and slows down as load increases.\n\n\n31. In a DC series machine, before magnetic saturation, the flux is proportional to:\n\nA) Square of armature current\nB) Armature current\nC) Square root of armature current\nD) Cube of armature current\n\nCorrect Answer: B) Armature current\nSolution: The field winding and armature are connected in series, so Φ ∝ Ia before saturation.\n\n\n32. If the field winding of a DC shunt generator is short-circuited, the output voltage will:\n\nA) Increase suddenly\nB) Remain the same\nC) Drop significantly\nD) Reverse in polarity\n\nCorrect Answer: C) Drop significantly\nSolution: The field current and magnetic flux decrease, causing the generated voltage to fall.\n\n\n33. A 240 V, 100 A DC shunt motor has Ra = 0.14 ohm, Rf = 200 ohm, and adjustable field resistance Radj = 120 ohm. The field current is:\n\nA) 0.5 A\nB) 0.75 A\nC) 1.2 A\nD) 2 A\n\nCorrect Answer: B) 0.75 A\nSolution: If = 240/(200 + 120) = 0.75 A.",
+      "difficulty": "Easy",
+      "sourceFile": "",
+      "sourcePage": null,
+      "status": "Verified",
+      "createdAt": "2026-10-17T17:58:13.004Z",
+      "updatedAt": "2026-10-17T17:58:13.004Z"
     }
   ],
   "admin": {
@@ -126296,9 +126330,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3777,
-    "verifiedQuestions": 3777,
+    "totalQuestions": 3778,
+    "verifiedQuestions": 3778,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-17T17:53:46.027Z"
+    "lastUpdated": "2026-10-17T17:58:13.339Z"
   }
 }
