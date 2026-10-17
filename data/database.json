@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-17T17:39:51.829Z",
+  "lastUpdated": "2026-10-17T17:44:39.131Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -126146,6 +126146,40 @@
       "status": "Verified",
       "createdAt": "2026-10-17T17:39:51.434Z",
       "updatedAt": "2026-10-17T17:39:51.434Z"
+    },
+    {
+      "id": "q-75dc5808",
+      "subjectId": "subj-machine",
+      "quizId": "quiz-subj-machine-final",
+      "topicId": null,
+      "question": "27. A motor does 1000 J of work while producing a torque of 10 N.m. The number of complete revolutions is approximately:",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "100π"
+        },
+        {
+          "id": "b",
+          "text": "100/π"
+        },
+        {
+          "id": "c",
+          "text": "50/π"
+        },
+        {
+          "id": "d",
+          "text": "50π"
+        }
+      ],
+      "correctAnswer": "c",
+      "explanation": "W = Tθ, so θ = 1000/10 = 100 rad.\nRevolutions = 100/(2π) = 50/π ≈ 15.9 revolutions.",
+      "difficulty": "Medium",
+      "sourceFile": "",
+      "sourcePage": null,
+      "status": "Verified",
+      "createdAt": "2026-10-17T17:44:38.780Z",
+      "updatedAt": "2026-10-17T17:44:38.780Z"
     }
   ],
   "admin": {
@@ -126160,9 +126194,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3773,
-    "verifiedQuestions": 3773,
+    "totalQuestions": 3774,
+    "verifiedQuestions": 3774,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-17T17:39:51.829Z"
+    "lastUpdated": "2026-10-17T17:44:39.131Z"
   }
 }
