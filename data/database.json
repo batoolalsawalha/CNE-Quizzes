@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-17T17:25:44.128Z",
+  "lastUpdated": "2026-10-17T17:27:57.330Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -125942,6 +125942,40 @@
       "status": "Verified",
       "createdAt": "2026-10-17T17:25:43.628Z",
       "updatedAt": "2026-10-17T17:25:43.628Z"
+    },
+    {
+      "id": "q-29b913ad",
+      "subjectId": "subj-machine",
+      "quizId": "quiz-subj-machine-final",
+      "topicId": null,
+      "question": "21. A DC motor develops 10 kW at 1000 RPM. The developed torque is approximately:",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "191 N.m"
+        },
+        {
+          "id": "b",
+          "text": "47.7 N.m"
+        },
+        {
+          "id": "c",
+          "text": "95.5 N.m"
+        },
+        {
+          "id": "d",
+          "text": "143 N.m"
+        }
+      ],
+      "correctAnswer": "c",
+      "explanation": "T = P/(2πN/60) = 10000/(2π x 1000/60) = 95.5 N.m",
+      "difficulty": "Easy",
+      "sourceFile": "",
+      "sourcePage": null,
+      "status": "Verified",
+      "createdAt": "2026-10-17T17:27:56.890Z",
+      "updatedAt": "2026-10-17T17:27:56.890Z"
     }
   ],
   "admin": {
@@ -125956,9 +125990,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3767,
-    "verifiedQuestions": 3767,
+    "totalQuestions": 3768,
+    "verifiedQuestions": 3768,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-17T17:25:44.128Z"
+    "lastUpdated": "2026-10-17T17:27:57.330Z"
   }
 }
