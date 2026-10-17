@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-17T17:27:57.330Z",
+  "lastUpdated": "2026-10-17T17:30:14.129Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -125976,6 +125976,40 @@
       "status": "Verified",
       "createdAt": "2026-10-17T17:27:56.890Z",
       "updatedAt": "2026-10-17T17:27:56.890Z"
+    },
+    {
+      "id": "q-b1a4430b",
+      "subjectId": "subj-machine",
+      "quizId": "quiz-subj-machine-final",
+      "topicId": null,
+      "question": "A DC generator supplies 50 A at 240 V and has total losses of 2 kW. Its efficiency is",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "81%"
+        },
+        {
+          "id": "b",
+          "text": "80%"
+        },
+        {
+          "id": "c",
+          "text": "92%"
+        },
+        {
+          "id": "d",
+          "text": "85.7%"
+        }
+      ],
+      "correctAnswer": "d",
+      "explanation": "Efficiency = Output/(Output + Losses) x 100\n= 12000/(12000 + 2000) x 100 = 85.7%.",
+      "difficulty": "Medium",
+      "sourceFile": "",
+      "sourcePage": null,
+      "status": "Verified",
+      "createdAt": "2026-10-17T17:30:13.792Z",
+      "updatedAt": "2026-10-17T17:30:13.792Z"
     }
   ],
   "admin": {
@@ -125990,9 +126024,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3768,
-    "verifiedQuestions": 3768,
+    "totalQuestions": 3769,
+    "verifiedQuestions": 3769,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-17T17:27:57.330Z"
+    "lastUpdated": "2026-10-17T17:30:14.129Z"
   }
 }
