@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-17T13:05:15.304Z",
+  "lastUpdated": "2026-10-17T13:05:23.706Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -125392,12 +125392,12 @@
       ],
       "correctAnswer": "b",
       "explanation": "حساب القدرة الناتجة بالواط مقسومة على جهد الأطراف مع مراعاة القدرة الحصانية ($50 \\times 746$ أو القيمة المعطاة $36775\\text{ W} / 250\\text{V}$",
-      "difficulty": "Medium",
+      "difficulty": "Hard",
       "sourceFile": "",
       "sourcePage": null,
       "status": "Verified",
       "createdAt": "2026-10-17T11:18:06.424Z",
-      "updatedAt": "2026-10-17T13:04:50.598Z"
+      "updatedAt": "2026-10-17T13:05:23.300Z"
     },
     {
       "id": "q-06419765",
@@ -125449,6 +125449,6 @@
     "totalQuestions": 3752,
     "verifiedQuestions": 3752,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-17T13:05:15.304Z"
+    "lastUpdated": "2026-10-17T13:05:23.706Z"
   }
 }
