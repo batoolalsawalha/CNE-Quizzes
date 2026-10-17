@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-17T17:58:13.339Z",
+  "lastUpdated": "2026-10-17T19:11:03.623Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -126288,7 +126288,7 @@
       "subjectId": "subj-machine",
       "quizId": "quiz-subj-machine-final",
       "topicId": null,
-      "question": "33. A 240 V, 100 A DC shunt motor has Ra = 0.14 ohm, Rf = 200 ohm, and adjustable field resistance Radj = 120 ohm. The field current is:",
+      "question": "A 240 V, 100 A DC shunt motor has Ra = 0.14 ohm, Rf = 200 ohm, and adjustable field resistance Radj = 120 ohm. The field current is:",
       "imageUrl": null,
       "options": [
         {
@@ -126315,7 +126315,7 @@
       "sourcePage": null,
       "status": "Verified",
       "createdAt": "2026-10-17T17:58:13.004Z",
-      "updatedAt": "2026-10-17T17:58:13.004Z"
+      "updatedAt": "2026-10-17T19:11:02.973Z"
     }
   ],
   "admin": {
@@ -126333,6 +126333,6 @@
     "totalQuestions": 3778,
     "verifiedQuestions": 3778,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-17T17:58:13.339Z"
+    "lastUpdated": "2026-10-17T19:11:03.623Z"
   }
 }
