@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-21T14:59:37.258Z",
+  "lastUpdated": "2026-10-21T15:01:25.249Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -110486,34 +110486,34 @@
       "id": "EXP-NAT-005",
       "subjectId": "subj-national",
       "quizId": "quiz-subj-national-mid",
-      "question": "في أي عام نالت المملكة الأردنية الهاشمية استقلالها التام والاعتراف الدولي بإنهاء الانتداب البريطاني وإعلان الملك عبد الله الأول ملكاً دستورياً على الأردن؟",
+      "question": "تبلغ نسبة الفاقد من المياه بسبب التبخر في الأردن:",
       "options": [
         {
           "id": "a",
-          "text": "25 أيار 1946م"
+          "text": "5%"
         },
         {
           "id": "b",
-          "text": "11 نيسان 1921م"
+          "text": "92%"
         },
         {
           "id": "c",
-          "text": "21 آذار 1968م"
+          "text": "7%"
         },
         {
           "id": "d",
-          "text": "15 أيار 1948م"
+          "text": "3%"
         }
       ],
-      "correctAnswer": "a",
-      "explanation": "أعلن المجلس التشريعي الأردني في 25 أيار 1946م استقلال المملكة الأردنية الهاشمية بصفتها دولة ذات سيادة تامة، ويحتفل به الأردنيون عيداً للاستقلال.",
-      "difficulty": "Easy",
+      "correctAnswer": "b",
+      "explanation": "",
+      "difficulty": "Medium",
       "imageUrl": null,
-      "sourceFile": "Mid 2025.pdf",
-      "sourcePage": 3,
+      "sourceFile": "",
+      "sourcePage": "3",
       "status": "Verified",
       "createdAt": "2026-09-28T17:34:45.434Z",
-      "updatedAt": "2026-09-28T17:34:45.434Z"
+      "updatedAt": "2026-10-21T15:01:24.633Z"
     },
     {
       "id": "MS-E-NATIONAL-001",
@@ -126267,6 +126267,6 @@
     "totalQuestions": 3776,
     "verifiedQuestions": 3776,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-21T14:59:37.258Z"
+    "lastUpdated": "2026-10-21T15:01:25.249Z"
   }
 }
