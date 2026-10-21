@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-21T17:41:43.992Z",
+  "lastUpdated": "2026-10-21T17:43:39.202Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -111179,34 +111179,34 @@
       "id": "NATIONAL-MID-SUPP-01",
       "subjectId": "subj-national",
       "quizId": "quiz-subj-national-mid",
-      "question": "ما هي طبيعة نظام الحكم في المملكة الأردنية الهاشمية بموجب الدستور الأردني؟",
+      "question": "مقام الصحابي ابو ذر الغفاري موجود في:",
       "options": [
         {
           "id": "a",
-          "text": "جمهوري رئاسي"
+          "text": "الاغوار الوسطى"
         },
         {
           "id": "b",
-          "text": "ملكي مطلق"
+          "text": "الاغوار الشمالية"
         },
         {
           "id": "c",
-          "text": "نيابي ملكي وراثي"
+          "text": "المزار الجنوبي"
         },
         {
           "id": "d",
-          "text": "فيدرالي اتحادي"
+          "text": "مادبا"
         }
       ],
-      "correctAnswer": "c",
+      "correctAnswer": "d",
       "explanation": "تنص المادة الأولى من الدستور الأردني على أن نظام الحكم نيابي ملكي وراثي.",
       "difficulty": "Medium",
       "imageUrl": null,
-      "sourceFile": "University Exam Archive.pdf",
-      "sourcePage": 7,
+      "sourceFile": "",
+      "sourcePage": null,
       "status": "Verified",
       "createdAt": "2026-10-03T17:13:05.643Z",
-      "updatedAt": "2026-10-03T17:13:05.643Z"
+      "updatedAt": "2026-10-21T17:43:38.793Z"
     },
     {
       "id": "NATIONAL-MID-SUPP-02",
@@ -126267,6 +126267,6 @@
     "totalQuestions": 3776,
     "verifiedQuestions": 3776,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-21T17:41:43.992Z"
+    "lastUpdated": "2026-10-21T17:43:39.202Z"
   }
 }
