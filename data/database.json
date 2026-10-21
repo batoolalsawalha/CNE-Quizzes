@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-21T14:57:32.961Z",
+  "lastUpdated": "2026-10-21T14:59:37.258Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -110483,72 +110483,6 @@
       "updatedAt": "2026-10-21T14:57:32.530Z"
     },
     {
-      "id": "EXP-NAT-001",
-      "subjectId": "subj-national",
-      "quizId": "quiz-subj-national-mid",
-      "question": "آمن الأردنيون وأحرار العرب بمبادئ وقيم الثورة العربية الكبرى عام 1916م بوصفها:",
-      "options": [
-        {
-          "id": "a",
-          "text": "حركة تحرر قومية عربية أصيلة استهدفت الاستقلال والكرامة والنهضة"
-        },
-        {
-          "id": "b",
-          "text": "حركة استعمارية موجهة من الخارج"
-        },
-        {
-          "id": "c",
-          "text": "حزبياً سياسياً محدوداً في منطقة الحجاز فقط"
-        },
-        {
-          "id": "d",
-          "text": "حركة تجارية اقتصادية إقليمية"
-        }
-      ],
-      "correctAnswer": "a",
-      "explanation": "قامت الثورة العربية الكبرى بقيادة الشريف الحسين بن علي كحركة تحررية عربية كبرى تهدف إلى استقلال الشعوب العربية وحمايتها من سياسات التتريك والتهميش.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Mid 2025.pdf",
-      "sourcePage": 2,
-      "status": "Verified",
-      "createdAt": "2026-09-28T17:34:45.426Z",
-      "updatedAt": "2026-09-28T17:34:45.426Z"
-    },
-    {
-      "id": "EXP-NAT-002",
-      "subjectId": "subj-national",
-      "quizId": "quiz-subj-national-mid",
-      "question": "في أي محافظة أردنية تقع محمية غابات دِبِّين الطبيعية الشهيرة بأشجار الصنوبر الحلبي المعمرة؟",
-      "options": [
-        {
-          "id": "a",
-          "text": "محافظة جرش"
-        },
-        {
-          "id": "b",
-          "text": "محافظة السلط (البلقاء)"
-        },
-        {
-          "id": "c",
-          "text": "محافظة العاصمة عمان"
-        },
-        {
-          "id": "d",
-          "text": "محافظة الكرك"
-        }
-      ],
-      "correctAnswer": "a",
-      "explanation": "تقع محمية غابات دبين في محافظة جرش شمال الأردن، وأسست لحماية أشجار الصنوبر الحلبي والأحياء البرية النادرة في الأردن.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Mid 2025.pdf",
-      "sourcePage": 2,
-      "status": "Verified",
-      "createdAt": "2026-09-28T17:34:45.426Z",
-      "updatedAt": "2026-09-28T17:34:45.426Z"
-    },
-    {
       "id": "EXP-NAT-005",
       "subjectId": "subj-national",
       "quizId": "quiz-subj-national-mid",
@@ -126330,9 +126264,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3778,
-    "verifiedQuestions": 3778,
+    "totalQuestions": 3776,
+    "verifiedQuestions": 3776,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-21T14:57:32.961Z"
+    "lastUpdated": "2026-10-21T14:59:37.258Z"
   }
 }
