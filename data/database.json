@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-21T15:41:38.955Z",
+  "lastUpdated": "2026-10-21T16:14:25.288Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -110849,34 +110849,34 @@
       "id": "MS-E-NATIONAL-011",
       "subjectId": "subj-national",
       "quizId": "quiz-subj-national-mid",
-      "question": "[التربية الوطنية - السؤال 11] ما هو الركن الأساسي الذي يقوم عليه مفهوم المواطنة الفاعلة في الدولة الأردنية الحديثة؟",
+      "question": "من الانجازات الكبيرة للدولة العثمانية على الارض الاردنية اثناء حكمها لها",
       "options": [
         {
           "id": "a",
-          "text": "المشاركة الإيجابية الواعية في تنمية الوطن، الالتزام بسيادة القانون، والتوازن بين الحقوق والواجبات"
+          "text": "تأمين طريق الحج الشامي"
         },
         {
           "id": "b",
-          "text": "الانعزال عن العمل العام"
+          "text": "بناء القصور"
         },
         {
           "id": "c",
-          "text": "تقديم المصالح الفردية على المصلحة العامة"
+          "text": "حلف المدن العشر"
         },
         {
           "id": "d",
-          "text": "الاعتماد الكامل على الدولة دون مبادرة مجتمعية"
+          "text": "بناء القرى والمدن"
         }
       ],
       "correctAnswer": "a",
-      "explanation": "المواطنة الفاعلة تعني الانتماء الصادق والمشاركة البناءة والحرص على مقدرات الوطن وسيادة القانون.",
+      "explanation": "",
       "difficulty": "Easy",
       "imageUrl": null,
-      "sourceFile": "فاينل 2025 حموده.pdf",
-      "sourcePage": 3,
+      "sourceFile": "",
+      "sourcePage": null,
       "status": "Verified",
       "createdAt": "2026-09-28T17:34:45.479Z",
-      "updatedAt": "2026-09-28T17:34:45.479Z"
+      "updatedAt": "2026-10-21T16:14:24.508Z"
     },
     {
       "id": "MS-E-NATIONAL-012",
@@ -126267,6 +126267,6 @@
     "totalQuestions": 3776,
     "verifiedQuestions": 3776,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-21T15:41:38.955Z"
+    "lastUpdated": "2026-10-21T16:14:25.288Z"
   }
 }
