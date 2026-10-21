@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-21T16:17:25.480Z",
+  "lastUpdated": "2026-10-21T17:25:48.492Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -110915,34 +110915,34 @@
       "id": "MS-E-NATIONAL-013",
       "subjectId": "subj-national",
       "quizId": "quiz-subj-national-mid",
-      "question": "[التربية الوطنية - السؤال 13] ما هو الركن الأساسي الذي يقوم عليه مفهوم المواطنة الفاعلة في الدولة الأردنية الحديثة؟",
+      "question": "ظهرت محصلة قيمة التكيف والاستجابة في قدرة الملك المؤسس على حماية الأردن من:",
       "options": [
         {
           "id": "a",
-          "text": "المشاركة الإيجابية الواعية في تنمية الوطن، الالتزام بسيادة القانون، والتوازن بين الحقوق والواجبات"
+          "text": "الانتداب الفرنسي"
         },
         {
           "id": "b",
-          "text": "الانعزال عن العمل العام"
+          "text": "الانتداب الايطالي"
         },
         {
           "id": "c",
-          "text": "تقديم المصالح الفردية على المصلحة العامة"
+          "text": "سايكس بيكو"
         },
         {
           "id": "d",
-          "text": "الاعتماد الكامل على الدولة دون مبادرة مجتمعية"
+          "text": "وعد بلفور"
         }
       ],
-      "correctAnswer": "a",
-      "explanation": "المواطنة الفاعلة تعني الانتماء الصادق والمشاركة البناءة والحرص على مقدرات الوطن وسيادة القانون.",
-      "difficulty": "Easy",
+      "correctAnswer": "d",
+      "explanation": "",
+      "difficulty": "Medium",
       "imageUrl": null,
-      "sourceFile": "فاينل 2025 حموده.pdf",
-      "sourcePage": 4,
+      "sourceFile": "",
+      "sourcePage": null,
       "status": "Verified",
       "createdAt": "2026-09-28T17:34:45.479Z",
-      "updatedAt": "2026-09-28T17:34:45.479Z"
+      "updatedAt": "2026-10-21T17:25:48.001Z"
     },
     {
       "id": "MS-E-NATIONAL-014",
@@ -126267,6 +126267,6 @@
     "totalQuestions": 3776,
     "verifiedQuestions": 3776,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-21T16:17:25.480Z"
+    "lastUpdated": "2026-10-21T17:25:48.492Z"
   }
 }
