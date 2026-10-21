@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-21T15:04:06.657Z",
+  "lastUpdated": "2026-10-21T15:08:30.344Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -110552,34 +110552,34 @@
       "id": "MS-E-NATIONAL-002",
       "subjectId": "subj-national",
       "quizId": "quiz-subj-national-mid",
-      "question": "[التربية الوطنية - السؤال 2] ما هو الركن الأساسي الذي يقوم عليه مفهوم المواطنة الفاعلة في الدولة الأردنية الحديثة؟",
+      "question": "من فوائد تكوين الندى:",
       "options": [
         {
           "id": "a",
-          "text": "المشاركة الإيجابية الواعية في تنمية الوطن، الالتزام بسيادة القانون، والتوازن بين الحقوق والواجبات"
+          "text": "مصدر للرطوبة ومفيد للزراعة"
         },
         {
           "id": "b",
-          "text": "الانعزال عن العمل العام"
+          "text": "زيادة المخزون الجوفي لمياه"
         },
         {
           "id": "c",
-          "text": "تقديم المصالح الفردية على المصلحة العامة"
+          "text": "زيادة نسبة المياه السطحية"
         },
         {
           "id": "d",
-          "text": "الاعتماد الكامل على الدولة دون مبادرة مجتمعية"
+          "text": "زيادة تخزين السدود"
         }
       ],
       "correctAnswer": "a",
-      "explanation": "المواطنة الفاعلة تعني الانتماء الصادق والمشاركة البناءة والحرص على مقدرات الوطن وسيادة القانون.",
+      "explanation": "",
       "difficulty": "Easy",
       "imageUrl": null,
-      "sourceFile": "فاينل 2025 حموده.pdf",
-      "sourcePage": 1,
+      "sourceFile": "",
+      "sourcePage": null,
       "status": "Verified",
       "createdAt": "2026-09-28T17:34:45.479Z",
-      "updatedAt": "2026-09-28T17:34:45.479Z"
+      "updatedAt": "2026-10-21T15:08:30.035Z"
     },
     {
       "id": "MS-E-NATIONAL-003",
@@ -126267,6 +126267,6 @@
     "totalQuestions": 3776,
     "verifiedQuestions": 3776,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-21T15:04:06.657Z"
+    "lastUpdated": "2026-10-21T15:08:30.344Z"
   }
 }
