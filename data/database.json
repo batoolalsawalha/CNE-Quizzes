@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-21T14:50:26.547Z",
+  "lastUpdated": "2026-10-21T14:54:51.855Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -110420,34 +110420,34 @@
       "id": "NAT-MID-002",
       "subjectId": "subj-national",
       "quizId": "quiz-subj-national-mid",
-      "question": "وفقاً لأحكام الدستور الأردني، ما هي السلطات الدستورية الثلاث في الدولة؟",
+      "question": "تقع محمية غابات دبين في محافظة:",
       "options": [
         {
           "id": "a",
-          "text": "السلطة التشريعية، السلطة التنفيذية، والسلطة القضائية"
+          "text": "عمان"
         },
         {
           "id": "b",
-          "text": "السلطة العسكرية، السلطة المدنية، والسلطة المالية"
+          "text": "السلط"
         },
         {
           "id": "c",
-          "text": "سلطة الحكومة، سلطة الأحزاب، وسلطة الإعلام"
+          "text": "الكرك"
         },
         {
           "id": "d",
-          "text": "سلطة المحافظات، سلطة البلديات، وسلطة النقابات"
+          "text": "جرش"
         }
       ],
-      "correctAnswer": "a",
-      "explanation": "النظام الدستوري الأردني يقوم على مبدأ الفصل المرن بين السلطات الثلاث: التشريعية، التنفيذية، والقضائية المستقلة.",
+      "correctAnswer": "d",
+      "explanation": "",
       "difficulty": "Easy",
       "imageUrl": null,
-      "sourceFile": "Mid 2025.pdf",
-      "sourcePage": 2,
+      "sourceFile": "",
+      "sourcePage": "2",
       "status": "Verified",
       "createdAt": "2026-09-28T17:34:45.399Z",
-      "updatedAt": "2026-09-28T17:34:45.399Z"
+      "updatedAt": "2026-10-21T14:54:51.481Z"
     },
     {
       "id": "NAT-MID-003",
@@ -126333,6 +126333,6 @@
     "totalQuestions": 3778,
     "verifiedQuestions": 3778,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-21T14:50:26.547Z"
+    "lastUpdated": "2026-10-21T14:54:51.855Z"
   }
 }
