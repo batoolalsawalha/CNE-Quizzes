@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-17T19:11:03.623Z",
+  "lastUpdated": "2026-10-21T14:50:26.547Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -110387,34 +110387,34 @@
       "id": "NAT-MID-001",
       "subjectId": "subj-national",
       "quizId": "quiz-subj-national-mid",
-      "question": "صدر أول دستور للمملكة الأردنية الهاشمية المعمول به حالياً مع تعديلاته في عهد جلالة المغفور له الملك:",
+      "question": "آمن الأردنيون بقيم الثورة العربية الكبرى بوصفها:",
       "options": [
         {
           "id": "a",
-          "text": "الملك طلال بن عبد الله (عام 1952)"
+          "text": "حركة تحرر اصيلة"
         },
         {
           "id": "b",
-          "text": "الملك عبد الله الأول بن الحسين"
+          "text": "حركة استعمار"
         },
         {
           "id": "c",
-          "text": "الملك الحسين بن طلال"
+          "text": "حركة داعمة للأتراك"
         },
         {
           "id": "d",
-          "text": "الملك عبد الله الثاني بن الحسين"
+          "text": "لا شيء مما ذكر"
         }
       ],
       "correctAnswer": "a",
-      "explanation": "صدر دستور عام 1952 في عهد الملك طلال رحمه الله، ويعد من أرقى الدساتير العالمية بنصه على أن الأمة مصدر السلطات وتكريس الفصل بين السلطات.",
+      "explanation": "",
       "difficulty": "Easy",
       "imageUrl": null,
-      "sourceFile": "Mid 2025.pdf",
-      "sourcePage": 1,
+      "sourceFile": "",
+      "sourcePage": "1",
       "status": "Verified",
       "createdAt": "2026-09-28T17:34:45.399Z",
-      "updatedAt": "2026-09-28T17:34:45.399Z"
+      "updatedAt": "2026-10-21T14:50:25.758Z"
     },
     {
       "id": "NAT-MID-002",
@@ -126333,6 +126333,6 @@
     "totalQuestions": 3778,
     "verifiedQuestions": 3778,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-17T19:11:03.623Z"
+    "lastUpdated": "2026-10-21T14:50:26.547Z"
   }
 }
