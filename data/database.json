@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-21T15:12:14.255Z",
+  "lastUpdated": "2026-10-21T15:15:19.947Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -110651,34 +110651,34 @@
       "id": "MS-E-NATIONAL-005",
       "subjectId": "subj-national",
       "quizId": "quiz-subj-national-mid",
-      "question": "[التربية الوطنية - السؤال 5] ما هو الركن الأساسي الذي يقوم عليه مفهوم المواطنة الفاعلة في الدولة الأردنية الحديثة؟",
+      "question": "من إيجابيات الموقع الجيوسياسي للأردن في مجال الفرص الاقتصادية:",
       "options": [
         {
           "id": "a",
-          "text": "المشاركة الإيجابية الواعية في تنمية الوطن، الالتزام بسيادة القانون، والتوازن بين الحقوق والواجبات"
+          "text": "الصول الى البحر الأحمر"
         },
         {
           "id": "b",
-          "text": "الانعزال عن العمل العام"
+          "text": "جهاز امني قوي"
         },
         {
           "id": "c",
-          "text": "تقديم المصالح الفردية على المصلحة العامة"
+          "text": "جذب الاستثمارات الاجنبية"
         },
         {
           "id": "d",
-          "text": "الاعتماد الكامل على الدولة دون مبادرة مجتمعية"
+          "text": "شريك موثوق اقليميا ودوليا"
         }
       ],
-      "correctAnswer": "a",
-      "explanation": "المواطنة الفاعلة تعني الانتماء الصادق والمشاركة البناءة والحرص على مقدرات الوطن وسيادة القانون.",
-      "difficulty": "Easy",
+      "correctAnswer": "c",
+      "explanation": "",
+      "difficulty": "Medium",
       "imageUrl": null,
-      "sourceFile": "فاينل 2025 حموده.pdf",
-      "sourcePage": 2,
+      "sourceFile": "",
+      "sourcePage": null,
       "status": "Verified",
       "createdAt": "2026-09-28T17:34:45.479Z",
-      "updatedAt": "2026-09-28T17:34:45.479Z"
+      "updatedAt": "2026-10-21T15:15:19.554Z"
     },
     {
       "id": "MS-E-NATIONAL-006",
@@ -126267,6 +126267,6 @@
     "totalQuestions": 3776,
     "verifiedQuestions": 3776,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-21T15:12:14.255Z"
+    "lastUpdated": "2026-10-21T15:15:19.947Z"
   }
 }
