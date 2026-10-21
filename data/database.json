@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-21T17:34:25.402Z",
+  "lastUpdated": "2026-10-21T17:36:40.499Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -111080,34 +111080,34 @@
       "id": "MS-E-NATIONAL-018",
       "subjectId": "subj-national",
       "quizId": "quiz-subj-national-mid",
-      "question": "[التربية الوطنية - السؤال 18] ما هو الركن الأساسي الذي يقوم عليه مفهوم المواطنة الفاعلة في الدولة الأردنية الحديثة؟",
+      "question": "اطلق الملك عبدالله الثاني مبادرة(كلنا الاردن)في:",
       "options": [
         {
           "id": "a",
-          "text": "المشاركة الإيجابية الواعية في تنمية الوطن، الالتزام بسيادة القانون، والتوازن بين الحقوق والواجبات"
+          "text": "2008"
         },
         {
           "id": "b",
-          "text": "الانعزال عن العمل العام"
+          "text": "2009"
         },
         {
           "id": "c",
-          "text": "تقديم المصالح الفردية على المصلحة العامة"
+          "text": "2002"
         },
         {
           "id": "d",
-          "text": "الاعتماد الكامل على الدولة دون مبادرة مجتمعية"
+          "text": "2006"
         }
       ],
-      "correctAnswer": "a",
-      "explanation": "المواطنة الفاعلة تعني الانتماء الصادق والمشاركة البناءة والحرص على مقدرات الوطن وسيادة القانون.",
+      "correctAnswer": "d",
+      "explanation": "",
       "difficulty": "Easy",
       "imageUrl": null,
-      "sourceFile": "فاينل 2025 حموده.pdf",
-      "sourcePage": 5,
+      "sourceFile": "",
+      "sourcePage": null,
       "status": "Verified",
       "createdAt": "2026-09-28T17:34:45.479Z",
-      "updatedAt": "2026-09-28T17:34:45.479Z"
+      "updatedAt": "2026-10-21T17:36:40.229Z"
     },
     {
       "id": "MS-E-NATIONAL-019",
@@ -126267,6 +126267,6 @@
     "totalQuestions": 3776,
     "verifiedQuestions": 3776,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-21T17:34:25.402Z"
+    "lastUpdated": "2026-10-21T17:36:40.499Z"
   }
 }
