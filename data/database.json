@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-21T17:54:55.490Z",
+  "lastUpdated": "2026-10-21T17:59:25.994Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -111311,34 +111311,34 @@
       "id": "NATIONAL-MID-SUPP-05",
       "subjectId": "subj-national",
       "quizId": "quiz-subj-national-mid",
-      "question": "ما هي السلطة التي تتولاها المحاكم بمختلف درجاتها في المملكة؟",
+      "question": "من سلبيات الباديه الاردنية ماعدا:",
       "options": [
         {
           "id": "a",
-          "text": "السلطة التنفيذية"
+          "text": "عدم توفر موارد مائية"
         },
         {
           "id": "b",
-          "text": "السلطة الرقابية الشعبية"
+          "text": "الاستغلال السياحي"
         },
         {
           "id": "c",
-          "text": "السلطة القضائية المستقلة (وتصدر أحكامها وفق القانون باسم الملك)"
+          "text": "تربتها غير خصبة"
         },
         {
           "id": "d",
-          "text": "سلطة التشريع الجنائي"
+          "text": "ارتفاع درجة الحرارة"
         }
       ],
-      "correctAnswer": "c",
-      "explanation": "السلطة القضائية مستقلة وتتولاها المحاكم وتصدر أحكامها باسم الملك وتضمن سيادة القانون.",
+      "correctAnswer": "b",
+      "explanation": "",
       "difficulty": "Medium",
       "imageUrl": null,
-      "sourceFile": "University Exam Archive.pdf",
-      "sourcePage": 1,
+      "sourceFile": "",
+      "sourcePage": null,
       "status": "Verified",
       "createdAt": "2026-10-03T17:13:05.643Z",
-      "updatedAt": "2026-10-03T17:13:05.643Z"
+      "updatedAt": "2026-10-21T17:59:25.673Z"
     },
     {
       "id": "NATIONAL-MID-SUPP-06",
@@ -126267,6 +126267,6 @@
     "totalQuestions": 3776,
     "verifiedQuestions": 3776,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-21T17:54:55.490Z"
+    "lastUpdated": "2026-10-21T17:59:25.994Z"
   }
 }
