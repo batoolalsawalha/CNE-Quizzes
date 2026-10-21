@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-21T17:49:10.503Z",
+  "lastUpdated": "2026-10-21T17:52:47.202Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -111245,34 +111245,34 @@
       "id": "NATIONAL-MID-SUPP-03",
       "subjectId": "subj-national",
       "quizId": "quiz-subj-national-mid",
-      "question": "كيف يتم تشكيل مجلس الأعيان في الأردن؟",
+      "question": "يقع مقام النبي هارون في الاردن في منطقة:",
       "options": [
         {
           "id": "a",
-          "text": "يُعيّن الملك رئيسه وأعضاءه بإرادة ملكية سامية وفق شروط دستورية محددة"
+          "text": "وادي شعيب"
         },
         {
           "id": "b",
-          "text": "بالانتخاب المباشر من الشعب"
+          "text": "جرش"
         },
         {
           "id": "c",
-          "text": "بالتعيين من رئيس مجلس النواب"
+          "text": "المزار الجنوبي"
         },
         {
           "id": "d",
-          "text": "بالقرعة الدستورية"
+          "text": "وادي موسى"
         }
       ],
-      "correctAnswer": "a",
-      "explanation": "يختار الملك أعضاء مجلس الأعيان ورئيسه من الشخصيات الوطنية ذات الخبرة بحيث لا يتجاوز عددهم نصف عدد مجلس النواب.",
+      "correctAnswer": "d",
+      "explanation": "",
       "difficulty": "Medium",
       "imageUrl": null,
-      "sourceFile": "University Exam Archive.pdf",
-      "sourcePage": 9,
+      "sourceFile": "",
+      "sourcePage": null,
       "status": "Verified",
       "createdAt": "2026-10-03T17:13:05.643Z",
-      "updatedAt": "2026-10-03T17:13:05.643Z"
+      "updatedAt": "2026-10-21T17:52:46.895Z"
     },
     {
       "id": "NATIONAL-MID-SUPP-04",
@@ -126267,6 +126267,6 @@
     "totalQuestions": 3776,
     "verifiedQuestions": 3776,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-21T17:49:10.503Z"
+    "lastUpdated": "2026-10-21T17:52:47.202Z"
   }
 }
