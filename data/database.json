@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-21T17:43:39.202Z",
+  "lastUpdated": "2026-10-21T17:43:45.895Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -111199,14 +111199,14 @@
         }
       ],
       "correctAnswer": "d",
-      "explanation": "تنص المادة الأولى من الدستور الأردني على أن نظام الحكم نيابي ملكي وراثي.",
+      "explanation": "",
       "difficulty": "Medium",
       "imageUrl": null,
       "sourceFile": "",
       "sourcePage": null,
       "status": "Verified",
       "createdAt": "2026-10-03T17:13:05.643Z",
-      "updatedAt": "2026-10-21T17:43:38.793Z"
+      "updatedAt": "2026-10-21T17:43:45.498Z"
     },
     {
       "id": "NATIONAL-MID-SUPP-02",
@@ -126267,6 +126267,6 @@
     "totalQuestions": 3776,
     "verifiedQuestions": 3776,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-21T17:43:39.202Z"
+    "lastUpdated": "2026-10-21T17:43:45.895Z"
   }
 }
