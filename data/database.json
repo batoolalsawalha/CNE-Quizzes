@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-21T17:43:45.895Z",
+  "lastUpdated": "2026-10-21T17:49:10.503Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -111212,34 +111212,34 @@
       "id": "NATIONAL-MID-SUPP-02",
       "subjectId": "subj-national",
       "quizId": "quiz-subj-national-mid",
-      "question": "من يتولى السلطة التشريعية في المملكة الأردنية الهاشمية؟",
+      "question": "عملت الجغرافيا السياسية الارنية على خلقعلاقة عضوية مع:",
       "options": [
         {
           "id": "a",
-          "text": "مجلس النواب بمفرده"
+          "text": "المسألة المصرية"
         },
         {
           "id": "b",
-          "text": "رئيس الوزراء فقط"
+          "text": "المسألة اللبنانية"
         },
         {
           "id": "c",
-          "text": "المحكمة الدستورية"
+          "text": "المسألة الفلسطينية"
         },
         {
           "id": "d",
-          "text": "الملك ومجلس الأمة (مجلس الأعيان ومجلس النواب)"
+          "text": "المسألةالتونسية"
         }
       ],
-      "correctAnswer": "d",
-      "explanation": "تناط السلطة التشريعية بالملك ومجلس الأمة المكون من مجلسي الأعيان والنواب.",
+      "correctAnswer": "c",
+      "explanation": "",
       "difficulty": "Medium",
       "imageUrl": null,
-      "sourceFile": "University Exam Archive.pdf",
-      "sourcePage": 8,
+      "sourceFile": "",
+      "sourcePage": null,
       "status": "Verified",
       "createdAt": "2026-10-03T17:13:05.643Z",
-      "updatedAt": "2026-10-03T17:13:05.643Z"
+      "updatedAt": "2026-10-21T17:49:10.090Z"
     },
     {
       "id": "NATIONAL-MID-SUPP-03",
@@ -126267,6 +126267,6 @@
     "totalQuestions": 3776,
     "verifiedQuestions": 3776,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-21T17:43:45.895Z"
+    "lastUpdated": "2026-10-21T17:49:10.503Z"
   }
 }
