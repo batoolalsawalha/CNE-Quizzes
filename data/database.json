@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-22T07:47:16.304Z",
+  "lastUpdated": "2026-10-22T07:47:27.112Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -111935,72 +111935,6 @@
       "updatedAt": "2026-09-28T17:34:45.479Z"
     },
     {
-      "id": "MS-E-NATIONAL-041",
-      "subjectId": "subj-national",
-      "quizId": "quiz-subj-national-final",
-      "question": "[التربية الوطنية - السؤال 41] ما هو الركن الأساسي الذي يقوم عليه مفهوم المواطنة الفاعلة في الدولة الأردنية الحديثة؟",
-      "options": [
-        {
-          "id": "a",
-          "text": "المشاركة الإيجابية الواعية في تنمية الوطن، الالتزام بسيادة القانون، والتوازن بين الحقوق والواجبات"
-        },
-        {
-          "id": "b",
-          "text": "الانعزال عن العمل العام"
-        },
-        {
-          "id": "c",
-          "text": "تقديم المصالح الفردية على المصلحة العامة"
-        },
-        {
-          "id": "d",
-          "text": "الاعتماد الكامل على الدولة دون مبادرة مجتمعية"
-        }
-      ],
-      "correctAnswer": "a",
-      "explanation": "المواطنة الفاعلة تعني الانتماء الصادق والمشاركة البناءة والحرص على مقدرات الوطن وسيادة القانون.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "فاينل 2025 حموده.pdf",
-      "sourcePage": 11,
-      "status": "Verified",
-      "createdAt": "2026-09-28T17:34:45.479Z",
-      "updatedAt": "2026-09-28T17:34:45.479Z"
-    },
-    {
-      "id": "NATIONAL-FIN-SUPP-02",
-      "subjectId": "subj-national",
-      "quizId": "quiz-subj-national-final",
-      "question": "ما هي أبرز الحقوق السياسية التي كفلها الدستور الأردني للمواطن؟",
-      "options": [
-        {
-          "id": "a",
-          "text": "حق التهرب من دفع الضرائب"
-        },
-        {
-          "id": "b",
-          "text": "حق احتلال الشوارع وتعطيل المؤسسات"
-        },
-        {
-          "id": "c",
-          "text": "حق مخالفة القوانين المنشورة"
-        },
-        {
-          "id": "d",
-          "text": "حق الانتخاب والترشح وتأسيس الأحزاب السياسية والجمعيات والانضمام إليها وحرية التعبير المسؤولة"
-        }
-      ],
-      "correctAnswer": "d",
-      "explanation": "كفل الدستور التعددية السياسية وحرية الرأي والتعبير وتشكيل النقابات والأحزاب وفق أحكام القانون.",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "University Final Exam Archive.pdf",
-      "sourcePage": 8,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:13:05.643Z",
-      "updatedAt": "2026-10-03T17:13:05.643Z"
-    },
-    {
       "id": "NATIONAL-FIN-SUPP-03",
       "subjectId": "subj-national",
       "quizId": "quiz-subj-national-final",
@@ -125967,9 +125901,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3767,
-    "verifiedQuestions": 3767,
+    "totalQuestions": 3765,
+    "verifiedQuestions": 3765,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-22T07:47:16.304Z"
+    "lastUpdated": "2026-10-22T07:47:27.112Z"
   }
 }
