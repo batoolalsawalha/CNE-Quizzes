@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-22T10:07:03.052Z",
+  "lastUpdated": "2026-10-22T10:08:59.249Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -126228,6 +126228,40 @@
       "status": "Verified",
       "createdAt": "2026-10-22T10:07:02.405Z",
       "updatedAt": "2026-10-22T10:07:02.405Z"
+    },
+    {
+      "id": "q-94bbd1e9",
+      "subjectId": "subj-national",
+      "quizId": "quiz-subj-national-final",
+      "topicId": null,
+      "question": "خصصت الامم المتحدة بموجب قرار التقسيم رقم 181 عام 1947 لليهود(للدولة اليهودية)نسبة:",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "43%"
+        },
+        {
+          "id": "b",
+          "text": "56%"
+        },
+        {
+          "id": "c",
+          "text": "1%"
+        },
+        {
+          "id": "d",
+          "text": "23%"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "",
+      "difficulty": "Medium",
+      "sourceFile": "",
+      "sourcePage": null,
+      "status": "Verified",
+      "createdAt": "2026-10-22T10:08:58.911Z",
+      "updatedAt": "2026-10-22T10:08:58.911Z"
     }
   ],
   "admin": {
@@ -126242,9 +126276,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3775,
-    "verifiedQuestions": 3775,
+    "totalQuestions": 3776,
+    "verifiedQuestions": 3776,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-22T10:07:03.052Z"
+    "lastUpdated": "2026-10-22T10:08:59.249Z"
   }
 }
