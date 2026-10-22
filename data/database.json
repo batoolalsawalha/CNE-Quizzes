@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-22T08:59:56.999Z",
+  "lastUpdated": "2026-10-22T09:08:41.109Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -112466,34 +112466,34 @@
       "id": "NATIONAL-FIN-SUPP-20",
       "subjectId": "subj-national",
       "quizId": "quiz-subj-national-final",
-      "question": "ما هي أهداف 'وثيقة الوفاق الوطني' والكرامة الأردنية؟",
+      "question": "برنامج يهدف الى تأسيس منظور وطني شامل يستند الى رؤى مشتركة بين مكونات المجتمع الاردني:",
       "options": [
         {
           "id": "a",
-          "text": "تقسيم المهام بين القبائل"
+          "text": "كلنا الاردن"
         },
         {
           "id": "b",
-          "text": "ترسيخ التضامن والوحدة والالتفاف حول القيادة والجيش ليبقى الأردن حصناً منيعاً وموئلاً لأحرار الأمة"
+          "text": "رساله عمان"
         },
         {
           "id": "c",
-          "text": "الانعزال عن المحيط العربي"
+          "text": "التحول الثقافي"
         },
         {
           "id": "d",
-          "text": "حظر النشاط الحزبي"
+          "text": "التحول التاريخي"
         }
       ],
-      "correctAnswer": "b",
-      "explanation": "الوفاق الوطني يجسد إجماع الأردنيين على ثوابت الدولة والدستور وصيانة المكتسبات الوطنية.",
+      "correctAnswer": "a",
+      "explanation": "",
       "difficulty": "Medium",
       "imageUrl": null,
-      "sourceFile": "University Final Exam Archive.pdf",
-      "sourcePage": 6,
+      "sourceFile": "",
+      "sourcePage": null,
       "status": "Verified",
       "createdAt": "2026-10-03T17:13:05.644Z",
-      "updatedAt": "2026-10-03T17:13:05.644Z"
+      "updatedAt": "2026-10-22T09:08:40.824Z"
     },
     {
       "id": "NATIONAL-FIN-SUPP-21",
@@ -125871,6 +125871,6 @@
     "totalQuestions": 3764,
     "verifiedQuestions": 3764,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-22T08:59:56.999Z"
+    "lastUpdated": "2026-10-22T09:08:41.109Z"
   }
 }
