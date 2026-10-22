@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-22T08:15:50.710Z",
+  "lastUpdated": "2026-10-22T08:18:59.909Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -112004,34 +112004,34 @@
       "id": "NATIONAL-FIN-SUPP-06",
       "subjectId": "subj-national",
       "quizId": "quiz-subj-national-final",
-      "question": "ما هو الهدف الاستراتيجي من 'منظومة التحديث السياسي' وقانوني الانتخاب والأحزاب الجديدين في الأردن؟",
+      "question": "يعين اعضاء المحكمة الدستورية يإراده ملكية وتكون مدة العضوية",
       "options": [
         {
           "id": "a",
-          "text": "إلغاء دور البرلمان الرقابي"
+          "text": "خمس سنوات"
         },
         {
           "id": "b",
-          "text": "تقليص عدد الناخبين في المحافظات"
+          "text": "ست سنوات قابله للتجديد"
         },
         {
           "id": "c",
-          "text": "منع الشباب من الانضمام للأحزاب"
+          "text": "ست سنوات غير قابلة للتجديد"
         },
         {
           "id": "d",
-          "text": "الوصول التدريجي إلى برلمانات برامجية حزبية تقود إلى تشكيل حكومات برلمانية فاعلة وتمكين الشباب والمرأة"
+          "text": "سمه واحدة"
         }
       ],
-      "correctAnswer": "d",
-      "explanation": "رسخت التعديلات الدستورية وقوانين 2022 حضور الأحزاب الوطنية بقوائم عامة وحصص مخصصة لتمكين الشباب والنساء.",
+      "correctAnswer": "c",
+      "explanation": "",
       "difficulty": "Medium",
       "imageUrl": null,
-      "sourceFile": "University Final Exam Archive.pdf",
-      "sourcePage": 2,
+      "sourceFile": "",
+      "sourcePage": null,
       "status": "Verified",
       "createdAt": "2026-10-03T17:13:05.644Z",
-      "updatedAt": "2026-10-03T17:13:05.644Z"
+      "updatedAt": "2026-10-22T08:18:59.629Z"
     },
     {
       "id": "NATIONAL-FIN-SUPP-07",
@@ -125871,6 +125871,6 @@
     "totalQuestions": 3764,
     "verifiedQuestions": 3764,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-22T08:15:50.710Z"
+    "lastUpdated": "2026-10-22T08:18:59.909Z"
   }
 }
