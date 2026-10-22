@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-22T08:56:25.908Z",
+  "lastUpdated": "2026-10-22T08:57:57.712Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -112400,34 +112400,34 @@
       "id": "NATIONAL-FIN-SUPP-18",
       "subjectId": "subj-national",
       "quizId": "quiz-subj-national-final",
-      "question": "ما هو مفهوم 'التحول الرقمي' في الخدمات الحكومية الأردنية (سند)؟",
+      "question": "احتفلت المملكه الاردنية الهاشمية بمرور مئة عام على تأسيسها في عام:",
       "options": [
         {
           "id": "a",
-          "text": "شراء أجهزة حواسيب جديدة للمكاتب فقط"
+          "text": "2020"
         },
         {
           "id": "b",
-          "text": "إيقاف التعامل بالبطاقات المصرفية"
+          "text": "2024"
         },
         {
           "id": "c",
-          "text": "إغلاق الوزارات الحكومية"
+          "text": "2019"
         },
         {
           "id": "d",
-          "text": "تحويل المعاملات الحكومية إلى خدمات رقمية ميسرة عبر المنصات الإلكترونية لتقليل الوقت والروتين والحد من الفساد"
+          "text": "2021"
         }
       ],
       "correctAnswer": "d",
-      "explanation": "يوفر تطبيق 'سند' وبوابات الخدمات الحكومية وصولاً آمناً للوثائق الرسمية والمدفوعات دون الحاجة لمراجعة الدوائر شخصياً.",
+      "explanation": "",
       "difficulty": "Medium",
       "imageUrl": null,
-      "sourceFile": "University Final Exam Archive.pdf",
-      "sourcePage": 4,
+      "sourceFile": "",
+      "sourcePage": null,
       "status": "Verified",
       "createdAt": "2026-10-03T17:13:05.644Z",
-      "updatedAt": "2026-10-03T17:13:05.644Z"
+      "updatedAt": "2026-10-22T08:57:57.331Z"
     },
     {
       "id": "NATIONAL-FIN-SUPP-19",
@@ -125871,6 +125871,6 @@
     "totalQuestions": 3764,
     "verifiedQuestions": 3764,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-22T08:56:25.908Z"
+    "lastUpdated": "2026-10-22T08:57:57.712Z"
   }
 }
