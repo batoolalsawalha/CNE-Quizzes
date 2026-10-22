@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-22T08:48:56.400Z",
+  "lastUpdated": "2026-10-22T08:50:55.806Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -112268,34 +112268,34 @@
       "id": "NATIONAL-FIN-SUPP-14",
       "subjectId": "subj-national",
       "quizId": "quiz-subj-national-final",
-      "question": "ما هو دور 'ديوان المحاسبة' وهيئة النزاهة ومكافحة الفساد في الأردن؟",
+      "question": "تقع الباقورة في محافظة:",
       "options": [
         {
           "id": "a",
-          "text": "إصدار الأحكام الجنائية بالسجن"
+          "text": "الكرك"
         },
         {
           "id": "b",
-          "text": "إعداد خطط التنمية الاقتصادية"
+          "text": "اربد"
         },
         {
           "id": "c",
-          "text": "تحديد أسعار السلع الغذائية"
+          "text": "معان"
         },
         {
           "id": "d",
-          "text": "الرقابة المالية والإدارية المستقلة على أموال الدولة، وكشف التجاوزات وضمان الشفافية وملاحقة الفساد"
+          "text": "الزرقاء"
         }
       ],
-      "correctAnswer": "d",
-      "explanation": "تعد أجهزة الرقابة صمام أمان لحماية المال العام ومكافحة استغلال النفوذ وترسيخ مبادئ الحوكمة الرشيدة.",
+      "correctAnswer": "b",
+      "explanation": "",
       "difficulty": "Medium",
       "imageUrl": null,
-      "sourceFile": "University Final Exam Archive.pdf",
-      "sourcePage": 10,
+      "sourceFile": "",
+      "sourcePage": null,
       "status": "Verified",
       "createdAt": "2026-10-03T17:13:05.644Z",
-      "updatedAt": "2026-10-03T17:13:05.644Z"
+      "updatedAt": "2026-10-22T08:50:55.487Z"
     },
     {
       "id": "NATIONAL-FIN-SUPP-15",
@@ -125871,6 +125871,6 @@
     "totalQuestions": 3764,
     "verifiedQuestions": 3764,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-22T08:48:56.400Z"
+    "lastUpdated": "2026-10-22T08:50:55.806Z"
   }
 }
