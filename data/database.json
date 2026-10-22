@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-22T13:51:46.231Z",
+  "lastUpdated": "2026-10-22T13:53:16.643Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -126500,6 +126500,40 @@
       "status": "Verified",
       "createdAt": "2026-10-22T13:51:45.733Z",
       "updatedAt": "2026-10-22T13:51:45.733Z"
+    },
+    {
+      "id": "q-70c758ac",
+      "subjectId": "subj-national",
+      "quizId": "quiz-subj-national-final",
+      "topicId": null,
+      "question": "اصدر الملك عبدالله الثاني في نهاية العام 2012 اوراق نقاشية وعددها:",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "5 اوراق"
+        },
+        {
+          "id": "b",
+          "text": "7اوراق"
+        },
+        {
+          "id": "c",
+          "text": "6اوراق"
+        },
+        {
+          "id": "d",
+          "text": "9اوراق"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "",
+      "difficulty": "Medium",
+      "sourceFile": "",
+      "sourcePage": null,
+      "status": "Verified",
+      "createdAt": "2026-10-22T13:53:16.350Z",
+      "updatedAt": "2026-10-22T13:53:16.350Z"
     }
   ],
   "admin": {
@@ -126514,9 +126548,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3783,
-    "verifiedQuestions": 3783,
+    "totalQuestions": 3784,
+    "verifiedQuestions": 3784,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-22T13:51:46.231Z"
+    "lastUpdated": "2026-10-22T13:53:16.643Z"
   }
 }
