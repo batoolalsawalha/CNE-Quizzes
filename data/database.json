@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-22T08:40:49.613Z",
+  "lastUpdated": "2026-10-22T08:45:00.409Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -112169,34 +112169,34 @@
       "id": "NATIONAL-FIN-SUPP-11",
       "subjectId": "subj-national",
       "quizId": "quiz-subj-national-final",
-      "question": "ما هي مكانة 'القدس والمقدسات' في الوجدان الوطني والسياسي الأردني؟",
+      "question": "واحدة من الاتية ليست من التحديات التي واجهت المملكة الرابعة:",
       "options": [
         {
           "id": "a",
-          "text": "أولوية وطنية وقومية ودينية تحظى برعاية الوصاية الهاشمية التاريخية على المقدسات الإسلامية والمسيحية"
+          "text": "التحدي الاقتصادي"
         },
         {
           "id": "b",
-          "text": "قضية تقتصر على وزارة الأوقاف"
+          "text": "تحدي مواجهة الارهاب"
         },
         {
           "id": "c",
-          "text": "شأن يخص الدول الكبرى فقط"
+          "text": "تحدي اللجوء والهجرات القسرية"
         },
         {
           "id": "d",
-          "text": "ملف سياحي واقتصادي"
+          "text": "النشاط الحزبي"
         }
       ],
-      "correctAnswer": "a",
-      "explanation": "يمارس الهاشميون الوصاية التاريخية لحماية المسجد الأقصى المبارك وكنيسة القيامة والأوقاف في القدس الشريف.",
+      "correctAnswer": "d",
+      "explanation": "",
       "difficulty": "Medium",
       "imageUrl": null,
-      "sourceFile": "University Final Exam Archive.pdf",
-      "sourcePage": 7,
+      "sourceFile": "",
+      "sourcePage": null,
       "status": "Verified",
       "createdAt": "2026-10-03T17:13:05.644Z",
-      "updatedAt": "2026-10-03T17:13:05.644Z"
+      "updatedAt": "2026-10-22T08:45:00.018Z"
     },
     {
       "id": "NATIONAL-FIN-SUPP-12",
@@ -125871,6 +125871,6 @@
     "totalQuestions": 3764,
     "verifiedQuestions": 3764,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-22T08:40:49.613Z"
+    "lastUpdated": "2026-10-22T08:45:00.409Z"
   }
 }
