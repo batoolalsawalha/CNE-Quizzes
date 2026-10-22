@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-22T07:21:00.805Z",
+  "lastUpdated": "2026-10-22T07:23:44.212Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -111640,35 +111640,35 @@
     {
       "id": "MS-E-NATIONAL-024",
       "subjectId": "subj-national",
-      "quizId": "quiz-subj-national-final",
-      "question": "[التربية الوطنية - السؤال 24] ما هو الركن الأساسي الذي يقوم عليه مفهوم المواطنة الفاعلة في الدولة الأردنية الحديثة؟",
+      "quizId": "quiz-subj-national-mid",
+      "question": "من سمات الهوية الاردنية انها ناجزة ونامية وتعني :",
       "options": [
         {
           "id": "a",
-          "text": "المشاركة الإيجابية الواعية في تنمية الوطن، الالتزام بسيادة القانون، والتوازن بين الحقوق والواجبات"
+          "text": "قادرة على التطور"
         },
         {
           "id": "b",
-          "text": "الانعزال عن العمل العام"
+          "text": "غير قادرة على التحديث"
         },
         {
           "id": "c",
-          "text": "تقديم المصالح الفردية على المصلحة العامة"
+          "text": "غير قادرة على التطور"
         },
         {
           "id": "d",
-          "text": "الاعتماد الكامل على الدولة دون مبادرة مجتمعية"
+          "text": "غير مكتملة"
         }
       ],
       "correctAnswer": "a",
-      "explanation": "المواطنة الفاعلة تعني الانتماء الصادق والمشاركة البناءة والحرص على مقدرات الوطن وسيادة القانون.",
-      "difficulty": "Easy",
+      "explanation": "",
+      "difficulty": "Medium",
       "imageUrl": null,
-      "sourceFile": "فاينل 2025 حموده.pdf",
-      "sourcePage": 6,
+      "sourceFile": "",
+      "sourcePage": null,
       "status": "Verified",
       "createdAt": "2026-09-28T17:34:45.479Z",
-      "updatedAt": "2026-09-28T17:34:45.479Z"
+      "updatedAt": "2026-10-22T07:23:43.973Z"
     },
     {
       "id": "MS-E-NATIONAL-025",
@@ -126267,6 +126267,6 @@
     "totalQuestions": 3776,
     "verifiedQuestions": 3776,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-22T07:21:00.805Z"
+    "lastUpdated": "2026-10-22T07:23:44.212Z"
   }
 }
