@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-22T13:37:05.838Z",
+  "lastUpdated": "2026-10-22T13:40:34.339Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -126364,6 +126364,40 @@
       "status": "Verified",
       "createdAt": "2026-10-22T13:37:05.352Z",
       "updatedAt": "2026-10-22T13:37:05.352Z"
+    },
+    {
+      "id": "q-6369286a",
+      "subjectId": "subj-national",
+      "quizId": "quiz-subj-national-final",
+      "topicId": null,
+      "question": "الحرب التي شنها العرب (مصر وسوريا)بشكل مفاجئ على اسرائيل:",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "حرب 1967"
+        },
+        {
+          "id": "b",
+          "text": "حرب 1968"
+        },
+        {
+          "id": "c",
+          "text": "حرب 1973 حرب رمضان"
+        },
+        {
+          "id": "d",
+          "text": "حرب 1978"
+        }
+      ],
+      "correctAnswer": "c",
+      "explanation": "",
+      "difficulty": "Medium",
+      "sourceFile": "",
+      "sourcePage": null,
+      "status": "Verified",
+      "createdAt": "2026-10-22T13:40:34.023Z",
+      "updatedAt": "2026-10-22T13:40:34.023Z"
     }
   ],
   "admin": {
@@ -126378,9 +126412,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3779,
-    "verifiedQuestions": 3779,
+    "totalQuestions": 3780,
+    "verifiedQuestions": 3780,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-22T13:37:05.838Z"
+    "lastUpdated": "2026-10-22T13:40:34.339Z"
   }
 }
