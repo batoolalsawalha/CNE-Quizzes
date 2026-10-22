@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-22T10:08:59.249Z",
+  "lastUpdated": "2026-10-22T13:31:58.038Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -126262,6 +126262,40 @@
       "status": "Verified",
       "createdAt": "2026-10-22T10:08:58.911Z",
       "updatedAt": "2026-10-22T10:08:58.911Z"
+    },
+    {
+      "id": "q-c53544ed",
+      "subjectId": "subj-national",
+      "quizId": "quiz-subj-national-final",
+      "topicId": null,
+      "question": "حميع المحاكم التالية هي محاكم نظامية ماعدا:",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "الصلح"
+        },
+        {
+          "id": "b",
+          "text": "التمييز"
+        },
+        {
+          "id": "c",
+          "text": "الشرطة"
+        },
+        {
+          "id": "d",
+          "text": "البداية"
+        }
+      ],
+      "correctAnswer": "c",
+      "explanation": "",
+      "difficulty": "Medium",
+      "sourceFile": "",
+      "sourcePage": null,
+      "status": "Verified",
+      "createdAt": "2026-10-22T13:31:57.213Z",
+      "updatedAt": "2026-10-22T13:31:57.213Z"
     }
   ],
   "admin": {
@@ -126276,9 +126310,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3776,
-    "verifiedQuestions": 3776,
+    "totalQuestions": 3777,
+    "verifiedQuestions": 3777,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-22T10:08:59.249Z"
+    "lastUpdated": "2026-10-22T13:31:58.038Z"
   }
 }
