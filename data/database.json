@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-22T09:33:20.912Z",
+  "lastUpdated": "2026-10-22T09:34:37.801Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -126024,6 +126024,40 @@
       "status": "Verified",
       "createdAt": "2026-10-22T09:33:20.536Z",
       "updatedAt": "2026-10-22T09:33:20.536Z"
+    },
+    {
+      "id": "q-ea35881a",
+      "subjectId": "subj-national",
+      "quizId": "quiz-subj-national-final",
+      "topicId": null,
+      "question": "الحزب الشيوعي من الامثلة على الاحزاب الاردنية",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "الاسلامية"
+        },
+        {
+          "id": "b",
+          "text": "القومية"
+        },
+        {
+          "id": "c",
+          "text": "اليسارية"
+        },
+        {
+          "id": "d",
+          "text": "الليبرالية"
+        }
+      ],
+      "correctAnswer": "c",
+      "explanation": "",
+      "difficulty": "Medium",
+      "sourceFile": "",
+      "sourcePage": null,
+      "status": "Verified",
+      "createdAt": "2026-10-22T09:34:37.406Z",
+      "updatedAt": "2026-10-22T09:34:37.406Z"
     }
   ],
   "admin": {
@@ -126038,9 +126072,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3769,
-    "verifiedQuestions": 3769,
+    "totalQuestions": 3770,
+    "verifiedQuestions": 3770,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-22T09:33:20.912Z"
+    "lastUpdated": "2026-10-22T09:34:37.801Z"
   }
 }
