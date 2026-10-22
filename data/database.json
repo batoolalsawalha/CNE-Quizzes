@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-21T18:02:08.600Z",
+  "lastUpdated": "2026-10-22T07:05:23.605Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -111376,35 +111376,35 @@
     {
       "id": "NAT-FIN-001",
       "subjectId": "subj-national",
-      "quizId": "quiz-subj-national-final",
-      "question": "تتولى السلطة التشريعية في الأردن هيئة تسمى:",
+      "quizId": "quiz-subj-national-mid",
+      "question": "الملك الاردني صاحب القول \"بالنسبة للهوية الوطنية الاردنية والوحدة الوطنية بالنسبة لي خط احمر\":",
       "options": [
         {
           "id": "a",
-          "text": "مجلس الأمة (ويتألف من مجلسي الأعيان والنواب)"
+          "text": "طلال بن عبدالله"
         },
         {
           "id": "b",
-          "text": "مجلس الوزراء"
+          "text": "الحسين بن طلال"
         },
         {
           "id": "c",
-          "text": "المجلس القضائي الأعلى"
+          "text": "عبدالله الثاني بن الحسين"
         },
         {
           "id": "d",
-          "text": "المحكمة الدستورية"
+          "text": "عبدالله بن الشريف حسين"
         }
       ],
-      "correctAnswer": "a",
-      "explanation": "تنص المادة (25) من الدستور على أن السلطة التشريعية تناط بمجلس الأمة والملك، ويتألف مجلس الأمة من مجلس الأعيان والنواب.",
-      "difficulty": "Easy",
+      "correctAnswer": "c",
+      "explanation": "",
+      "difficulty": "Medium",
       "imageUrl": null,
-      "sourceFile": "فاينل 2025 حموده.pdf",
-      "sourcePage": 1,
+      "sourceFile": "",
+      "sourcePage": null,
       "status": "Verified",
       "createdAt": "2026-09-28T17:34:45.4Z",
-      "updatedAt": "2026-09-28T17:34:45.4Z"
+      "updatedAt": "2026-10-22T07:05:22.798Z"
     },
     {
       "id": "NAT-FIN-002",
@@ -126267,6 +126267,6 @@
     "totalQuestions": 3776,
     "verifiedQuestions": 3776,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-21T18:02:08.600Z"
+    "lastUpdated": "2026-10-22T07:05:23.605Z"
   }
 }
