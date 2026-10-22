@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-22T08:47:18.401Z",
+  "lastUpdated": "2026-10-22T08:48:56.400Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -112235,34 +112235,34 @@
       "id": "NATIONAL-FIN-SUPP-13",
       "subjectId": "subj-national",
       "quizId": "quiz-subj-national-final",
-      "question": "ما هي 'اللامركزية' ومجالس المحافظات في الإدارة المحلية الأردنية؟",
+      "question": "صدر أول قانون للبلديات في غمارة شرق الاردن عام:",
       "options": [
         {
           "id": "a",
-          "text": "مركزية اتخاذ القرار في العاصمة عمّان فقط"
+          "text": "1933"
         },
         {
           "id": "b",
-          "text": "إلغاء الوزارات الحكومية"
+          "text": "1936"
         },
         {
           "id": "c",
-          "text": "تفويض الصلاحيات لمجالس المحافظات المنتخبة لتحديد أولويات المشاريع التنموية والخدمية وفق احتياجات كل محافظة"
+          "text": "1925"
         },
         {
           "id": "d",
-          "text": "تقسيم الدولة إلى ولايات منفصلة"
+          "text": "1921"
         }
       ],
       "correctAnswer": "c",
-      "explanation": "تهدف اللامركزية إلى تمكين المواطنين محلياً من المشاركة في صنع القرار التنموي ورسم أولويات موازنة محافظاتهم.",
+      "explanation": "",
       "difficulty": "Medium",
       "imageUrl": null,
-      "sourceFile": "University Final Exam Archive.pdf",
-      "sourcePage": 9,
+      "sourceFile": "",
+      "sourcePage": null,
       "status": "Verified",
       "createdAt": "2026-10-03T17:13:05.644Z",
-      "updatedAt": "2026-10-03T17:13:05.644Z"
+      "updatedAt": "2026-10-22T08:48:56.026Z"
     },
     {
       "id": "NATIONAL-FIN-SUPP-14",
@@ -125871,6 +125871,6 @@
     "totalQuestions": 3764,
     "verifiedQuestions": 3764,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-22T08:47:18.401Z"
+    "lastUpdated": "2026-10-22T08:48:56.400Z"
   }
 }
