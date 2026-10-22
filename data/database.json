@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-22T08:10:07.411Z",
+  "lastUpdated": "2026-10-22T08:12:12.604Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -111938,34 +111938,34 @@
       "id": "NATIONAL-FIN-SUPP-03",
       "subjectId": "subj-national",
       "quizId": "quiz-subj-national-final",
-      "question": "ما هو واجب المواطن تجاه 'سيادة القانون' في الدولة الأردنية؟",
+      "question": "يعين موظفو الهيئة المستقلة للانتخاب ورئيس مجلسهم بإدارة ملكية لمدة:",
       "options": [
         {
           "id": "a",
-          "text": "احترام القوانين والأنظمة وتطبيقها دون تمييز ومحاربة الفساد والواسطة والمحسوبية"
+          "text": "ست سنوات غير قابل للتجديد"
         },
         {
           "id": "b",
-          "text": "الاحتكام للعرف العشائري بديلاً عن القضاء"
+          "text": "سنة سنوات"
         },
         {
           "id": "c",
-          "text": "تجاوز القانون عند المصلحة الشخصية"
+          "text": "سنة واحدة"
         },
         {
           "id": "d",
-          "text": "تجاهل تعليمات السلامة والبيئة"
+          "text": "خمس سنوات"
         }
       ],
       "correctAnswer": "a",
-      "explanation": "سيادة القانون تعني خضوع الحكام والمحكومين لقواعد قانونية عادلة تطبق بنزاهة وشفافية على الجميع.",
+      "explanation": "",
       "difficulty": "Medium",
       "imageUrl": null,
-      "sourceFile": "University Final Exam Archive.pdf",
-      "sourcePage": 9,
+      "sourceFile": "",
+      "sourcePage": null,
       "status": "Verified",
       "createdAt": "2026-10-03T17:13:05.643Z",
-      "updatedAt": "2026-10-03T17:13:05.643Z"
+      "updatedAt": "2026-10-22T08:12:12.275Z"
     },
     {
       "id": "NATIONAL-FIN-SUPP-05",
@@ -125871,6 +125871,6 @@
     "totalQuestions": 3764,
     "verifiedQuestions": 3764,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-22T08:10:07.411Z"
+    "lastUpdated": "2026-10-22T08:12:12.604Z"
   }
 }
