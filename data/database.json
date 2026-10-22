@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-22T09:15:45.101Z",
+  "lastUpdated": "2026-10-22T09:18:17.711Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -112598,34 +112598,34 @@
       "id": "NATIONAL-FIN-SUPP-24",
       "subjectId": "subj-national",
       "quizId": "quiz-subj-national-final",
-      "question": "ما هي دلالات 'العلم الأردني' وألوانه؟",
+      "question": "يعد تطبيق قانن المبدأ المعروف (من اين لك هذا)ب:",
       "options": [
         {
           "id": "a",
-          "text": "ألوان اختيرت عشوائياً"
+          "text": "القانون التجاري"
         },
         {
           "id": "b",
-          "text": "الأسود (الدولة العباسية)، الأبيض (الدولة الأموية)، الأخضر (الدولة الفاطمية)، المثلث الأحمر (الثورة العربية الكبرى)، والنجمة السباعية (فاتحة القرآن)"
+          "text": "قانون العقوبات"
         },
         {
           "id": "c",
-          "text": "ألوان مستوحاة من فصول السنة"
+          "text": "قانون المالكين والمستأجرين"
         },
         {
           "id": "d",
-          "text": "رمز للثروات الطبيعية فقط"
+          "text": "قانون الكسب غير المشروع"
         }
       ],
-      "correctAnswer": "b",
-      "explanation": "يحمل العلم الأردني رموز التاريخ العربي الإسلامي المجيد، وتدل النجمة السباعية على السبع المثاني (الفاتحة) والشهامة والكرم وحسن الضيافة.",
+      "correctAnswer": "d",
+      "explanation": "",
       "difficulty": "Medium",
       "imageUrl": null,
-      "sourceFile": "University Final Exam Archive.pdf",
-      "sourcePage": 10,
+      "sourceFile": "",
+      "sourcePage": null,
       "status": "Verified",
       "createdAt": "2026-10-03T17:13:05.644Z",
-      "updatedAt": "2026-10-03T17:13:05.644Z"
+      "updatedAt": "2026-10-22T09:18:17.357Z"
     },
     {
       "id": "NATIONAL-FIN-SUPP-25",
@@ -125871,6 +125871,6 @@
     "totalQuestions": 3764,
     "verifiedQuestions": 3764,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-22T09:15:45.101Z"
+    "lastUpdated": "2026-10-22T09:18:17.711Z"
   }
 }
