@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-22T09:24:12.605Z",
+  "lastUpdated": "2026-10-22T09:26:02.608Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -125888,6 +125888,40 @@
       "status": "Verified",
       "createdAt": "2026-10-22T09:24:12.178Z",
       "updatedAt": "2026-10-22T09:24:12.178Z"
+    },
+    {
+      "id": "q-9f518df6",
+      "subjectId": "subj-national",
+      "quizId": "quiz-subj-national-final",
+      "topicId": null,
+      "question": "نال الاردن العضوية في الأمم المتحدة عام:",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "1955 في 14 كانون الاول"
+        },
+        {
+          "id": "b",
+          "text": "1949"
+        },
+        {
+          "id": "c",
+          "text": "1967"
+        },
+        {
+          "id": "d",
+          "text": "1921"
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "",
+      "difficulty": "Medium",
+      "sourceFile": "",
+      "sourcePage": null,
+      "status": "Verified",
+      "createdAt": "2026-10-22T09:26:02.100Z",
+      "updatedAt": "2026-10-22T09:26:02.100Z"
     }
   ],
   "admin": {
@@ -125902,9 +125936,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3765,
-    "verifiedQuestions": 3765,
+    "totalQuestions": 3766,
+    "verifiedQuestions": 3766,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-22T09:24:12.605Z"
+    "lastUpdated": "2026-10-22T09:26:02.608Z"
   }
 }
