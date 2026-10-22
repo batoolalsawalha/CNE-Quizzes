@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-22T08:37:23.200Z",
+  "lastUpdated": "2026-10-22T08:39:14.012Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -112103,34 +112103,34 @@
       "id": "NATIONAL-FIN-SUPP-09",
       "subjectId": "subj-national",
       "quizId": "quiz-subj-national-final",
-      "question": "ما هو مفهوم 'الأمن الوطني الشامل'؟",
+      "question": "تبنى الملك حسين بن طلال اثناء الحرب الخليجية مبدأ:",
       "options": [
         {
           "id": "a",
-          "text": "امتلاك الأسلحة والمعدات العسكرية فقط"
+          "text": "الانحياز للعراق"
         },
         {
           "id": "b",
-          "text": "حراسة الحدود الجغرافية دون تنمية داخلية"
+          "text": "الانحياز للكويت"
         },
         {
           "id": "c",
-          "text": "قدرة الدولة على حماية كيانها وقيمها ومصالحها ومواطنيها في الأبعاد السياسية، العسكرية، الاقتصادية، الاجتماعية، والسيبرانية"
+          "text": "الوقوف مع التدخل الاجنبي"
         },
         {
           "id": "d",
-          "text": "حماية العاصمة فقط"
+          "text": "الحل العربي للازمة"
         }
       ],
-      "correctAnswer": "c",
-      "explanation": "الأمن الوطني اليوم يتكامل فيه استقرار الاقتصاد، والأمن الغذائي والمائي، والتماسك المجتمعي، والجاهزية العسكرية والسيبرانية.",
+      "correctAnswer": "d",
+      "explanation": "",
       "difficulty": "Medium",
       "imageUrl": null,
-      "sourceFile": "University Final Exam Archive.pdf",
-      "sourcePage": 5,
+      "sourceFile": "",
+      "sourcePage": null,
       "status": "Verified",
       "createdAt": "2026-10-03T17:13:05.644Z",
-      "updatedAt": "2026-10-03T17:13:05.644Z"
+      "updatedAt": "2026-10-22T08:39:13.600Z"
     },
     {
       "id": "NATIONAL-FIN-SUPP-10",
@@ -125871,6 +125871,6 @@
     "totalQuestions": 3764,
     "verifiedQuestions": 3764,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-22T08:37:23.200Z"
+    "lastUpdated": "2026-10-22T08:39:14.012Z"
   }
 }
