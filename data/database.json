@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-22T13:41:54.233Z",
+  "lastUpdated": "2026-10-22T13:44:28.331Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -126432,6 +126432,40 @@
       "status": "Verified",
       "createdAt": "2026-10-22T13:41:53.708Z",
       "updatedAt": "2026-10-22T13:41:53.708Z"
+    },
+    {
+      "id": "q-2e3c2620",
+      "subjectId": "subj-national",
+      "quizId": "quiz-subj-national-final",
+      "topicId": null,
+      "question": "ما السبب الرئيسي لانتهاء الاتحاد العربي الهاشمي بين الاردن والعراق عام 1958:",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "توقيع معاهدة جديدة مع بريطانيا"
+        },
+        {
+          "id": "b",
+          "text": "اندلاع الحرب بين الاردن وسوريا"
+        },
+        {
+          "id": "c",
+          "text": "قيام الانقلاب العسكري في العراق"
+        },
+        {
+          "id": "d",
+          "text": "انسحاب الاردن من الاتحاد طوعا"
+        }
+      ],
+      "correctAnswer": "c",
+      "explanation": "",
+      "difficulty": "Medium",
+      "sourceFile": "",
+      "sourcePage": null,
+      "status": "Verified",
+      "createdAt": "2026-10-22T13:44:27.876Z",
+      "updatedAt": "2026-10-22T13:44:27.876Z"
     }
   ],
   "admin": {
@@ -126446,9 +126480,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3781,
-    "verifiedQuestions": 3781,
+    "totalQuestions": 3782,
+    "verifiedQuestions": 3782,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-22T13:41:54.233Z"
+    "lastUpdated": "2026-10-22T13:44:28.331Z"
   }
 }
