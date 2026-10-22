@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-22T08:53:32.722Z",
+  "lastUpdated": "2026-10-22T08:56:25.908Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -112367,34 +112367,34 @@
       "id": "NATIONAL-FIN-SUPP-17",
       "subjectId": "subj-national",
       "quizId": "quiz-subj-national-final",
-      "question": "ما هو التحدي البيئي والمائي الأبرز الذي يواجه المملكة الأردنية الهاشمية؟",
+      "question": "التالية من سمات النظام السياسي الاردني ما عدا:",
       "options": [
         {
           "id": "a",
-          "text": "كثرة الفيضانات الجارفة طوال العام"
+          "text": "العمق العربي الاسلامي"
         },
         {
           "id": "b",
-          "text": "التلوث الإشعاعي في الهواء"
+          "text": "الجهاد"
         },
         {
           "id": "c",
-          "text": "الشح الشديد في الموارد المائية الصالحة للشرب والزراعة وتغير المناخ (الأردن من أفقر دول العالم مائياً)"
+          "text": "المرونة والقدرة على التكيف"
         },
         {
           "id": "d",
-          "text": "عدم توفر الأراضي الزراعية"
+          "text": "الموقف الثابت من فلسطين والقدس"
         }
       ],
-      "correctAnswer": "c",
-      "explanation": "يعتبر شح المياه التحدي الوجودي الأكبر، مما استوجب التوجه لمشاريع تحلية مياه البحر (مشروع الناقل الوطني) والترشيد.",
+      "correctAnswer": "b",
+      "explanation": "",
       "difficulty": "Medium",
       "imageUrl": null,
-      "sourceFile": "University Final Exam Archive.pdf",
-      "sourcePage": 3,
+      "sourceFile": "",
+      "sourcePage": null,
       "status": "Verified",
       "createdAt": "2026-10-03T17:13:05.644Z",
-      "updatedAt": "2026-10-03T17:13:05.644Z"
+      "updatedAt": "2026-10-22T08:56:25.497Z"
     },
     {
       "id": "NATIONAL-FIN-SUPP-18",
@@ -125871,6 +125871,6 @@
     "totalQuestions": 3764,
     "verifiedQuestions": 3764,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-22T08:53:32.722Z"
+    "lastUpdated": "2026-10-22T08:56:25.908Z"
   }
 }
