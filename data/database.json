@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-22T07:10:56.000Z",
+  "lastUpdated": "2026-10-22T07:13:17.502Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -111475,35 +111475,35 @@
     {
       "id": "EXP-NAT-003",
       "subjectId": "subj-national",
-      "quizId": "quiz-subj-national-final",
-      "question": "ما هي المبادرة الوطنية التي أطلقها سمو ولي العهد الأمير الحسين بن عبد الله الثاني للحفاظ على اللغة العربية ومكانتها في العصر الرقمي؟",
+      "quizId": "quiz-subj-national-mid",
+      "question": "من العوامل التي ساهمت في تطور الهوية الوطنية الاردنية ونموها التاريخي:",
       "options": [
         {
           "id": "a",
-          "text": "مبادرة \"ض\""
+          "text": "دور وزارة الشباب"
         },
         {
           "id": "b",
-          "text": "مبادرة \"اقرأ\""
+          "text": "دور الجيش العربي"
         },
         {
           "id": "c",
-          "text": "مبادرة \"لغتي هويتي\""
+          "text": "دور وزارة الزراعة"
         },
         {
           "id": "d",
-          "text": "مبادرة \"فكر أولاً\""
+          "text": "ددور وزارة الصناعة"
         }
       ],
-      "correctAnswer": "a",
-      "explanation": "أطلق سمو ولي العهد الأمير الحسين بن عبدالله الثاني مبادرة \"ض\" لدعم اللغة العربية ونشر المحتوى الرقمي العربي وتعزيز مكانتها لدى الشباب.",
-      "difficulty": "Easy",
+      "correctAnswer": "b",
+      "explanation": "",
+      "difficulty": "Medium",
       "imageUrl": null,
       "sourceFile": "Mid 2025.pdf",
-      "sourcePage": 1,
+      "sourcePage": null,
       "status": "Verified",
       "createdAt": "2026-09-28T17:34:45.426Z",
-      "updatedAt": "2026-09-28T17:34:45.426Z"
+      "updatedAt": "2026-10-22T07:13:16.905Z"
     },
     {
       "id": "EXP-NAT-004",
@@ -126267,6 +126267,6 @@
     "totalQuestions": 3776,
     "verifiedQuestions": 3776,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-22T07:10:56.000Z"
+    "lastUpdated": "2026-10-22T07:13:17.502Z"
   }
 }
