@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-22T08:39:14.012Z",
+  "lastUpdated": "2026-10-22T08:40:49.613Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -112136,34 +112136,34 @@
       "id": "NATIONAL-FIN-SUPP-10",
       "subjectId": "subj-national",
       "quizId": "quiz-subj-national-final",
-      "question": "ما هو المقصود بـ 'الشمول المالي' في الاستراتيجية الوطنية الأردنية؟",
+      "question": "عقد المنتدى الاقتصادي العالمي اول اجتماع له في الشرق الاوسط:",
       "options": [
         {
           "id": "a",
-          "text": "إعطاء أموال مجانية لجميع السكان"
+          "text": "البحر الميت"
         },
         {
           "id": "b",
-          "text": "إلغاء المعاملات النقدية بالكامل"
+          "text": "دمشق"
         },
         {
           "id": "c",
-          "text": "حصر المعاملات في البنوك التقليدية فقط"
+          "text": "بغداد"
         },
         {
           "id": "d",
-          "text": "تمكين جميع فئات المجتمع والشركات الصغيرة من الوصول إلى خدمات مالية ملائمة (حسابات، تمويل، محافظ إلكترونية) بتكلفة معقولة"
+          "text": "القاهرة"
         }
       ],
-      "correctAnswer": "d",
-      "explanation": "يعزز الشمول المالي النمو الاقتصادي ويقلل البطالة والفقر عبر رقمنة الخدمات المالية والمصرفية.",
+      "correctAnswer": "a",
+      "explanation": "",
       "difficulty": "Medium",
       "imageUrl": null,
-      "sourceFile": "University Final Exam Archive.pdf",
-      "sourcePage": 6,
+      "sourceFile": "",
+      "sourcePage": null,
       "status": "Verified",
       "createdAt": "2026-10-03T17:13:05.644Z",
-      "updatedAt": "2026-10-03T17:13:05.644Z"
+      "updatedAt": "2026-10-22T08:40:49.266Z"
     },
     {
       "id": "NATIONAL-FIN-SUPP-11",
@@ -125871,6 +125871,6 @@
     "totalQuestions": 3764,
     "verifiedQuestions": 3764,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-22T08:39:14.012Z"
+    "lastUpdated": "2026-10-22T08:40:49.613Z"
   }
 }
