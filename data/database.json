@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-22T09:20:23.410Z",
+  "lastUpdated": "2026-10-22T09:21:19.805Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -112668,30 +112668,30 @@
       "options": [
         {
           "id": "a",
-          "text": "التخلي عن الملف الفلسطيني"
+          "text": "محكمة البداية"
         },
         {
           "id": "b",
-          "text": "القبول بالحلول الجزئية دون القدس"
+          "text": "محكمة التمييز"
         },
         {
           "id": "c",
-          "text": "حظر المساعدات الطبية والإنسانية"
+          "text": "محاكم البلديات"
         },
         {
           "id": "d",
-          "text": "الدفاع عن الحقوق المشروعة للشعب الفلسطيني وإقامة دولته المستقلة ذات السيادة على خطوط 4 حزيران 1967 وعاصمتها القدس الشرقية"
+          "text": "المحاكم الشرعية"
         }
       ],
-      "correctAnswer": "d",
-      "explanation": "يعد الأردن السند الاستراتيجي الأوثق لفلسطين، ومواقفه الدبلوماسية ثابتة بقيادة جلالة الملك لحل الدولتين.",
+      "correctAnswer": "b",
+      "explanation": "",
       "difficulty": "Medium",
       "imageUrl": null,
-      "sourceFile": "University Final Exam Archive.pdf",
-      "sourcePage": 2,
+      "sourceFile": "",
+      "sourcePage": null,
       "status": "Verified",
       "createdAt": "2026-10-03T17:13:05.644Z",
-      "updatedAt": "2026-10-03T17:13:05.644Z"
+      "updatedAt": "2026-10-22T09:21:19.531Z"
     },
     {
       "id": "MIL-MID-001",
@@ -125871,6 +125871,6 @@
     "totalQuestions": 3764,
     "verifiedQuestions": 3764,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-22T09:20:23.410Z"
+    "lastUpdated": "2026-10-22T09:21:19.805Z"
   }
 }
