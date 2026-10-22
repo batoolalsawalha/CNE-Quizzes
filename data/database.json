@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-22T13:40:34.339Z",
+  "lastUpdated": "2026-10-22T13:41:54.233Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -126398,6 +126398,40 @@
       "status": "Verified",
       "createdAt": "2026-10-22T13:40:34.023Z",
       "updatedAt": "2026-10-22T13:40:34.023Z"
+    },
+    {
+      "id": "q-6caebc5d",
+      "subjectId": "subj-national",
+      "quizId": "quiz-subj-national-final",
+      "topicId": null,
+      "question": "سكان  البادية في الاردن يشكلون نسبة تقارب:",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "60%"
+        },
+        {
+          "id": "b",
+          "text": "38%"
+        },
+        {
+          "id": "c",
+          "text": "54%"
+        },
+        {
+          "id": "d",
+          "text": "46%"
+        }
+      ],
+      "correctAnswer": "d",
+      "explanation": "",
+      "difficulty": "Medium",
+      "sourceFile": "",
+      "sourcePage": null,
+      "status": "Verified",
+      "createdAt": "2026-10-22T13:41:53.708Z",
+      "updatedAt": "2026-10-22T13:41:53.708Z"
     }
   ],
   "admin": {
@@ -126412,9 +126446,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3780,
-    "verifiedQuestions": 3780,
+    "totalQuestions": 3781,
+    "verifiedQuestions": 3781,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-22T13:40:34.339Z"
+    "lastUpdated": "2026-10-22T13:41:54.233Z"
   }
 }
