@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-22T07:09:20.204Z",
+  "lastUpdated": "2026-10-22T07:10:56.000Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -111442,35 +111442,35 @@
     {
       "id": "NAT-FIN-003",
       "subjectId": "subj-national",
-      "quizId": "quiz-subj-national-final",
-      "question": "ما هي الهيئة المستقلة التي أنشئت في الأردن بموجب التعديلات الدستورية لإدارة العمليات الانتخابية والنيابية والإشراف عليها؟",
+      "quizId": "quiz-subj-national-mid",
+      "question": "يعد مصدر رئيسي للمنتجات الزراعية في الاردن من الخضاروالحمضيات:",
       "options": [
         {
           "id": "a",
-          "text": "الهيئة المستقلة للانتخاب"
+          "text": "سهل الغور"
         },
         {
           "id": "b",
-          "text": "وزارة الداخلية"
+          "text": "منطقة الزور"
         },
         {
           "id": "c",
-          "text": "ديوان الرقابة والتفتيش"
+          "text": "الكتار"
         },
         {
           "id": "d",
-          "text": "محكمة أمن الدولة"
+          "text": "البحر الميت"
         }
       ],
       "correctAnswer": "a",
-      "explanation": "أُنشئت الهيئة المستقلة للانتخاب عام 2012 كجهة دستورية مستقلة لضمان نزاهة وشفافية الانتخابات النيابية والبلدية.",
-      "difficulty": "Easy",
+      "explanation": "",
+      "difficulty": "Medium",
       "imageUrl": null,
-      "sourceFile": "فاينل 2025 حموده.pdf",
-      "sourcePage": 2,
+      "sourceFile": "",
+      "sourcePage": null,
       "status": "Verified",
       "createdAt": "2026-09-28T17:34:45.401Z",
-      "updatedAt": "2026-09-28T17:34:45.401Z"
+      "updatedAt": "2026-10-22T07:10:55.529Z"
     },
     {
       "id": "EXP-NAT-003",
@@ -126267,6 +126267,6 @@
     "totalQuestions": 3776,
     "verifiedQuestions": 3776,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-22T07:09:20.204Z"
+    "lastUpdated": "2026-10-22T07:10:56.000Z"
   }
 }
