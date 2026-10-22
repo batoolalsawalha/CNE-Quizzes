@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-22T07:47:27.112Z",
+  "lastUpdated": "2026-10-22T07:47:33.410Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -111968,39 +111968,6 @@
       "updatedAt": "2026-10-03T17:13:05.643Z"
     },
     {
-      "id": "NATIONAL-FIN-SUPP-04",
-      "subjectId": "subj-national",
-      "quizId": "quiz-subj-national-final",
-      "question": "ما هي الهوية الوطنية الأردنية وما هي ركائزها الأساسية؟",
-      "options": [
-        {
-          "id": "a",
-          "text": "هوية ترتكز على التعصب الإقليمي الضيق"
-        },
-        {
-          "id": "b",
-          "text": "هوية عربية إسلامية هاشمية جامعة، تستند إلى رسالة الثورة العربية الكبرى والتنوع الثقافي في إطار الوحدة الوطنية"
-        },
-        {
-          "id": "c",
-          "text": "هوية منغلقة تعادي التحديث"
-        },
-        {
-          "id": "d",
-          "text": "هوية ترتكز على الانتماء الجغرافي للبادية فقط"
-        }
-      ],
-      "correctAnswer": "b",
-      "explanation": "تتميز الهوية الأردنية بالانفتاح والتسامح وتلاحم نسيجها الاجتماعي تحت مظلة التاج الهاشمي.",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "University Final Exam Archive.pdf",
-      "sourcePage": 10,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:13:05.643Z",
-      "updatedAt": "2026-10-03T17:13:05.644Z"
-    },
-    {
       "id": "NATIONAL-FIN-SUPP-05",
       "subjectId": "subj-national",
       "quizId": "quiz-subj-national-final",
@@ -125901,9 +125868,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3765,
-    "verifiedQuestions": 3765,
+    "totalQuestions": 3764,
+    "verifiedQuestions": 3764,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-22T07:47:27.112Z"
+    "lastUpdated": "2026-10-22T07:47:33.410Z"
   }
 }
