@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-22T09:12:10.308Z",
+  "lastUpdated": "2026-10-22T09:15:45.101Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -112565,34 +112565,34 @@
       "id": "NATIONAL-FIN-SUPP-23",
       "subjectId": "subj-national",
       "quizId": "quiz-subj-national-final",
-      "question": "ما هو مفهوم 'التكافل بين المحافظات' في الموازنة العامة للدولة الأردنية؟",
+      "question": "صدر قانون هيئة مكافحة الفساد في عام:",
       "options": [
         {
           "id": "a",
-          "text": "تخصيص نسب من الإنفاق التنموي للمحافظات الأقل حظاً والبنى التحتية لخلق فرص عمل متوازنة في جميع المناطق"
+          "text": "2006"
         },
         {
           "id": "b",
-          "text": "تركيز الموازنة على مدينة واحدة فقط"
+          "text": "2010"
         },
         {
           "id": "c",
-          "text": "إلغاء موازنات القرى والأرياف"
+          "text": "2004"
         },
         {
           "id": "d",
-          "text": "فرض رسوم على التنقل بين المحافظات"
+          "text": "2012"
         }
       ],
       "correctAnswer": "a",
-      "explanation": "العدالة التنموية الجغرافية ركيزة للاستقرار، تسعى لتوزيع مكاسب التنمية وتطوير الخدمات في البادية والريف والمدن.",
+      "explanation": "",
       "difficulty": "Medium",
       "imageUrl": null,
-      "sourceFile": "University Final Exam Archive.pdf",
-      "sourcePage": 9,
+      "sourceFile": "",
+      "sourcePage": null,
       "status": "Verified",
       "createdAt": "2026-10-03T17:13:05.644Z",
-      "updatedAt": "2026-10-03T17:13:05.644Z"
+      "updatedAt": "2026-10-22T09:15:44.677Z"
     },
     {
       "id": "NATIONAL-FIN-SUPP-24",
@@ -125871,6 +125871,6 @@
     "totalQuestions": 3764,
     "verifiedQuestions": 3764,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-22T09:12:10.308Z"
+    "lastUpdated": "2026-10-22T09:15:45.101Z"
   }
 }
