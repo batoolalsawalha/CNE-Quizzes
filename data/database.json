@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-22T07:13:17.502Z",
+  "lastUpdated": "2026-10-22T07:14:54.400Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -111508,35 +111508,35 @@
     {
       "id": "EXP-NAT-004",
       "subjectId": "subj-national",
-      "quizId": "quiz-subj-national-final",
-      "question": "وفقاً للدستور الأردني، ما هي السلطات الدستورية الثلاث التي يقوم عليها نظام الحكم في المملكة الأردنية الهاشمية؟",
+      "quizId": "quiz-subj-national-mid",
+      "question": "من اشهر الاودية في البلقاء ما عدا:",
       "options": [
         {
           "id": "a",
-          "text": "السلطة التشريعية، السلطة التنفيذية، والسلطة القضائية"
+          "text": "وادي شعيب"
         },
         {
           "id": "b",
-          "text": "السلطة العسكرية، السلطة المالية، والسلطة النقابية"
+          "text": "وادي الشلالة"
         },
         {
           "id": "c",
-          "text": "سلطة البلديات، سلطة الأقاليم، وسلطة المحافظات"
+          "text": "وادي الكفرين"
         },
         {
           "id": "d",
-          "text": "السلطة الحزبية، السلطة الإعلامية، والسلطة الطلابية"
+          "text": "وادي ارميمين"
         }
       ],
-      "correctAnswer": "a",
-      "explanation": "نظام الحكم نيابي ملكي وراثي، وتتكامل فيه السلطات الدستورية الثلاث (التشريعية والتنفيذية والقضائية) وفق مبدأ الفصل المرن والتعاون الدستوري.",
+      "correctAnswer": "b",
+      "explanation": "",
       "difficulty": "Easy",
       "imageUrl": null,
-      "sourceFile": "فاينل 2025 حموده.pdf",
-      "sourcePage": 1,
+      "sourceFile": "",
+      "sourcePage": null,
       "status": "Verified",
       "createdAt": "2026-09-28T17:34:45.426Z",
-      "updatedAt": "2026-09-28T17:34:45.426Z"
+      "updatedAt": "2026-10-22T07:14:53.749Z"
     },
     {
       "id": "MS-E-NATIONAL-021",
@@ -126267,6 +126267,6 @@
     "totalQuestions": 3776,
     "verifiedQuestions": 3776,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-22T07:13:17.502Z"
+    "lastUpdated": "2026-10-22T07:14:54.400Z"
   }
 }
