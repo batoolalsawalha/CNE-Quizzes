@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-22T09:26:02.608Z",
+  "lastUpdated": "2026-10-22T09:27:48.208Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -125922,6 +125922,40 @@
       "status": "Verified",
       "createdAt": "2026-10-22T09:26:02.100Z",
       "updatedAt": "2026-10-22T09:26:02.100Z"
+    },
+    {
+      "id": "q-17f92846",
+      "subjectId": "subj-national",
+      "quizId": "quiz-subj-national-final",
+      "topicId": null,
+      "question": "صدر قرار تقسيم فلسطين من الجمعية العامة للأمم المتحدة بموجب قرار رقم:",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "150"
+        },
+        {
+          "id": "b",
+          "text": "161"
+        },
+        {
+          "id": "c",
+          "text": "181"
+        },
+        {
+          "id": "d",
+          "text": "147"
+        }
+      ],
+      "correctAnswer": "c",
+      "explanation": "",
+      "difficulty": "Medium",
+      "sourceFile": "",
+      "sourcePage": null,
+      "status": "Verified",
+      "createdAt": "2026-10-22T09:27:47.835Z",
+      "updatedAt": "2026-10-22T09:27:47.835Z"
     }
   ],
   "admin": {
@@ -125936,9 +125970,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3766,
-    "verifiedQuestions": 3766,
+    "totalQuestions": 3767,
+    "verifiedQuestions": 3767,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-22T09:26:02.608Z"
+    "lastUpdated": "2026-10-22T09:27:48.208Z"
   }
 }
