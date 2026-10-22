@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-22T08:18:59.909Z",
+  "lastUpdated": "2026-10-22T08:36:01.313Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -112037,34 +112037,34 @@
       "id": "NATIONAL-FIN-SUPP-07",
       "subjectId": "subj-national",
       "quizId": "quiz-subj-national-final",
-      "question": "ما هي 'رسالة عمّان' التي أطلقها جلالة الملك عبدالله الثاني عام 2004؟",
+      "question": "تعد من الصدمات التي أدت الى تفاقم الازمة الاقتصادية وارتفاع المديونية في الاردن بالعقدين الاخيرين ماعدا:",
       "options": [
         {
           "id": "a",
-          "text": "بيان عالمي يوضح حقيقة الإسلام المعتدل القائم على التسامح والعدل والسلام ورفض الغلو والإرهاب وتكفير المسلمين"
+          "text": "انقطاع الغاز المصري"
         },
         {
           "id": "b",
-          "text": "خطة اقتصادية لتطوير محافظة العاصمة"
+          "text": "ازمة اللجوء السوري"
         },
         {
           "id": "c",
-          "text": "اتفاقية تجارية بين الدول العربية"
+          "text": "تطوير التعليم والمناهج الدراسية"
         },
         {
           "id": "d",
-          "text": "برنامج لتطوير القوات المسلحة"
+          "text": "الازمة الاقتصادية العالمية 2008"
         }
       ],
-      "correctAnswer": "a",
-      "explanation": "أطلقت رسالة عمان لبيان الصورة السمحة للإسلام وترسيخ الحوار الحضاري وتفنيد دعاوى الإرهاب والتطرف.",
+      "correctAnswer": "c",
+      "explanation": "",
       "difficulty": "Medium",
       "imageUrl": null,
-      "sourceFile": "University Final Exam Archive.pdf",
-      "sourcePage": 3,
+      "sourceFile": "",
+      "sourcePage": null,
       "status": "Verified",
       "createdAt": "2026-10-03T17:13:05.644Z",
-      "updatedAt": "2026-10-03T17:13:05.644Z"
+      "updatedAt": "2026-10-22T08:36:00.808Z"
     },
     {
       "id": "NATIONAL-FIN-SUPP-08",
@@ -125871,6 +125871,6 @@
     "totalQuestions": 3764,
     "verifiedQuestions": 3764,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-22T08:18:59.909Z"
+    "lastUpdated": "2026-10-22T08:36:01.313Z"
   }
 }
