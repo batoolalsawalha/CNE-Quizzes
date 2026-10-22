@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-22T08:50:55.806Z",
+  "lastUpdated": "2026-10-22T08:52:32.706Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -112301,34 +112301,34 @@
       "id": "NATIONAL-FIN-SUPP-15",
       "subjectId": "subj-national",
       "quizId": "quiz-subj-national-final",
-      "question": "ما هو مفهوم 'التنمية المستدامة' التي يلتزم بها الأردن؟",
+      "question": "شكل المستقرون من السكان في المدن والقرى من مجموع السكان نسبة:",
       "options": [
         {
           "id": "a",
-          "text": "تلبية احتياجات الحاضر دون المساس بقدرة الأجيال القادمة على تلبية احتياجاتها والحفاظ على الموارد والبيئة"
+          "text": "54%"
         },
         {
           "id": "b",
-          "text": "استنزاف جميع الموارد المائية سريعاً"
+          "text": "46%"
         },
         {
           "id": "c",
-          "text": "التركيز على النمو السريع ولو دمر الغابات"
+          "text": "55%"
         },
         {
           "id": "d",
-          "text": "إيقاف الصناعات الوطنية بالكامل"
+          "text": "62%"
         }
       ],
       "correctAnswer": "a",
-      "explanation": "توازن التنمية المستدامة بين النمو الاقتصادي، العدالة الاجتماعية، وصيانة البيئة والموارد المائية والطاقة المتجددة.",
+      "explanation": "",
       "difficulty": "Medium",
       "imageUrl": null,
-      "sourceFile": "University Final Exam Archive.pdf",
-      "sourcePage": 1,
+      "sourceFile": "",
+      "sourcePage": null,
       "status": "Verified",
       "createdAt": "2026-10-03T17:13:05.644Z",
-      "updatedAt": "2026-10-03T17:13:05.644Z"
+      "updatedAt": "2026-10-22T08:52:32.365Z"
     },
     {
       "id": "NATIONAL-FIN-SUPP-16",
@@ -125871,6 +125871,6 @@
     "totalQuestions": 3764,
     "verifiedQuestions": 3764,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-22T08:50:55.806Z"
+    "lastUpdated": "2026-10-22T08:52:32.706Z"
   }
 }
