@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-22T13:35:37.637Z",
+  "lastUpdated": "2026-10-22T13:37:05.838Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -126330,6 +126330,40 @@
       "status": "Verified",
       "createdAt": "2026-10-22T13:35:37.127Z",
       "updatedAt": "2026-10-22T13:35:37.127Z"
+    },
+    {
+      "id": "q-b6f58db7",
+      "subjectId": "subj-national",
+      "quizId": "quiz-subj-national-final",
+      "topicId": null,
+      "question": "في مجال التدريب العسكري انشىء مركز الملك عبدالله الثاني لتدريب العمليات الخاصة في عام:",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "2009"
+        },
+        {
+          "id": "b",
+          "text": "2021"
+        },
+        {
+          "id": "c",
+          "text": "2022"
+        },
+        {
+          "id": "d",
+          "text": "2020"
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "",
+      "difficulty": "Medium",
+      "sourceFile": "",
+      "sourcePage": null,
+      "status": "Verified",
+      "createdAt": "2026-10-22T13:37:05.352Z",
+      "updatedAt": "2026-10-22T13:37:05.352Z"
     }
   ],
   "admin": {
@@ -126344,9 +126378,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3778,
-    "verifiedQuestions": 3778,
+    "totalQuestions": 3779,
+    "verifiedQuestions": 3779,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-22T13:35:37.637Z"
+    "lastUpdated": "2026-10-22T13:37:05.838Z"
   }
 }
