@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-22T08:52:32.706Z",
+  "lastUpdated": "2026-10-22T08:53:32.722Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -112334,34 +112334,34 @@
       "id": "NATIONAL-FIN-SUPP-16",
       "subjectId": "subj-national",
       "quizId": "quiz-subj-national-final",
-      "question": "ما هي 'الورقة النقاشية الملكية السابعة' لجلالة الملك عبدالله الثاني؟",
+      "question": "تقع الغمر في محافظة:",
       "options": [
         {
           "id": "a",
-          "text": "تطوير شبكة الطرق والمواصلات"
+          "text": "الكرك"
         },
         {
           "id": "b",
-          "text": "بناء التعليم المتميز والنهوض بالموارد البشرية من خلال مدارس وجامعات ومناهج تواكب الثورة الصناعية والمعرفية"
+          "text": "اربد"
         },
         {
           "id": "c",
-          "text": "إعادة هيكلة القطاع العسكري"
+          "text": "معان"
         },
         {
           "id": "d",
-          "text": "الخطط الزراعية في الأغوار"
+          "text": "العقبة"
         }
       ],
-      "correctAnswer": "b",
-      "explanation": "ركزت الورقة النقاشية السابعة على أن التعليم هو بوابة المستقبل والاستثمار الأكبر في العقل الأردني المبدع.",
+      "correctAnswer": "d",
+      "explanation": "",
       "difficulty": "Medium",
       "imageUrl": null,
-      "sourceFile": "University Final Exam Archive.pdf",
-      "sourcePage": 2,
+      "sourceFile": "",
+      "sourcePage": null,
       "status": "Verified",
       "createdAt": "2026-10-03T17:13:05.644Z",
-      "updatedAt": "2026-10-03T17:13:05.644Z"
+      "updatedAt": "2026-10-22T08:53:32.347Z"
     },
     {
       "id": "NATIONAL-FIN-SUPP-17",
@@ -125871,6 +125871,6 @@
     "totalQuestions": 3764,
     "verifiedQuestions": 3764,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-22T08:52:32.706Z"
+    "lastUpdated": "2026-10-22T08:53:32.722Z"
   }
 }
