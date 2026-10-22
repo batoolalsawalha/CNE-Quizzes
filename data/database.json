@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-22T13:54:39.132Z",
+  "lastUpdated": "2026-10-22T13:56:11.733Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -126568,6 +126568,40 @@
       "status": "Verified",
       "createdAt": "2026-10-22T13:54:38.762Z",
       "updatedAt": "2026-10-22T13:54:38.762Z"
+    },
+    {
+      "id": "q-83beaccc",
+      "subjectId": "subj-national",
+      "quizId": "quiz-subj-national-final",
+      "topicId": null,
+      "question": "جرى توقيع معاهدة السلام بين الجانبين الاردني والاسرائيلي في وادي عربة عام:",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "1997"
+        },
+        {
+          "id": "b",
+          "text": "1988"
+        },
+        {
+          "id": "c",
+          "text": "1994"
+        },
+        {
+          "id": "d",
+          "text": "1976"
+        }
+      ],
+      "correctAnswer": "c",
+      "explanation": "",
+      "difficulty": "Medium",
+      "sourceFile": "",
+      "sourcePage": null,
+      "status": "Verified",
+      "createdAt": "2026-10-22T13:56:11.325Z",
+      "updatedAt": "2026-10-22T13:56:11.325Z"
     }
   ],
   "admin": {
@@ -126582,9 +126616,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3785,
-    "verifiedQuestions": 3785,
+    "totalQuestions": 3786,
+    "verifiedQuestions": 3786,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-22T13:54:39.132Z"
+    "lastUpdated": "2026-10-22T13:56:11.733Z"
   }
 }
