@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-22T07:05:23.605Z",
+  "lastUpdated": "2026-10-22T07:09:20.204Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -111409,35 +111409,35 @@
     {
       "id": "NAT-FIN-002",
       "subjectId": "subj-national",
-      "quizId": "quiz-subj-national-final",
-      "question": "ما هو المفهوم الذي يُعبر عن الرابطة القانونية والسياسية والمعنوية بين الفرد والدولة وما يترتب عليها من حقوق وواجبات؟",
+      "quizId": "quiz-subj-national-mid",
+      "question": "يقع مقام النبي يوشع بن نون في الاردن في منطقة:",
       "options": [
         {
           "id": "a",
-          "text": "المواطنة (Citizenship)"
+          "text": "جرش"
         },
         {
           "id": "b",
-          "text": "الإقامة"
+          "text": "وادي شعيب"
         },
         {
           "id": "c",
-          "text": "اللجوء السياسي"
+          "text": "وادي موسى"
         },
         {
           "id": "d",
-          "text": "القومية"
+          "text": "السلط"
         }
       ],
-      "correctAnswer": "a",
-      "explanation": "المواطنة هي الصفة القانونية والاجتماعية التي تمنح الفرد حقوقاً كاملة وتلزمه بواجبات الولاء والانتماء والدفاع عن الوطن.",
-      "difficulty": "Easy",
+      "correctAnswer": "d",
+      "explanation": "",
+      "difficulty": "Medium",
       "imageUrl": null,
-      "sourceFile": "فاينل 2025 حموده.pdf",
-      "sourcePage": 2,
+      "sourceFile": "",
+      "sourcePage": null,
       "status": "Verified",
       "createdAt": "2026-09-28T17:34:45.4Z",
-      "updatedAt": "2026-09-28T17:34:45.4Z"
+      "updatedAt": "2026-10-22T07:09:19.728Z"
     },
     {
       "id": "NAT-FIN-003",
@@ -126267,6 +126267,6 @@
     "totalQuestions": 3776,
     "verifiedQuestions": 3776,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-22T07:05:23.605Z"
+    "lastUpdated": "2026-10-22T07:09:20.204Z"
   }
 }
