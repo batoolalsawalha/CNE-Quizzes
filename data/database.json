@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-22T07:14:54.400Z",
+  "lastUpdated": "2026-10-22T07:16:20.600Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -111541,35 +111541,35 @@
     {
       "id": "MS-E-NATIONAL-021",
       "subjectId": "subj-national",
-      "quizId": "quiz-subj-national-final",
-      "question": "[التربية الوطنية - السؤال 21] ما هو الركن الأساسي الذي يقوم عليه مفهوم المواطنة الفاعلة في الدولة الأردنية الحديثة؟",
+      "quizId": "quiz-subj-national-mid",
+      "question": "سميت الاردن بهذا الاسم نسبة الى:",
       "options": [
         {
           "id": "a",
-          "text": "المشاركة الإيجابية الواعية في تنمية الوطن، الالتزام بسيادة القانون، والتوازن بين الحقوق والواجبات"
+          "text": "اوردان"
         },
         {
           "id": "b",
-          "text": "الانعزال عن العمل العام"
+          "text": "المنحدر السحيق"
         },
         {
           "id": "c",
-          "text": "تقديم المصالح الفردية على المصلحة العامة"
+          "text": "نهر الاردن"
         },
         {
           "id": "d",
-          "text": "الاعتماد الكامل على الدولة دون مبادرة مجتمعية"
+          "text": "النعاس الشديد"
         }
       ],
-      "correctAnswer": "a",
-      "explanation": "المواطنة الفاعلة تعني الانتماء الصادق والمشاركة البناءة والحرص على مقدرات الوطن وسيادة القانون.",
+      "correctAnswer": "c",
+      "explanation": "",
       "difficulty": "Easy",
       "imageUrl": null,
-      "sourceFile": "فاينل 2025 حموده.pdf",
-      "sourcePage": 6,
+      "sourceFile": "",
+      "sourcePage": null,
       "status": "Verified",
       "createdAt": "2026-09-28T17:34:45.479Z",
-      "updatedAt": "2026-09-28T17:34:45.479Z"
+      "updatedAt": "2026-10-22T07:16:20.203Z"
     },
     {
       "id": "MS-E-NATIONAL-022",
@@ -126267,6 +126267,6 @@
     "totalQuestions": 3776,
     "verifiedQuestions": 3776,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-22T07:14:54.400Z"
+    "lastUpdated": "2026-10-22T07:16:20.600Z"
   }
 }
