@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-22T08:45:00.409Z",
+  "lastUpdated": "2026-10-22T08:47:18.401Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -112202,34 +112202,34 @@
       "id": "NATIONAL-FIN-SUPP-12",
       "subjectId": "subj-national",
       "quizId": "quiz-subj-national-final",
-      "question": "ما هو دور الجامعات والتعليم العالي في التنمية الوطنية الأردنية؟",
+      "question": "(الاستثناء الاردني)\nهو وص حالة فارقة تم  إطلاقه على:",
       "options": [
         {
           "id": "a",
-          "text": "منح الشهادات الورقية دون تدريب"
+          "text": "يوم الكرامة"
         },
         {
           "id": "b",
-          "text": "تأهيل الموارد البشرية بالكفايات والمهارات الهندسية والتقنية وإجراء البحوث العلمية التطبيقية لخدمة الاقتصاد"
+          "text": "ازمة أيلول"
         },
         {
           "id": "c",
-          "text": "عزل الطلبة عن قضايا المجتمع"
+          "text": "الربيع العربي"
         },
         {
           "id": "d",
-          "text": "التركيز على التعليم النظري البحت"
+          "text": "معركة حزيران"
         }
       ],
-      "correctAnswer": "b",
-      "explanation": "تشكل الجامعات الأردنية بيوت خبرة وقاطرة تنموية لإعداد القيادات الشابة وتغذية سوق العمل بالخبرات الابتكارية.",
+      "correctAnswer": "c",
+      "explanation": "",
       "difficulty": "Medium",
       "imageUrl": null,
-      "sourceFile": "University Final Exam Archive.pdf",
-      "sourcePage": 8,
+      "sourceFile": "",
+      "sourcePage": null,
       "status": "Verified",
       "createdAt": "2026-10-03T17:13:05.644Z",
-      "updatedAt": "2026-10-03T17:13:05.644Z"
+      "updatedAt": "2026-10-22T08:47:17.905Z"
     },
     {
       "id": "NATIONAL-FIN-SUPP-13",
@@ -125871,6 +125871,6 @@
     "totalQuestions": 3764,
     "verifiedQuestions": 3764,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-22T08:45:00.409Z"
+    "lastUpdated": "2026-10-22T08:47:18.401Z"
   }
 }
