@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-22T10:03:52.056Z",
+  "lastUpdated": "2026-10-22T10:05:20.355Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -126160,6 +126160,40 @@
       "status": "Verified",
       "createdAt": "2026-10-22T10:03:51.609Z",
       "updatedAt": "2026-10-22T10:03:51.609Z"
+    },
+    {
+      "id": "q-950ed7a5",
+      "subjectId": "subj-national",
+      "quizId": "quiz-subj-national-final",
+      "topicId": null,
+      "question": "تمت عملية دمج الاجهزه الامنية في عهد الملك:",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "الحسين بن طلال"
+        },
+        {
+          "id": "b",
+          "text": "طلال بن عبدالله"
+        },
+        {
+          "id": "c",
+          "text": "عبدالله المؤسس"
+        },
+        {
+          "id": "d",
+          "text": "عبدالله الثاني بن الحسين"
+        }
+      ],
+      "correctAnswer": "d",
+      "explanation": "",
+      "difficulty": "Medium",
+      "sourceFile": "",
+      "sourcePage": null,
+      "status": "Verified",
+      "createdAt": "2026-10-22T10:05:19.990Z",
+      "updatedAt": "2026-10-22T10:05:19.990Z"
     }
   ],
   "admin": {
@@ -126174,9 +126208,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3773,
-    "verifiedQuestions": 3773,
+    "totalQuestions": 3774,
+    "verifiedQuestions": 3774,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-22T10:03:52.056Z"
+    "lastUpdated": "2026-10-22T10:05:20.355Z"
   }
 }
