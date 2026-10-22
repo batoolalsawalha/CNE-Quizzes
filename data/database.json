@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-22T13:31:58.038Z",
+  "lastUpdated": "2026-10-22T13:35:37.637Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -126296,6 +126296,40 @@
       "status": "Verified",
       "createdAt": "2026-10-22T13:31:57.213Z",
       "updatedAt": "2026-10-22T13:31:57.213Z"
+    },
+    {
+      "id": "q-53db1b8e",
+      "subjectId": "subj-national",
+      "quizId": "quiz-subj-national-final",
+      "topicId": null,
+      "question": "سيطر الكيان الصهيوني في حرب النكبة 1948 على نسبة...من اجمالي مساحة فلسطين",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "56%"
+        },
+        {
+          "id": "b",
+          "text": "43%"
+        },
+        {
+          "id": "c",
+          "text": "78%"
+        },
+        {
+          "id": "d",
+          "text": "25%"
+        }
+      ],
+      "correctAnswer": "c",
+      "explanation": "",
+      "difficulty": "Medium",
+      "sourceFile": "",
+      "sourcePage": null,
+      "status": "Verified",
+      "createdAt": "2026-10-22T13:35:37.127Z",
+      "updatedAt": "2026-10-22T13:35:37.127Z"
     }
   ],
   "admin": {
@@ -126310,9 +126344,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3777,
-    "verifiedQuestions": 3777,
+    "totalQuestions": 3778,
+    "verifiedQuestions": 3778,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-22T13:31:58.038Z"
+    "lastUpdated": "2026-10-22T13:35:37.637Z"
   }
 }
