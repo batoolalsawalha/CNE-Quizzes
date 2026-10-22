@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-22T14:02:58.844Z",
+  "lastUpdated": "2026-10-22T14:03:45.635Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -170,14 +170,17 @@
     },
     {
       "id": "subj-machine",
-      "code": "AI411",
+      "code": "ELE0335",
       "name": "Machine Learning",
       "nameAr": "ماشين",
       "category": "علوم الحاسوب والبرمجيات",
       "desc": "Supervised vs unsupervised learning, regression, classification, gradient descent, decision trees, SVM, and regularization.",
       "questionCount": 84,
       "verifiedQuestionCount": 52,
-      "reviewQuestionCount": 0
+      "reviewQuestionCount": 0,
+      "description": "",
+      "isActive": true,
+      "updatedAt": "2026-10-22T14:03:44.875Z"
     },
     {
       "id": "subj-skills",
@@ -126622,6 +126625,6 @@
     "totalQuestions": 3786,
     "verifiedQuestions": 3786,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-22T14:02:58.844Z"
+    "lastUpdated": "2026-10-22T14:03:45.635Z"
   }
 }
