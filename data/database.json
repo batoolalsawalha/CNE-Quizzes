@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-22T09:29:16.602Z",
+  "lastUpdated": "2026-10-22T09:33:20.912Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -125990,6 +125990,40 @@
       "status": "Verified",
       "createdAt": "2026-10-22T09:29:16.104Z",
       "updatedAt": "2026-10-22T09:29:16.104Z"
+    },
+    {
+      "id": "q-054bff0e",
+      "subjectId": "subj-national",
+      "quizId": "quiz-subj-national-final",
+      "topicId": null,
+      "question": "ابرمت اتفاقية الضمان الجماعي بين دول الجامعة العربية في عهد الملك طلال عام:",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "اذرا 24 1952"
+        },
+        {
+          "id": "b",
+          "text": "ايار 24 1952"
+        },
+        {
+          "id": "c",
+          "text": "اب 11 1952"
+        },
+        {
+          "id": "d",
+          "text": "اذار 24 1951"
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "",
+      "difficulty": "Medium",
+      "sourceFile": "",
+      "sourcePage": null,
+      "status": "Verified",
+      "createdAt": "2026-10-22T09:33:20.536Z",
+      "updatedAt": "2026-10-22T09:33:20.536Z"
     }
   ],
   "admin": {
@@ -126004,9 +126038,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3768,
-    "verifiedQuestions": 3768,
+    "totalQuestions": 3769,
+    "verifiedQuestions": 3769,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-22T09:29:16.602Z"
+    "lastUpdated": "2026-10-22T09:33:20.912Z"
   }
 }
