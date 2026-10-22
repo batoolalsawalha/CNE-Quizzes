@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-22T09:09:42.702Z",
+  "lastUpdated": "2026-10-22T09:12:10.308Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -112532,34 +112532,34 @@
       "id": "NATIONAL-FIN-SUPP-22",
       "subjectId": "subj-national",
       "quizId": "quiz-subj-national-final",
-      "question": "ما هو دور الأردن الإنساني الدولي في قوات حفظ السلام؟",
+      "question": "عرف الاردن في الخمسينات نشاطا قويا للاحزاب واحدة منها لا تعبر عن الاستجابات للتحديات التي تواجه المنطقه العربية",
       "options": [
         {
           "id": "a",
-          "text": "التدخل في النزاعات للاستيلاء على أراضٍ"
+          "text": "الاحتلال الصهيوني لجنوب اللبنان"
         },
         {
           "id": "b",
-          "text": "تدريب الجيوش الأجنبية سراً"
+          "text": "دور الاردن في القضية الفلسطينيه"
         },
         {
           "id": "c",
-          "text": "شراء الأسلحة القديمة"
+          "text": "قيام وحدة الضفتين"
         },
         {
           "id": "d",
-          "text": "المشاركة الفاعلة بكتائب عسكرية ومستشفيات ميدانية تابعة للأمم المتحدة لنشر السلام وتقديم العون الطبي للشعوب المنكوبة"
+          "text": "المطالبة بالوحدة العربية"
         }
       ],
-      "correctAnswer": "d",
-      "explanation": "يحظى منتسبو الجيش العربي والأمن العام بسمعة دولية مرموقة في مهام حفظ السلام في شتى بقاع العالم.",
+      "correctAnswer": "c",
+      "explanation": "",
       "difficulty": "Medium",
       "imageUrl": null,
-      "sourceFile": "University Final Exam Archive.pdf",
-      "sourcePage": 8,
+      "sourceFile": "",
+      "sourcePage": null,
       "status": "Verified",
       "createdAt": "2026-10-03T17:13:05.644Z",
-      "updatedAt": "2026-10-03T17:13:05.644Z"
+      "updatedAt": "2026-10-22T09:12:09.969Z"
     },
     {
       "id": "NATIONAL-FIN-SUPP-23",
@@ -125871,6 +125871,6 @@
     "totalQuestions": 3764,
     "verifiedQuestions": 3764,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-22T09:09:42.702Z"
+    "lastUpdated": "2026-10-22T09:12:10.308Z"
   }
 }
