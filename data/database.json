@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-22T09:27:48.208Z",
+  "lastUpdated": "2026-10-22T09:29:16.602Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -125956,6 +125956,40 @@
       "status": "Verified",
       "createdAt": "2026-10-22T09:27:47.835Z",
       "updatedAt": "2026-10-22T09:27:47.835Z"
+    },
+    {
+      "id": "q-d3ae784b",
+      "subjectId": "subj-national",
+      "quizId": "quiz-subj-national-final",
+      "topicId": null,
+      "question": "من الامثله على المحاكم النظامية في الاردن:",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "البلديات"
+        },
+        {
+          "id": "b",
+          "text": "امن الدولة"
+        },
+        {
+          "id": "c",
+          "text": "الجنايات الكبرى"
+        },
+        {
+          "id": "d",
+          "text": "الصلح"
+        }
+      ],
+      "correctAnswer": "d",
+      "explanation": "",
+      "difficulty": "Medium",
+      "sourceFile": "",
+      "sourcePage": null,
+      "status": "Verified",
+      "createdAt": "2026-10-22T09:29:16.104Z",
+      "updatedAt": "2026-10-22T09:29:16.104Z"
     }
   ],
   "admin": {
@@ -125970,9 +126004,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3767,
-    "verifiedQuestions": 3767,
+    "totalQuestions": 3768,
+    "verifiedQuestions": 3768,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-22T09:27:48.208Z"
+    "lastUpdated": "2026-10-22T09:29:16.602Z"
   }
 }
