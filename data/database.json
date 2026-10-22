@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-22T07:47:03.617Z",
+  "lastUpdated": "2026-10-22T07:47:10.014Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -112001,39 +112001,6 @@
       "updatedAt": "2026-09-28T17:34:45.479Z"
     },
     {
-      "id": "NATIONAL-FIN-SUPP-01",
-      "subjectId": "subj-national",
-      "quizId": "quiz-subj-national-final",
-      "question": "ما هو مفهوم 'المواطنة الإيجابية والفاعلة' في الدولة الديمقراطية؟",
-      "options": [
-        {
-          "id": "a",
-          "text": "الاكتفاء بحمل الهوية الشخصية وجواز السفر"
-        },
-        {
-          "id": "b",
-          "text": "الانسحاب من الحياة العامة ومتابعة الأخبار فقط"
-        },
-        {
-          "id": "c",
-          "text": "الانتماء الحقيقي والوعي بالحقوق والواجبات والمشاركة المسؤولة في تنمية المجتمع وصيانة مقدرات الوطن"
-        },
-        {
-          "id": "d",
-          "text": "المطالبة بالحقوق دون القيام بأي واجبات"
-        }
-      ],
-      "correctAnswer": "c",
-      "explanation": "المواطنة الفاعلة تتجاوز الجانب القانوني الشكلي إلى السلوك الإيجابي التطوعي والمشاركة السياسية وبناء الوطن.",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "University Final Exam Archive.pdf",
-      "sourcePage": 7,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:13:05.643Z",
-      "updatedAt": "2026-10-03T17:13:05.643Z"
-    },
-    {
       "id": "NATIONAL-FIN-SUPP-02",
       "subjectId": "subj-national",
       "quizId": "quiz-subj-national-final",
@@ -126033,9 +126000,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3769,
-    "verifiedQuestions": 3769,
+    "totalQuestions": 3768,
+    "verifiedQuestions": 3768,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-22T07:47:03.617Z"
+    "lastUpdated": "2026-10-22T07:47:10.014Z"
   }
 }
