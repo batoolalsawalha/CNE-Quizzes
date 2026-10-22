@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-22T09:21:19.805Z",
+  "lastUpdated": "2026-10-22T09:24:12.605Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -125854,6 +125854,40 @@
       "status": "Verified",
       "createdAt": "2026-10-17T17:58:13.004Z",
       "updatedAt": "2026-10-17T19:11:02.973Z"
+    },
+    {
+      "id": "q-0d4f7473",
+      "subjectId": "subj-national",
+      "quizId": "quiz-subj-national-final",
+      "topicId": null,
+      "question": "تعديل اي من نصوص الدستور الاردني يتطلب موافقة:",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "نصف مجلس الامة وجلالة الملك"
+        },
+        {
+          "id": "b",
+          "text": "كل مجلس الامة وجلالة الملك"
+        },
+        {
+          "id": "c",
+          "text": "ثلثي مجلس الامة وجلالة الملك"
+        },
+        {
+          "id": "d",
+          "text": "جلال الملك وحده"
+        }
+      ],
+      "correctAnswer": "c",
+      "explanation": "",
+      "difficulty": "Medium",
+      "sourceFile": "",
+      "sourcePage": null,
+      "status": "Verified",
+      "createdAt": "2026-10-22T09:24:12.178Z",
+      "updatedAt": "2026-10-22T09:24:12.178Z"
     }
   ],
   "admin": {
@@ -125868,9 +125902,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3764,
-    "verifiedQuestions": 3764,
+    "totalQuestions": 3765,
+    "verifiedQuestions": 3765,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-22T09:21:19.805Z"
+    "lastUpdated": "2026-10-22T09:24:12.605Z"
   }
 }
