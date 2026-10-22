@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-22T10:00:13.659Z",
+  "lastUpdated": "2026-10-22T10:02:01.957Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -126092,6 +126092,40 @@
       "status": "Verified",
       "createdAt": "2026-10-22T10:00:12.863Z",
       "updatedAt": "2026-10-22T10:00:12.863Z"
+    },
+    {
+      "id": "q-9096234d",
+      "subjectId": "subj-national",
+      "quizId": "quiz-subj-national-final",
+      "topicId": null,
+      "question": "انطلقت شرارة الثورة العربية الكبرى بقيادة الشريف الحسين في الحجاز عام:",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "حزيران 10 1916"
+        },
+        {
+          "id": "b",
+          "text": "تموز 10 1916"
+        },
+        {
+          "id": "c",
+          "text": "حزيران 10 1917"
+        },
+        {
+          "id": "d",
+          "text": "اكتوبر 7 1921"
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "",
+      "difficulty": "Medium",
+      "sourceFile": "",
+      "sourcePage": null,
+      "status": "Verified",
+      "createdAt": "2026-10-22T10:02:01.503Z",
+      "updatedAt": "2026-10-22T10:02:01.503Z"
     }
   ],
   "admin": {
@@ -126106,9 +126140,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3771,
-    "verifiedQuestions": 3771,
+    "totalQuestions": 3772,
+    "verifiedQuestions": 3772,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-22T10:00:13.659Z"
+    "lastUpdated": "2026-10-22T10:02:01.957Z"
   }
 }
