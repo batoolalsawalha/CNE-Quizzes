@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-22T09:18:17.711Z",
+  "lastUpdated": "2026-10-22T09:20:23.410Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -112631,34 +112631,34 @@
       "id": "NATIONAL-FIN-SUPP-25",
       "subjectId": "subj-national",
       "quizId": "quiz-subj-national-final",
-      "question": "ما هي المسؤولية الوطنية للمهندس في الأردن؟",
+      "question": "استطاعت دائرة المخابرات العامة في الفترة الواقعة مابين(1999-2023)احباط مخططات ارهابية كانت تستهدف مقرات امنية وعسكرية وعددها:",
       "options": [
         {
           "id": "a",
-          "text": "توقيع المخططات دون مراجعتها هندسياً"
+          "text": "266"
         },
         {
           "id": "b",
-          "text": "استخدام مواد رديئة لتقليل تكلفة المقاول"
+          "text": "520"
         },
         {
           "id": "c",
-          "text": "تطبيق أعلى معايير الجودة والسلامة المهنية، الحفاظ على المال العام، والابتكار لتطوير البنية التحتية والصناعة الوطنية"
+          "text": "366"
         },
         {
           "id": "d",
-          "text": "الهجرة دون تقديم نفع للوطن"
+          "text": "220"
         }
       ],
-      "correctAnswer": "c",
-      "explanation": "المهندس شريك رئيسي في البناء والإعمار، ويقع على عاتقه تطبيق المواصفات القياسية وحماية الأرواح والممتلكات.",
+      "correctAnswer": "a",
+      "explanation": "",
       "difficulty": "Medium",
       "imageUrl": null,
-      "sourceFile": "University Final Exam Archive.pdf",
-      "sourcePage": 1,
+      "sourceFile": "",
+      "sourcePage": null,
       "status": "Verified",
       "createdAt": "2026-10-03T17:13:05.644Z",
-      "updatedAt": "2026-10-03T17:13:05.644Z"
+      "updatedAt": "2026-10-22T09:20:23.002Z"
     },
     {
       "id": "NATIONAL-FIN-SUPP-26",
@@ -125871,6 +125871,6 @@
     "totalQuestions": 3764,
     "verifiedQuestions": 3764,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-22T09:18:17.711Z"
+    "lastUpdated": "2026-10-22T09:20:23.410Z"
   }
 }
