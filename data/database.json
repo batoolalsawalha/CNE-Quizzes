@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-22T08:36:01.313Z",
+  "lastUpdated": "2026-10-22T08:37:23.200Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -112070,34 +112070,34 @@
       "id": "NATIONAL-FIN-SUPP-08",
       "subjectId": "subj-national",
       "quizId": "quiz-subj-national-final",
-      "question": "ما هو دور 'الأجهزة الأمنية' في الدولة الأردنية (الأمن العام، المخابرات العامة)؟",
+      "question": "تم انهاء المعاهدة الاردنية -البريطانية عام:",
       "options": [
         {
           "id": "a",
-          "text": "التدخل في القرارات القضائية"
+          "text": "1948"
         },
         {
           "id": "b",
-          "text": "حفظ الأمن الداخلي والنظام العام، حماية الأرواح والأعراض والممتلكات، ومكافحة الجريمة والإرهاب والمخدرات"
+          "text": "1956"
         },
         {
           "id": "c",
-          "text": "إدارة الشركات التجارية الخاصة"
+          "text": "1947"
         },
         {
           "id": "d",
-          "text": "تنظيم المناسبات الترفيهية فقط"
+          "text": "1957"
         }
       ],
-      "correctAnswer": "b",
-      "explanation": "تعمل الأجهزة الأمنية باحترافية وتكامل لصيانة الاستقرار وتطبيق القانون بروح احترام حقوق الإنسان.",
+      "correctAnswer": "d",
+      "explanation": "",
       "difficulty": "Medium",
       "imageUrl": null,
-      "sourceFile": "University Final Exam Archive.pdf",
-      "sourcePage": 4,
+      "sourceFile": "",
+      "sourcePage": null,
       "status": "Verified",
       "createdAt": "2026-10-03T17:13:05.644Z",
-      "updatedAt": "2026-10-03T17:13:05.644Z"
+      "updatedAt": "2026-10-22T08:37:22.845Z"
     },
     {
       "id": "NATIONAL-FIN-SUPP-09",
@@ -125871,6 +125871,6 @@
     "totalQuestions": 3764,
     "verifiedQuestions": 3764,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-22T08:36:01.313Z"
+    "lastUpdated": "2026-10-22T08:37:23.200Z"
   }
 }
