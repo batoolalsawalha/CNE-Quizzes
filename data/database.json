@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-22T10:02:01.957Z",
+  "lastUpdated": "2026-10-22T10:03:52.056Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -126126,6 +126126,40 @@
       "status": "Verified",
       "createdAt": "2026-10-22T10:02:01.503Z",
       "updatedAt": "2026-10-22T10:02:01.503Z"
+    },
+    {
+      "id": "q-bbcb0a6f",
+      "subjectId": "subj-national",
+      "quizId": "quiz-subj-national-final",
+      "topicId": null,
+      "question": "بلغ عدد اللاجئين الفلسطينين الذين نزحوا الى الأردن (الضفة الشرقية)نتيجة حرب حزيران عام 1967 عام:",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "150 الف"
+        },
+        {
+          "id": "b",
+          "text": "250 الف"
+        },
+        {
+          "id": "c",
+          "text": "355 الف"
+        },
+        {
+          "id": "d",
+          "text": "500 الف"
+        }
+      ],
+      "correctAnswer": "c",
+      "explanation": "",
+      "difficulty": "Medium",
+      "sourceFile": "",
+      "sourcePage": null,
+      "status": "Verified",
+      "createdAt": "2026-10-22T10:03:51.609Z",
+      "updatedAt": "2026-10-22T10:03:51.609Z"
     }
   ],
   "admin": {
@@ -126140,9 +126174,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3772,
-    "verifiedQuestions": 3772,
+    "totalQuestions": 3773,
+    "verifiedQuestions": 3773,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-22T10:02:01.957Z"
+    "lastUpdated": "2026-10-22T10:03:52.056Z"
   }
 }
