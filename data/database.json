@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-23T13:03:32.106Z",
+  "lastUpdated": "2026-10-23T13:08:46.901Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -27698,34 +27698,34 @@
       "id": "CPP-FIN-004",
       "subjectId": "subj-cpp",
       "quizId": "quiz-subj-cpp-final",
-      "question": "How is a 1D array initialized with all zeros upon declaration?",
+      "question": "Write a program in C++ to find the sum of the digits of a given number.\n(ما هي العبارة أو حلقة التكرار الصحيحة لوضعها داخل الكود لحساب مجموع أرقام الرقم المدخل؟)\n\nالكود الجزئي:\n\nint main() {\n    int num1, num2, r, sum=0;\n    cout << \"\\n\\n Find the sum of digits of a given number:\\n\";\n    cout << \"Input a number: \";\n    cin >> num1;\n    num2 = num1;\n    // [مطلوب الحلقة الصحيحة هنا]\n    {\n        r = num1 % 10;\n        num1 = num1 / 10;\n        sum = sum + r;\n    }\n}",
       "options": [
         {
           "id": "a",
-          "text": "int arr[10] = 0;"
+          "text": "while (num1 > 0)"
         },
         {
           "id": "b",
-          "text": "int arr[10] = {zeros};"
+          "text": "for(int i=0; num1>0; i++)"
         },
         {
           "id": "c",
-          "text": "int arr[10] = NULL;"
+          "text": "if (num1 > 0)"
         },
         {
           "id": "d",
-          "text": "int arr[10] = {0};"
+          "text": "do-while (num1 < 0);"
         }
       ],
-      "correctAnswer": "d",
-      "explanation": "Initializing with {0} explicitly sets the first element to 0 and implicitly zero-initializes all remaining elements.",
+      "correctAnswer": "a",
+      "explanation": "نحتاج إلى حلقة تكرار (while) تستمر طالما أن الرقم (num1) أكبر من الصفر (num1 > 0). داخل الحلقة، نأخذ باقي القسمة على 10 (r = num1 % 10) للحصول على الخانة الأخيرة، ثم نقسم الرقم على 10 (num1 = num1 / 10) لحذف الخانة الأخيرة، ونضيف الرقم (r) إلى المجموع (sum)",
       "difficulty": "Easy",
       "imageUrl": null,
       "sourceFile": "c-- Final.pdf",
-      "sourcePage": 4,
+      "sourcePage": "4",
       "status": "Verified",
       "createdAt": "2026-10-03T17:22:00.002Z",
-      "updatedAt": "2026-10-03T17:22:00.002Z"
+      "updatedAt": "2026-10-23T13:08:46.543Z"
     },
     {
       "id": "CPP-FIN-005",
@@ -126628,6 +126628,6 @@
     "totalQuestions": 3786,
     "verifiedQuestions": 3786,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-23T13:03:32.106Z"
+    "lastUpdated": "2026-10-23T13:08:46.901Z"
   }
 }
