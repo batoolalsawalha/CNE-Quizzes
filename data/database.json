@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-23T12:31:52.909Z",
+  "lastUpdated": "2026-10-23T12:37:57.907Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -27203,34 +27203,34 @@
       "id": "CPP-MID-021",
       "subjectId": "subj-cpp",
       "quizId": "quiz-subj-cpp-mid",
-      "question": "What happens when an argument is passed BY VALUE to a function (e.g. void func(int x))?",
+      "question": "ما هو الناتج؟\n{\nint i=3, x=2;\nfor(;i<5;i++) {\n}\nif(i<3)\n    x=i;\nelse\n    x=i-1;\ncout<<x;\n}",
       "options": [
         {
           "id": "a",
-          "text": "A copy of the argument value is made; changes to x inside the function do NOT affect the caller original variable"
+          "text": "23"
         },
         {
           "id": "b",
-          "text": "The caller variable is modified directly"
+          "text": "22"
         },
         {
           "id": "c",
-          "text": "The memory address is passed"
+          "text": "33"
         },
         {
           "id": "d",
-          "text": "A compiler error occurs"
+          "text": "24"
         }
       ],
       "correctAnswer": "a",
-      "explanation": "Pass-by-value copies the parameter, insulating the caller variable from modification.",
+      "explanation": "تبدأ الحلقة for بـ i = 3 وتستمر طالما i < 5 وتزيد i بمقدار 1 في كل دورة.\n\nعندما i = 3 (< 5): تنفذ وتصبح i = 4.\n\nعندما i = 4 (< 5): تنفذ وتصبح i = 5.\n\nعندما i = 5 (< 5): خطأ (تتوقف الحلقة)، وتصبح قيمة i النهائية 5.\n\nنأتي للجملة الشرطية if (i < 3) يعني 3 < 3 وهي False.\n\nينتقل إلى else ويحسب: x = i - 1 أي x = 3 - 1 = 2(أو حسب تتبع الدورات بدقة إذا كانت حلقة فارغة تنتهي بـ 4).",
       "difficulty": "Easy",
       "imageUrl": null,
       "sourceFile": "Bara C-- Mid.pdf",
-      "sourcePage": 1,
+      "sourcePage": "1",
       "status": "Verified",
       "createdAt": "2026-10-03T17:22:00.002Z",
-      "updatedAt": "2026-10-03T17:22:00.002Z"
+      "updatedAt": "2026-10-23T12:37:57.495Z"
     },
     {
       "id": "CPP-MID-022",
@@ -126628,6 +126628,6 @@
     "totalQuestions": 3786,
     "verifiedQuestions": 3786,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-23T12:31:52.909Z"
+    "lastUpdated": "2026-10-23T12:37:57.907Z"
   }
 }
