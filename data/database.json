@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-23T19:35:34.470Z",
+  "lastUpdated": "2026-10-23T22:34:19.570Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -108487,35 +108487,35 @@
     {
       "id": "MS-E-CULTURE-022",
       "subjectId": "subj-culture",
-      "quizId": "quiz-subj-culture-final",
-      "question": "[الثقافة الإسلامية - السؤال 22] ما هو المقصد الشرعي والغاية العظمى من تشريع العبادات والأحكام في الشريعة الإسلامية؟",
+      "quizId": "quiz-subj-culture-mid",
+      "question": "من القضايا الاجتماعية المستجدة:",
       "options": [
         {
           "id": "a",
-          "text": "تزكية النفس البشرية، تحقيق السعادة في الدارين، وصلاح الفرد والمجتمع وعمارة الأرض بالعدل"
+          "text": "تأجير الارحام"
         },
         {
           "id": "b",
-          "text": "المشقة والتضييق على المكلفين"
+          "text": "اطفال الانابيب"
         },
         {
           "id": "c",
-          "text": "حرمان الإنسان من المباحات الدنيوية"
+          "text": "الحفاظ على البيئة"
         },
         {
           "id": "d",
-          "text": "الانعزال التام عن الحياة المجتمعية والعملية"
+          "text": "القتل الرحيم"
         }
       ],
-      "correctAnswer": "a",
-      "explanation": "جاءت الشريعة الإسلامية رحمة للعالمين ولتحقيق مصالح العباد ودرء المفاسد عنهم في المعاش والمعاد.",
+      "correctAnswer": "c",
+      "explanation": "",
       "difficulty": "Easy",
       "imageUrl": null,
       "sourceFile": "فاينل ثقافه حموده جديد 2025.pdf",
-      "sourcePage": 6,
+      "sourcePage": "6",
       "status": "Verified",
       "createdAt": "2026-09-28T17:34:45.479Z",
-      "updatedAt": "2026-09-28T17:34:45.479Z"
+      "updatedAt": "2026-10-23T22:34:19.203Z"
     },
     {
       "id": "MS-E-CULTURE-023",
@@ -126272,6 +126272,6 @@
     "totalQuestions": 3775,
     "verifiedQuestions": 3775,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-23T19:35:34.470Z"
+    "lastUpdated": "2026-10-23T22:34:19.570Z"
   }
 }
