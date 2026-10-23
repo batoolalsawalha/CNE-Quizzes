@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-23T13:13:30.803Z",
+  "lastUpdated": "2026-10-23T18:11:57.863Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -27736,35 +27736,35 @@
     {
       "id": "CPP-FIN-005",
       "subjectId": "subj-cpp",
-      "quizId": "quiz-subj-cpp-final",
-      "question": "If an array is declared as int arr[5] = {3, 7};, what are the values of arr[2], arr[3], and arr[4]?",
+      "quizId": "quiz-subj-cpp-mid",
+      "question": "Write a program in C++ to find the factorial of a number.\n(ما هي المعادلة الصحيحة داخل حلقة for لحساب المضروب Factorial؟)\n\nint main() {\n    int num1, factorial=1;\n    cout << \"Input a number to find the factorial: \";\n    cin >> num1;\n    for(int a=1; a<=num1; a++) {\n        // [مطلوب المعادلة الصحيحة هنا]\n    }\n}",
       "options": [
         {
           "id": "a",
-          "text": "0, 0, 0"
+          "text": "factorial += factorial + a;"
         },
         {
           "id": "b",
-          "text": "3, 7, 3"
+          "text": "factorial = factorial + a;"
         },
         {
           "id": "c",
-          "text": "Garbage values"
+          "text": "factorial = a / factorial;"
         },
         {
           "id": "d",
-          "text": "Undefined"
+          "text": "factorial = factorial * a;"
         }
       ],
-      "correctAnswer": "a",
-      "explanation": "When an initializer list has fewer elements than array size, the remaining elements are initialized to 0.",
-      "difficulty": "Easy",
+      "correctAnswer": "d",
+      "explanation": "عربي: لحساب المضروب (Factorial)، نقوم بضرب القيمة الحالية لـ factorial في عداد الحلقة a في كل دورة وتخزينها فيها (factorial = factorial * a).\n\nEnglish: To calculate the factorial, we multiply the current factorial by the loop counter a in each iteration (factorial = factorial * a",
+      "difficulty": "Medium",
       "imageUrl": null,
       "sourceFile": "c-- Final.pdf",
-      "sourcePage": 5,
+      "sourcePage": "5",
       "status": "Verified",
       "createdAt": "2026-10-03T17:22:00.002Z",
-      "updatedAt": "2026-10-03T17:22:00.002Z"
+      "updatedAt": "2026-10-23T18:11:57.143Z"
     },
     {
       "id": "CPP-FIN-006",
@@ -126634,6 +126634,6 @@
     "totalQuestions": 3786,
     "verifiedQuestions": 3786,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-23T13:13:30.803Z"
+    "lastUpdated": "2026-10-23T18:11:57.863Z"
   }
 }
