@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-23T12:46:37.616Z",
+  "lastUpdated": "2026-10-23T12:48:54.411Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -27401,34 +27401,34 @@
       "id": "CPP-MID-027",
       "subjectId": "subj-cpp",
       "quizId": "quiz-subj-cpp-mid",
-      "question": "What is the scope and lifetime of a local variable declared inside a function block?",
+      "question": "ما هو ناتج مقطع الكود؟\nint Var;\nVar = 75;\ncout << \"Var is \" << Var << \"\\n\";\nVar = 95;\ncout << Var;",
       "options": [
         {
           "id": "a",
-          "text": "Scope is global; lifetime is program duration"
+          "text": "Var is 95 95"
         },
         {
           "id": "b",
-          "text": "Lifetime is permanent in RAM"
+          "text": "Var is 75 75"
         },
         {
           "id": "c",
-          "text": "Scope is limited to that block; lifetime begins upon declaration and ends when the block exits"
+          "text": "Var is 75 95"
         },
         {
           "id": "d",
-          "text": "Scope is across all files"
+          "text": "Var is 95 97"
         }
       ],
       "correctAnswer": "c",
-      "explanation": "Automatic local variables are allocated on the stack and destroyed upon block exit.",
+      "explanation": "السطر الأول يطبع Var is  متبوعة بقيمة Var الحالية وهي 75.\n\nيتم تغيير قيمة Var إلى 95.\n\nالسطر الثاني يطبع القيمة الجديدة وهي 95.\n\nالناتج: Var is 75 95.",
       "difficulty": "Easy",
       "imageUrl": null,
       "sourceFile": "Bara C-- Mid.pdf",
-      "sourcePage": 7,
+      "sourcePage": "7",
       "status": "Verified",
       "createdAt": "2026-10-03T17:22:00.002Z",
-      "updatedAt": "2026-10-03T17:22:00.002Z"
+      "updatedAt": "2026-10-23T12:48:54.033Z"
     },
     {
       "id": "CPP-MID-028",
@@ -126628,6 +126628,6 @@
     "totalQuestions": 3786,
     "verifiedQuestions": 3786,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-23T12:46:37.616Z"
+    "lastUpdated": "2026-10-23T12:48:54.411Z"
   }
 }
