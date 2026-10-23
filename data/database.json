@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-23T23:00:19.367Z",
+  "lastUpdated": "2026-10-23T23:00:45.371Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -108650,39 +108650,6 @@
       "updatedAt": "2026-09-28T17:34:45.479Z"
     },
     {
-      "id": "MS-E-CULTURE-032",
-      "subjectId": "subj-culture",
-      "quizId": "quiz-subj-culture-final",
-      "question": "[الثقافة الإسلامية - السؤال 32] ما هو المقصد الشرعي والغاية العظمى من تشريع العبادات والأحكام في الشريعة الإسلامية؟",
-      "options": [
-        {
-          "id": "a",
-          "text": "تزكية النفس البشرية، تحقيق السعادة في الدارين، وصلاح الفرد والمجتمع وعمارة الأرض بالعدل"
-        },
-        {
-          "id": "b",
-          "text": "المشقة والتضييق على المكلفين"
-        },
-        {
-          "id": "c",
-          "text": "حرمان الإنسان من المباحات الدنيوية"
-        },
-        {
-          "id": "d",
-          "text": "الانعزال التام عن الحياة المجتمعية والعملية"
-        }
-      ],
-      "correctAnswer": "a",
-      "explanation": "جاءت الشريعة الإسلامية رحمة للعالمين ولتحقيق مصالح العباد ودرء المفاسد عنهم في المعاش والمعاد.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "فاينل ثقافه حموده جديد 2025.pdf",
-      "sourcePage": 8,
-      "status": "Verified",
-      "createdAt": "2026-09-28T17:34:45.479Z",
-      "updatedAt": "2026-09-28T17:34:45.479Z"
-    },
-    {
       "id": "MS-E-CULTURE-033",
       "subjectId": "subj-culture",
       "quizId": "quiz-subj-culture-final",
@@ -126104,9 +126071,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3770,
-    "verifiedQuestions": 3770,
+    "totalQuestions": 3769,
+    "verifiedQuestions": 3769,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-23T23:00:19.367Z"
+    "lastUpdated": "2026-10-23T23:00:45.371Z"
   }
 }
