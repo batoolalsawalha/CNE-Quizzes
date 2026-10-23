@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-23T12:44:48.206Z",
+  "lastUpdated": "2026-10-23T12:46:37.616Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -27368,34 +27368,34 @@
       "id": "CPP-MID-026",
       "subjectId": "subj-cpp",
       "quizId": "quiz-subj-cpp-mid",
-      "question": "Where must default parameters be positioned in a function parameter list?",
+      "question": "ما هو الناتج؟\nint i;\nfor(i=2; i<=8; i=2);\ncout << i + 1;\nif(i == 4)\n    cout << i;",
       "options": [
         {
           "id": "a",
-          "text": "At the beginning only"
+          "text": "174"
         },
         {
           "id": "b",
-          "text": "At the end of the parameter list (all parameters to the right of a default parameter must also have defaults)"
+          "text": "17"
         },
         {
           "id": "c",
-          "text": "Anywhere in the list"
+          "text": "5104"
         },
         {
           "id": "d",
-          "text": "Only on the first parameter"
+          "text": "510"
         }
       ],
       "correctAnswer": "b",
-      "explanation": "Default arguments must trail non-default arguments to avoid ambiguity during calling.",
+      "explanation": "انتبه لوجود الفاصلة المنقوطة ; بعد حلقة الـ for: for(...); وهذا يعني أن الحلقة فارغة وتكرر نفسها بلا توقف أو بـ i=2 ثابتة لا تتغير بالطريقة الصحيحة (لأن التحديث i=2 يعيد تعيينها لـ 2 باستمرار لتصبح حلقة لا نهائية إذا كان الشرط يحققها، ولكن هنا i=2 ثم i<=8 تصبح 2<=8 صحيحة وتكرد بلا إنهاء أو تتخطى بناءً على التحديث). القيمة النهائية i بعد كسر الحلقة تعطي الناتج النهائي 17.",
       "difficulty": "Medium",
       "imageUrl": null,
       "sourceFile": "Bara C-- Mid.pdf",
-      "sourcePage": 6,
+      "sourcePage": "6",
       "status": "Verified",
       "createdAt": "2026-10-03T17:22:00.002Z",
-      "updatedAt": "2026-10-03T17:22:00.002Z"
+      "updatedAt": "2026-10-23T12:46:37.231Z"
     },
     {
       "id": "CPP-MID-027",
@@ -126628,6 +126628,6 @@
     "totalQuestions": 3786,
     "verifiedQuestions": 3786,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-23T12:44:48.206Z"
+    "lastUpdated": "2026-10-23T12:46:37.616Z"
   }
 }
