@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-23T18:11:57.863Z",
+  "lastUpdated": "2026-10-23T18:14:04.566Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -126617,6 +126617,40 @@
       "status": "Verified",
       "createdAt": "2026-10-22T13:56:11.325Z",
       "updatedAt": "2026-10-22T13:56:11.325Z"
+    },
+    {
+      "id": "q-63d8ee88",
+      "subjectId": "subj-cpp",
+      "quizId": "quiz-subj-cpp-mid",
+      "topicId": null,
+      "question": "Write a C++ program to check two given integers, and check = true if one of them is 30 or if their sum is 30.\n(ما هي التعريفات وأنواع البيانات والشرط الصحيح للبرنامج؟)\n\nالكود الجزئي\nint main() {\n    // 1. التعريفات:\n    [[ نوع البيانات ]] x, y;\n    [[ نوع البيانات ]] check;\n    \n    // 2. الشرط:\n    [[ الشرط الصحيح ]]\n}",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "int x, y; و bool check; و الشرط: check = (x == 30 || y == 30 || (x + y == 30)"
+        },
+        {
+          "id": "b",
+          "text": "float x, y; و char check; و الشرط: check = (x == 30 && y == 30);"
+        },
+        {
+          "id": "c",
+          "text": "char x, y; و int check; و الشرط: check = (x = 30 || y = 30);"
+        },
+        {
+          "id": "d",
+          "text": "double x, y; و float check; و الشرط: check = (x + y == 30);"
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "نستخدم نوع البيانات الصحيح int للأرقام و bool للمتغير المنطقي check.\n\nالشرط المطلوب يتحقق إذا كان x == 30 أو (||) y == 30 أو (||) مجموعهم x + y == 30.",
+      "difficulty": "Hard",
+      "sourceFile": "",
+      "sourcePage": null,
+      "status": "Verified",
+      "createdAt": "2026-10-23T18:14:04.064Z",
+      "updatedAt": "2026-10-23T18:14:04.064Z"
     }
   ],
   "admin": {
@@ -126631,9 +126665,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3786,
-    "verifiedQuestions": 3786,
+    "totalQuestions": 3787,
+    "verifiedQuestions": 3787,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-23T18:11:57.863Z"
+    "lastUpdated": "2026-10-23T18:14:04.566Z"
   }
 }
