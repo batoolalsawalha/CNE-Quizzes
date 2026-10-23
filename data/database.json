@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-23T12:18:23.108Z",
+  "lastUpdated": "2026-10-23T12:20:14.206Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -26642,7 +26642,7 @@
       "id": "CPP-MID-004",
       "subjectId": "subj-cpp",
       "quizId": "quiz-subj-cpp-mid",
-      "question": "What is the value of x and a after: int a = 5; int x = ++a; ?",
+      "question": "What is the value of x and a after:\n int a = 5;\n int x = ++a; ?",
       "options": [
         {
           "id": "a",
@@ -26666,10 +26666,10 @@
       "difficulty": "Easy",
       "imageUrl": null,
       "sourceFile": "Bara C-- Mid.pdf",
-      "sourcePage": 4,
+      "sourcePage": "4",
       "status": "Verified",
       "createdAt": "2026-10-03T17:22:00.002Z",
-      "updatedAt": "2026-10-03T17:22:00.002Z"
+      "updatedAt": "2026-10-23T12:20:13.685Z"
     },
     {
       "id": "CPP-MID-005",
@@ -126628,6 +126628,6 @@
     "totalQuestions": 3786,
     "verifiedQuestions": 3786,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-23T12:18:23.108Z"
+    "lastUpdated": "2026-10-23T12:20:14.206Z"
   }
 }
