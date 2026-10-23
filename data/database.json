@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-23T12:50:37.511Z",
+  "lastUpdated": "2026-10-23T12:52:53.211Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -27467,34 +27467,34 @@
       "id": "CPP-MID-029",
       "subjectId": "subj-cpp",
       "quizId": "quiz-subj-cpp-mid",
-      "question": "Which header file is required to format stream output with manipulators like setw(), setprecision(), and fixed?",
+      "question": "ما هو ناتج مقطع الكود؟\nint x = 0.25;\nint y = 1.2;\ncout << x % y << x / y;",
       "options": [
         {
           "id": "a",
-          "text": "#include <iomanip>"
+          "text": "0 3"
         },
         {
           "id": "b",
-          "text": "#include <format>"
+          "text": "2 0"
         },
         {
           "id": "c",
-          "text": "#include <iostream>"
+          "text": "0 0"
         },
         {
           "id": "d",
-          "text": "#include <string>"
+          "text": "0 2"
         }
       ],
-      "correctAnswer": "a",
-      "explanation": "<iomanip> defines parameterized stream manipulators such as setw, setprecision, and setfill.",
+      "correctAnswer": "c",
+      "explanation": "المتغيرات من نوع int (صحيحة):\n\nيتم اقتطاع الكسور العشرية إجبارياً: x = 0 و y = 1.\n\nعملية باقي القسمة x % y أي 0 % 1 = 0.\n\nعملية القسمة x / y أي 0 / 1 = 0.\n\nالناتج المدمج: 00.",
       "difficulty": "Easy",
       "imageUrl": null,
       "sourceFile": "Bara C-- Mid.pdf",
-      "sourcePage": 9,
+      "sourcePage": "9",
       "status": "Verified",
       "createdAt": "2026-10-03T17:22:00.002Z",
-      "updatedAt": "2026-10-03T17:22:00.002Z"
+      "updatedAt": "2026-10-23T12:52:52.980Z"
     },
     {
       "id": "CPP-MID-030",
@@ -126628,6 +126628,6 @@
     "totalQuestions": 3786,
     "verifiedQuestions": 3786,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-23T12:50:37.511Z"
+    "lastUpdated": "2026-10-23T12:52:53.211Z"
   }
 }
