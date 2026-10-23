@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-23T12:13:00.110Z",
+  "lastUpdated": "2026-10-23T12:18:23.108Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -27108,7 +27108,7 @@
       "options": [
         {
           "id": "a",
-          "text": "6.0"
+          "text": "6.0 (2 multiplied by 3)"
         },
         {
           "id": "b",
@@ -27116,11 +27116,11 @@
         },
         {
           "id": "c",
-          "text": "9.0"
+          "text": "9.0 (2 raised to the power 3)"
         },
         {
           "id": "d",
-          "text": "5.0"
+          "text": "8.0 (3 raised to the power 2)"
         }
       ],
       "correctAnswer": "b",
@@ -27128,10 +27128,10 @@
       "difficulty": "Easy",
       "imageUrl": null,
       "sourceFile": "Bara C-- Mid.pdf",
-      "sourcePage": 8,
+      "sourcePage": "8",
       "status": "Verified",
       "createdAt": "2026-10-03T17:22:00.002Z",
-      "updatedAt": "2026-10-03T17:22:00.002Z"
+      "updatedAt": "2026-10-23T12:18:22.705Z"
     },
     {
       "id": "CPP-MID-019",
@@ -126628,6 +126628,6 @@
     "totalQuestions": 3786,
     "verifiedQuestions": 3786,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-23T12:13:00.110Z"
+    "lastUpdated": "2026-10-23T12:18:23.108Z"
   }
 }
