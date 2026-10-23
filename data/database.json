@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-23T12:48:54.411Z",
+  "lastUpdated": "2026-10-23T12:50:37.511Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -27434,34 +27434,34 @@
       "id": "CPP-MID-028",
       "subjectId": "subj-cpp",
       "quizId": "quiz-subj-cpp-mid",
-      "question": "What is a static local variable inside a C++ function (e.g. static int count = 0;)?",
+      "question": "للوصول على الناتج 4 3 2، ما هو الشرط المناسب؟\n\nint a = 5;\ndo {\n    a = a - 1;\n    cout << a << \" \";\n} while (/* الشرط هنا */);",
       "options": [
         {
           "id": "a",
-          "text": "A variable that cannot be changed (constant)"
+          "text": "a > 2"
         },
         {
           "id": "b",
-          "text": "A variable allocated on stack every call"
+          "text": "a >= 2"
         },
         {
           "id": "c",
-          "text": "A global variable accessible everywhere"
+          "text": "a > 3"
         },
         {
           "id": "d",
-          "text": "A variable initialized only once that retains its value between multiple calls to that function"
+          "text": "a <= 4"
         }
       ],
-      "correctAnswer": "d",
-      "explanation": "static local variables have local block scope but static storage duration (lifetime of the program).",
+      "correctAnswer": "a",
+      "explanation": "نبدأ بـ a = 5:\n\na = 5 - 1 = 4، تطبع 4. الشرط 4 > 2 (صحيح، تستمر).\n\na = 4 - 1 = 3، تطبع 3. الشرط 3 > 2 (صحيح، تستمر).\n\na = 3 - 1 = 2، تطبع 2. الشرط 2 > 2 (خاطئ، تتوقف).\n\nالناتج المطبوع هو 4 3 2، والشرط الذي يحقق ذلك هو a > 2.",
       "difficulty": "Medium",
       "imageUrl": null,
       "sourceFile": "Bara C-- Mid.pdf",
-      "sourcePage": 8,
+      "sourcePage": "8",
       "status": "Verified",
       "createdAt": "2026-10-03T17:22:00.002Z",
-      "updatedAt": "2026-10-03T17:22:00.002Z"
+      "updatedAt": "2026-10-23T12:50:37.265Z"
     },
     {
       "id": "CPP-MID-029",
@@ -126628,6 +126628,6 @@
     "totalQuestions": 3786,
     "verifiedQuestions": 3786,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-23T12:48:54.411Z"
+    "lastUpdated": "2026-10-23T12:50:37.511Z"
   }
 }
