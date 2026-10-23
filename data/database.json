@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-23T23:22:37.266Z",
+  "lastUpdated": "2026-10-23T23:23:23.760Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -12,7 +12,10 @@
       "desc": "Functions, limits, continuity, derivative rules, curve sketching, optimization, and definite/indefinite integrals.",
       "questionCount": 84,
       "verifiedQuestionCount": 55,
-      "reviewQuestionCount": 1
+      "reviewQuestionCount": 1,
+      "description": "",
+      "isActive": false,
+      "updatedAt": "2026-10-23T23:23:23.191Z"
     },
     {
       "id": "subj-calc2",
@@ -126069,12 +126072,12 @@
   },
   "stats": {
     "totalSubjects": 45,
-    "activeSubjects": 45,
+    "activeSubjects": 44,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
     "totalQuestions": 3769,
     "verifiedQuestions": 3769,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-23T23:22:37.266Z"
+    "lastUpdated": "2026-10-23T23:23:23.760Z"
   }
 }
