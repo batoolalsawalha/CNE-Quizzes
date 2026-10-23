@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-23T12:40:42.512Z",
+  "lastUpdated": "2026-10-23T12:41:57.713Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -27269,34 +27269,34 @@
       "id": "CPP-MID-023",
       "subjectId": "subj-cpp",
       "quizId": "quiz-subj-cpp-mid",
-      "question": "What is function overloading in procedural C++?",
+      "question": "ما هو ناتج مقطع الكود هذا؟\nfloat x=10, y=4;\ncout << x/y;",
       "options": [
         {
           "id": "a",
-          "text": "Functions with the same name and parameters but different return types only"
+          "text": "10/4"
         },
         {
           "id": "b",
-          "text": "Calling a function too many times in a loop"
+          "text": "x/y"
         },
         {
           "id": "c",
-          "text": "Defining multiple functions with the SAME name but DIFFERENT parameter lists (types, number of parameters)"
+          "text": "2.5"
         },
         {
           "id": "d",
-          "text": "Defining a function inside another function"
+          "text": "2"
         }
       ],
       "correctAnswer": "c",
-      "explanation": "C++ distinguishes overloaded functions by their parameter signature, not return type alone.",
+      "explanation": "لمتغيران x و y من نوع float (أعداد عشريّة).\n\nالقسمة 10 / 4 تعطي ناتجاً عشرياً دقيقاً وهو 2.5 وليس قسماً صحيحاً (Integer division) لأن الأطراف أعداد عشرية.",
       "difficulty": "Medium",
       "imageUrl": null,
       "sourceFile": "Bara C-- Mid.pdf",
-      "sourcePage": 3,
+      "sourcePage": "3",
       "status": "Verified",
       "createdAt": "2026-10-03T17:22:00.002Z",
-      "updatedAt": "2026-10-03T17:22:00.002Z"
+      "updatedAt": "2026-10-23T12:41:57.494Z"
     },
     {
       "id": "CPP-MID-024",
@@ -126628,6 +126628,6 @@
     "totalQuestions": 3786,
     "verifiedQuestions": 3786,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-23T12:40:42.512Z"
+    "lastUpdated": "2026-10-23T12:41:57.713Z"
   }
 }
