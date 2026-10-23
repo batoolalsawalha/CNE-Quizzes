@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-23T23:23:29.768Z",
+  "lastUpdated": "2026-10-23T23:25:00.463Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -108689,35 +108689,35 @@
     {
       "id": "MS-E-CULTURE-034",
       "subjectId": "subj-culture",
-      "quizId": "quiz-subj-culture-final",
-      "question": "[الثقافة الإسلامية - السؤال 34] ما هو المقصد الشرعي والغاية العظمى من تشريع العبادات والأحكام في الشريعة الإسلامية؟",
+      "quizId": "quiz-subj-culture-mid",
+      "question": "حديث الجمو الموت جاء في سياق مكافحه الثقافه الاسلاميه ل",
       "options": [
         {
           "id": "a",
-          "text": "تزكية النفس البشرية، تحقيق السعادة في الدارين، وصلاح الفرد والمجتمع وعمارة الأرض بالعدل"
+          "text": "العقم"
         },
         {
           "id": "b",
-          "text": "المشقة والتضييق على المكلفين"
+          "text": "التنمر"
         },
         {
           "id": "c",
-          "text": "حرمان الإنسان من المباحات الدنيوية"
+          "text": "الحداثه"
         },
         {
           "id": "d",
-          "text": "الانعزال التام عن الحياة المجتمعية والعملية"
+          "text": "التحرش"
         }
       ],
-      "correctAnswer": "a",
-      "explanation": "جاءت الشريعة الإسلامية رحمة للعالمين ولتحقيق مصالح العباد ودرء المفاسد عنهم في المعاش والمعاد.",
+      "correctAnswer": "c",
+      "explanation": "",
       "difficulty": "Easy",
       "imageUrl": null,
-      "sourceFile": "فاينل ثقافه حموده جديد 2025.pdf",
-      "sourcePage": 9,
+      "sourceFile": "",
+      "sourcePage": "9",
       "status": "Verified",
       "createdAt": "2026-09-28T17:34:45.479Z",
-      "updatedAt": "2026-09-28T17:34:45.479Z"
+      "updatedAt": "2026-10-23T23:24:59.807Z"
     },
     {
       "id": "MS-E-CULTURE-035",
@@ -126078,6 +126078,6 @@
     "totalQuestions": 3769,
     "verifiedQuestions": 3769,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-23T23:23:29.768Z"
+    "lastUpdated": "2026-10-23T23:25:00.463Z"
   }
 }
