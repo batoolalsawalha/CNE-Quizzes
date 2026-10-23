@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-23T23:40:43.668Z",
+  "lastUpdated": "2026-10-23T23:45:15.173Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -108887,35 +108887,35 @@
     {
       "id": "MS-E-CULTURE-040",
       "subjectId": "subj-culture",
-      "quizId": "quiz-subj-culture-final",
-      "question": "[الثقافة الإسلامية - السؤال 40] ما هو المقصد الشرعي والغاية العظمى من تشريع العبادات والأحكام في الشريعة الإسلامية؟",
+      "quizId": "quiz-subj-culture-mid",
+      "question": "ضحك الصجابه يوما من الصحابي...... رضي الله عنهم لنحافه ساقيه فقال لهم النبي صلى الله عليه وسلم (مم تضحكون؟والذي نفسي بيده لهما اثقل في الميزان من احد)والصحابي هو :",
       "options": [
         {
           "id": "a",
-          "text": "تزكية النفس البشرية، تحقيق السعادة في الدارين، وصلاح الفرد والمجتمع وعمارة الأرض بالعدل"
+          "text": "ابو بكر الصديق"
         },
         {
           "id": "b",
-          "text": "المشقة والتضييق على المكلفين"
+          "text": "علي بن ابي طالب"
         },
         {
           "id": "c",
-          "text": "حرمان الإنسان من المباحات الدنيوية"
+          "text": "عبدالله بن مسعود"
         },
         {
           "id": "d",
-          "text": "الانعزال التام عن الحياة المجتمعية والعملية"
+          "text": "ابو هريره"
         }
       ],
-      "correctAnswer": "a",
-      "explanation": "جاءت الشريعة الإسلامية رحمة للعالمين ولتحقيق مصالح العباد ودرء المفاسد عنهم في المعاش والمعاد.",
+      "correctAnswer": "c",
+      "explanation": "",
       "difficulty": "Easy",
       "imageUrl": null,
-      "sourceFile": "فاينل ثقافه حموده جديد 2025.pdf",
-      "sourcePage": 10,
+      "sourceFile": "",
+      "sourcePage": "10",
       "status": "Verified",
       "createdAt": "2026-09-28T17:34:45.479Z",
-      "updatedAt": "2026-09-28T17:34:45.479Z"
+      "updatedAt": "2026-10-23T23:45:14.920Z"
     },
     {
       "id": "MS-E-CULTURE-041",
@@ -126078,6 +126078,6 @@
     "totalQuestions": 3769,
     "verifiedQuestions": 3769,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-23T23:40:43.668Z"
+    "lastUpdated": "2026-10-23T23:45:15.173Z"
   }
 }
