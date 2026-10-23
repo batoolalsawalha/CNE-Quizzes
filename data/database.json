@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-23T12:37:57.907Z",
+  "lastUpdated": "2026-10-23T12:40:42.512Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -27236,34 +27236,34 @@
       "id": "CPP-MID-022",
       "subjectId": "subj-cpp",
       "quizId": "quiz-subj-cpp-mid",
-      "question": "What happens when an argument is passed BY REFERENCE (e.g. void swap(int &a, int &b))?",
+      "question": "ما هو الناتج؟\nchar x='d';\nwhile(x>99) {\n    switch(x) {\n        case 100: cout<<x+1;\n                  --x;\n        case 'b':\n        case 'c': cout<<x;\n                  --x;\n    }\n}",
       "options": [
         {
           "id": "a",
-          "text": "A duplicate copy is made"
+          "text": "cc"
         },
         {
           "id": "b",
-          "text": "The function receives an alias to the original variable; modifications inside the function directly change the caller variable"
+          "text": "ed"
         },
         {
           "id": "c",
-          "text": "The function cannot modify the variable"
+          "text": "10199"
         },
         {
           "id": "d",
-          "text": "Memory leaks occur"
+          "text": "101c"
         }
       ],
-      "correctAnswer": "b",
-      "explanation": "The reference (&) passes the actual variable itself, allowing direct updates.",
+      "correctAnswer": "d",
+      "explanation": "قيمة x = 'd' والتي تساوي في جدول ASCII الرقم العشري 100.\n\nالشرط while(x > 99) يتحقق لأن 100 > 99.\n\nيدخل الـ switch على الحالة case 100 (لأن x يساوي 100):\n\nينفذ cout << x + 1 أي 100 + 1 = 101 (يطبع 101).\n\nينفذ --x فتصبح x = 99.\n\nبسبب عدم وجود break، ينتقل للحالة التالية (Fall-through): case 'c' أو case 'b'.\n\nيطبع قيمة x الحالية وهي 99 (كحرف c لأنها char).\n\nفي الدورة التالية تصبح x = 98، والشرط 98 > 99 يصبح False وتتوقف الحلقة. الناتج: 101c",
       "difficulty": "Easy",
       "imageUrl": null,
       "sourceFile": "Bara C-- Mid.pdf",
-      "sourcePage": 2,
+      "sourcePage": "2",
       "status": "Verified",
       "createdAt": "2026-10-03T17:22:00.002Z",
-      "updatedAt": "2026-10-03T17:22:00.002Z"
+      "updatedAt": "2026-10-23T12:40:42.241Z"
     },
     {
       "id": "CPP-MID-023",
@@ -126628,6 +126628,6 @@
     "totalQuestions": 3786,
     "verifiedQuestions": 3786,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-23T12:37:57.907Z"
+    "lastUpdated": "2026-10-23T12:40:42.512Z"
   }
 }
