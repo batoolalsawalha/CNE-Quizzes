@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-23T12:54:45.904Z",
+  "lastUpdated": "2026-10-23T12:56:10.102Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -27533,34 +27533,34 @@
       "id": "CPP-MID-031",
       "subjectId": "subj-cpp",
       "quizId": "quiz-subj-cpp-mid",
-      "question": "What does the setw(5) manipulator do when printing output with cout?",
+      "question": "ما هو الناتج؟\nint x = 3;\nbool y = false;\nif(!y)\n    y = true;\ncout << y << \"\\t\" << !x + 4;",
       "options": [
         {
           "id": "a",
-          "text": "Sets the font size to 5"
+          "text": "1 4"
         },
         {
           "id": "b",
-          "text": "Prints 5 spaces unconditionally"
+          "text": "0 4"
         },
         {
           "id": "c",
-          "text": "Sets the minimum field width for the next printed output item to 5 character positions"
+          "text": "0 5"
         },
         {
           "id": "d",
-          "text": "Truncates output to 5 letters"
+          "text": "1 5"
         }
       ],
-      "correctAnswer": "c",
-      "explanation": "setw(w) pads the next single output value with spaces so it occupies at least w characters.",
+      "correctAnswer": "a",
+      "explanation": "y تبدأ false (0).\n\nالشرط !y (يعني !false) يتحقق ويصبح true، فتتغير y إلى true (أو 1).\n\n!x تعني !3 (بما أن 3 صحيحة، فـ !3 تساوي 0).\n\nالحساب: !x + 4 -> 0 + 4 = 4.\n\nالناتج النهائي المطبوع: 1 و 4.",
       "difficulty": "Easy",
       "imageUrl": null,
       "sourceFile": "Bara C-- Mid.pdf",
-      "sourcePage": 1,
+      "sourcePage": "1",
       "status": "Verified",
       "createdAt": "2026-10-03T17:22:00.002Z",
-      "updatedAt": "2026-10-03T17:22:00.002Z"
+      "updatedAt": "2026-10-23T12:56:09.792Z"
     },
     {
       "id": "CPP-MID-032",
@@ -126628,6 +126628,6 @@
     "totalQuestions": 3786,
     "verifiedQuestions": 3786,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-23T12:54:45.904Z"
+    "lastUpdated": "2026-10-23T12:56:10.102Z"
   }
 }
