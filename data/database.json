@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-23T22:57:57.765Z",
+  "lastUpdated": "2026-10-23T23:00:19.367Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -107627,138 +107627,6 @@
       "updatedAt": "2026-10-03T17:13:05.642Z"
     },
     {
-      "id": "CULT-MID-001",
-      "subjectId": "subj-culture",
-      "quizId": "quiz-subj-culture-mid",
-      "question": "ما هو المصدر الأول والأساسي للتشريع الإسلامي والثقافة الإسلامية؟",
-      "options": [
-        {
-          "id": "a",
-          "text": "القرآن الكريم"
-        },
-        {
-          "id": "b",
-          "text": "السنة النبوية"
-        },
-        {
-          "id": "c",
-          "text": "الإجماع"
-        },
-        {
-          "id": "d",
-          "text": "القياس"
-        }
-      ],
-      "correctAnswer": "a",
-      "explanation": "القرآن الكريم هو كلام الله تعالى المعجز المنزّل على نبينا محمد صلى الله عليه وسلم، وهو المصدر التشريعي الأول باتفاق علماء المسلمين.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "أسئلة_الثقافة_الإسلامية ميد.pdf",
-      "sourcePage": "1",
-      "status": "Verified",
-      "createdAt": "2026-09-28T17:34:45.399Z",
-      "updatedAt": "2026-10-23T18:50:10.337Z"
-    },
-    {
-      "id": "CULT-MID-002",
-      "subjectId": "subj-culture",
-      "quizId": "quiz-subj-culture-mid",
-      "question": "الخاصية التي تعني أن التشريع الإسلامي منزل من عند الله تعالى ومنزه عن النقص والجهل والهوى تسمى:",
-      "options": [
-        {
-          "id": "a",
-          "text": "الربانية"
-        },
-        {
-          "id": "b",
-          "text": "الشمول"
-        },
-        {
-          "id": "c",
-          "text": "الوسطية"
-        },
-        {
-          "id": "d",
-          "text": "الواقعية"
-        }
-      ],
-      "correctAnswer": "a",
-      "explanation": "خاصية الربانية تعني أن أحكام الإسلام ومبادئه مصدرها وحي إلهي من الله العليم الخبير بما يصلح شأن البشر.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "أسئلة_الثقافة_الإسلامية ميد.pdf",
-      "sourcePage": 2,
-      "status": "Verified",
-      "createdAt": "2026-09-28T17:34:45.399Z",
-      "updatedAt": "2026-09-28T17:34:45.399Z"
-    },
-    {
-      "id": "CULT-MID-003",
-      "subjectId": "subj-culture",
-      "quizId": "quiz-subj-culture-mid",
-      "question": "ما هما الشرطان الأساسيان المتفق عليهما شرعاً لقبول أي عمل صالح عند الله تعالى؟",
-      "options": [
-        {
-          "id": "a",
-          "text": "إخلاص النية لله تعالى ومتابعة هدي وسنة النبي صلى الله عليه وسلم"
-        },
-        {
-          "id": "b",
-          "text": "كثرة العمل والجهد المبذول فقط"
-        },
-        {
-          "id": "c",
-          "text": "معرفة الناس وثناؤهم على العمل"
-        },
-        {
-          "id": "d",
-          "text": "أداؤه في المسجد حصراً"
-        }
-      ],
-      "correctAnswer": "a",
-      "explanation": "يشترط لقبول العمل عند الله شرطان لا ينفصلان: الإخلاص لله وحده، وموافقة العمل لما جاء في سنة رسول الله صلى الله عليه وسلم.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "أسئلة_الثقافة_الإسلامية ميد.pdf",
-      "sourcePage": 2,
-      "status": "Verified",
-      "createdAt": "2026-09-28T17:34:45.401Z",
-      "updatedAt": "2026-09-28T17:34:45.401Z"
-    },
-    {
-      "id": "EXP-CUL-001",
-      "subjectId": "subj-culture",
-      "quizId": "quiz-subj-culture-mid",
-      "question": "ما هو المعنى اللغوي الدقيق لقول العرب قديماً: \"ثَقِفْتُ الرُّمْحَ\"؟",
-      "options": [
-        {
-          "id": "a",
-          "text": "قَوَّمْتُهُ وسَوَّيْتُهُ وأزلْتُ عِوَجَهُ"
-        },
-        {
-          "id": "b",
-          "text": "كسَرْتُهُ وأتلَفْتُه في المعركة"
-        },
-        {
-          "id": "c",
-          "text": "صَبَغْتُهُ وزَيَّنْتُه بالنقوش"
-        },
-        {
-          "id": "d",
-          "text": "أهْدَيْتُهُ إلى القائد"
-        }
-      ],
-      "correctAnswer": "a",
-      "explanation": "المعنى اللغوي لمادة (ث-ق-ف) يدور حول تقويم المعوج وتسويته والظفر بالشيء، كما يقال \"غلامٌ ثقف\" أي سريع الفهم والتعلم وذو فطنة وذكاء.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "أسئلة_الثقافة_الإسلامية ميد.pdf",
-      "sourcePage": 1,
-      "status": "Verified",
-      "createdAt": "2026-09-28T17:34:45.426Z",
-      "updatedAt": "2026-09-28T17:34:45.426Z"
-    },
-    {
       "id": "EXP-CUL-002",
       "subjectId": "subj-culture",
       "quizId": "quiz-subj-culture-mid",
@@ -108621,39 +108489,6 @@
       "subjectId": "subj-culture",
       "quizId": "quiz-subj-culture-final",
       "question": "[الثقافة الإسلامية - السؤال 26] ما هو المقصد الشرعي والغاية العظمى من تشريع العبادات والأحكام في الشريعة الإسلامية؟",
-      "options": [
-        {
-          "id": "a",
-          "text": "تزكية النفس البشرية، تحقيق السعادة في الدارين، وصلاح الفرد والمجتمع وعمارة الأرض بالعدل"
-        },
-        {
-          "id": "b",
-          "text": "المشقة والتضييق على المكلفين"
-        },
-        {
-          "id": "c",
-          "text": "حرمان الإنسان من المباحات الدنيوية"
-        },
-        {
-          "id": "d",
-          "text": "الانعزال التام عن الحياة المجتمعية والعملية"
-        }
-      ],
-      "correctAnswer": "a",
-      "explanation": "جاءت الشريعة الإسلامية رحمة للعالمين ولتحقيق مصالح العباد ودرء المفاسد عنهم في المعاش والمعاد.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "فاينل ثقافه حموده جديد 2025.pdf",
-      "sourcePage": 7,
-      "status": "Verified",
-      "createdAt": "2026-09-28T17:34:45.479Z",
-      "updatedAt": "2026-09-28T17:34:45.479Z"
-    },
-    {
-      "id": "MS-E-CULTURE-027",
-      "subjectId": "subj-culture",
-      "quizId": "quiz-subj-culture-final",
-      "question": "[الثقافة الإسلامية - السؤال 27] ما هو المقصد الشرعي والغاية العظمى من تشريع العبادات والأحكام في الشريعة الإسلامية؟",
       "options": [
         {
           "id": "a",
@@ -126269,9 +126104,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3775,
-    "verifiedQuestions": 3775,
+    "totalQuestions": 3770,
+    "verifiedQuestions": 3770,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-23T22:57:57.765Z"
+    "lastUpdated": "2026-10-23T23:00:19.367Z"
   }
 }
