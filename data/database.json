@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-23T13:09:01.404Z",
+  "lastUpdated": "2026-10-23T13:09:13.202Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -27664,7 +27664,7 @@
     {
       "id": "CPP-FIN-003",
       "subjectId": "subj-cpp",
-      "quizId": "quiz-subj-cpp-final",
+      "quizId": "quiz-subj-cpp-mid",
       "question": "ما هو الناتج؟\nint x = 7, y = 6, z;\nz = x + 2.4 % x / y * 3 + x % y;\ncout << z;",
       "options": [
         {
@@ -27692,7 +27692,7 @@
       "sourcePage": "3",
       "status": "Verified",
       "createdAt": "2026-10-03T17:22:00.002Z",
-      "updatedAt": "2026-10-23T13:03:31.706Z"
+      "updatedAt": "2026-10-23T13:09:12.946Z"
     },
     {
       "id": "CPP-FIN-004",
@@ -126628,6 +126628,6 @@
     "totalQuestions": 3786,
     "verifiedQuestions": 3786,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-23T13:09:01.404Z"
+    "lastUpdated": "2026-10-23T13:09:13.202Z"
   }
 }
