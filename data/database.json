@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-23T13:10:42.400Z",
+  "lastUpdated": "2026-10-23T13:11:25.202Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -231,14 +231,17 @@
     },
     {
       "id": "subj-logic",
-      "code": "EE211",
+      "code": "ELE0213",
       "name": "Digital Logic Design",
       "nameAr": "لوجيك",
       "category": "الهندسة الكهربائية والإلكترونية",
       "desc": "Boolean algebra, Karnaugh maps, combinational logic (adders, decoders, multiplexers), and sequential circuits (flip-flops, counters).",
       "questionCount": 84,
       "verifiedQuestionCount": 54,
-      "reviewQuestionCount": 0
+      "reviewQuestionCount": 0,
+      "description": "",
+      "isActive": true,
+      "updatedAt": "2026-10-23T13:11:24.517Z"
     },
     {
       "id": "subj-signals",
@@ -126631,6 +126634,6 @@
     "totalQuestions": 3786,
     "verifiedQuestions": 3786,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-23T13:10:42.400Z"
+    "lastUpdated": "2026-10-23T13:11:25.202Z"
   }
 }
