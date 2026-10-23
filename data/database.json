@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-23T18:53:47.063Z",
+  "lastUpdated": "2026-10-23T18:55:08.463Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -107894,7 +107894,7 @@
       "id": "MS-E-CULTURE-003",
       "subjectId": "subj-culture",
       "quizId": "quiz-subj-culture-mid",
-      "question": "[الثقافة الإسلامية - السؤال 3] ما هو المقصد الشرعي والغاية العظمى من تشريع العبادات والأحكام في الشريعة الإسلامية؟",
+      "question": "ما هو المقصد الشرعي والغاية العظمى من تشريع العبادات والأحكام في الشريعة الإسلامية؟",
       "options": [
         {
           "id": "a",
@@ -107918,10 +107918,10 @@
       "difficulty": "Easy",
       "imageUrl": null,
       "sourceFile": "فاينل ثقافه حموده جديد 2025.pdf",
-      "sourcePage": 1,
+      "sourcePage": "1",
       "status": "Verified",
       "createdAt": "2026-09-28T17:34:45.479Z",
-      "updatedAt": "2026-09-28T17:34:45.479Z"
+      "updatedAt": "2026-10-23T18:55:07.796Z"
     },
     {
       "id": "MS-E-CULTURE-004",
@@ -126668,6 +126668,6 @@
     "totalQuestions": 3787,
     "verifiedQuestions": 3787,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-23T18:53:47.063Z"
+    "lastUpdated": "2026-10-23T18:55:08.463Z"
   }
 }
