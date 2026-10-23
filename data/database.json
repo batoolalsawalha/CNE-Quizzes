@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-23T12:29:04.707Z",
+  "lastUpdated": "2026-10-23T12:31:52.909Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -27170,34 +27170,34 @@
       "id": "CPP-MID-020",
       "subjectId": "subj-cpp",
       "quizId": "quiz-subj-cpp-mid",
-      "question": "What is a function prototype (forward declaration) in C++?",
+      "question": "ا هو ناتج مقطع الكود هذا شاشة الإخراج؟\n#include <iostream>\nusing namespace std;\nint main () {\n    cout <<\"Welcome\";\n    cout <<\" to \\n\";\n    cout <<\"C++\";\n}",
       "options": [
         {
           "id": "a",
-          "text": "The full function body with code"
+          "text": "Welcome to \\n C++"
         },
         {
           "id": "b",
-          "text": "A macro definition"
+          "text": "Welcome to C++"
         },
         {
           "id": "c",
-          "text": "A built-in library function"
+          "text": "Welcome to C++"
         },
         {
           "id": "d",
-          "text": "A declaration specifying the function name, return type, and parameter types before main() so the compiler knows it exists"
+          "text": "Welcome to\\n C++"
         }
       ],
-      "correctAnswer": "d",
-      "explanation": "Prototypes inform the compiler of a function signature before its full definition appears.",
+      "correctAnswer": "c",
+      "explanation": "cout <<\"Welcome\"; تطبع Welcome.\n\ncout <<\" to \\n\"; تطبع to وينزل السطر بسبب \\n.\n\ncout <<\"C++\"; تطبع C++ في السطر الجديد.\n\nالناتج المدمج: Welcome to  في سطر و C++ في السطر تحته (الخيار الأقرب هو تنسيق الدمج المباشر).",
       "difficulty": "Easy",
       "imageUrl": null,
       "sourceFile": "Bara C-- Mid.pdf",
-      "sourcePage": 10,
+      "sourcePage": "10",
       "status": "Verified",
       "createdAt": "2026-10-03T17:22:00.002Z",
-      "updatedAt": "2026-10-03T17:22:00.002Z"
+      "updatedAt": "2026-10-23T12:31:52.619Z"
     },
     {
       "id": "CPP-MID-021",
@@ -126628,6 +126628,6 @@
     "totalQuestions": 3786,
     "verifiedQuestions": 3786,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-23T12:29:04.707Z"
+    "lastUpdated": "2026-10-23T12:31:52.909Z"
   }
 }
