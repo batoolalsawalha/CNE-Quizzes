@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-23T12:52:53.211Z",
+  "lastUpdated": "2026-10-23T12:54:45.904Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -27500,34 +27500,34 @@
       "id": "CPP-MID-030",
       "subjectId": "subj-cpp",
       "quizId": "quiz-subj-cpp-mid",
-      "question": "What is the effect of: cout << fixed << setprecision(2) << 3.14159; ?",
+      "question": "ما هو ناتج مقطع الكود؟\ncout << (bool)7 / 9;",
       "options": [
         {
           "id": "a",
-          "text": "Displays 3.1"
+          "text": "0"
         },
         {
           "id": "b",
-          "text": "Displays 3.14 (fixed-point notation with exactly 2 digits after the decimal point)"
+          "text": "1"
         },
         {
           "id": "c",
-          "text": "Displays 3"
+          "text": "False"
         },
         {
           "id": "d",
-          "text": "Displays 3.141"
+          "text": "True"
         }
       ],
-      "correctAnswer": "b",
-      "explanation": "fixed combined with setprecision(n) fixes the number of fractional decimal digits to n.",
+      "correctAnswer": "a",
+      "explanation": "التحويل (bool)7 يحول الرقم 7 إلى قيمة منطقية True والتي تمثل رقمياً 1.\n\nالتعبير يصبح: 1 / 9.\n\nبما أن الطرفين أعداد صحيحة (Integer division)، فإن 1 / 9 يساوي 0.",
       "difficulty": "Easy",
       "imageUrl": null,
       "sourceFile": "Bara C-- Mid.pdf",
-      "sourcePage": 10,
+      "sourcePage": "10",
       "status": "Verified",
       "createdAt": "2026-10-03T17:22:00.002Z",
-      "updatedAt": "2026-10-03T17:22:00.002Z"
+      "updatedAt": "2026-10-23T12:54:45.676Z"
     },
     {
       "id": "CPP-MID-031",
@@ -126628,6 +126628,6 @@
     "totalQuestions": 3786,
     "verifiedQuestions": 3786,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-23T12:52:53.211Z"
+    "lastUpdated": "2026-10-23T12:54:45.904Z"
   }
 }
