@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-23T23:25:00.463Z",
+  "lastUpdated": "2026-10-23T23:28:48.471Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -108722,35 +108722,35 @@
     {
       "id": "MS-E-CULTURE-035",
       "subjectId": "subj-culture",
-      "quizId": "quiz-subj-culture-final",
-      "question": "[الثقافة الإسلامية - السؤال 35] ما هو المقصد الشرعي والغاية العظمى من تشريع العبادات والأحكام في الشريعة الإسلامية؟",
+      "quizId": "quiz-subj-culture-mid",
+      "question": "ان الثقافه السلاميه جمعت الخصائص التي يكمل بعضها بعضا فخاضيه الاحاطه والشمول تلغي:",
       "options": [
         {
           "id": "a",
-          "text": "تزكية النفس البشرية، تحقيق السعادة في الدارين، وصلاح الفرد والمجتمع وعمارة الأرض بالعدل"
+          "text": "الغلو والتقصير"
         },
         {
           "id": "b",
-          "text": "المشقة والتضييق على المكلفين"
+          "text": "الاقليميه والمحليه"
         },
         {
           "id": "c",
-          "text": "حرمان الإنسان من المباحات الدنيوية"
+          "text": "العنصريه والتعصب"
         },
         {
           "id": "d",
-          "text": "الانعزال التام عن الحياة المجتمعية والعملية"
+          "text": "المثاليه العقليه"
         }
       ],
-      "correctAnswer": "a",
-      "explanation": "جاءت الشريعة الإسلامية رحمة للعالمين ولتحقيق مصالح العباد ودرء المفاسد عنهم في المعاش والمعاد.",
+      "correctAnswer": "b",
+      "explanation": "",
       "difficulty": "Easy",
       "imageUrl": null,
-      "sourceFile": "فاينل ثقافه حموده جديد 2025.pdf",
-      "sourcePage": 9,
+      "sourceFile": "",
+      "sourcePage": "9",
       "status": "Verified",
       "createdAt": "2026-09-28T17:34:45.479Z",
-      "updatedAt": "2026-09-28T17:34:45.479Z"
+      "updatedAt": "2026-10-23T23:28:47.667Z"
     },
     {
       "id": "MS-E-CULTURE-036",
@@ -126078,6 +126078,6 @@
     "totalQuestions": 3769,
     "verifiedQuestions": 3769,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-23T23:25:00.463Z"
+    "lastUpdated": "2026-10-23T23:28:48.471Z"
   }
 }
