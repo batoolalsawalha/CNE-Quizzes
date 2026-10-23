@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-23T13:09:13.202Z",
+  "lastUpdated": "2026-10-23T13:10:42.400Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -104,14 +104,17 @@
     },
     {
       "id": "subj-cpp",
-      "code": "CS111",
+      "code": "BSE0201",
       "name": "C++ Programming",
       "nameAr": "برمجة C++ (مهندسين)",
       "category": "علوم الحاسوب والبرمجيات",
       "desc": "Structured programming, variables, control flow, loops, functions, 1D & 2D arrays, pointers, references, structs, and file streams in C++ for engineers.",
       "questionCount": 84,
       "verifiedQuestionCount": 56,
-      "reviewQuestionCount": 0
+      "reviewQuestionCount": 0,
+      "description": "",
+      "isActive": true,
+      "updatedAt": "2026-10-23T13:10:41.804Z"
     },
     {
       "id": "subj-oop",
@@ -126628,6 +126631,6 @@
     "totalQuestions": 3786,
     "verifiedQuestions": 3786,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-23T13:09:13.202Z"
+    "lastUpdated": "2026-10-23T13:10:42.400Z"
   }
 }
