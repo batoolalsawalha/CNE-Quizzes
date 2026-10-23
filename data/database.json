@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-23T19:11:01.766Z",
+  "lastUpdated": "2026-10-23T19:30:41.068Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -107927,34 +107927,34 @@
       "id": "MS-E-CULTURE-016",
       "subjectId": "subj-culture",
       "quizId": "quiz-subj-culture-mid",
-      "question": "[الثقافة الإسلامية - السؤال 16] ما هو المقصد الشرعي والغاية العظمى من تشريع العبادات والأحكام في الشريعة الإسلامية؟",
+      "question": "هل الثقافة اإلسالمية ثابتة أم متغيرة",
       "options": [
         {
           "id": "a",
-          "text": "تزكية النفس البشرية، تحقيق السعادة في الدارين، وصلاح الفرد والمجتمع وعمارة الأرض بالعدل"
+          "text": "ثابتة فقط"
         },
         {
           "id": "b",
-          "text": "المشقة والتضييق على المكلفين"
+          "text": "متغيره فقط"
         },
         {
           "id": "c",
-          "text": "حرمان الإنسان من المباحات الدنيوية"
+          "text": "ثابتة ومتغيرة بضوابط"
         },
         {
           "id": "d",
-          "text": "الانعزال التام عن الحياة المجتمعية والعملية"
+          "text": "لا تتأثر بالزمان والمكان"
         }
       ],
-      "correctAnswer": "a",
-      "explanation": "جاءت الشريعة الإسلامية رحمة للعالمين ولتحقيق مصالح العباد ودرء المفاسد عنهم في المعاش والمعاد.",
+      "correctAnswer": "c",
+      "explanation": "",
       "difficulty": "Easy",
       "imageUrl": null,
-      "sourceFile": "فاينل ثقافه حموده جديد 2025.pdf",
-      "sourcePage": 4,
+      "sourceFile": "",
+      "sourcePage": "4",
       "status": "Verified",
       "createdAt": "2026-09-28T17:34:45.479Z",
-      "updatedAt": "2026-09-28T17:34:45.479Z"
+      "updatedAt": "2026-10-23T19:30:40.771Z"
     },
     {
       "id": "MS-E-CULTURE-017",
@@ -126272,6 +126272,6 @@
     "totalQuestions": 3775,
     "verifiedQuestions": 3775,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-23T19:11:01.766Z"
+    "lastUpdated": "2026-10-23T19:30:41.068Z"
   }
 }
