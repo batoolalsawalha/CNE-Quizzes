@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-23T13:00:01.813Z",
+  "lastUpdated": "2026-10-23T13:00:17.802Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -27598,7 +27598,7 @@
     {
       "id": "CPP-FIN-001",
       "subjectId": "subj-cpp",
-      "quizId": "quiz-subj-cpp-final",
+      "quizId": "quiz-subj-cpp-mid",
       "question": "ما هو ناتج مقطع الكود التالي؟\nint a = 3;\nwhile (a < 7) {\n    cout << ++a << \"?\";\n    ++a;\n}",
       "options": [
         {
@@ -27626,7 +27626,7 @@
       "sourcePage": "1",
       "status": "Verified",
       "createdAt": "2026-10-03T17:22:00.002Z",
-      "updatedAt": "2026-10-23T13:00:01.409Z"
+      "updatedAt": "2026-10-23T13:00:17.481Z"
     },
     {
       "id": "CPP-FIN-002",
@@ -126628,6 +126628,6 @@
     "totalQuestions": 3786,
     "verifiedQuestions": 3786,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-23T13:00:01.813Z"
+    "lastUpdated": "2026-10-23T13:00:17.802Z"
   }
 }
