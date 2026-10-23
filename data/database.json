@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-23T12:43:21.410Z",
+  "lastUpdated": "2026-10-23T12:44:48.206Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -27335,34 +27335,34 @@
       "id": "CPP-MID-025",
       "subjectId": "subj-cpp",
       "quizId": "quiz-subj-cpp-mid",
-      "question": "What is a default argument in a C++ function parameter list?",
+      "question": "ما هو الناتج؟\nchar x = 'B';\ncout << x << x + 1;",
       "options": [
         {
           "id": "a",
-          "text": "A value automatically assigned to a parameter if the caller does not supply an argument for it"
+          "text": "BC"
         },
         {
           "id": "b",
-          "text": "The return value of main()"
+          "text": "6667"
         },
         {
           "id": "c",
-          "text": "The zero value of global variables"
+          "text": "B67"
         },
         {
           "id": "d",
-          "text": "A mandatory parameter"
+          "text": "B99"
         }
       ],
-      "correctAnswer": "a",
-      "explanation": "Default parameters allow optional function arguments (e.g. void print(int x = 10)).",
+      "correctAnswer": "c",
+      "explanation": "لحرف 'B' في جدول ASCII يقابل الرقم العشري 66.\n\ncout << x; يطبع الحرف نفسه وهو B.\n\ncout << x + 1; يجمع قيمة الكود ASCII للحرف مع 1 (66 + 1 = 67) ويطبع الناتج 67 كمؤشر عددي.\n\nالناتج المدمج: B67.",
       "difficulty": "Easy",
       "imageUrl": null,
       "sourceFile": "Bara C-- Mid.pdf",
-      "sourcePage": 5,
+      "sourcePage": "5",
       "status": "Verified",
       "createdAt": "2026-10-03T17:22:00.002Z",
-      "updatedAt": "2026-10-03T17:22:00.002Z"
+      "updatedAt": "2026-10-23T12:44:47.920Z"
     },
     {
       "id": "CPP-MID-026",
@@ -126628,6 +126628,6 @@
     "totalQuestions": 3786,
     "verifiedQuestions": 3786,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-23T12:43:21.410Z"
+    "lastUpdated": "2026-10-23T12:44:48.206Z"
   }
 }
