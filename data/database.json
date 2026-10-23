@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-22T19:41:23.168Z",
+  "lastUpdated": "2026-10-23T11:56:03.932Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -55483,7 +55483,7 @@
     {
       "id": "LOGIC-MID-017",
       "subjectId": "subj-logic",
-      "quizId": "quiz-subj-logic-mid",
+      "quizId": "quiz-subj-logic-final",
       "question": "Which device selects one of many analog or digital input signals and forwards it into a single output line?",
       "options": [
         {
@@ -55508,10 +55508,10 @@
       "difficulty": "Medium",
       "imageUrl": null,
       "sourceFile": "Digital Design Midterm Exam.pdf",
-      "sourcePage": 7,
+      "sourcePage": "7",
       "status": "Verified",
       "createdAt": "2026-10-03T17:22:00.027Z",
-      "updatedAt": "2026-10-03T17:22:00.027Z"
+      "updatedAt": "2026-10-23T11:56:03.139Z"
     },
     {
       "id": "LOGIC-MID-018",
@@ -126628,6 +126628,6 @@
     "totalQuestions": 3786,
     "verifiedQuestions": 3786,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-22T19:41:23.168Z"
+    "lastUpdated": "2026-10-23T11:56:03.932Z"
   }
 }
