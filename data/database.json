@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-23T13:11:25.202Z",
+  "lastUpdated": "2026-10-23T13:13:30.803Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -55555,7 +55555,7 @@
     {
       "id": "LOGIC-MID-019",
       "subjectId": "subj-logic",
-      "quizId": "quiz-subj-logic-mid",
+      "quizId": "quiz-subj-logic-final",
       "question": "Can any Boolean function of n variables be implemented using a 2^n-to-1 multiplexer directly?",
       "options": [
         {
@@ -55580,10 +55580,10 @@
       "difficulty": "Medium",
       "imageUrl": null,
       "sourceFile": "Digital Design Midterm Exam.pdf",
-      "sourcePage": 9,
+      "sourcePage": "9",
       "status": "Verified",
       "createdAt": "2026-10-03T17:22:00.027Z",
-      "updatedAt": "2026-10-03T17:22:00.027Z"
+      "updatedAt": "2026-10-23T13:13:30.252Z"
     },
     {
       "id": "LOGIC-MID-020",
@@ -126634,6 +126634,6 @@
     "totalQuestions": 3786,
     "verifiedQuestions": 3786,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-23T13:11:25.202Z"
+    "lastUpdated": "2026-10-23T13:13:30.803Z"
   }
 }
