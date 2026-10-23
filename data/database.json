@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-23T22:37:38.365Z",
+  "lastUpdated": "2026-10-23T22:40:34.161Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -108553,35 +108553,35 @@
     {
       "id": "MS-E-CULTURE-024",
       "subjectId": "subj-culture",
-      "quizId": "quiz-subj-culture-final",
-      "question": "[الثقافة الإسلامية - السؤال 24] ما هو المقصد الشرعي والغاية العظمى من تشريع العبادات والأحكام في الشريعة الإسلامية؟",
+      "quizId": "quiz-subj-culture-mid",
+      "question": "من مظاهر القوازن والاعتدال في الثقافة الإسلامية في مجال\nالعبادة:",
       "options": [
         {
           "id": "a",
-          "text": "تزكية النفس البشرية، تحقيق السعادة في الدارين، وصلاح الفرد والمجتمع وعمارة الأرض بالعدل"
+          "text": "اعتزال الزواج"
         },
         {
           "id": "b",
-          "text": "المشقة والتضييق على المكلفين"
+          "text": "قيام الليل أحيانا"
         },
         {
           "id": "c",
-          "text": "حرمان الإنسان من المباحات الدنيوية"
+          "text": "صوم الدهر"
         },
         {
           "id": "d",
-          "text": "الانعزال التام عن الحياة المجتمعية والعملية"
+          "text": "الاستفاثة بالأموات"
         }
       ],
-      "correctAnswer": "a",
-      "explanation": "جاءت الشريعة الإسلامية رحمة للعالمين ولتحقيق مصالح العباد ودرء المفاسد عنهم في المعاش والمعاد.",
+      "correctAnswer": "b",
+      "explanation": "",
       "difficulty": "Easy",
       "imageUrl": null,
-      "sourceFile": "فاينل ثقافه حموده جديد 2025.pdf",
-      "sourcePage": 6,
+      "sourceFile": "",
+      "sourcePage": "6",
       "status": "Verified",
       "createdAt": "2026-09-28T17:34:45.479Z",
-      "updatedAt": "2026-09-28T17:34:45.479Z"
+      "updatedAt": "2026-10-23T22:40:33.855Z"
     },
     {
       "id": "MS-E-CULTURE-025",
@@ -126272,6 +126272,6 @@
     "totalQuestions": 3775,
     "verifiedQuestions": 3775,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-23T22:37:38.365Z"
+    "lastUpdated": "2026-10-23T22:40:34.161Z"
   }
 }
