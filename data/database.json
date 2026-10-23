@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-23T11:56:19.301Z",
+  "lastUpdated": "2026-10-23T12:13:00.110Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -26774,7 +26774,7 @@
       "id": "CPP-MID-008",
       "subjectId": "subj-cpp",
       "quizId": "quiz-subj-cpp-mid",
-      "question": "What is the output of: cout << (10 / 4); in C++?",
+      "question": "What is the output of:\n{\nint x=10/4;\n cout << x; }\nin C++?",
       "options": [
         {
           "id": "a",
@@ -26798,10 +26798,10 @@
       "difficulty": "Easy",
       "imageUrl": null,
       "sourceFile": "Bara C-- Mid.pdf",
-      "sourcePage": 8,
+      "sourcePage": "8",
       "status": "Verified",
       "createdAt": "2026-10-03T17:22:00.002Z",
-      "updatedAt": "2026-10-03T17:22:00.002Z"
+      "updatedAt": "2026-10-23T12:12:59.784Z"
     },
     {
       "id": "CPP-MID-009",
@@ -126628,6 +126628,6 @@
     "totalQuestions": 3786,
     "verifiedQuestions": 3786,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-23T11:56:19.301Z"
+    "lastUpdated": "2026-10-23T12:13:00.110Z"
   }
 }
