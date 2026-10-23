@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-23T18:50:10.760Z",
+  "lastUpdated": "2026-10-23T18:53:47.063Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -107881,14 +107881,14 @@
         }
       ],
       "correctAnswer": "a",
-      "explanation": "جاءت الشريعة الإسلامية رحمة للعالمين ولتحقيق مصالح العباد ودرء المفاسد عنهم في المعاش والمعاد.",
+      "explanation": "",
       "difficulty": "Easy",
       "imageUrl": null,
       "sourceFile": "فاينل ثقافه حموده جديد 2025.pdf",
-      "sourcePage": 1,
+      "sourcePage": "1",
       "status": "Verified",
       "createdAt": "2026-09-28T17:34:45.479Z",
-      "updatedAt": "2026-09-28T17:34:45.479Z"
+      "updatedAt": "2026-10-23T18:53:46.477Z"
     },
     {
       "id": "MS-E-CULTURE-003",
@@ -126668,6 +126668,6 @@
     "totalQuestions": 3787,
     "verifiedQuestions": 3787,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-23T18:50:10.760Z"
+    "lastUpdated": "2026-10-23T18:53:47.063Z"
   }
 }
