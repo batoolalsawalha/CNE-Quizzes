@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-23T12:57:19.507Z",
+  "lastUpdated": "2026-10-23T13:00:01.813Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -27599,34 +27599,34 @@
       "id": "CPP-FIN-001",
       "subjectId": "subj-cpp",
       "quizId": "quiz-subj-cpp-final",
-      "question": "How do you declare a static 1D array of 10 integers in procedural C++?",
+      "question": "ما هو ناتج مقطع الكود التالي؟\nint a = 3;\nwhile (a < 7) {\n    cout << ++a << \"?\";\n    ++a;\n}",
       "options": [
         {
           "id": "a",
-          "text": "int arr[10];"
+          "text": "4?6?"
         },
         {
           "id": "b",
-          "text": "int arr(10);"
+          "text": "4?5?"
         },
         {
           "id": "c",
-          "text": "array<int> arr = 10;"
+          "text": "4.2?5.2?"
         },
         {
           "id": "d",
-          "text": "int arr[] = 10;"
+          "text": "4?5?6?7"
         }
       ],
       "correctAnswer": "a",
-      "explanation": "Standard C-style 1D array declaration: type name[size];",
+      "explanation": "نبدأ بـ a = 3:\n\nالدورة الأولى: 3 < 7 (صحيح):\n\n++a تصبح a = 4 وتطبع 4?.\n\n++a داخل الحلقة تصبح a = 5.\n\nالدورة الثانية: 5 < 7 (صحيح):\n\n++a تصبح a = 6 وتطبع 6?.\n\n++a داخل الحلقة تصبح a = 7.\n\nالدورة الثالثة: 7 < 7 (خطأ)، تتوقف الحلقة.\n\nالناتج النهائي المطبوع: 4?6?",
       "difficulty": "Easy",
       "imageUrl": null,
       "sourceFile": "c-- Final.pdf",
-      "sourcePage": 1,
+      "sourcePage": "1",
       "status": "Verified",
       "createdAt": "2026-10-03T17:22:00.002Z",
-      "updatedAt": "2026-10-03T17:22:00.002Z"
+      "updatedAt": "2026-10-23T13:00:01.409Z"
     },
     {
       "id": "CPP-FIN-002",
@@ -126628,6 +126628,6 @@
     "totalQuestions": 3786,
     "verifiedQuestions": 3786,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-23T12:57:19.507Z"
+    "lastUpdated": "2026-10-23T13:00:01.813Z"
   }
 }
