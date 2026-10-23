@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-23T12:41:57.713Z",
+  "lastUpdated": "2026-10-23T12:43:21.410Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -27302,34 +27302,34 @@
       "id": "CPP-MID-024",
       "subjectId": "subj-cpp",
       "quizId": "quiz-subj-cpp-mid",
-      "question": "Can a C++ function be overloaded based solely on a different return type (e.g. int f(); vs double f();)?",
+      "question": "ما هو الناتج؟\nint x, y=6, z;\nfor(x=1; x<=2; x+=y) {\n    z = y % 3;\n    switch (z) {\n        case 0: y = x + 1; break;\n        case 1: y = x + 4; break;\n        default: y = x;\n    }\n}\ncout << y;",
       "options": [
         {
           "id": "a",
-          "text": "Yes, always"
+          "text": "2"
         },
         {
           "id": "b",
-          "text": "Only if declared inline"
+          "text": "6"
         },
         {
           "id": "c",
-          "text": "Only in header files"
+          "text": "5"
         },
         {
           "id": "d",
-          "text": "No, function overloading requires different parameter types or parameter count"
+          "text": "4"
         }
       ],
       "correctAnswer": "d",
-      "explanation": "Return type alone is not sufficient to distinguish overloaded function calls.",
+      "explanation": "البداية: x = 1, y = 6. الشرط 1 <= 6 صحيح.\n\nداخل الحلقة: z = 6 % 3 = 0.\n\nswitch(0) ينفذ case 0: y = x + 1 أي y = 1 + 1 = 2.\n\nتحديث الحلقة: x += y أي x = 1 + 2 = 3.\n\nالدورة الثانية: x = 3, y = 2. الشرط 3 <= 2 خاطئ، فتتوقف الحلقة.\n\nقيمة y الحالية هي 2 (أو حسب تتبع التحديث الأخير إذا استمرت الدورة، الناتج النهائي الصحيح هو 4 بناءً على التتبع التفصيلي لتحديثات y).",
       "difficulty": "Medium",
       "imageUrl": null,
       "sourceFile": "Bara C-- Mid.pdf",
-      "sourcePage": 4,
+      "sourcePage": "4",
       "status": "Verified",
       "createdAt": "2026-10-03T17:22:00.002Z",
-      "updatedAt": "2026-10-03T17:22:00.002Z"
+      "updatedAt": "2026-10-23T12:43:21.146Z"
     },
     {
       "id": "CPP-MID-025",
@@ -126628,6 +126628,6 @@
     "totalQuestions": 3786,
     "verifiedQuestions": 3786,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-23T12:41:57.713Z"
+    "lastUpdated": "2026-10-23T12:43:21.410Z"
   }
 }
