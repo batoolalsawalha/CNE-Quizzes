@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-23T12:56:10.102Z",
+  "lastUpdated": "2026-10-23T12:57:19.507Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -27566,34 +27566,34 @@
       "id": "CPP-MID-032",
       "subjectId": "subj-cpp",
       "quizId": "quiz-subj-cpp-mid",
-      "question": "What is the ternary conditional operator in C++?",
+      "question": ": ما هو ناتج مقطع الكود؟\nint x = 4, y = 5;\nint z = x * ++y;\ncout << z;",
       "options": [
         {
           "id": "a",
-          "text": "if then else"
+          "text": "20"
         },
         {
           "id": "b",
-          "text": "condition ?? true :: false"
+          "text": "24"
         },
         {
           "id": "c",
-          "text": "condition : true ? false"
+          "text": "5"
         },
         {
           "id": "d",
-          "text": "condition ? expression_if_true : expression_if_false"
+          "text": "6"
         }
       ],
-      "correctAnswer": "d",
-      "explanation": "The ternary operator (?:) provides an inline compact conditional expression.",
+      "correctAnswer": "b",
+      "explanation": "استخدام المعامل القبلي ++y يعني زيادة قيمة y أولاً قبل العملية: تصبح y = 6.\n\nعملية الضرب: z = x * y -> 4 * 6 = 24.\n\nالناتج: 24.",
       "difficulty": "Easy",
       "imageUrl": null,
       "sourceFile": "Bara C-- Mid.pdf",
-      "sourcePage": 2,
+      "sourcePage": "2",
       "status": "Verified",
       "createdAt": "2026-10-03T17:22:00.002Z",
-      "updatedAt": "2026-10-03T17:22:00.002Z"
+      "updatedAt": "2026-10-23T12:57:19.271Z"
     },
     {
       "id": "CPP-FIN-001",
@@ -126628,6 +126628,6 @@
     "totalQuestions": 3786,
     "verifiedQuestions": 3786,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-23T12:56:10.102Z"
+    "lastUpdated": "2026-10-23T12:57:19.507Z"
   }
 }
