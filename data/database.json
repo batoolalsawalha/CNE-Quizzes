@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-10-23T23:19:33.659Z",
+  "lastUpdated": "2026-10-23T23:22:37.266Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -533,11 +533,12 @@
       "name": "تفاضل وتكامل 1 - الامتحان النهائي الشامل (Calculus 1 Final Exam)",
       "description": "Comprehensive Final Examination for Calculus 1 (تفاضل وتكامل 1) with step-by-step academic solutions.",
       "examType": "Final",
-      "timeLimitMinutes": 120,
+      "timeLimitMinutes": "120",
       "isActive": true,
       "createdAt": "2026-09-28T17:34:45.365Z",
       "questionCount": 52,
-      "verifiedCount": 52
+      "verifiedCount": 52,
+      "updatedAt": "2026-10-23T23:22:36.693Z"
     },
     {
       "id": "quiz-subj-calc2-mid",
@@ -126074,6 +126075,6 @@
     "totalQuestions": 3769,
     "verifiedQuestions": 3769,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-10-23T23:19:33.659Z"
+    "lastUpdated": "2026-10-23T23:22:37.266Z"
   }
 }
