@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-02T16:10:10.823Z",
+  "lastUpdated": "2026-11-02T16:10:24.621Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -4105,39 +4105,6 @@
       "imageUrl": null,
       "sourceFile": "Final calcu 2023-2024.pdf",
       "sourcePage": 6,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.977Z",
-      "updatedAt": "2026-10-03T17:21:59.977Z"
-    },
-    {
-      "id": "C1-FIN-047",
-      "subjectId": "subj-calc1",
-      "quizId": "quiz-subj-calc1-final",
-      "question": "Derivative of f(x) = (x² + 1)¹⁰ is:",
-      "options": [
-        {
-          "id": "a",
-          "text": "10 (x² + 1)⁹"
-        },
-        {
-          "id": "b",
-          "text": "20x (x² + 1)¹⁰"
-        },
-        {
-          "id": "c",
-          "text": "20x (x² + 1)⁹"
-        },
-        {
-          "id": "d",
-          "text": "10x (x² + 1)⁹"
-        }
-      ],
-      "correctAnswer": "c",
-      "explanation": "Chain rule yields 20x(x²+1)⁹.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Final calcu 2023-2024.pdf",
-      "sourcePage": 7,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.977Z",
       "updatedAt": "2026-10-03T17:21:59.977Z"
@@ -125844,9 +125811,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3762,
-    "verifiedQuestions": 3762,
+    "totalQuestions": 3761,
+    "verifiedQuestions": 3761,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-02T16:10:10.823Z"
+    "lastUpdated": "2026-11-02T16:10:24.621Z"
   }
 }
