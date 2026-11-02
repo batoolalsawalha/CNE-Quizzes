@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-02T16:15:52.531Z",
+  "lastUpdated": "2026-11-02T16:16:08.731Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -3049,72 +3049,6 @@
       "imageUrl": null,
       "sourceFile": "Final calcu 2023-2024.pdf",
       "sourcePage": 3,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.976Z",
-      "updatedAt": "2026-10-03T17:21:59.976Z"
-    },
-    {
-      "id": "C1-FIN-014",
-      "subjectId": "subj-calc1",
-      "quizId": "quiz-subj-calc1-final",
-      "question": "If f(3) = -2, f'(3) = 4, and g(x) = (2x + 1) / f(x), then g'(3) =",
-      "options": [
-        {
-          "id": "a",
-          "text": "8"
-        },
-        {
-          "id": "b",
-          "text": "-8"
-        },
-        {
-          "id": "c",
-          "text": "4"
-        },
-        {
-          "id": "d",
-          "text": "-4"
-        }
-      ],
-      "correctAnswer": "b",
-      "explanation": "[2(-2) - 7(4)]/4 = -32/4 = -8.",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Final calcu 2023-2024.pdf",
-      "sourcePage": 4,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.976Z",
-      "updatedAt": "2026-10-03T17:21:59.976Z"
-    },
-    {
-      "id": "C1-FIN-016",
-      "subjectId": "subj-calc1",
-      "quizId": "quiz-subj-calc1-final",
-      "question": "At x = 5, the function f(x) = (x - 5)^(1/3) has:",
-      "options": [
-        {
-          "id": "a",
-          "text": "A horizontal tangent line"
-        },
-        {
-          "id": "b",
-          "text": "A local maximum"
-        },
-        {
-          "id": "c",
-          "text": "A removable discontinuity"
-        },
-        {
-          "id": "d",
-          "text": "A vertical tangent line"
-        }
-      ],
-      "correctAnswer": "d",
-      "explanation": "f'(x) → ∞ as x → 5.",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Final calcu 2023-2024.pdf",
-      "sourcePage": 6,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.976Z",
       "updatedAt": "2026-10-03T17:21:59.976Z"
@@ -124821,9 +124755,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3731,
-    "verifiedQuestions": 3731,
+    "totalQuestions": 3729,
+    "verifiedQuestions": 3729,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-02T16:15:52.531Z"
+    "lastUpdated": "2026-11-02T16:16:08.731Z"
   }
 }
