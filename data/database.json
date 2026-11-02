@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-02T16:11:02.822Z",
+  "lastUpdated": "2026-11-02T16:11:25.727Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -3346,39 +3346,6 @@
       "imageUrl": null,
       "sourceFile": "Final calcu 2023-2024.pdf",
       "sourcePage": 3,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.976Z",
-      "updatedAt": "2026-10-03T17:21:59.976Z"
-    },
-    {
-      "id": "C1-FIN-024",
-      "subjectId": "subj-calc1",
-      "quizId": "quiz-subj-calc1-final",
-      "question": "Evaluate: lim_{x → 3} [ 1 / (x - 3) - 27 / (x³ - 27) ] =",
-      "options": [
-        {
-          "id": "a",
-          "text": "0"
-        },
-        {
-          "id": "b",
-          "text": "1/3"
-        },
-        {
-          "id": "c",
-          "text": "Does not exist"
-        },
-        {
-          "id": "d",
-          "text": "1"
-        }
-      ],
-      "correctAnswer": "d",
-      "explanation": "Common denominator yields 1.",
-      "difficulty": "Hard",
-      "imageUrl": null,
-      "sourceFile": "Final calcu 2023-2024.pdf",
-      "sourcePage": 4,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.976Z",
       "updatedAt": "2026-10-03T17:21:59.976Z"
@@ -125679,9 +125646,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3757,
-    "verifiedQuestions": 3757,
+    "totalQuestions": 3756,
+    "verifiedQuestions": 3756,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-02T16:11:02.822Z"
+    "lastUpdated": "2026-11-02T16:11:25.727Z"
   }
 }
