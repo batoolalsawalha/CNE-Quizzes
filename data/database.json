@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-02T16:13:21.135Z",
+  "lastUpdated": "2026-11-02T16:13:38.928Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -3214,72 +3214,6 @@
       "imageUrl": null,
       "sourceFile": "Final calcu 2023-2024.pdf",
       "sourcePage": 1,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.976Z",
-      "updatedAt": "2026-10-03T17:21:59.976Z"
-    },
-    {
-      "id": "C1-FIN-022",
-      "subjectId": "subj-calc1",
-      "quizId": "quiz-subj-calc1-final",
-      "question": "If f(x) = csc⁻¹(x), then f(3) is:",
-      "options": [
-        {
-          "id": "a",
-          "text": "cos⁻¹(1/3)"
-        },
-        {
-          "id": "b",
-          "text": "sin⁻¹(1/3)"
-        },
-        {
-          "id": "c",
-          "text": "tan⁻¹(3)"
-        },
-        {
-          "id": "d",
-          "text": "3"
-        }
-      ],
-      "correctAnswer": "b",
-      "explanation": "Definition of inverse csc.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Final calcu 2023-2024.pdf",
-      "sourcePage": 2,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.976Z",
-      "updatedAt": "2026-10-03T17:21:59.976Z"
-    },
-    {
-      "id": "C1-FIN-027",
-      "subjectId": "subj-calc1",
-      "quizId": "quiz-subj-calc1-final",
-      "question": "Evaluate: ∫ (1 / x) dx for x > 0 =",
-      "options": [
-        {
-          "id": "a",
-          "text": "-1/x² + C"
-        },
-        {
-          "id": "b",
-          "text": "e^x + C"
-        },
-        {
-          "id": "c",
-          "text": "ln(x) + C"
-        },
-        {
-          "id": "d",
-          "text": "x + C"
-        }
-      ],
-      "correctAnswer": "c",
-      "explanation": "Standard logarithmic antiderivative.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Final calcu 2023-2024.pdf",
-      "sourcePage": 7,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.976Z",
       "updatedAt": "2026-10-03T17:21:59.976Z"
@@ -125349,9 +125283,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3747,
-    "verifiedQuestions": 3747,
+    "totalQuestions": 3745,
+    "verifiedQuestions": 3745,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-02T16:13:21.135Z"
+    "lastUpdated": "2026-11-02T16:13:38.928Z"
   }
 }
