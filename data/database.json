@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-02T16:11:46.830Z",
+  "lastUpdated": "2026-11-02T16:12:00.318Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -3481,39 +3481,6 @@
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.976Z",
       "updatedAt": "2026-10-03T17:21:59.976Z"
-    },
-    {
-      "id": "C1-FIN-033",
-      "subjectId": "subj-calc1",
-      "quizId": "quiz-subj-calc1-final",
-      "question": "Derivative of y = ∫₂^(x³) cos(t) dt is:",
-      "options": [
-        {
-          "id": "a",
-          "text": "3x² cos(x³)"
-        },
-        {
-          "id": "b",
-          "text": "cos(x³)"
-        },
-        {
-          "id": "c",
-          "text": "-sin(x³)"
-        },
-        {
-          "id": "d",
-          "text": "3x² sin(x³)"
-        }
-      ],
-      "correctAnswer": "a",
-      "explanation": "Leibniz rule yields 3x² cos(x³).",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Final calcu 2023-2024.pdf",
-      "sourcePage": 3,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.976Z",
-      "updatedAt": "2026-10-03T17:21:59.977Z"
     },
     {
       "id": "C1-FIN-034",
@@ -125514,9 +125481,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3752,
-    "verifiedQuestions": 3752,
+    "totalQuestions": 3751,
+    "verifiedQuestions": 3751,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-02T16:11:46.830Z"
+    "lastUpdated": "2026-11-02T16:12:00.318Z"
   }
 }
