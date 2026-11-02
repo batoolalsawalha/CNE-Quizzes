@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-02T16:14:19.031Z",
+  "lastUpdated": "2026-11-02T16:14:32.327Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -3219,39 +3219,6 @@
       "updatedAt": "2026-10-03T17:21:59.976Z"
     },
     {
-      "id": "C1-FIN-028",
-      "subjectId": "subj-calc1",
-      "quizId": "quiz-subj-calc1-final",
-      "question": "Evaluate: ∫₀¹ (x³ + 2x) dx =",
-      "options": [
-        {
-          "id": "a",
-          "text": "3/4"
-        },
-        {
-          "id": "b",
-          "text": "2"
-        },
-        {
-          "id": "c",
-          "text": "1"
-        },
-        {
-          "id": "d",
-          "text": "5/4"
-        }
-      ],
-      "correctAnswer": "d",
-      "explanation": "1/4 + 1 = 5/4.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Final calcu 2023-2024.pdf",
-      "sourcePage": 8,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.976Z",
-      "updatedAt": "2026-10-03T17:21:59.976Z"
-    },
-    {
       "id": "C1-FIN-029",
       "subjectId": "subj-calc1",
       "quizId": "quiz-subj-calc1-final",
@@ -3478,39 +3445,6 @@
       "imageUrl": null,
       "sourceFile": "Final calcu 2023-2024.pdf",
       "sourcePage": 7,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.977Z",
-      "updatedAt": "2026-10-03T17:21:59.977Z"
-    },
-    {
-      "id": "C1-FIN-038",
-      "subjectId": "subj-calc1",
-      "quizId": "quiz-subj-calc1-final",
-      "question": "Evaluate: lim_{x → 2} (x³ - 8) / (x - 2) =",
-      "options": [
-        {
-          "id": "a",
-          "text": "8"
-        },
-        {
-          "id": "b",
-          "text": "12"
-        },
-        {
-          "id": "c",
-          "text": "4"
-        },
-        {
-          "id": "d",
-          "text": "6"
-        }
-      ],
-      "correctAnswer": "b",
-      "explanation": "Difference of cubes at x = 2 is 12.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Final calcu 2023-2024.pdf",
-      "sourcePage": 8,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.977Z",
       "updatedAt": "2026-10-03T17:21:59.977Z"
@@ -125217,9 +125151,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3743,
-    "verifiedQuestions": 3743,
+    "totalQuestions": 3741,
+    "verifiedQuestions": 3741,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-02T16:14:19.031Z"
+    "lastUpdated": "2026-11-02T16:14:32.327Z"
   }
 }
