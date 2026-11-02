@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-02T16:32:02.421Z",
+  "lastUpdated": "2026-11-02T16:32:08.418Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -2620,39 +2620,6 @@
       "imageUrl": null,
       "sourceFile": "Mid calc1.pdf",
       "sourcePage": 2,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.976Z",
-      "updatedAt": "2026-10-03T17:21:59.976Z"
-    },
-    {
-      "id": "C1-FIN-003",
-      "subjectId": "subj-calc1",
-      "quizId": "quiz-subj-calc1-final",
-      "question": "Evaluate: ∫ (sec² x + e^(3x)) dx =",
-      "options": [
-        {
-          "id": "a",
-          "text": "sec x tan x + 3e^(3x) + C"
-        },
-        {
-          "id": "b",
-          "text": "tan x + 3e^(3x) + C"
-        },
-        {
-          "id": "c",
-          "text": "tan x + (1/3)e^(3x) + C"
-        },
-        {
-          "id": "d",
-          "text": "sec² x + (1/3)e^(3x) + C"
-        }
-      ],
-      "correctAnswer": "c",
-      "explanation": "Standard antiderivatives.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Final calcu 2023-2024.pdf",
-      "sourcePage": 3,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.976Z",
       "updatedAt": "2026-10-03T17:21:59.976Z"
@@ -124392,9 +124359,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3718,
-    "verifiedQuestions": 3718,
+    "totalQuestions": 3717,
+    "verifiedQuestions": 3717,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-02T16:32:02.421Z"
+    "lastUpdated": "2026-11-02T16:32:08.418Z"
   }
 }
