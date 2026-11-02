@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-02T16:10:37.326Z",
+  "lastUpdated": "2026-11-02T16:10:50.129Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -2361,39 +2361,6 @@
       "updatedAt": "2026-10-03T17:21:59.976Z"
     },
     {
-      "id": "C1-MID-024",
-      "subjectId": "subj-calc1",
-      "quizId": "quiz-subj-calc1-mid",
-      "question": "Horizontal asymptote of f(x) = (2x² + 1) / (x² - 9) is:",
-      "options": [
-        {
-          "id": "a",
-          "text": "y = 0"
-        },
-        {
-          "id": "b",
-          "text": "x = 3"
-        },
-        {
-          "id": "c",
-          "text": "y = -1/9"
-        },
-        {
-          "id": "d",
-          "text": "y = 2"
-        }
-      ],
-      "correctAnswer": "d",
-      "explanation": "lim_{x→±∞} f(x) = 2/1 = 2.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Mid calc1.pdf",
-      "sourcePage": 4,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.976Z",
-      "updatedAt": "2026-10-03T17:21:59.976Z"
-    },
-    {
       "id": "C1-MID-025",
       "subjectId": "subj-calc1",
       "quizId": "quiz-subj-calc1-mid",
@@ -4039,39 +4006,6 @@
       "imageUrl": null,
       "sourceFile": "Final calcu 2023-2024.pdf",
       "sourcePage": 3,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.977Z",
-      "updatedAt": "2026-10-03T17:21:59.977Z"
-    },
-    {
-      "id": "C1-FIN-045",
-      "subjectId": "subj-calc1",
-      "quizId": "quiz-subj-calc1-final",
-      "question": "Evaluate: lim_{x → 0} (sin 2x) / (sin 3x) =",
-      "options": [
-        {
-          "id": "a",
-          "text": "2/3"
-        },
-        {
-          "id": "b",
-          "text": "3/2"
-        },
-        {
-          "id": "c",
-          "text": "1"
-        },
-        {
-          "id": "d",
-          "text": "0"
-        }
-      ],
-      "correctAnswer": "a",
-      "explanation": "Ratio of angles is 2/3.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Final calcu 2023-2024.pdf",
-      "sourcePage": 5,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.977Z",
       "updatedAt": "2026-10-03T17:21:59.977Z"
@@ -125778,9 +125712,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3760,
-    "verifiedQuestions": 3760,
+    "totalQuestions": 3758,
+    "verifiedQuestions": 3758,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-02T16:10:37.326Z"
+    "lastUpdated": "2026-11-02T16:10:50.129Z"
   }
 }
