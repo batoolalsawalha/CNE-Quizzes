@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-02T16:10:24.621Z",
+  "lastUpdated": "2026-11-02T16:10:37.326Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -4072,39 +4072,6 @@
       "imageUrl": null,
       "sourceFile": "Final calcu 2023-2024.pdf",
       "sourcePage": 5,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.977Z",
-      "updatedAt": "2026-10-03T17:21:59.977Z"
-    },
-    {
-      "id": "C1-FIN-046",
-      "subjectId": "subj-calc1",
-      "quizId": "quiz-subj-calc1-final",
-      "question": "Evaluate: ∫₁⁴ (1 / √x) dx =",
-      "options": [
-        {
-          "id": "a",
-          "text": "1"
-        },
-        {
-          "id": "b",
-          "text": "2"
-        },
-        {
-          "id": "c",
-          "text": "4"
-        },
-        {
-          "id": "d",
-          "text": "3"
-        }
-      ],
-      "correctAnswer": "b",
-      "explanation": "[2√x]₁⁴ = 4 - 2 = 2.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Final calcu 2023-2024.pdf",
-      "sourcePage": 6,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.977Z",
       "updatedAt": "2026-10-03T17:21:59.977Z"
@@ -125811,9 +125778,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3761,
-    "verifiedQuestions": 3761,
+    "totalQuestions": 3760,
+    "verifiedQuestions": 3760,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-02T16:10:24.621Z"
+    "lastUpdated": "2026-11-02T16:10:37.326Z"
   }
 }
