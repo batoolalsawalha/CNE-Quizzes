@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-02T16:11:25.727Z",
+  "lastUpdated": "2026-11-02T16:11:46.830Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -3153,39 +3153,6 @@
       "updatedAt": "2026-10-03T17:21:59.976Z"
     },
     {
-      "id": "C1-FIN-018",
-      "subjectId": "subj-calc1",
-      "quizId": "quiz-subj-calc1-final",
-      "question": "Evaluate: ∫ (1 + sin²θ csc θ) dθ =",
-      "options": [
-        {
-          "id": "a",
-          "text": "θ + cos θ + C"
-        },
-        {
-          "id": "b",
-          "text": "θ - cos θ + C"
-        },
-        {
-          "id": "c",
-          "text": "sin θ + C"
-        },
-        {
-          "id": "d",
-          "text": "θ + sin θ + C"
-        }
-      ],
-      "correctAnswer": "b",
-      "explanation": "Integrates to θ - cos θ + C.",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Final calcu 2023-2024.pdf",
-      "sourcePage": 8,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.976Z",
-      "updatedAt": "2026-10-03T17:21:59.976Z"
-    },
-    {
       "id": "C1-FIN-019",
       "subjectId": "subj-calc1",
       "quizId": "quiz-subj-calc1-final",
@@ -3351,72 +3318,6 @@
       "updatedAt": "2026-10-03T17:21:59.976Z"
     },
     {
-      "id": "C1-FIN-025",
-      "subjectId": "subj-calc1",
-      "quizId": "quiz-subj-calc1-final",
-      "question": "If y = 0 and x = 2 are asymptotes of [ax³ - x(3x+1)] / [x³ - b], then a + b =",
-      "options": [
-        {
-          "id": "a",
-          "text": "8"
-        },
-        {
-          "id": "b",
-          "text": "6"
-        },
-        {
-          "id": "c",
-          "text": "2"
-        },
-        {
-          "id": "d",
-          "text": "0"
-        }
-      ],
-      "correctAnswer": "a",
-      "explanation": "a = 0 and b = 8 => a + b = 8.",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Final calcu 2023-2024.pdf",
-      "sourcePage": 5,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.976Z",
-      "updatedAt": "2026-10-03T17:21:59.976Z"
-    },
-    {
-      "id": "C1-FIN-026",
-      "subjectId": "subj-calc1",
-      "quizId": "quiz-subj-calc1-final",
-      "question": "Parity of f(x) = x³ ln|x| is:",
-      "options": [
-        {
-          "id": "a",
-          "text": "Even function"
-        },
-        {
-          "id": "b",
-          "text": "Odd function"
-        },
-        {
-          "id": "c",
-          "text": "Neither"
-        },
-        {
-          "id": "d",
-          "text": "Constant"
-        }
-      ],
-      "correctAnswer": "b",
-      "explanation": "f(-x) = -f(x).",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Final calcu 2023-2024.pdf",
-      "sourcePage": 6,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.976Z",
-      "updatedAt": "2026-10-03T17:21:59.976Z"
-    },
-    {
       "id": "C1-FIN-027",
       "subjectId": "subj-calc1",
       "quizId": "quiz-subj-calc1-final",
@@ -3577,39 +3478,6 @@
       "imageUrl": null,
       "sourceFile": "Final calcu 2023-2024.pdf",
       "sourcePage": 1,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.976Z",
-      "updatedAt": "2026-10-03T17:21:59.976Z"
-    },
-    {
-      "id": "C1-FIN-032",
-      "subjectId": "subj-calc1",
-      "quizId": "quiz-subj-calc1-final",
-      "question": "If f''(x) = 6x, f'(0) = 2, f(0) = 5, find f(x):",
-      "options": [
-        {
-          "id": "a",
-          "text": "3x² + 2x + 5"
-        },
-        {
-          "id": "b",
-          "text": "x³ + 5"
-        },
-        {
-          "id": "c",
-          "text": "6x³ + 2x + 5"
-        },
-        {
-          "id": "d",
-          "text": "x³ + 2x + 5"
-        }
-      ],
-      "correctAnswer": "d",
-      "explanation": "Integrating twice gives x³ + 2x + 5.",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Final calcu 2023-2024.pdf",
-      "sourcePage": 2,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.976Z",
       "updatedAt": "2026-10-03T17:21:59.976Z"
@@ -125646,9 +125514,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3756,
-    "verifiedQuestions": 3756,
+    "totalQuestions": 3752,
+    "verifiedQuestions": 3752,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-02T16:11:25.727Z"
+    "lastUpdated": "2026-11-02T16:11:46.830Z"
   }
 }
