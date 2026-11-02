@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-02T16:31:50.027Z",
+  "lastUpdated": "2026-11-02T16:31:55.923Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -2719,39 +2719,6 @@
       "imageUrl": null,
       "sourceFile": "Final calcu 2023-2024.pdf",
       "sourcePage": 4,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.976Z",
-      "updatedAt": "2026-10-03T17:21:59.976Z"
-    },
-    {
-      "id": "C1-FIN-005",
-      "subjectId": "subj-calc1",
-      "quizId": "quiz-subj-calc1-final",
-      "question": "If F(x) = ∫₁^x √(t³ + 1) dt, find F'(x) using FTC Part 1:",
-      "options": [
-        {
-          "id": "a",
-          "text": "√(x³ + 1)"
-        },
-        {
-          "id": "b",
-          "text": "3x² / (2√(x³ + 1))"
-        },
-        {
-          "id": "c",
-          "text": "√(x³ + 1) - √2"
-        },
-        {
-          "id": "d",
-          "text": "x³ + 1"
-        }
-      ],
-      "correctAnswer": "a",
-      "explanation": "FTC 1: d/dx ∫ₐ^x f(t) dt = f(x).",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Final calcu 2023-2024.pdf",
-      "sourcePage": 5,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.976Z",
       "updatedAt": "2026-10-03T17:21:59.976Z"
@@ -124458,9 +124425,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3720,
-    "verifiedQuestions": 3720,
+    "totalQuestions": 3719,
+    "verifiedQuestions": 3719,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-02T16:31:50.027Z"
+    "lastUpdated": "2026-11-02T16:31:55.923Z"
   }
 }
