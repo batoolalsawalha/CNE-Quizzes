@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-02T16:31:39.523Z",
+  "lastUpdated": "2026-11-02T16:31:50.027Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -2620,39 +2620,6 @@
       "imageUrl": null,
       "sourceFile": "Mid calc1.pdf",
       "sourcePage": 2,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.976Z",
-      "updatedAt": "2026-10-03T17:21:59.976Z"
-    },
-    {
-      "id": "C1-FIN-001",
-      "subjectId": "subj-calc1",
-      "quizId": "quiz-subj-calc1-final",
-      "question": "Evaluate: ∫ (6x² - 4x + 3) dx =",
-      "options": [
-        {
-          "id": "a",
-          "text": "2x³ - 2x² + 3x + C"
-        },
-        {
-          "id": "b",
-          "text": "6x³ - 4x² + 3x + C"
-        },
-        {
-          "id": "c",
-          "text": "12x - 4 + C"
-        },
-        {
-          "id": "d",
-          "text": "2x³ - 4x² + C"
-        }
-      ],
-      "correctAnswer": "a",
-      "explanation": "Power rule term by term.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Final calcu 2023-2024.pdf",
-      "sourcePage": 1,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.976Z",
       "updatedAt": "2026-10-03T17:21:59.976Z"
@@ -124491,9 +124458,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3721,
-    "verifiedQuestions": 3721,
+    "totalQuestions": 3720,
+    "verifiedQuestions": 3720,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-02T16:31:39.523Z"
+    "lastUpdated": "2026-11-02T16:31:50.027Z"
   }
 }
