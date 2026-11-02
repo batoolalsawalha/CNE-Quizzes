@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-02T16:12:28.032Z",
+  "lastUpdated": "2026-11-02T16:12:53.227Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -3709,39 +3709,6 @@
       "imageUrl": null,
       "sourceFile": "Final calcu 2023-2024.pdf",
       "sourcePage": 1,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.977Z",
-      "updatedAt": "2026-10-03T17:21:59.977Z"
-    },
-    {
-      "id": "C1-FIN-042",
-      "subjectId": "subj-calc1",
-      "quizId": "quiz-subj-calc1-final",
-      "question": "If f is an odd function, what is ∫₋₃³ f(x) dx?",
-      "options": [
-        {
-          "id": "a",
-          "text": "2 ∫₀³ f(x) dx"
-        },
-        {
-          "id": "b",
-          "text": "0"
-        },
-        {
-          "id": "c",
-          "text": "6"
-        },
-        {
-          "id": "d",
-          "text": "Undefined"
-        }
-      ],
-      "correctAnswer": "b",
-      "explanation": "Odd integral on symmetric interval is 0.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Final calcu 2023-2024.pdf",
-      "sourcePage": 2,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.977Z",
       "updatedAt": "2026-10-03T17:21:59.977Z"
@@ -125448,9 +125415,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3750,
-    "verifiedQuestions": 3750,
+    "totalQuestions": 3749,
+    "verifiedQuestions": 3749,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-02T16:12:28.032Z"
+    "lastUpdated": "2026-11-02T16:12:53.227Z"
   }
 }
