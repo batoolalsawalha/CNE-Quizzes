@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-02T16:09:59.921Z",
+  "lastUpdated": "2026-11-02T16:10:10.823Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -4138,39 +4138,6 @@
       "imageUrl": null,
       "sourceFile": "Final calcu 2023-2024.pdf",
       "sourcePage": 7,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.977Z",
-      "updatedAt": "2026-10-03T17:21:59.977Z"
-    },
-    {
-      "id": "C1-FIN-048",
-      "subjectId": "subj-calc1",
-      "quizId": "quiz-subj-calc1-final",
-      "question": "Evaluate: lim_{x → 1} (x⁴ - 1) / (x - 1) =",
-      "options": [
-        {
-          "id": "a",
-          "text": "1"
-        },
-        {
-          "id": "b",
-          "text": "0"
-        },
-        {
-          "id": "c",
-          "text": "3"
-        },
-        {
-          "id": "d",
-          "text": "4"
-        }
-      ],
-      "correctAnswer": "d",
-      "explanation": "Derivative of x⁴ at 1 is 4.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Final calcu 2023-2024.pdf",
-      "sourcePage": 8,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.977Z",
       "updatedAt": "2026-10-03T17:21:59.977Z"
@@ -125877,9 +125844,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3763,
-    "verifiedQuestions": 3763,
+    "totalQuestions": 3762,
+    "verifiedQuestions": 3762,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-02T16:09:59.921Z"
+    "lastUpdated": "2026-11-02T16:10:10.823Z"
   }
 }
