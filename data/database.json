@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-02T16:31:15.626Z",
+  "lastUpdated": "2026-11-02T16:31:24.422Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -2851,39 +2851,6 @@
       "imageUrl": null,
       "sourceFile": "Final calcu 2023-2024.pdf",
       "sourcePage": 7,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.976Z",
-      "updatedAt": "2026-10-03T17:21:59.976Z"
-    },
-    {
-      "id": "C1-FIN-008",
-      "subjectId": "subj-calc1",
-      "quizId": "quiz-subj-calc1-final",
-      "question": "Given ∫ₐᵇ f(x) sin²x dx = 5 and ∫ₐᵇ f(x) cos²x dx = 7, then ∫ₐᵇ f(x) dx =",
-      "options": [
-        {
-          "id": "a",
-          "text": "2"
-        },
-        {
-          "id": "b",
-          "text": "35"
-        },
-        {
-          "id": "c",
-          "text": "-2"
-        },
-        {
-          "id": "d",
-          "text": "12"
-        }
-      ],
-      "correctAnswer": "d",
-      "explanation": "5 + 7 = 12.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Final calcu 2023-2024.pdf",
-      "sourcePage": 8,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.976Z",
       "updatedAt": "2026-10-03T17:21:59.976Z"
@@ -124590,9 +124557,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3724,
-    "verifiedQuestions": 3724,
+    "totalQuestions": 3723,
+    "verifiedQuestions": 3723,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-02T16:31:15.626Z"
+    "lastUpdated": "2026-11-02T16:31:24.422Z"
   }
 }
