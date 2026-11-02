@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-02T16:31:32.023Z",
+  "lastUpdated": "2026-11-02T16:31:39.523Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -2785,39 +2785,6 @@
       "imageUrl": null,
       "sourceFile": "Final calcu 2023-2024.pdf",
       "sourcePage": 5,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.976Z",
-      "updatedAt": "2026-10-03T17:21:59.976Z"
-    },
-    {
-      "id": "C1-FIN-007",
-      "subjectId": "subj-calc1",
-      "quizId": "quiz-subj-calc1-final",
-      "question": "Given ∫₁⁵ f(x) dx = 10 and ∫₁³ f(x) dx = 4, evaluate ∫₃⁵ f(x) dx:",
-      "options": [
-        {
-          "id": "a",
-          "text": "14"
-        },
-        {
-          "id": "b",
-          "text": "-6"
-        },
-        {
-          "id": "c",
-          "text": "6"
-        },
-        {
-          "id": "d",
-          "text": "40"
-        }
-      ],
-      "correctAnswer": "c",
-      "explanation": "10 - 4 = 6.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Final calcu 2023-2024.pdf",
-      "sourcePage": 7,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.976Z",
       "updatedAt": "2026-10-03T17:21:59.976Z"
@@ -124524,9 +124491,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3722,
-    "verifiedQuestions": 3722,
+    "totalQuestions": 3721,
+    "verifiedQuestions": 3721,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-02T16:31:32.023Z"
+    "lastUpdated": "2026-11-02T16:31:39.523Z"
   }
 }
