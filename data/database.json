@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-02T16:31:24.422Z",
+  "lastUpdated": "2026-11-02T16:31:32.023Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -2785,39 +2785,6 @@
       "imageUrl": null,
       "sourceFile": "Final calcu 2023-2024.pdf",
       "sourcePage": 5,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.976Z",
-      "updatedAt": "2026-10-03T17:21:59.976Z"
-    },
-    {
-      "id": "C1-FIN-006",
-      "subjectId": "subj-calc1",
-      "quizId": "quiz-subj-calc1-final",
-      "question": "If G(x) = ∫₀^(x²) sin(t) dt, find G'(x) using Leibniz Rule:",
-      "options": [
-        {
-          "id": "a",
-          "text": "sin(x²)"
-        },
-        {
-          "id": "b",
-          "text": "2x sin(x²)"
-        },
-        {
-          "id": "c",
-          "text": "cos(x²)"
-        },
-        {
-          "id": "d",
-          "text": "2x cos(x²)"
-        }
-      ],
-      "correctAnswer": "b",
-      "explanation": "sin(x²) * d/dx(x²) = 2x sin(x²).",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Final calcu 2023-2024.pdf",
-      "sourcePage": 6,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.976Z",
       "updatedAt": "2026-10-03T17:21:59.976Z"
@@ -124557,9 +124524,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3723,
-    "verifiedQuestions": 3723,
+    "totalQuestions": 3722,
+    "verifiedQuestions": 3722,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-02T16:31:24.422Z"
+    "lastUpdated": "2026-11-02T16:31:32.023Z"
   }
 }
