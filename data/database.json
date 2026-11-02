@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-02T16:16:08.731Z",
+  "lastUpdated": "2026-11-02T16:16:16.621Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -3016,39 +3016,6 @@
       "imageUrl": null,
       "sourceFile": "Final calcu 2023-2024.pdf",
       "sourcePage": 2,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.976Z",
-      "updatedAt": "2026-10-03T17:21:59.976Z"
-    },
-    {
-      "id": "C1-FIN-013",
-      "subjectId": "subj-calc1",
-      "quizId": "quiz-subj-calc1-final",
-      "question": "Slope of tangent to f(x) = sin(x) + 2x at x = π is:",
-      "options": [
-        {
-          "id": "a",
-          "text": "1"
-        },
-        {
-          "id": "b",
-          "text": "2"
-        },
-        {
-          "id": "c",
-          "text": "3"
-        },
-        {
-          "id": "d",
-          "text": "-1"
-        }
-      ],
-      "correctAnswer": "a",
-      "explanation": "cos(π) + 2 = -1 + 2 = 1.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Final calcu 2023-2024.pdf",
-      "sourcePage": 3,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.976Z",
       "updatedAt": "2026-10-03T17:21:59.976Z"
@@ -124755,9 +124722,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3729,
-    "verifiedQuestions": 3729,
+    "totalQuestions": 3728,
+    "verifiedQuestions": 3728,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-02T16:16:08.731Z"
+    "lastUpdated": "2026-11-02T16:16:16.621Z"
   }
 }
