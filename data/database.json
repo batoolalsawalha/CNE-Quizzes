@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-02T16:14:40.623Z",
+  "lastUpdated": "2026-11-02T16:14:48.019Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -3346,39 +3346,6 @@
       "imageUrl": null,
       "sourceFile": "Final calcu 2023-2024.pdf",
       "sourcePage": 4,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.977Z",
-      "updatedAt": "2026-10-03T17:21:59.977Z"
-    },
-    {
-      "id": "C1-FIN-035",
-      "subjectId": "subj-calc1",
-      "quizId": "quiz-subj-calc1-final",
-      "question": "How many horizontal tangents does f(x) = x³ - 6x² + 12x - 8 have?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Two"
-        },
-        {
-          "id": "b",
-          "text": "Three"
-        },
-        {
-          "id": "c",
-          "text": "One (at x = 2)"
-        },
-        {
-          "id": "d",
-          "text": "None"
-        }
-      ],
-      "correctAnswer": "c",
-      "explanation": "f'(x) = 3(x-2)² = 0 has only root 2.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Final calcu 2023-2024.pdf",
-      "sourcePage": 5,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.977Z",
       "updatedAt": "2026-10-03T17:21:59.977Z"
@@ -125118,9 +125085,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3740,
-    "verifiedQuestions": 3740,
+    "totalQuestions": 3739,
+    "verifiedQuestions": 3739,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-02T16:14:40.623Z"
+    "lastUpdated": "2026-11-02T16:14:48.019Z"
   }
 }
