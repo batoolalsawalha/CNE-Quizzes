@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-02T16:10:50.129Z",
+  "lastUpdated": "2026-11-02T16:11:02.822Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -3973,39 +3973,6 @@
       "imageUrl": null,
       "sourceFile": "Final calcu 2023-2024.pdf",
       "sourcePage": 2,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.977Z",
-      "updatedAt": "2026-10-03T17:21:59.977Z"
-    },
-    {
-      "id": "C1-FIN-043",
-      "subjectId": "subj-calc1",
-      "quizId": "quiz-subj-calc1-final",
-      "question": "If f is an even function and ∫₀⁴ f(x) dx = 7, what is ∫₋₄⁴ f(x) dx?",
-      "options": [
-        {
-          "id": "a",
-          "text": "0"
-        },
-        {
-          "id": "b",
-          "text": "7"
-        },
-        {
-          "id": "c",
-          "text": "14"
-        },
-        {
-          "id": "d",
-          "text": "-14"
-        }
-      ],
-      "correctAnswer": "c",
-      "explanation": "Even integral doubles: 2 * 7 = 14.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Final calcu 2023-2024.pdf",
-      "sourcePage": 3,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.977Z",
       "updatedAt": "2026-10-03T17:21:59.977Z"
@@ -125712,9 +125679,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3758,
-    "verifiedQuestions": 3758,
+    "totalQuestions": 3757,
+    "verifiedQuestions": 3757,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-02T16:10:50.129Z"
+    "lastUpdated": "2026-11-02T16:11:02.822Z"
   }
 }
