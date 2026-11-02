@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-02T16:15:09.430Z",
+  "lastUpdated": "2026-11-02T16:15:22.929Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -3247,39 +3247,6 @@
       "imageUrl": null,
       "sourceFile": "Final calcu 2023-2024.pdf",
       "sourcePage": 9,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.976Z",
-      "updatedAt": "2026-10-03T17:21:59.976Z"
-    },
-    {
-      "id": "C1-FIN-030",
-      "subjectId": "subj-calc1",
-      "quizId": "quiz-subj-calc1-final",
-      "question": "Evaluate: ∫ (3 cos x - 2 sin x) dx =",
-      "options": [
-        {
-          "id": "a",
-          "text": "3 sin x - 2 cos x + C"
-        },
-        {
-          "id": "b",
-          "text": "3 sin x + 2 cos x + C"
-        },
-        {
-          "id": "c",
-          "text": "-3 sin x + 2 cos x + C"
-        },
-        {
-          "id": "d",
-          "text": "3 cos x + 2 sin x + C"
-        }
-      ],
-      "correctAnswer": "b",
-      "explanation": "Trig antiderivative.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Final calcu 2023-2024.pdf",
-      "sourcePage": 10,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.976Z",
       "updatedAt": "2026-10-03T17:21:59.976Z"
@@ -124986,9 +124953,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3736,
-    "verifiedQuestions": 3736,
+    "totalQuestions": 3735,
+    "verifiedQuestions": 3735,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-02T16:15:09.430Z"
+    "lastUpdated": "2026-11-02T16:15:22.929Z"
   }
 }
