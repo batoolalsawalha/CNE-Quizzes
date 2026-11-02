@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-02T16:15:29.327Z",
+  "lastUpdated": "2026-11-02T16:15:35.431Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -3181,39 +3181,6 @@
       "imageUrl": null,
       "sourceFile": "Final calcu 2023-2024.pdf",
       "sourcePage": 10,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.976Z",
-      "updatedAt": "2026-10-03T17:21:59.976Z"
-    },
-    {
-      "id": "C1-FIN-021",
-      "subjectId": "subj-calc1",
-      "quizId": "quiz-subj-calc1-final",
-      "question": "Evaluate: lim_{x → ∞} x * sin(1 / x) =",
-      "options": [
-        {
-          "id": "a",
-          "text": "1"
-        },
-        {
-          "id": "b",
-          "text": "0"
-        },
-        {
-          "id": "c",
-          "text": "∞"
-        },
-        {
-          "id": "d",
-          "text": "Does not exist"
-        }
-      ],
-      "correctAnswer": "a",
-      "explanation": "Substitute t = 1/x => limit is 1.",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Final calcu 2023-2024.pdf",
-      "sourcePage": 1,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.976Z",
       "updatedAt": "2026-10-03T17:21:59.976Z"
@@ -124920,9 +124887,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3734,
-    "verifiedQuestions": 3734,
+    "totalQuestions": 3733,
+    "verifiedQuestions": 3733,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-02T16:15:29.327Z"
+    "lastUpdated": "2026-11-02T16:15:35.431Z"
   }
 }
