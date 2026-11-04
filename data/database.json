@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T15:54:18.128Z",
+  "lastUpdated": "2026-11-04T15:54:28.725Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -5194,72 +5194,6 @@
       "imageUrl": null,
       "sourceFile": "Diff Final Exam.pdf",
       "sourcePage": 5,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.980Z",
-      "updatedAt": "2026-10-03T17:21:59.980Z"
-    },
-    {
-      "id": "DIFF-FIN-016",
-      "subjectId": "subj-diff",
-      "quizId": "quiz-subj-diff-final",
-      "question": "The Laplace transform of e^(3t) cos(2t) is:",
-      "options": [
-        {
-          "id": "a",
-          "text": "2 / [(s - 3)² + 4]"
-        },
-        {
-          "id": "b",
-          "text": "(s + 3) / [(s + 3)² + 4]"
-        },
-        {
-          "id": "c",
-          "text": "s / (s² + 4)"
-        },
-        {
-          "id": "d",
-          "text": "(s - 3) / [(s - 3)² + 4]"
-        }
-      ],
-      "correctAnswer": "d",
-      "explanation": "Apply shift s → s - 3 to s/(s² + 4).",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Diff Final Exam.pdf",
-      "sourcePage": 6,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.980Z",
-      "updatedAt": "2026-10-03T17:21:59.980Z"
-    },
-    {
-      "id": "DIFF-FIN-043",
-      "subjectId": "subj-diff",
-      "quizId": "quiz-subj-diff-final",
-      "question": "If indicial roots r₁ - r₂ is an integer, the second Frobenius solution typically involves:",
-      "options": [
-        {
-          "id": "a",
-          "text": "An exponential factor e^(r x)"
-        },
-        {
-          "id": "b",
-          "text": "A fractional power only"
-        },
-        {
-          "id": "c",
-          "text": "A logarithmic term C y₁(x) ln(x)"
-        },
-        {
-          "id": "d",
-          "text": "No series representation"
-        }
-      ],
-      "correctAnswer": "c",
-      "explanation": "Integer differences produce a logarithmic singularity in the second solution.",
-      "difficulty": "Hard",
-      "imageUrl": null,
-      "sourceFile": "Diff Final Exam.pdf",
-      "sourcePage": 3,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.980Z",
       "updatedAt": "2026-10-03T17:21:59.980Z"
@@ -121422,9 +121356,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3628,
-    "verifiedQuestions": 3628,
+    "totalQuestions": 3626,
+    "verifiedQuestions": 3626,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T15:54:18.128Z"
+    "lastUpdated": "2026-11-04T15:54:28.725Z"
   }
 }
