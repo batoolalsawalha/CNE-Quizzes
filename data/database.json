@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T15:55:34.223Z",
+  "lastUpdated": "2026-11-04T15:55:40.430Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -4831,39 +4831,6 @@
       "imageUrl": null,
       "sourceFile": "Diff Final Exam.pdf",
       "sourcePage": 4,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.980Z",
-      "updatedAt": "2026-10-03T17:21:59.980Z"
-    },
-    {
-      "id": "DIFF-FIN-005",
-      "subjectId": "subj-diff",
-      "quizId": "quiz-subj-diff-final",
-      "question": "In Variation of Parameters, u₂' is given by:",
-      "options": [
-        {
-          "id": "a",
-          "text": "y₁ g(x) / W"
-        },
-        {
-          "id": "b",
-          "text": "-y₂ g(x) / W"
-        },
-        {
-          "id": "c",
-          "text": "-y₁ g(x) / W"
-        },
-        {
-          "id": "d",
-          "text": "y₂ g(x) / W"
-        }
-      ],
-      "correctAnswer": "a",
-      "explanation": "Standard formula: u₂' = y₁ g / W.",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Diff Final Exam.pdf",
-      "sourcePage": 5,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.980Z",
       "updatedAt": "2026-10-03T17:21:59.980Z"
@@ -121026,9 +120993,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3616,
-    "verifiedQuestions": 3616,
+    "totalQuestions": 3615,
+    "verifiedQuestions": 3615,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T15:55:34.223Z"
+    "lastUpdated": "2026-11-04T15:55:40.430Z"
   }
 }
