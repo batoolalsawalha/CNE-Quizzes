@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T16:24:52.926Z",
+  "lastUpdated": "2026-11-04T16:25:04.128Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -7141,72 +7141,6 @@
       "imageUrl": null,
       "sourceFile": "Numerical Methods Final.pdf",
       "sourcePage": 10,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.984Z",
-      "updatedAt": "2026-10-03T17:21:59.984Z"
-    },
-    {
-      "id": "NUM-FIN-011",
-      "subjectId": "subj-numerical",
-      "quizId": "quiz-subj-numerical-final",
-      "question": "The backward difference approximation for f'(x₀) is:",
-      "options": [
-        {
-          "id": "a",
-          "text": "[f(x₀ + h) - f(x₀)] / h"
-        },
-        {
-          "id": "b",
-          "text": "[f(x₀ + h) - f(x₀ - h)] / 2h"
-        },
-        {
-          "id": "c",
-          "text": "[f(x₀) - f(x₀ - h)] / h with truncation error O(h)"
-        },
-        {
-          "id": "d",
-          "text": "f'(x₀) - h"
-        }
-      ],
-      "correctAnswer": "c",
-      "explanation": "Backward difference has first order error O(h).",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Numerical Methods Final.pdf",
-      "sourcePage": 1,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.984Z",
-      "updatedAt": "2026-10-03T17:21:59.984Z"
-    },
-    {
-      "id": "NUM-FIN-012",
-      "subjectId": "subj-numerical",
-      "quizId": "quiz-subj-numerical-final",
-      "question": "The central difference approximation for f'(x₀) is:",
-      "options": [
-        {
-          "id": "a",
-          "text": "[f(x₀ + h) - f(x₀)] / h"
-        },
-        {
-          "id": "b",
-          "text": "[f(x₀ + h) + f(x₀ - h)] / h"
-        },
-        {
-          "id": "c",
-          "text": "f'(x₀) / h"
-        },
-        {
-          "id": "d",
-          "text": "[f(x₀ + h) - f(x₀ - h)] / (2h) with truncation error O(h²)"
-        }
-      ],
-      "correctAnswer": "d",
-      "explanation": "Central difference cancels odd terms, giving second order accuracy O(h²).",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Numerical Methods Final.pdf",
-      "sourcePage": 2,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.984Z",
       "updatedAt": "2026-10-03T17:21:59.984Z"
@@ -117825,9 +117759,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3519,
-    "verifiedQuestions": 3519,
+    "totalQuestions": 3517,
+    "verifiedQuestions": 3517,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T16:24:52.926Z"
+    "lastUpdated": "2026-11-04T16:25:04.128Z"
   }
 }
