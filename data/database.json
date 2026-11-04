@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T15:51:51.630Z",
+  "lastUpdated": "2026-11-04T15:51:58.324Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -5260,39 +5260,6 @@
       "imageUrl": null,
       "sourceFile": "Diff Final Exam.pdf",
       "sourcePage": 9,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.980Z",
-      "updatedAt": "2026-10-03T17:21:59.980Z"
-    },
-    {
-      "id": "DIFF-FIN-024",
-      "subjectId": "subj-diff",
-      "quizId": "quiz-subj-diff-final",
-      "question": "The Convolution Theorem states that L{f * g} = L{ ∫₀^t f(τ) g(t - τ) dτ } equals:",
-      "options": [
-        {
-          "id": "a",
-          "text": "F(s) + G(s)"
-        },
-        {
-          "id": "b",
-          "text": "F(s) / G(s)"
-        },
-        {
-          "id": "c",
-          "text": "F'(s) G(s)"
-        },
-        {
-          "id": "d",
-          "text": "F(s) * G(s)"
-        }
-      ],
-      "correctAnswer": "d",
-      "explanation": "Laplace transform of convolution is product of individual transforms.",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Diff Final Exam.pdf",
-      "sourcePage": 4,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.980Z",
       "updatedAt": "2026-10-03T17:21:59.980Z"
@@ -122379,9 +122346,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3657,
-    "verifiedQuestions": 3657,
+    "totalQuestions": 3656,
+    "verifiedQuestions": 3656,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T15:51:51.630Z"
+    "lastUpdated": "2026-11-04T15:51:58.324Z"
   }
 }
