@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T18:11:08.621Z",
+  "lastUpdated": "2026-11-04T18:13:06.520Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -1671,34 +1671,34 @@
       "id": "C1-MID-003",
       "subjectId": "subj-calc1",
       "quizId": "quiz-subj-calc1-mid",
-      "question": "Evaluate: lim_{x → 3⁻} |x - 3| / (x - 3) =",
+      "question": "Find the set of real solutions of the equation:\n\ne^(2x) + 5e^x + 6 = 0",
       "options": [
         {
           "id": "a",
-          "text": "1"
+          "text": "{-2, -3}"
         },
         {
           "id": "b",
-          "text": "0"
+          "text": "{ln(2), ln(3)}"
         },
         {
           "id": "c",
-          "text": "-1"
+          "text": "{ln(-2), ln(-3)}"
         },
         {
           "id": "d",
-          "text": "Does not exist"
+          "text": "Empty set"
         }
       ],
-      "correctAnswer": "c",
-      "explanation": "For x < 3, |x - 3| = -(x - 3), so the quotient is -1.",
-      "difficulty": "Easy",
+      "correctAnswer": "d",
+      "explanation": "1. Let:\n    u = e^x\n2. The equation becomes:\n    u^2 + 5u + 6 = 0\n3. Factorize:\n    (u + 2)(u + 3) = 0\n4. Therefore:\n    u = -2 or u = -3\n5. Since e^x > 0 for every real number x, it cannot equal a negative number.\n6. Therefore, there are no real solutions.",
+      "difficulty": "Medium",
       "imageUrl": null,
       "sourceFile": "Mid calc1.pdf",
-      "sourcePage": 3,
+      "sourcePage": "3",
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.976Z",
-      "updatedAt": "2026-10-03T17:21:59.976Z"
+      "updatedAt": "2026-11-04T18:13:05.788Z"
     },
     {
       "id": "C1-MID-004",
@@ -117432,6 +117432,6 @@
     "totalQuestions": 3507,
     "verifiedQuestions": 3507,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T18:11:08.621Z"
+    "lastUpdated": "2026-11-04T18:13:06.520Z"
   }
 }
