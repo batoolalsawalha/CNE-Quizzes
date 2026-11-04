@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T16:24:41.231Z",
+  "lastUpdated": "2026-11-04T16:24:47.130Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -7240,39 +7240,6 @@
       "imageUrl": null,
       "sourceFile": "Numerical Methods Final.pdf",
       "sourcePage": 3,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.984Z",
-      "updatedAt": "2026-10-03T17:21:59.984Z"
-    },
-    {
-      "id": "NUM-FIN-014",
-      "subjectId": "subj-numerical",
-      "quizId": "quiz-subj-numerical-final",
-      "question": "Richardson extrapolation combines two estimates of order O(h²) to produce an estimate of order:",
-      "options": [
-        {
-          "id": "a",
-          "text": "O(h³)"
-        },
-        {
-          "id": "b",
-          "text": "O(h⁴)"
-        },
-        {
-          "id": "c",
-          "text": "O(h²)"
-        },
-        {
-          "id": "d",
-          "text": "O(h⁶)"
-        }
-      ],
-      "correctAnswer": "b",
-      "explanation": "Cancels the leading h² error term: [4 I(h/2) - I(h)] / 3.",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Numerical Methods Final.pdf",
-      "sourcePage": 4,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.984Z",
       "updatedAt": "2026-10-03T17:21:59.984Z"
@@ -117891,9 +117858,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3521,
-    "verifiedQuestions": 3521,
+    "totalQuestions": 3520,
+    "verifiedQuestions": 3520,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T16:24:41.231Z"
+    "lastUpdated": "2026-11-04T16:24:47.130Z"
   }
 }
