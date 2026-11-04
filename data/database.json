@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T16:25:10.828Z",
+  "lastUpdated": "2026-11-04T16:25:24.418Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -7042,39 +7042,6 @@
       "imageUrl": null,
       "sourceFile": "Numerical Methods Final.pdf",
       "sourcePage": 7,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.984Z",
-      "updatedAt": "2026-10-03T17:21:59.984Z"
-    },
-    {
-      "id": "NUM-FIN-008",
-      "subjectId": "subj-numerical",
-      "quizId": "quiz-subj-numerical-final",
-      "question": "Runge's phenomenon refers to:",
-      "options": [
-        {
-          "id": "a",
-          "text": "Convergence of splines to zero"
-        },
-        {
-          "id": "b",
-          "text": "Round-off error in Simpson's rule"
-        },
-        {
-          "id": "c",
-          "text": "Instability in Euler's method"
-        },
-        {
-          "id": "d",
-          "text": "Wild oscillations near interval endpoints when using high-degree polynomial interpolation with equidistant nodes"
-        }
-      ],
-      "correctAnswer": "d",
-      "explanation": "Classic example f(x) = 1/(1 + 25x²) shows oscillations as n increases.",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Numerical Methods Final.pdf",
-      "sourcePage": 8,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.984Z",
       "updatedAt": "2026-10-03T17:21:59.984Z"
@@ -117726,9 +117693,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3516,
-    "verifiedQuestions": 3516,
+    "totalQuestions": 3515,
+    "verifiedQuestions": 3515,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T16:25:10.828Z"
+    "lastUpdated": "2026-11-04T16:25:24.418Z"
   }
 }
