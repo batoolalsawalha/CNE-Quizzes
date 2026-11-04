@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T18:24:40.828Z",
+  "lastUpdated": "2026-11-04T18:26:23.723Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -1737,34 +1737,34 @@
       "id": "C1-MID-005",
       "subjectId": "subj-calc1",
       "quizId": "quiz-subj-calc1-mid",
-      "question": "Evaluate: lim_{x → 0} (1 - cos x) / x² =",
+      "question": "Find the domain of the function:\n\nf(x) = 2ln(x) - ln(x^2)",
       "options": [
         {
           "id": "a",
-          "text": "1/2"
+          "text": "(0, infinity)"
         },
         {
           "id": "b",
-          "text": "1"
+          "text": "[0, infinity)"
         },
         {
           "id": "c",
-          "text": "0"
+          "text": "[1, infinity)"
         },
         {
           "id": "d",
-          "text": "2"
+          "text": "R"
         }
       ],
       "correctAnswer": "a",
-      "explanation": "Fundamental trigonometric limit: (1 - cos x)/x² → 1/2.",
+      "explanation": "1. The natural logarithm requires its argument to be strictly positive.\n2. For the first logarithm:\n    x > 0\n3. For the second logarithm:\n    x^2 > 0\n    This is true for every x except x = 0.\n4. The intersection of the two conditions is:\n    x > 0\n5. Therefore, the domain is:\n    (0, infinity)",
       "difficulty": "Medium",
       "imageUrl": null,
       "sourceFile": "Mid calc1.pdf",
-      "sourcePage": 5,
+      "sourcePage": "5",
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.976Z",
-      "updatedAt": "2026-10-03T17:21:59.976Z"
+      "updatedAt": "2026-11-04T18:26:23.477Z"
     },
     {
       "id": "C1-MID-006",
@@ -117432,6 +117432,6 @@
     "totalQuestions": 3507,
     "verifiedQuestions": 3507,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T18:24:40.828Z"
+    "lastUpdated": "2026-11-04T18:26:23.723Z"
   }
 }
