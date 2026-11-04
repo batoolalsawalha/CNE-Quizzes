@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T16:03:54.318Z",
+  "lastUpdated": "2026-11-04T16:04:03.032Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -5953,39 +5953,6 @@
       "imageUrl": null,
       "sourceFile": "Final T1.2023-2024.pdf",
       "sourcePage": 6,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.981Z",
-      "updatedAt": "2026-10-03T17:21:59.981Z"
-    },
-    {
-      "id": "LIN-FIN-007",
-      "subjectId": "subj-linear",
-      "quizId": "quiz-subj-linear-final",
-      "question": "The dimension of P_n (polynomials of degree at most n) is:",
-      "options": [
-        {
-          "id": "a",
-          "text": "n"
-        },
-        {
-          "id": "b",
-          "text": "n - 1"
-        },
-        {
-          "id": "c",
-          "text": "n + 1"
-        },
-        {
-          "id": "d",
-          "text": "2n"
-        }
-      ],
-      "correctAnswer": "c",
-      "explanation": "Basis is {1, x, x², ..., x^n}, which has n + 1 elements.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Final T1.2023-2024.pdf",
-      "sourcePage": 7,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.981Z",
       "updatedAt": "2026-10-03T17:21:59.981Z"
@@ -119376,9 +119343,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3566,
-    "verifiedQuestions": 3566,
+    "totalQuestions": 3565,
+    "verifiedQuestions": 3565,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T16:03:54.318Z"
+    "lastUpdated": "2026-11-04T16:04:03.032Z"
   }
 }
