@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T16:03:19.728Z",
+  "lastUpdated": "2026-11-04T16:03:28.351Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -6085,39 +6085,6 @@
       "imageUrl": null,
       "sourceFile": "Final T1.2023-2024.pdf",
       "sourcePage": 10,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.981Z",
-      "updatedAt": "2026-10-03T17:21:59.981Z"
-    },
-    {
-      "id": "LIN-FIN-011",
-      "subjectId": "subj-linear",
-      "quizId": "quiz-subj-linear-final",
-      "question": "Row operations on matrix A preserve:",
-      "options": [
-        {
-          "id": "a",
-          "text": "The column space of A"
-        },
-        {
-          "id": "b",
-          "text": "The determinant of A"
-        },
-        {
-          "id": "c",
-          "text": "The row space and null space of A (but NOT column space)"
-        },
-        {
-          "id": "d",
-          "text": "The individual entries"
-        }
-      ],
-      "correctAnswer": "c",
-      "explanation": "Elementary row operations alter column vectors but preserve row combinations.",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Final T1.2023-2024.pdf",
-      "sourcePage": 1,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.981Z",
       "updatedAt": "2026-10-03T17:21:59.981Z"
@@ -119508,9 +119475,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3570,
-    "verifiedQuestions": 3570,
+    "totalQuestions": 3569,
+    "verifiedQuestions": 3569,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T16:03:19.728Z"
+    "lastUpdated": "2026-11-04T16:03:28.351Z"
   }
 }
