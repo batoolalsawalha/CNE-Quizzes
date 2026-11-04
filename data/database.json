@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T18:08:17.028Z",
+  "lastUpdated": "2026-11-04T18:11:08.621Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -1638,34 +1638,34 @@
       "id": "C1-MID-002",
       "subjectId": "subj-calc1",
       "quizId": "quiz-subj-calc1-mid",
-      "question": "Evaluate the trigonometric limit: lim_{x → 0} [sin(7x) / (3x)] =",
+      "question": "Find the set of real solutions of the equation:\n\nsin(x) = 0",
       "options": [
         {
           "id": "a",
-          "text": "3/7"
+          "text": "{pi/2 + n*pi | n belongs to Z}"
         },
         {
           "id": "b",
-          "text": "7/3"
+          "text": "{n*pi | n belongs to Z}"
         },
         {
           "id": "c",
-          "text": "1"
+          "text": "Empty set"
         },
         {
           "id": "d",
-          "text": "0"
+          "text": "{2npi | n belongs to Z}"
         }
       ],
       "correctAnswer": "b",
-      "explanation": "Standard rule: lim_{x→0} sin(ax)/(bx) = a/b = 7/3.",
+      "explanation": "The sine function equals zero at every integer multiple of pi.\n\nTherefore:\n\nx = n*pi, where n belongs to Z.",
       "difficulty": "Easy",
       "imageUrl": null,
       "sourceFile": "Mid calc1.pdf",
-      "sourcePage": 2,
+      "sourcePage": "2",
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.976Z",
-      "updatedAt": "2026-10-03T17:21:59.976Z"
+      "updatedAt": "2026-11-04T18:11:07.696Z"
     },
     {
       "id": "C1-MID-003",
@@ -117432,6 +117432,6 @@
     "totalQuestions": 3507,
     "verifiedQuestions": 3507,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T18:08:17.028Z"
+    "lastUpdated": "2026-11-04T18:11:08.621Z"
   }
 }
