@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T16:24:35.420Z",
+  "lastUpdated": "2026-11-04T16:24:41.231Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -7273,39 +7273,6 @@
       "imageUrl": null,
       "sourceFile": "Numerical Methods Final.pdf",
       "sourcePage": 4,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.984Z",
-      "updatedAt": "2026-10-03T17:21:59.984Z"
-    },
-    {
-      "id": "NUM-FIN-015",
-      "subjectId": "subj-numerical",
-      "quizId": "quiz-subj-numerical-final",
-      "question": "The Trapezoidal rule approximates ∫ₐᵇ f(x) dx by:",
-      "options": [
-        {
-          "id": "a",
-          "text": "(b - a) * [f(a) - f(b)] / 2"
-        },
-        {
-          "id": "b",
-          "text": "(b - a) * f((a+b)/2)"
-        },
-        {
-          "id": "c",
-          "text": "(b - a) * [f(a) + f(b)] / 2"
-        },
-        {
-          "id": "d",
-          "text": "[f(a) + f(b)] / (b - a)"
-        }
-      ],
-      "correctAnswer": "c",
-      "explanation": "Area of a trapezoid under linear interpolant.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Numerical Methods Final.pdf",
-      "sourcePage": 5,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.984Z",
       "updatedAt": "2026-10-03T17:21:59.984Z"
@@ -117924,9 +117891,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3522,
-    "verifiedQuestions": 3522,
+    "totalQuestions": 3521,
+    "verifiedQuestions": 3521,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T16:24:35.420Z"
+    "lastUpdated": "2026-11-04T16:24:41.231Z"
   }
 }
