@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T16:20:39.427Z",
+  "lastUpdated": "2026-11-04T16:20:48.521Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -7372,72 +7372,6 @@
       "imageUrl": null,
       "sourceFile": "Numerical Methods Final.pdf",
       "sourcePage": 7,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.984Z",
-      "updatedAt": "2026-10-03T17:21:59.984Z"
-    },
-    {
-      "id": "NUM-FIN-050",
-      "subjectId": "subj-numerical",
-      "quizId": "quiz-subj-numerical-final",
-      "question": "If f(x) = 5 is a constant function, what is its first divided difference f[x₀, x₁]?",
-      "options": [
-        {
-          "id": "a",
-          "text": "5"
-        },
-        {
-          "id": "b",
-          "text": "0"
-        },
-        {
-          "id": "c",
-          "text": "1"
-        },
-        {
-          "id": "d",
-          "text": "Undefined"
-        }
-      ],
-      "correctAnswer": "b",
-      "explanation": "(5 - 5)/(x₁ - x₀) = 0.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Numerical Methods Final.pdf",
-      "sourcePage": 10,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.984Z",
-      "updatedAt": "2026-10-03T17:21:59.984Z"
-    },
-    {
-      "id": "NUM-FIN-051",
-      "subjectId": "subj-numerical",
-      "quizId": "quiz-subj-numerical-final",
-      "question": "Adaptive quadrature methods automatically:",
-      "options": [
-        {
-          "id": "a",
-          "text": "Keep h strictly constant everywhere"
-        },
-        {
-          "id": "b",
-          "text": "Avoid computing any integrals"
-        },
-        {
-          "id": "c",
-          "text": "Refine the step size h in regions where the integrand has rapid variations"
-        },
-        {
-          "id": "d",
-          "text": "Double the interval length"
-        }
-      ],
-      "correctAnswer": "c",
-      "explanation": "Divides intervals until local error estimate falls below tolerance.",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Numerical Methods Final.pdf",
-      "sourcePage": 1,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.984Z",
       "updatedAt": "2026-10-03T17:21:59.984Z"
@@ -118089,9 +118023,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3527,
-    "verifiedQuestions": 3527,
+    "totalQuestions": 3525,
+    "verifiedQuestions": 3525,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T16:20:39.427Z"
+    "lastUpdated": "2026-11-04T16:20:48.521Z"
   }
 }
