@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T15:59:49.225Z",
+  "lastUpdated": "2026-11-04T15:59:57.526Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -6313,39 +6313,6 @@
       "correctAnswer": "a",
       "explanation": "Diagonalization requires eigenvector matrix P to be invertible.",
       "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Final T1.2023-2024.pdf",
-      "sourcePage": 7,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.981Z",
-      "updatedAt": "2026-10-03T17:21:59.981Z"
-    },
-    {
-      "id": "LIN-FIN-027",
-      "subjectId": "subj-linear",
-      "quizId": "quiz-subj-linear-final",
-      "question": "For any linear transformation T: V → W, T(0_V) must equal:",
-      "options": [
-        {
-          "id": "a",
-          "text": "1"
-        },
-        {
-          "id": "b",
-          "text": "V"
-        },
-        {
-          "id": "c",
-          "text": "0_W"
-        },
-        {
-          "id": "d",
-          "text": "Undefined"
-        }
-      ],
-      "correctAnswer": "c",
-      "explanation": "T(0) = T(0 + 0) = T(0) + T(0) => T(0) = 0.",
-      "difficulty": "Easy",
       "imageUrl": null,
       "sourceFile": "Final T1.2023-2024.pdf",
       "sourcePage": 7,
@@ -120498,9 +120465,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3600,
-    "verifiedQuestions": 3600,
+    "totalQuestions": 3599,
+    "verifiedQuestions": 3599,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T15:59:49.225Z"
+    "lastUpdated": "2026-11-04T15:59:57.526Z"
   }
 }
