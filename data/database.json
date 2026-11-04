@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T16:02:46.830Z",
+  "lastUpdated": "2026-11-04T16:02:53.428Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -6151,39 +6151,6 @@
       "imageUrl": null,
       "sourceFile": "Final T1.2023-2024.pdf",
       "sourcePage": 2,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.981Z",
-      "updatedAt": "2026-10-03T17:21:59.981Z"
-    },
-    {
-      "id": "LIN-FIN-013",
-      "subjectId": "subj-linear",
-      "quizId": "quiz-subj-linear-final",
-      "question": "The eigenvalues of matrix A are the roots of the characteristic equation:",
-      "options": [
-        {
-          "id": "a",
-          "text": "det(A - λ I) = 0"
-        },
-        {
-          "id": "b",
-          "text": "det(A + λ I) = 1"
-        },
-        {
-          "id": "c",
-          "text": "tr(A - λ I) = 0"
-        },
-        {
-          "id": "d",
-          "text": "A - λ I = 0"
-        }
-      ],
-      "correctAnswer": "a",
-      "explanation": "Non-trivial solutions to (A - λ I)v = 0 require singular A - λ I.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Final T1.2023-2024.pdf",
-      "sourcePage": 3,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.981Z",
       "updatedAt": "2026-10-03T17:21:59.981Z"
@@ -119574,9 +119541,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3572,
-    "verifiedQuestions": 3572,
+    "totalQuestions": 3571,
+    "verifiedQuestions": 3571,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T16:02:46.830Z"
+    "lastUpdated": "2026-11-04T16:02:53.428Z"
   }
 }
