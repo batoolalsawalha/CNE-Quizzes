@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T16:01:51.123Z",
+  "lastUpdated": "2026-11-04T16:02:11.928Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -6286,138 +6286,6 @@
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.981Z",
       "updatedAt": "2026-10-03T17:21:59.981Z"
-    },
-    {
-      "id": "LIN-FIN-046",
-      "subjectId": "subj-linear",
-      "quizId": "quiz-subj-linear-final",
-      "question": "The matrix A = [ [1, 2], [2, 4] ] has rank:",
-      "options": [
-        {
-          "id": "a",
-          "text": "2"
-        },
-        {
-          "id": "b",
-          "text": "1"
-        },
-        {
-          "id": "c",
-          "text": "0"
-        },
-        {
-          "id": "d",
-          "text": "4"
-        }
-      ],
-      "correctAnswer": "b",
-      "explanation": "Row 2 is 2 * Row 1, so there is only 1 independent row.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Final T1.2023-2024.pdf",
-      "sourcePage": 6,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.982Z",
-      "updatedAt": "2026-10-03T17:21:59.982Z"
-    },
-    {
-      "id": "LIN-FIN-049",
-      "subjectId": "subj-linear",
-      "quizId": "quiz-subj-linear-final",
-      "question": "What is the dimension of the subspace spanned by [1, 0, 0] and [2, 0, 0] in R³?",
-      "options": [
-        {
-          "id": "a",
-          "text": "1"
-        },
-        {
-          "id": "b",
-          "text": "2"
-        },
-        {
-          "id": "c",
-          "text": "3"
-        },
-        {
-          "id": "d",
-          "text": "0"
-        }
-      ],
-      "correctAnswer": "a",
-      "explanation": "The second vector is a scalar multiple (2 * v₁), so dimension is 1.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Final T1.2023-2024.pdf",
-      "sourcePage": 9,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.982Z",
-      "updatedAt": "2026-10-03T17:21:59.982Z"
-    },
-    {
-      "id": "LIN-FIN-050",
-      "subjectId": "subj-linear",
-      "quizId": "quiz-subj-linear-final",
-      "question": "The cross product u x v is defined only in:",
-      "options": [
-        {
-          "id": "a",
-          "text": "R²"
-        },
-        {
-          "id": "b",
-          "text": "R³ (and R⁷)"
-        },
-        {
-          "id": "c",
-          "text": "R⁴"
-        },
-        {
-          "id": "d",
-          "text": "Any dimension Rⁿ"
-        }
-      ],
-      "correctAnswer": "b",
-      "explanation": "Standard vector cross product producing an orthogonal vector exists in R³.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Final T1.2023-2024.pdf",
-      "sourcePage": 10,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.982Z",
-      "updatedAt": "2026-10-03T17:21:59.982Z"
-    },
-    {
-      "id": "LIN-FIN-051",
-      "subjectId": "subj-linear",
-      "quizId": "quiz-subj-linear-final",
-      "question": "If u · v = 0 and u x v = 0 for non-zero vectors u and v, then:",
-      "options": [
-        {
-          "id": "a",
-          "text": "u is parallel to v"
-        },
-        {
-          "id": "b",
-          "text": "u is perpendicular to v"
-        },
-        {
-          "id": "c",
-          "text": "Impossible (sin θ = 0 and cos θ = 0 cannot happen simultaneously)"
-        },
-        {
-          "id": "d",
-          "text": "u = v"
-        }
-      ],
-      "correctAnswer": "c",
-      "explanation": "Cannot be simultaneously parallel (cross = 0) and perpendicular (dot = 0).",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Final T1.2023-2024.pdf",
-      "sourcePage": 1,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.982Z",
-      "updatedAt": "2026-10-03T17:21:59.982Z"
     },
     {
       "id": "NUM-MID-001",
@@ -119805,9 +119673,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3579,
-    "verifiedQuestions": 3579,
+    "totalQuestions": 3575,
+    "verifiedQuestions": 3575,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T16:01:51.123Z"
+    "lastUpdated": "2026-11-04T16:02:11.928Z"
   }
 }
