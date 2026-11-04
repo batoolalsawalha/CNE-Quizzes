@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T16:26:10.127Z",
+  "lastUpdated": "2026-11-04T16:27:34.629Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -6811,39 +6811,6 @@
       "imageUrl": null,
       "sourceFile": "Numerical Methods Mid.pdf",
       "sourcePage": 2,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.984Z",
-      "updatedAt": "2026-10-03T17:21:59.984Z"
-    },
-    {
-      "id": "NUM-FIN-001",
-      "subjectId": "subj-numerical",
-      "quizId": "quiz-subj-numerical-final",
-      "question": "Given n + 1 distinct points, there exists a unique polynomial of degree at most:",
-      "options": [
-        {
-          "id": "a",
-          "text": "n that passes through all points"
-        },
-        {
-          "id": "b",
-          "text": "n + 1"
-        },
-        {
-          "id": "c",
-          "text": "n - 1"
-        },
-        {
-          "id": "d",
-          "text": "2n"
-        }
-      ],
-      "correctAnswer": "a",
-      "explanation": "Fundamental theorem of polynomial interpolation.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Numerical Methods Final.pdf",
-      "sourcePage": 1,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.984Z",
       "updatedAt": "2026-10-03T17:21:59.984Z"
@@ -117462,9 +117429,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3508,
-    "verifiedQuestions": 3508,
+    "totalQuestions": 3507,
+    "verifiedQuestions": 3507,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T16:26:10.127Z"
+    "lastUpdated": "2026-11-04T16:27:34.629Z"
   }
 }
