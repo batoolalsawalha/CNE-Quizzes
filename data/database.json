@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T15:55:13.432Z",
+  "lastUpdated": "2026-11-04T15:55:19.924Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -4930,39 +4930,6 @@
       "imageUrl": null,
       "sourceFile": "Diff Final Exam.pdf",
       "sourcePage": 7,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.980Z",
-      "updatedAt": "2026-10-03T17:21:59.980Z"
-    },
-    {
-      "id": "DIFF-FIN-008",
-      "subjectId": "subj-diff",
-      "quizId": "quiz-subj-diff-final",
-      "question": "The general solution of x² y'' - 2x y' + 2y = 0 for x > 0 is:",
-      "options": [
-        {
-          "id": "a",
-          "text": "y = C₁ e^x + C₂ e^(2x)"
-        },
-        {
-          "id": "b",
-          "text": "y = C₁ x + C₂ x ln x"
-        },
-        {
-          "id": "c",
-          "text": "y = C₁ x⁻¹ + C₂ x⁻²"
-        },
-        {
-          "id": "d",
-          "text": "y = C₁ x + C₂ x²"
-        }
-      ],
-      "correctAnswer": "d",
-      "explanation": "Roots are m = 1, 2 => y = C₁ x + C₂ x².",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Diff Final Exam.pdf",
-      "sourcePage": 8,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.980Z",
       "updatedAt": "2026-10-03T17:21:59.980Z"
@@ -121125,9 +121092,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3619,
-    "verifiedQuestions": 3619,
+    "totalQuestions": 3618,
+    "verifiedQuestions": 3618,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T15:55:13.432Z"
+    "lastUpdated": "2026-11-04T15:55:19.924Z"
   }
 }
