@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T16:20:48.521Z",
+  "lastUpdated": "2026-11-04T16:20:58.720Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -7372,39 +7372,6 @@
       "imageUrl": null,
       "sourceFile": "Numerical Methods Final.pdf",
       "sourcePage": 7,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.984Z",
-      "updatedAt": "2026-10-03T17:21:59.984Z"
-    },
-    {
-      "id": "NUM-FIN-052",
-      "subjectId": "subj-numerical",
-      "quizId": "quiz-subj-numerical-final",
-      "question": "The multi-step Adams-Bashforth methods are:",
-      "options": [
-        {
-          "id": "a",
-          "text": "Implicit Runge-Kutta methods"
-        },
-        {
-          "id": "b",
-          "text": "Single-step methods"
-        },
-        {
-          "id": "c",
-          "text": "Root finding algorithms"
-        },
-        {
-          "id": "d",
-          "text": "Explicit linear multi-step methods"
-        }
-      ],
-      "correctAnswer": "d",
-      "explanation": "Adams-Bashforth is explicit; Adams-Moulton is implicit.",
-      "difficulty": "Hard",
-      "imageUrl": null,
-      "sourceFile": "Numerical Methods Final.pdf",
-      "sourcePage": 2,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.984Z",
       "updatedAt": "2026-10-03T17:21:59.984Z"
@@ -118023,9 +117990,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3525,
-    "verifiedQuestions": 3525,
+    "totalQuestions": 3524,
+    "verifiedQuestions": 3524,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T16:20:48.521Z"
+    "lastUpdated": "2026-11-04T16:20:58.720Z"
   }
 }
