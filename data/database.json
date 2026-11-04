@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T18:45:40.821Z",
+  "lastUpdated": "2026-11-04T18:49:21.122Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -1968,34 +1968,34 @@
       "id": "C1-MID-012",
       "subjectId": "subj-calc1",
       "quizId": "quiz-subj-calc1-mid",
-      "question": "Find derivative of f(x) = (2x + 1) / (x - 3):",
+      "question": "Evaluate the limit:\n\nlim(x->-5+) x^2 / (x + 5)",
       "options": [
         {
           "id": "a",
-          "text": "7 / (x - 3)²"
+          "text": "1"
         },
         {
           "id": "b",
-          "text": "1 / (x - 3)²"
+          "text": "0"
         },
         {
           "id": "c",
-          "text": "-5 / (x - 3)²"
+          "text": "+infinity"
         },
         {
           "id": "d",
-          "text": "-7 / (x - 3)²"
+          "text": "-infinity"
         }
       ],
-      "correctAnswer": "d",
-      "explanation": "[2(x-3) - (2x+1)(1)] / (x-3)² = -7 / (x-3)²",
+      "correctAnswer": "c",
+      "explanation": "1. As x approaches -5 from the right, x is slightly greater than -5.\n    Example: x = -4.9\n2. The numerator approaches:\n    x^2 -> 25\n3. The denominator approaches zero from the positive side:\n    x + 5 -> 0+\n4. Therefore:\n    25 / 0+ = +infinity\n\nThe limit is +infinity.",
       "difficulty": "Medium",
       "imageUrl": null,
       "sourceFile": "Mid calc1.pdf",
-      "sourcePage": 2,
+      "sourcePage": "2",
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.976Z",
-      "updatedAt": "2026-10-03T17:21:59.976Z"
+      "updatedAt": "2026-11-04T18:49:20.898Z"
     },
     {
       "id": "C1-MID-013",
@@ -117432,6 +117432,6 @@
     "totalQuestions": 3507,
     "verifiedQuestions": 3507,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T18:45:40.821Z"
+    "lastUpdated": "2026-11-04T18:49:21.122Z"
   }
 }
