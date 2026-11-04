@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T18:26:23.723Z",
+  "lastUpdated": "2026-11-04T18:29:02.822Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -1770,34 +1770,34 @@
       "id": "C1-MID-006",
       "subjectId": "subj-calc1",
       "quizId": "quiz-subj-calc1-mid",
-      "question": "If f(x) = { cx + 1 for x ≤ 2, cx² - 1 for x > 2 }, find c for f to be continuous at x = 2:",
+      "question": "How many vertical asymptotes does the function possess?\n\nf(x) = x / (x - x^3)",
       "options": [
         {
           "id": "a",
-          "text": "c = 2"
+          "text": "1"
         },
         {
           "id": "b",
-          "text": "c = 1"
+          "text": "2"
         },
         {
           "id": "c",
-          "text": "c = -1"
+          "text": "0"
         },
         {
           "id": "d",
-          "text": "c = 0"
+          "text": "3"
         }
       ],
       "correctAnswer": "b",
-      "explanation": "2c + 1 = 4c - 1 => 2c = 2 => c = 1.",
-      "difficulty": "Medium",
+      "explanation": "1. Factorize the denominator:\n    x - x^3 = x(1 - x^2)\n    x - x^3 = x(1 - x)(1 + x)\n2. The denominator equals zero at:\n    x = 0, x = 1, x = -1\n3. Simplify the function:\n    f(x) = x / [x(1 - x^2)]\n    f(x) = 1 / (1 - x^2), where x != 0\n4. At x = 0, the limit is:\n    lim(x->0) 1 / (1 - x^2) = 1\n    Therefore, x = 0 is not a vertical asymptote.\n5. At x = 1 and x = -1, the denominator approaches zero while the numerator remains nonzero.\n6. Therefore, the vertical asymptotes are:\n    x = 1 and x = -1\n    The function has 2 vertical asymptotes.\n\n⸻",
+      "difficulty": "Hard",
       "imageUrl": null,
       "sourceFile": "Mid calc1.pdf",
-      "sourcePage": 6,
+      "sourcePage": "6",
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.976Z",
-      "updatedAt": "2026-10-03T17:21:59.976Z"
+      "updatedAt": "2026-11-04T18:29:02.406Z"
     },
     {
       "id": "C1-MID-007",
@@ -117432,6 +117432,6 @@
     "totalQuestions": 3507,
     "verifiedQuestions": 3507,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T18:26:23.723Z"
+    "lastUpdated": "2026-11-04T18:29:02.822Z"
   }
 }
