@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T16:04:03.032Z",
+  "lastUpdated": "2026-11-04T16:04:16.032Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -5920,39 +5920,6 @@
       "imageUrl": null,
       "sourceFile": "Final T1.2023-2024.pdf",
       "sourcePage": 5,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.981Z",
-      "updatedAt": "2026-10-03T17:21:59.981Z"
-    },
-    {
-      "id": "LIN-FIN-006",
-      "subjectId": "subj-linear",
-      "quizId": "quiz-subj-linear-final",
-      "question": "The dimension of the vector space of 2x2 real matrices M_{2x2}(R) is:",
-      "options": [
-        {
-          "id": "a",
-          "text": "2"
-        },
-        {
-          "id": "b",
-          "text": "4"
-        },
-        {
-          "id": "c",
-          "text": "1"
-        },
-        {
-          "id": "d",
-          "text": "8"
-        }
-      ],
-      "correctAnswer": "b",
-      "explanation": "Four independent matrix elements [ [1,0],[0,0] ], etc.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Final T1.2023-2024.pdf",
-      "sourcePage": 6,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.981Z",
       "updatedAt": "2026-10-03T17:21:59.981Z"
@@ -119343,9 +119310,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3565,
-    "verifiedQuestions": 3565,
+    "totalQuestions": 3564,
+    "verifiedQuestions": 3564,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T16:04:03.032Z"
+    "lastUpdated": "2026-11-04T16:04:16.032Z"
   }
 }
