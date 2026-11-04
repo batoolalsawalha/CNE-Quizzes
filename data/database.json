@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T15:47:27.422Z",
+  "lastUpdated": "2026-11-04T15:47:33.529Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -4204,39 +4204,6 @@
       "imageUrl": null,
       "sourceFile": "Final calcu 2.pdf",
       "sourcePage": 1,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.979Z",
-      "updatedAt": "2026-10-03T17:21:59.979Z"
-    },
-    {
-      "id": "C2-FIN-029",
-      "subjectId": "subj-calc2",
-      "quizId": "quiz-subj-calc2-final",
-      "question": "Using Limit Comparison Test with b_n = 1/n, Σ_{n=1}^∞ (2n + 1) / (n² + 3):",
-      "options": [
-        {
-          "id": "a",
-          "text": "Diverges because lim a_n / b_n = 2 > 0 and Σ 1/n diverges"
-        },
-        {
-          "id": "b",
-          "text": "Converges"
-        },
-        {
-          "id": "c",
-          "text": "Inconclusive"
-        },
-        {
-          "id": "d",
-          "text": "Equals 2"
-        }
-      ],
-      "correctAnswer": "a",
-      "explanation": "Limit is 2 > 0, so both share same divergence.",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Final calcu 2.pdf",
-      "sourcePage": 9,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.979Z",
       "updatedAt": "2026-10-03T17:21:59.979Z"
@@ -123600,9 +123567,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3694,
-    "verifiedQuestions": 3694,
+    "totalQuestions": 3693,
+    "verifiedQuestions": 3693,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T15:47:27.422Z"
+    "lastUpdated": "2026-11-04T15:47:33.529Z"
   }
 }
