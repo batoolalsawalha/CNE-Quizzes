@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T15:59:27.325Z",
+  "lastUpdated": "2026-11-04T15:59:35.521Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -6316,39 +6316,6 @@
       "imageUrl": null,
       "sourceFile": "Final T1.2023-2024.pdf",
       "sourcePage": 7,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.981Z",
-      "updatedAt": "2026-10-03T17:21:59.981Z"
-    },
-    {
-      "id": "LIN-FIN-025",
-      "subjectId": "subj-linear",
-      "quizId": "quiz-subj-linear-final",
-      "question": "In the Gram-Schmidt process, the orthogonal component of v₂ onto u₁ is:",
-      "options": [
-        {
-          "id": "a",
-          "text": "v₂ - [ (v₂ · u₁) / (u₁ · u₁) ] * u₁"
-        },
-        {
-          "id": "b",
-          "text": "v₂ + u₁"
-        },
-        {
-          "id": "c",
-          "text": "[ (v₂ · u₁) / ||u₁|| ]"
-        },
-        {
-          "id": "d",
-          "text": "v₂ - u₁"
-        }
-      ],
-      "correctAnswer": "a",
-      "explanation": "Subtract the projection of v₂ onto u₁.",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Final T1.2023-2024.pdf",
-      "sourcePage": 5,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.981Z",
       "updatedAt": "2026-10-03T17:21:59.981Z"
@@ -120564,9 +120531,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3602,
-    "verifiedQuestions": 3602,
+    "totalQuestions": 3601,
+    "verifiedQuestions": 3601,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T15:59:27.325Z"
+    "lastUpdated": "2026-11-04T15:59:35.521Z"
   }
 }
