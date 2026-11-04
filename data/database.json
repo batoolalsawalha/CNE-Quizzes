@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T15:47:33.529Z",
+  "lastUpdated": "2026-11-04T15:47:50.419Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -4237,105 +4237,6 @@
       "imageUrl": null,
       "sourceFile": "Final calcu 2.pdf",
       "sourcePage": 9,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.979Z",
-      "updatedAt": "2026-10-03T17:21:59.979Z"
-    },
-    {
-      "id": "C2-FIN-040",
-      "subjectId": "subj-calc2",
-      "quizId": "quiz-subj-calc2-final",
-      "question": "Evaluate: lim_{x → 0} (sin x - x) / x³ using series expansion:",
-      "options": [
-        {
-          "id": "a",
-          "text": "1/6"
-        },
-        {
-          "id": "b",
-          "text": "0"
-        },
-        {
-          "id": "c",
-          "text": "-1/3"
-        },
-        {
-          "id": "d",
-          "text": "-1/6"
-        }
-      ],
-      "correctAnswer": "d",
-      "explanation": "sin x = x - x³/6 + ... => (sin x - x)/x³ = -1/6.",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Final calcu 2.pdf",
-      "sourcePage": 10,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.979Z",
-      "updatedAt": "2026-10-03T17:21:59.979Z"
-    },
-    {
-      "id": "C2-FIN-041",
-      "subjectId": "subj-calc2",
-      "quizId": "quiz-subj-calc2-final",
-      "question": "The sum of the telescoping series Σ_{n=1}^∞ 1/[n(n+1)] is:",
-      "options": [
-        {
-          "id": "a",
-          "text": "1"
-        },
-        {
-          "id": "b",
-          "text": "1/2"
-        },
-        {
-          "id": "c",
-          "text": "2"
-        },
-        {
-          "id": "d",
-          "text": "∞"
-        }
-      ],
-      "correctAnswer": "a",
-      "explanation": "1/[n(n+1)] = 1/n - 1/(n+1) => sum = 1.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Final calcu 2.pdf",
-      "sourcePage": 1,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.979Z",
-      "updatedAt": "2026-10-03T17:21:59.979Z"
-    },
-    {
-      "id": "C2-FIN-042",
-      "subjectId": "subj-calc2",
-      "quizId": "quiz-subj-calc2-final",
-      "question": "Evaluate: ∫₀^(π/2) cos³(x) dx =",
-      "options": [
-        {
-          "id": "a",
-          "text": "1/3"
-        },
-        {
-          "id": "b",
-          "text": "2/3"
-        },
-        {
-          "id": "c",
-          "text": "1"
-        },
-        {
-          "id": "d",
-          "text": "π/4"
-        }
-      ],
-      "correctAnswer": "b",
-      "explanation": "∫ (1 - sin² x) cos x dx = [sin x - sin³ x / 3]₀^(π/2) = 1 - 1/3 = 2/3.",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Final calcu 2.pdf",
-      "sourcePage": 2,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.979Z",
       "updatedAt": "2026-10-03T17:21:59.979Z"
@@ -123567,9 +123468,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3693,
-    "verifiedQuestions": 3693,
+    "totalQuestions": 3690,
+    "verifiedQuestions": 3690,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T15:47:33.529Z"
+    "lastUpdated": "2026-11-04T15:47:50.419Z"
   }
 }
