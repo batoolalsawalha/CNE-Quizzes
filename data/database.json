@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T19:14:23.029Z",
+  "lastUpdated": "2026-11-04T19:18:50.327Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -2100,34 +2100,34 @@
       "id": "C1-MID-016",
       "subjectId": "subj-calc1",
       "quizId": "quiz-subj-calc1-mid",
-      "question": "Find dy/dx for x² + y² = 25 by implicit differentiation:",
+      "question": "If\n[f(x)=\\frac{3x+5}{2x+1}]\nthen (f^{-1}(x)=)",
       "options": [
         {
           "id": "a",
-          "text": "x / y"
+          "text": "(\\displaystyle f^{-1}(x)=\\frac{x+5}{2x-1})"
         },
         {
           "id": "b",
-          "text": "-y / x"
+          "text": "(f^{-1}(x)) is not a function"
         },
         {
           "id": "c",
-          "text": "-2x / y"
+          "text": "(\\displaystyle f^{-1}(x)=\\frac{3x+5}{2x-1})"
         },
         {
           "id": "d",
-          "text": "-x / y"
+          "text": "(\\displaystyle f^{-1}(x)=\\frac{5-x}{2x-3})"
         }
       ],
       "correctAnswer": "d",
-      "explanation": "2x + 2y y' = 0 => y' = -x/y.",
+      "explanation": "Let:\n[y=\\frac{3x+5}{2x+1}]\nMultiply both sides:\n[y(2x+1)=3x+5]\n[2xy+y=3x+5]\n[2xy-3x=5-y]\n[x(2y-3)=5-y]\n[x=\\frac{5-y}{2y-3}]\nInterchange (x) and (y):\n[\\boxed{f^{-1}(x)=\\frac{5-x}{2x-3}}]",
       "difficulty": "Medium",
       "imageUrl": null,
       "sourceFile": "Mid calc1.pdf",
-      "sourcePage": 6,
+      "sourcePage": "6",
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.976Z",
-      "updatedAt": "2026-10-03T17:21:59.976Z"
+      "updatedAt": "2026-11-04T19:18:50.019Z"
     },
     {
       "id": "C1-MID-017",
@@ -117432,6 +117432,6 @@
     "totalQuestions": 3507,
     "verifiedQuestions": 3507,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T19:14:23.029Z"
+    "lastUpdated": "2026-11-04T19:18:50.327Z"
   }
 }
