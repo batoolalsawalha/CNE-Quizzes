@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T15:46:14.248Z",
+  "lastUpdated": "2026-11-04T15:46:39.923Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -4237,138 +4237,6 @@
       "imageUrl": null,
       "sourceFile": "Final calcu 2.pdf",
       "sourcePage": 1,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.979Z",
-      "updatedAt": "2026-10-03T17:21:59.979Z"
-    },
-    {
-      "id": "C2-FIN-024",
-      "subjectId": "subj-calc2",
-      "quizId": "quiz-subj-calc2-final",
-      "question": "The first three non-zero terms of the Maclaurin series for e^(-x²) are:",
-      "options": [
-        {
-          "id": "a",
-          "text": "1 + x² + x⁴ / 2"
-        },
-        {
-          "id": "b",
-          "text": "1 - x + x² / 2"
-        },
-        {
-          "id": "c",
-          "text": "x - x³ / 3 + x⁵ / 5"
-        },
-        {
-          "id": "d",
-          "text": "1 - x² + x⁴ / 2"
-        }
-      ],
-      "correctAnswer": "d",
-      "explanation": "Substitute -x² into 1 + u + u²/2: 1 - x² + x⁴/2.",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Final calcu 2.pdf",
-      "sourcePage": 4,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.979Z",
-      "updatedAt": "2026-10-03T17:21:59.979Z"
-    },
-    {
-      "id": "C2-FIN-025",
-      "subjectId": "subj-calc2",
-      "quizId": "quiz-subj-calc2-final",
-      "question": "The series Σ_{n=1}^∞ (1 / 3^n) converges to:",
-      "options": [
-        {
-          "id": "a",
-          "text": "1/2"
-        },
-        {
-          "id": "b",
-          "text": "1/3"
-        },
-        {
-          "id": "c",
-          "text": "1"
-        },
-        {
-          "id": "d",
-          "text": "2/3"
-        }
-      ],
-      "correctAnswer": "a",
-      "explanation": "a = 1/3, r = 1/3 => (1/3)/(1 - 1/3) = 1/2.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Final calcu 2.pdf",
-      "sourcePage": 5,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.979Z",
-      "updatedAt": "2026-10-03T17:21:59.979Z"
-    },
-    {
-      "id": "C2-FIN-026",
-      "subjectId": "subj-calc2",
-      "quizId": "quiz-subj-calc2-final",
-      "question": "The series Σ_{n=1}^∞ [(-1)^n / n²]:",
-      "options": [
-        {
-          "id": "a",
-          "text": "Converges conditionally"
-        },
-        {
-          "id": "b",
-          "text": "Converges absolutely"
-        },
-        {
-          "id": "c",
-          "text": "Diverges"
-        },
-        {
-          "id": "d",
-          "text": "Inconclusive"
-        }
-      ],
-      "correctAnswer": "b",
-      "explanation": "Σ 1/n² is a convergent p-series (p = 2 > 1).",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Final calcu 2.pdf",
-      "sourcePage": 6,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.979Z",
-      "updatedAt": "2026-10-03T17:21:59.979Z"
-    },
-    {
-      "id": "C2-FIN-027",
-      "subjectId": "subj-calc2",
-      "quizId": "quiz-subj-calc2-final",
-      "question": "Find Taylor polynomial of degree 2 for f(x) = √x centered at a = 4:",
-      "options": [
-        {
-          "id": "a",
-          "text": "2 + (1/4)(x - 4) + (1/64)(x - 4)²"
-        },
-        {
-          "id": "b",
-          "text": "2 + (1/2)(x - 4)"
-        },
-        {
-          "id": "c",
-          "text": "2 + (1/4)(x - 4) - (1/64)(x - 4)²"
-        },
-        {
-          "id": "d",
-          "text": "4 + (1/4)(x - 4)"
-        }
-      ],
-      "correctAnswer": "c",
-      "explanation": "f(4) = 2, f'(4) = 1/4, f''(4) = -1/32.",
-      "difficulty": "Hard",
-      "imageUrl": null,
-      "sourceFile": "Final calcu 2.pdf",
-      "sourcePage": 7,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.979Z",
       "updatedAt": "2026-10-03T17:21:59.979Z"
@@ -124095,9 +123963,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3709,
-    "verifiedQuestions": 3709,
+    "totalQuestions": 3705,
+    "verifiedQuestions": 3705,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T15:46:14.248Z"
+    "lastUpdated": "2026-11-04T15:46:39.923Z"
   }
 }
