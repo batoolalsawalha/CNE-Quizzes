@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T16:19:08.321Z",
+  "lastUpdated": "2026-11-04T16:19:15.432Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -7372,39 +7372,6 @@
       "imageUrl": null,
       "sourceFile": "Numerical Methods Final.pdf",
       "sourcePage": 7,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.984Z",
-      "updatedAt": "2026-10-03T17:21:59.984Z"
-    },
-    {
-      "id": "NUM-FIN-029",
-      "subjectId": "subj-numerical",
-      "quizId": "quiz-subj-numerical-final",
-      "question": "The classical Runge-Kutta 4th Order method (RK4) evaluates the slope at how many points per step?",
-      "options": [
-        {
-          "id": "a",
-          "text": "4 points (k₁, k₂, k₃, k₄)"
-        },
-        {
-          "id": "b",
-          "text": "2 points"
-        },
-        {
-          "id": "c",
-          "text": "1 point"
-        },
-        {
-          "id": "d",
-          "text": "6 points"
-        }
-      ],
-      "correctAnswer": "a",
-      "explanation": "Four stage evaluations combined with weights (1/6)[k₁ + 2k₂ + 2k₃ + k₄].",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Numerical Methods Final.pdf",
-      "sourcePage": 9,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.984Z",
       "updatedAt": "2026-10-03T17:21:59.984Z"
@@ -118749,9 +118716,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3547,
-    "verifiedQuestions": 3547,
+    "totalQuestions": 3546,
+    "verifiedQuestions": 3546,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T16:19:08.321Z"
+    "lastUpdated": "2026-11-04T16:19:15.432Z"
   }
 }
