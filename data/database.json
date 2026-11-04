@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T15:45:59.632Z",
+  "lastUpdated": "2026-11-04T15:46:14.248Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -4143,39 +4143,6 @@
       "updatedAt": "2026-10-03T17:21:59.979Z"
     },
     {
-      "id": "C2-FIN-015",
-      "subjectId": "subj-calc2",
-      "quizId": "quiz-subj-calc2-final",
-      "question": "By the Alternating Series Test, Σ_{n=1}^∞ (-1)^n b_n converges if:",
-      "options": [
-        {
-          "id": "a",
-          "text": "b_n is increasing"
-        },
-        {
-          "id": "b",
-          "text": "lim b_n = 1"
-        },
-        {
-          "id": "c",
-          "text": "b_{n+1} ≤ b_n and lim_{n→∞} b_n = 0"
-        },
-        {
-          "id": "d",
-          "text": "b_n is negative"
-        }
-      ],
-      "correctAnswer": "c",
-      "explanation": "Leibniz criterion for alternating series.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Final calcu 2.pdf",
-      "sourcePage": 5,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.979Z",
-      "updatedAt": "2026-10-03T17:21:59.979Z"
-    },
-    {
       "id": "C2-FIN-016",
       "subjectId": "subj-calc2",
       "quizId": "quiz-subj-calc2-final",
@@ -4270,72 +4237,6 @@
       "imageUrl": null,
       "sourceFile": "Final calcu 2.pdf",
       "sourcePage": 1,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.979Z",
-      "updatedAt": "2026-10-03T17:21:59.979Z"
-    },
-    {
-      "id": "C2-FIN-022",
-      "subjectId": "subj-calc2",
-      "quizId": "quiz-subj-calc2-final",
-      "question": "Using the Integral Test on Σ_{n=1}^∞ (1 / [n² + 1]):",
-      "options": [
-        {
-          "id": "a",
-          "text": "Diverges"
-        },
-        {
-          "id": "b",
-          "text": "Converges because ∫₁^∞ dx/(x² + 1) = π/4 < ∞"
-        },
-        {
-          "id": "c",
-          "text": "Inconclusive"
-        },
-        {
-          "id": "d",
-          "text": "Equal to 1"
-        }
-      ],
-      "correctAnswer": "b",
-      "explanation": "Antiderivative is arctan(x), finite limit π/2 - π/4 = π/4.",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Final calcu 2.pdf",
-      "sourcePage": 2,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.979Z",
-      "updatedAt": "2026-10-03T17:21:59.979Z"
-    },
-    {
-      "id": "C2-FIN-023",
-      "subjectId": "subj-calc2",
-      "quizId": "quiz-subj-calc2-final",
-      "question": "The sum of the series Σ_{n=0}^∞ (-1)^n (π^(2n)) / [(2n)! * 4^(2n)] is:",
-      "options": [
-        {
-          "id": "a",
-          "text": "sin(π/4)"
-        },
-        {
-          "id": "b",
-          "text": "1"
-        },
-        {
-          "id": "c",
-          "text": "cos(π/4) = √2 / 2"
-        },
-        {
-          "id": "d",
-          "text": "0"
-        }
-      ],
-      "correctAnswer": "c",
-      "explanation": "Maclaurin series for cos(x) at x = π/4.",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Final calcu 2.pdf",
-      "sourcePage": 3,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.979Z",
       "updatedAt": "2026-10-03T17:21:59.979Z"
@@ -124194,9 +124095,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3712,
-    "verifiedQuestions": 3712,
+    "totalQuestions": 3709,
+    "verifiedQuestions": 3709,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T15:45:59.632Z"
+    "lastUpdated": "2026-11-04T15:46:14.248Z"
   }
 }
