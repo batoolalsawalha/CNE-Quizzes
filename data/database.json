@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T16:26:02.929Z",
+  "lastUpdated": "2026-11-04T16:26:10.127Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -6844,39 +6844,6 @@
       "imageUrl": null,
       "sourceFile": "Numerical Methods Final.pdf",
       "sourcePage": 1,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.984Z",
-      "updatedAt": "2026-10-03T17:21:59.984Z"
-    },
-    {
-      "id": "NUM-FIN-002",
-      "subjectId": "subj-numerical",
-      "quizId": "quiz-subj-numerical-final",
-      "question": "The Lagrange interpolating polynomial formula is P_n(x) =",
-      "options": [
-        {
-          "id": "a",
-          "text": "Σ_{i=0}^n y_i (x - x_i)"
-        },
-        {
-          "id": "b",
-          "text": "Σ_{i=0}^n y_i L_i(x)"
-        },
-        {
-          "id": "c",
-          "text": "Π_{i=0}^n (x - x_i)"
-        },
-        {
-          "id": "d",
-          "text": "Σ x_i / y_i"
-        }
-      ],
-      "correctAnswer": "b",
-      "explanation": "Linear combination of Lagrange basis polynomials L_i(x).",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Numerical Methods Final.pdf",
-      "sourcePage": 2,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.984Z",
       "updatedAt": "2026-10-03T17:21:59.984Z"
@@ -117495,9 +117462,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3509,
-    "verifiedQuestions": 3509,
+    "totalQuestions": 3508,
+    "verifiedQuestions": 3508,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T16:26:02.929Z"
+    "lastUpdated": "2026-11-04T16:26:10.127Z"
   }
 }
