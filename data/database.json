@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T16:02:11.928Z",
+  "lastUpdated": "2026-11-04T16:02:21.444Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -6250,39 +6250,6 @@
       "imageUrl": null,
       "sourceFile": "Final T1.2023-2024.pdf",
       "sourcePage": 5,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.981Z",
-      "updatedAt": "2026-10-03T17:21:59.981Z"
-    },
-    {
-      "id": "LIN-FIN-016",
-      "subjectId": "subj-linear",
-      "quizId": "quiz-subj-linear-final",
-      "question": "The product of the eigenvalues of an n x n matrix A equals:",
-      "options": [
-        {
-          "id": "a",
-          "text": "tr(A)"
-        },
-        {
-          "id": "b",
-          "text": "1"
-        },
-        {
-          "id": "c",
-          "text": "Rank(A)"
-        },
-        {
-          "id": "d",
-          "text": "det(A)"
-        }
-      ],
-      "correctAnswer": "d",
-      "explanation": "det(A) = Π λ_i.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Final T1.2023-2024.pdf",
-      "sourcePage": 6,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.981Z",
       "updatedAt": "2026-10-03T17:21:59.981Z"
@@ -119673,9 +119640,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3575,
-    "verifiedQuestions": 3575,
+    "totalQuestions": 3574,
+    "verifiedQuestions": 3574,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T16:02:11.928Z"
+    "lastUpdated": "2026-11-04T16:02:21.444Z"
   }
 }
