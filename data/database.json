@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T18:49:21.122Z",
+  "lastUpdated": "2026-11-04T18:51:26.228Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -2001,34 +2001,34 @@
       "id": "C1-MID-013",
       "subjectId": "subj-calc1",
       "quizId": "quiz-subj-calc1-mid",
-      "question": "Find derivative of f(x) = sin(x³ + 2x):",
+      "question": "For the functions f(x) = log_2(x) and g(x) = e^x + 1, find (f o g)(x) and (f o g)(0).",
       "options": [
         {
           "id": "a",
-          "text": "(3x² + 2) cos(x³ + 2x)"
+          "text": "(f o g)(x) = e^(log_2(x)) + 1 and (f o g)(0) = 0"
         },
         {
           "id": "b",
-          "text": "cos(3x² + 2)"
+          "text": "(f o g)(x) = log_2(e^x + 1) and (f o g)(0) = 1"
         },
         {
           "id": "c",
-          "text": "(3x² + 2) sin(x³ + 2x)"
+          "text": "(f o g)(x) = log_2(e^x + 1) and (f o g)(0) = 2"
         },
         {
           "id": "d",
-          "text": "-cos(x³ + 2x)"
+          "text": "(f o g)(x) = log_2(e^x) and (f o g)(0) = 2"
         }
       ],
-      "correctAnswer": "a",
-      "explanation": "Chain rule: cos(u) * u'.",
+      "correctAnswer": "b",
+      "explanation": "1. The composition is:\n    (f o g)(x) = f(g(x))\n2. Substitute g(x):\n    = f(e^x + 1)\n3. Since f(x) = log_2(x):\n    (f o g)(x) = log_2(e^x + 1)\n4. Evaluate at x = 0:\n    (f o g)(0) = log_2(e^0 + 1)\n5. Since e^0 = 1:\n    = log_2(2)\n    = 1\n\nTherefore, the correct answer is A.",
       "difficulty": "Medium",
       "imageUrl": null,
       "sourceFile": "Mid calc1.pdf",
-      "sourcePage": 3,
+      "sourcePage": "3",
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.976Z",
-      "updatedAt": "2026-10-03T17:21:59.976Z"
+      "updatedAt": "2026-11-04T18:51:25.979Z"
     },
     {
       "id": "C1-MID-014",
@@ -117432,6 +117432,6 @@
     "totalQuestions": 3507,
     "verifiedQuestions": 3507,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T18:49:21.122Z"
+    "lastUpdated": "2026-11-04T18:51:26.228Z"
   }
 }
