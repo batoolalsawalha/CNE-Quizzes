@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T15:49:29.931Z",
+  "lastUpdated": "2026-11-04T15:49:38.931Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -3907,39 +3907,6 @@
       "imageUrl": null,
       "sourceFile": "Final calcu 2.pdf",
       "sourcePage": 8,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.979Z",
-      "updatedAt": "2026-10-03T17:21:59.979Z"
-    },
-    {
-      "id": "C2-FIN-009",
-      "subjectId": "subj-calc2",
-      "quizId": "quiz-subj-calc2-final",
-      "question": "The alternating harmonic series Σ_{n=1}^∞ (-1)^(n+1) / n:",
-      "options": [
-        {
-          "id": "a",
-          "text": "Converges conditionally to ln(2)"
-        },
-        {
-          "id": "b",
-          "text": "Converges absolutely"
-        },
-        {
-          "id": "c",
-          "text": "Diverges"
-        },
-        {
-          "id": "d",
-          "text": "Converges to 0"
-        }
-      ],
-      "correctAnswer": "a",
-      "explanation": "Alternating series converges, but absolute series diverges => conditionally convergent.",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Final calcu 2.pdf",
-      "sourcePage": 9,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.979Z",
       "updatedAt": "2026-10-03T17:21:59.979Z"
@@ -122907,9 +122874,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3673,
-    "verifiedQuestions": 3673,
+    "totalQuestions": 3672,
+    "verifiedQuestions": 3672,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T15:49:29.931Z"
+    "lastUpdated": "2026-11-04T15:49:38.931Z"
   }
 }
