@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T15:52:09.630Z",
+  "lastUpdated": "2026-11-04T15:52:20.324Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -5260,72 +5260,6 @@
       "imageUrl": null,
       "sourceFile": "Diff Final Exam.pdf",
       "sourcePage": 9,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.980Z",
-      "updatedAt": "2026-10-03T17:21:59.980Z"
-    },
-    {
-      "id": "DIFF-FIN-027",
-      "subjectId": "subj-diff",
-      "quizId": "quiz-subj-diff-final",
-      "question": "A point x = x₀ is an ordinary point of y'' + P(x) y' + Q(x) y = 0 if:",
-      "options": [
-        {
-          "id": "a",
-          "text": "P(x₀) = 0"
-        },
-        {
-          "id": "b",
-          "text": "Q(x₀) = 0"
-        },
-        {
-          "id": "c",
-          "text": "Both P(x) and Q(x) are analytic at x₀"
-        },
-        {
-          "id": "d",
-          "text": "P or Q has a pole at x₀"
-        }
-      ],
-      "correctAnswer": "c",
-      "explanation": "Definition: coefficients can be expanded in Taylor series near x₀.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Diff Final Exam.pdf",
-      "sourcePage": 7,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.980Z",
-      "updatedAt": "2026-10-03T17:21:59.980Z"
-    },
-    {
-      "id": "DIFF-FIN-028",
-      "subjectId": "subj-diff",
-      "quizId": "quiz-subj-diff-final",
-      "question": "For the equation x² y'' + x y' + (x² - 4) y = 0 (Bessel's equation), x = 0 is a:",
-      "options": [
-        {
-          "id": "a",
-          "text": "Ordinary point"
-        },
-        {
-          "id": "b",
-          "text": "Irregular singular point"
-        },
-        {
-          "id": "c",
-          "text": "Non-singular point"
-        },
-        {
-          "id": "d",
-          "text": "Regular singular point"
-        }
-      ],
-      "correctAnswer": "d",
-      "explanation": "x P(x) = 1 and x² Q(x) = x² - 4 are analytic at x = 0, so it is a regular singular point.",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Diff Final Exam.pdf",
-      "sourcePage": 8,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.980Z",
       "updatedAt": "2026-10-03T17:21:59.980Z"
@@ -122280,9 +122214,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3654,
-    "verifiedQuestions": 3654,
+    "totalQuestions": 3652,
+    "verifiedQuestions": 3652,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T15:52:09.630Z"
+    "lastUpdated": "2026-11-04T15:52:20.324Z"
   }
 }
