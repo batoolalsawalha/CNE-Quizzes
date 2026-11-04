@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T18:53:10.525Z",
+  "lastUpdated": "2026-11-04T19:14:23.029Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -2067,34 +2067,34 @@
       "id": "C1-MID-015",
       "subjectId": "subj-calc1",
       "quizId": "quiz-subj-calc1-mid",
-      "question": "Equation of tangent to y = x² at (1, 1) is:",
+      "question": "Let (f(x)=x^3+x+1). The value of (f^{-1}(1)) is:",
       "options": [
         {
           "id": "a",
-          "text": "y = 2x + 1"
+          "text": "(-\\sqrt{3})"
         },
         {
           "id": "b",
-          "text": "y = x"
+          "text": "(\\sqrt{3})"
         },
         {
           "id": "c",
-          "text": "y = 2x - 1"
+          "text": "(1)"
         },
         {
           "id": "d",
-          "text": "y = -2x + 3"
+          "text": "(0)"
         }
       ],
-      "correctAnswer": "c",
-      "explanation": "m = 2(1) = 2. Tangent: y - 1 = 2(x - 1) => y = 2x - 1.",
+      "correctAnswer": "d",
+      "explanation": "Let (f^{-1}(1)=x). This means (f(x)=1)\n[x^3+x+1=1]\n[x^3+x=0]\n[x(x^2+1)=0]\nThus, (x=0), since (x^2+1=0) has no real solutions.\nTherefore:\n[f^{-1}(1)=0]",
       "difficulty": "Easy",
       "imageUrl": null,
       "sourceFile": "Mid calc1.pdf",
-      "sourcePage": 5,
+      "sourcePage": "5",
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.976Z",
-      "updatedAt": "2026-10-03T17:21:59.976Z"
+      "updatedAt": "2026-11-04T19:14:22.650Z"
     },
     {
       "id": "C1-MID-016",
@@ -117432,6 +117432,6 @@
     "totalQuestions": 3507,
     "verifiedQuestions": 3507,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T18:53:10.525Z"
+    "lastUpdated": "2026-11-04T19:14:23.029Z"
   }
 }
