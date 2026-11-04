@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T16:04:16.032Z",
+  "lastUpdated": "2026-11-04T16:04:25.230Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -5854,39 +5854,6 @@
       "imageUrl": null,
       "sourceFile": "Final T1.2023-2024.pdf",
       "sourcePage": 3,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.981Z",
-      "updatedAt": "2026-10-03T17:21:59.981Z"
-    },
-    {
-      "id": "LIN-FIN-004",
-      "subjectId": "subj-linear",
-      "quizId": "quiz-subj-linear-final",
-      "question": "The dimension of a vector space V is defined as:",
-      "options": [
-        {
-          "id": "a",
-          "text": "The number of vectors in V"
-        },
-        {
-          "id": "b",
-          "text": "The rank of the zero matrix"
-        },
-        {
-          "id": "c",
-          "text": "The maximum length of a vector in V"
-        },
-        {
-          "id": "d",
-          "text": "The number of vectors in any basis of V"
-        }
-      ],
-      "correctAnswer": "d",
-      "explanation": "Dimension is the cardinality of any basis.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Final T1.2023-2024.pdf",
-      "sourcePage": 4,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.981Z",
       "updatedAt": "2026-10-03T17:21:59.981Z"
@@ -119310,9 +119277,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3564,
-    "verifiedQuestions": 3564,
+    "totalQuestions": 3563,
+    "verifiedQuestions": 3563,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T16:04:16.032Z"
+    "lastUpdated": "2026-11-04T16:04:25.230Z"
   }
 }
