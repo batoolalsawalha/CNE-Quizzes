@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T15:58:14.225Z",
+  "lastUpdated": "2026-11-04T15:58:23.329Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -4699,39 +4699,6 @@
       "imageUrl": null,
       "sourceFile": "Mid Diff Summer 2022.pdf",
       "sourcePage": 2,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.979Z",
-      "updatedAt": "2026-10-03T17:21:59.979Z"
-    },
-    {
-      "id": "DIFF-FIN-001",
-      "subjectId": "subj-diff",
-      "quizId": "quiz-subj-diff-final",
-      "question": "For y'' - 3y' + 2y = e^(3x), a suitable particular solution form Y_p using undetermined coefficients is:",
-      "options": [
-        {
-          "id": "a",
-          "text": "A e^(3x)"
-        },
-        {
-          "id": "b",
-          "text": "A x e^(3x)"
-        },
-        {
-          "id": "c",
-          "text": "A e^(2x)"
-        },
-        {
-          "id": "d",
-          "text": "(A x + B) e^(3x)"
-        }
-      ],
-      "correctAnswer": "a",
-      "explanation": "r = 3 is not a root of r² - 3r + 2 = (r-1)(r-2) = 0, so Y_p = A e^(3x).",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Diff Final Exam.pdf",
-      "sourcePage": 1,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.979Z",
       "updatedAt": "2026-10-03T17:21:59.979Z"
@@ -120894,9 +120861,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3612,
-    "verifiedQuestions": 3612,
+    "totalQuestions": 3611,
+    "verifiedQuestions": 3611,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T15:58:14.225Z"
+    "lastUpdated": "2026-11-04T15:58:23.329Z"
   }
 }
