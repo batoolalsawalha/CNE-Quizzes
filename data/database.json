@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T15:48:26.825Z",
+  "lastUpdated": "2026-11-04T15:48:42.732Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -4171,105 +4171,6 @@
       "imageUrl": null,
       "sourceFile": "Final calcu 2.pdf",
       "sourcePage": 7,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.979Z",
-      "updatedAt": "2026-10-03T17:21:59.979Z"
-    },
-    {
-      "id": "C2-FIN-021",
-      "subjectId": "subj-calc2",
-      "quizId": "quiz-subj-calc2-final",
-      "question": "The interval of convergence for Σ_{n=1}^∞ (x - 3)^n / n is:",
-      "options": [
-        {
-          "id": "a",
-          "text": "[2, 4)"
-        },
-        {
-          "id": "b",
-          "text": "(2, 4)"
-        },
-        {
-          "id": "c",
-          "text": "[2, 4]"
-        },
-        {
-          "id": "d",
-          "text": "(2, 4]"
-        }
-      ],
-      "correctAnswer": "a",
-      "explanation": "At x = 2: alternating converges. At x = 4: harmonic diverges. So [2, 4).",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Final calcu 2.pdf",
-      "sourcePage": 1,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.979Z",
-      "updatedAt": "2026-10-03T17:21:59.979Z"
-    },
-    {
-      "id": "C2-FIN-043",
-      "subjectId": "subj-calc2",
-      "quizId": "quiz-subj-calc2-final",
-      "question": "The series Σ_{n=1}^∞ [n / (2n + 1)]:",
-      "options": [
-        {
-          "id": "a",
-          "text": "Converges by Ratio Test"
-        },
-        {
-          "id": "b",
-          "text": "Converges conditionally"
-        },
-        {
-          "id": "c",
-          "text": "Diverges by the Divergence Test (lim = 1/2 ≠ 0)"
-        },
-        {
-          "id": "d",
-          "text": "Inconclusive"
-        }
-      ],
-      "correctAnswer": "c",
-      "explanation": "lim_{n→∞} n/(2n+1) = 1/2 ≠ 0, so it diverges.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Final calcu 2.pdf",
-      "sourcePage": 3,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.979Z",
-      "updatedAt": "2026-10-03T17:21:59.979Z"
-    },
-    {
-      "id": "C2-FIN-052",
-      "subjectId": "subj-calc2",
-      "quizId": "quiz-subj-calc2-final",
-      "question": "The interval of convergence of Σ_{n=1}^∞ x^n / (n * 3^n) is:",
-      "options": [
-        {
-          "id": "a",
-          "text": "(-3, 3)"
-        },
-        {
-          "id": "b",
-          "text": "[-3, 3]"
-        },
-        {
-          "id": "c",
-          "text": "(-3, 3]"
-        },
-        {
-          "id": "d",
-          "text": "[-3, 3)"
-        }
-      ],
-      "correctAnswer": "d",
-      "explanation": "R = 3. At x = -3: converges (AST). At x = 3: diverges (harmonic). So [-3, 3).",
-      "difficulty": "Hard",
-      "imageUrl": null,
-      "sourceFile": "Final calcu 2.pdf",
-      "sourcePage": 2,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.979Z",
       "updatedAt": "2026-10-03T17:21:59.979Z"
@@ -123204,9 +123105,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3682,
-    "verifiedQuestions": 3682,
+    "totalQuestions": 3679,
+    "verifiedQuestions": 3679,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T15:48:26.825Z"
+    "lastUpdated": "2026-11-04T15:48:42.732Z"
   }
 }
