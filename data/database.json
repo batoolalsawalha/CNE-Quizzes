@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T16:27:34.629Z",
+  "lastUpdated": "2026-11-04T18:08:17.028Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -1605,34 +1605,34 @@
       "id": "C1-MID-001",
       "subjectId": "subj-calc1",
       "quizId": "quiz-subj-calc1-mid",
-      "question": "Evaluate the algebraic limit: lim_{x → 2} (x² - 4) / (x - 2) =",
+      "question": "Find the domain of the function:\n\nf(x) = -e^x + sqrt(1 - x)",
       "options": [
         {
           "id": "a",
-          "text": "4"
+          "text": "(-infinity, 1]"
         },
         {
           "id": "b",
-          "text": "2"
+          "text": "(-infinity, 1)"
         },
         {
           "id": "c",
-          "text": "0"
+          "text": "R"
         },
         {
           "id": "d",
-          "text": "Does not exist"
+          "text": "(1, infinity)"
         }
       ],
       "correctAnswer": "a",
-      "explanation": "Factoring (x-2)(x+2)/(x-2) = x+2. As x → 2, limit = 4.",
+      "explanation": "1. The exponential function e^x is defined for all real numbers.\n2. The square root requires the expression inside it to be non-negative:\n    1 - x >= 0\n3. Therefore:\n    x <= 1\n4. The domain is:\n    (-infinity, 1]",
       "difficulty": "Easy",
       "imageUrl": null,
       "sourceFile": "Mid calc1.pdf",
-      "sourcePage": 1,
+      "sourcePage": "1",
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.975Z",
-      "updatedAt": "2026-10-03T17:21:59.976Z"
+      "updatedAt": "2026-11-04T18:08:16.305Z"
     },
     {
       "id": "C1-MID-002",
@@ -117432,6 +117432,6 @@
     "totalQuestions": 3507,
     "verifiedQuestions": 3507,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T16:27:34.629Z"
+    "lastUpdated": "2026-11-04T18:08:17.028Z"
   }
 }
