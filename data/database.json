@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T15:52:45.928Z",
+  "lastUpdated": "2026-11-04T15:53:03.825Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -5260,138 +5260,6 @@
       "imageUrl": null,
       "sourceFile": "Diff Final Exam.pdf",
       "sourcePage": 9,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.980Z",
-      "updatedAt": "2026-10-03T17:21:59.980Z"
-    },
-    {
-      "id": "DIFF-FIN-033",
-      "subjectId": "subj-diff",
-      "quizId": "quiz-subj-diff-final",
-      "question": "The Laplace transform of t * sin(t) using frequency differentiation (-dF/ds) is:",
-      "options": [
-        {
-          "id": "a",
-          "text": "2s / (s² + 1)²"
-        },
-        {
-          "id": "b",
-          "text": "(s² - 1) / (s² + 1)²"
-        },
-        {
-          "id": "c",
-          "text": "1 / (s² + 1)²"
-        },
-        {
-          "id": "d",
-          "text": "s / (s² + 1)"
-        }
-      ],
-      "correctAnswer": "a",
-      "explanation": "L{t f(t)} = -d/ds[1/(s²+1)] = 2s/(s²+1)².",
-      "difficulty": "Hard",
-      "imageUrl": null,
-      "sourceFile": "Diff Final Exam.pdf",
-      "sourcePage": 3,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.980Z",
-      "updatedAt": "2026-10-03T17:21:59.980Z"
-    },
-    {
-      "id": "DIFF-FIN-034",
-      "subjectId": "subj-diff",
-      "quizId": "quiz-subj-diff-final",
-      "question": "The inverse Laplace transform L⁻¹{ s / (s² + 16) } is:",
-      "options": [
-        {
-          "id": "a",
-          "text": "sin(4t)"
-        },
-        {
-          "id": "b",
-          "text": "cos(4t)"
-        },
-        {
-          "id": "c",
-          "text": "(1/4) sin(4t)"
-        },
-        {
-          "id": "d",
-          "text": "e^(4t)"
-        }
-      ],
-      "correctAnswer": "b",
-      "explanation": "s/(s² + ω²) corresponds to cos(ωt) with ω = 4.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Diff Final Exam.pdf",
-      "sourcePage": 4,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.980Z",
-      "updatedAt": "2026-10-03T17:21:59.980Z"
-    },
-    {
-      "id": "DIFF-FIN-035",
-      "subjectId": "subj-diff",
-      "quizId": "quiz-subj-diff-final",
-      "question": "The inverse Laplace transform L⁻¹{ 4 / (s² + 16) } is:",
-      "options": [
-        {
-          "id": "a",
-          "text": "cos(4t)"
-        },
-        {
-          "id": "b",
-          "text": "4 sin(4t)"
-        },
-        {
-          "id": "c",
-          "text": "sin(4t)"
-        },
-        {
-          "id": "d",
-          "text": "(1/4) cos(4t)"
-        }
-      ],
-      "correctAnswer": "c",
-      "explanation": "ω/(s² + ω²) with ω = 4 corresponds to sin(4t).",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Diff Final Exam.pdf",
-      "sourcePage": 5,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.980Z",
-      "updatedAt": "2026-10-03T17:21:59.980Z"
-    },
-    {
-      "id": "DIFF-FIN-036",
-      "subjectId": "subj-diff",
-      "quizId": "quiz-subj-diff-final",
-      "question": "The general solution of y'' + 4y = 0 has fundamental solutions:",
-      "options": [
-        {
-          "id": "a",
-          "text": "y₁ = e^(2x), y₂ = e^(-2x)"
-        },
-        {
-          "id": "b",
-          "text": "y₁ = cos(4x), y₂ = sin(4x)"
-        },
-        {
-          "id": "c",
-          "text": "y₁ = x, y₂ = x²"
-        },
-        {
-          "id": "d",
-          "text": "y₁ = cos(2x), y₂ = sin(2x)"
-        }
-      ],
-      "correctAnswer": "d",
-      "explanation": "r² + 4 = 0 => r = ±2i => cos 2x, sin 2x.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Diff Final Exam.pdf",
-      "sourcePage": 6,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.980Z",
       "updatedAt": "2026-10-03T17:21:59.980Z"
@@ -122082,9 +121950,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3648,
-    "verifiedQuestions": 3648,
+    "totalQuestions": 3644,
+    "verifiedQuestions": 3644,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T15:52:45.928Z"
+    "lastUpdated": "2026-11-04T15:53:03.825Z"
   }
 }
