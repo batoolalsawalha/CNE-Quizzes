@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T18:13:06.520Z",
+  "lastUpdated": "2026-11-04T18:14:59.023Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -1704,34 +1704,34 @@
       "id": "C1-MID-004",
       "subjectId": "subj-calc1",
       "quizId": "quiz-subj-calc1-mid",
-      "question": "Evaluate: lim_{x → 4} (√x - 2) / (x - 4) =",
+      "question": "For the functions f(x) = 1 + e^|x| and g(x) = sin(x^2), which of the following is true?",
       "options": [
         {
           "id": "a",
-          "text": "1/2"
+          "text": "Both functions are odd"
         },
         {
           "id": "b",
-          "text": "4"
+          "text": "f is odd and g is even"
         },
         {
           "id": "c",
-          "text": "0"
+          "text": "Both functions are even"
         },
         {
           "id": "d",
-          "text": "1/4"
+          "text": "f is even and g is odd"
         }
       ],
-      "correctAnswer": "d",
-      "explanation": "Multiply numerator and denominator by conjugate (√x + 2): 1/(√4 + 2) = 1/4.",
+      "correctAnswer": "c",
+      "explanation": "For f(x):\n\nf(-x) = 1 + e^|-x|\n\nSince |-x| = |x|:\n\nf(-x) = 1 + e^|x| = f(x)\n\nTherefore, f is even.\n\nFor g(x):\n\ng(-x) = sin((-x)^2)\n\ng(-x) = sin(x^2) = g(x)\n\nTherefore, g is even.\n\nBoth functions are even",
       "difficulty": "Medium",
       "imageUrl": null,
       "sourceFile": "Mid calc1.pdf",
-      "sourcePage": 4,
+      "sourcePage": "4",
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.976Z",
-      "updatedAt": "2026-10-03T17:21:59.976Z"
+      "updatedAt": "2026-11-04T18:14:58.646Z"
     },
     {
       "id": "C1-MID-005",
@@ -117432,6 +117432,6 @@
     "totalQuestions": 3507,
     "verifiedQuestions": 3507,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T18:13:06.520Z"
+    "lastUpdated": "2026-11-04T18:14:59.023Z"
   }
 }
