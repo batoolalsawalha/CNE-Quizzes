@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T16:25:55.631Z",
+  "lastUpdated": "2026-11-04T16:26:02.929Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -6877,39 +6877,6 @@
       "imageUrl": null,
       "sourceFile": "Numerical Methods Final.pdf",
       "sourcePage": 2,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.984Z",
-      "updatedAt": "2026-10-03T17:21:59.984Z"
-    },
-    {
-      "id": "NUM-FIN-003",
-      "subjectId": "subj-numerical",
-      "quizId": "quiz-subj-numerical-final",
-      "question": "The Lagrange cardinal basis polynomial L_i(x) satisfies:",
-      "options": [
-        {
-          "id": "a",
-          "text": "L_i(x_j) = 1 always"
-        },
-        {
-          "id": "b",
-          "text": "L_i(x_j) = 0 always"
-        },
-        {
-          "id": "c",
-          "text": "L_i(x_j) = 1 if i = j, and 0 if i ≠ j (Kronecker delta δ_ij)"
-        },
-        {
-          "id": "d",
-          "text": "L_i(x_i) = 0"
-        }
-      ],
-      "correctAnswer": "c",
-      "explanation": "Standard defining property of Lagrange basis.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Numerical Methods Final.pdf",
-      "sourcePage": 3,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.984Z",
       "updatedAt": "2026-10-03T17:21:59.984Z"
@@ -117528,9 +117495,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3510,
-    "verifiedQuestions": 3510,
+    "totalQuestions": 3509,
+    "verifiedQuestions": 3509,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T16:25:55.631Z"
+    "lastUpdated": "2026-11-04T16:26:02.929Z"
   }
 }
