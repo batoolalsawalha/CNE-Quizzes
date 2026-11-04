@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T15:47:50.419Z",
+  "lastUpdated": "2026-11-04T15:48:26.825Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -4209,39 +4209,6 @@
       "updatedAt": "2026-10-03T17:21:59.979Z"
     },
     {
-      "id": "C2-FIN-039",
-      "subjectId": "subj-calc2",
-      "quizId": "quiz-subj-calc2-final",
-      "question": "If a power series Σ c_n (x - a)^n converges at x = b, it converges absolutely for:",
-      "options": [
-        {
-          "id": "a",
-          "text": "|x - a| > |b - a|"
-        },
-        {
-          "id": "b",
-          "text": "x > b"
-        },
-        {
-          "id": "c",
-          "text": "|x - a| < |b - a|"
-        },
-        {
-          "id": "d",
-          "text": "x < a"
-        }
-      ],
-      "correctAnswer": "c",
-      "explanation": "Fundamental property of radius of convergence.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Final calcu 2.pdf",
-      "sourcePage": 9,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.979Z",
-      "updatedAt": "2026-10-03T17:21:59.979Z"
-    },
-    {
       "id": "C2-FIN-043",
       "subjectId": "subj-calc2",
       "quizId": "quiz-subj-calc2-final",
@@ -4270,237 +4237,6 @@
       "imageUrl": null,
       "sourceFile": "Final calcu 2.pdf",
       "sourcePage": 3,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.979Z",
-      "updatedAt": "2026-10-03T17:21:59.979Z"
-    },
-    {
-      "id": "C2-FIN-044",
-      "subjectId": "subj-calc2",
-      "quizId": "quiz-subj-calc2-final",
-      "question": "The series Σ_{n=1}^∞ (-1)^n / √n is:",
-      "options": [
-        {
-          "id": "a",
-          "text": "Absolutely convergent"
-        },
-        {
-          "id": "b",
-          "text": "Divergent"
-        },
-        {
-          "id": "c",
-          "text": "Oscillating"
-        },
-        {
-          "id": "d",
-          "text": "Conditionally convergent"
-        }
-      ],
-      "correctAnswer": "d",
-      "explanation": "Converges by AST, but Σ 1/√n diverges (p = 1/2 ≤ 1).",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Final calcu 2.pdf",
-      "sourcePage": 4,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.979Z",
-      "updatedAt": "2026-10-03T17:21:59.979Z"
-    },
-    {
-      "id": "C2-FIN-046",
-      "subjectId": "subj-calc2",
-      "quizId": "quiz-subj-calc2-final",
-      "question": "Using the Shell Method, the volume revolving y = x² from x = 0 to 1 about the y-axis is:",
-      "options": [
-        {
-          "id": "a",
-          "text": "π"
-        },
-        {
-          "id": "b",
-          "text": "π / 2"
-        },
-        {
-          "id": "c",
-          "text": "2π"
-        },
-        {
-          "id": "d",
-          "text": "π / 4"
-        }
-      ],
-      "correctAnswer": "b",
-      "explanation": "V = 2π ∫₀¹ x(x²) dx = 2π [x⁴/4]₀¹ = π/2.",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Final calcu 2.pdf",
-      "sourcePage": 6,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.979Z",
-      "updatedAt": "2026-10-03T17:21:59.979Z"
-    },
-    {
-      "id": "C2-FIN-047",
-      "subjectId": "subj-calc2",
-      "quizId": "quiz-subj-calc2-final",
-      "question": "The Maclaurin series for f(x) = cos(x²) begins with:",
-      "options": [
-        {
-          "id": "a",
-          "text": "1 - x² + x⁴ / 2"
-        },
-        {
-          "id": "b",
-          "text": "x² - x⁶ / 6"
-        },
-        {
-          "id": "c",
-          "text": "1 - x⁴ / 2 + x⁸ / 24"
-        },
-        {
-          "id": "d",
-          "text": "1 + x⁴ / 2"
-        }
-      ],
-      "correctAnswer": "c",
-      "explanation": "Replace x with x² in cos x = 1 - x²/2 + x⁴/24.",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Final calcu 2.pdf",
-      "sourcePage": 7,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.979Z",
-      "updatedAt": "2026-10-03T17:21:59.979Z"
-    },
-    {
-      "id": "C2-FIN-048",
-      "subjectId": "subj-calc2",
-      "quizId": "quiz-subj-calc2-final",
-      "question": "The series Σ_{n=2}^∞ [1 / (n (ln n)²)]:",
-      "options": [
-        {
-          "id": "a",
-          "text": "Diverges"
-        },
-        {
-          "id": "b",
-          "text": "Inconclusive"
-        },
-        {
-          "id": "c",
-          "text": "Oscillates"
-        },
-        {
-          "id": "d",
-          "text": "Converges by the Integral Test"
-        }
-      ],
-      "correctAnswer": "d",
-      "explanation": "∫₂^∞ dx/(x(ln x)²) = [-1/ln x]₂^∞ = 1/ln 2 < ∞.",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Final calcu 2.pdf",
-      "sourcePage": 8,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.979Z",
-      "updatedAt": "2026-10-03T17:21:59.979Z"
-    },
-    {
-      "id": "C2-FIN-049",
-      "subjectId": "subj-calc2",
-      "quizId": "quiz-subj-calc2-final",
-      "question": "Evaluate the limit using Maclaurin series: lim_{x → 0} (e^x - 1 - x) / x² =",
-      "options": [
-        {
-          "id": "a",
-          "text": "1/2"
-        },
-        {
-          "id": "b",
-          "text": "1"
-        },
-        {
-          "id": "c",
-          "text": "0"
-        },
-        {
-          "id": "d",
-          "text": "2"
-        }
-      ],
-      "correctAnswer": "a",
-      "explanation": "e^x - 1 - x = x²/2 + ... Dividing by x² yields 1/2.",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Final calcu 2.pdf",
-      "sourcePage": 9,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.979Z",
-      "updatedAt": "2026-10-03T17:21:59.979Z"
-    },
-    {
-      "id": "C2-FIN-050",
-      "subjectId": "subj-calc2",
-      "quizId": "quiz-subj-calc2-final",
-      "question": "The series Σ_{n=1}^∞ [(n! * n!) / (2n)!] converges by the Ratio Test because:",
-      "options": [
-        {
-          "id": "a",
-          "text": "lim a_{n+1}/a_n = 1/2 < 1"
-        },
-        {
-          "id": "b",
-          "text": "lim a_{n+1}/a_n = 1/4 < 1"
-        },
-        {
-          "id": "c",
-          "text": "lim a_{n+1}/a_n = 0"
-        },
-        {
-          "id": "d",
-          "text": "lim = 1"
-        }
-      ],
-      "correctAnswer": "b",
-      "explanation": "(n+1)²/[(2n+1)(2n+2)] → 1/4 < 1.",
-      "difficulty": "Hard",
-      "imageUrl": null,
-      "sourceFile": "Final calcu 2.pdf",
-      "sourcePage": 10,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.979Z",
-      "updatedAt": "2026-10-03T17:21:59.979Z"
-    },
-    {
-      "id": "C2-FIN-051",
-      "subjectId": "subj-calc2",
-      "quizId": "quiz-subj-calc2-final",
-      "question": "What is the sum of Σ_{n=0}^∞ (-1)^n / (2n + 1)?",
-      "options": [
-        {
-          "id": "a",
-          "text": "π / 2"
-        },
-        {
-          "id": "b",
-          "text": "1"
-        },
-        {
-          "id": "c",
-          "text": "π / 4"
-        },
-        {
-          "id": "d",
-          "text": "ln 2"
-        }
-      ],
-      "correctAnswer": "c",
-      "explanation": "Gregory-Leibniz series evaluates arctan(1) = π/4.",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Final calcu 2.pdf",
-      "sourcePage": 1,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.979Z",
       "updatedAt": "2026-10-03T17:21:59.979Z"
@@ -123468,9 +123204,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3690,
-    "verifiedQuestions": 3690,
+    "totalQuestions": 3682,
+    "verifiedQuestions": 3682,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T15:47:50.419Z"
+    "lastUpdated": "2026-11-04T15:48:26.825Z"
   }
 }
