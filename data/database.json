@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T15:50:52.724Z",
+  "lastUpdated": "2026-11-04T15:51:01.724Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -3646,39 +3646,6 @@
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.978Z",
       "updatedAt": "2026-10-03T17:21:59.978Z"
-    },
-    {
-      "id": "C2-FIN-001",
-      "subjectId": "subj-calc2",
-      "quizId": "quiz-subj-calc2-final",
-      "question": "The infinite p-series Σ_{n=1}^∞ (1 / n^p) converges if and only if:",
-      "options": [
-        {
-          "id": "a",
-          "text": "p > 1"
-        },
-        {
-          "id": "b",
-          "text": "p ≥ 1"
-        },
-        {
-          "id": "c",
-          "text": "p < 1"
-        },
-        {
-          "id": "d",
-          "text": "p > 0"
-        }
-      ],
-      "correctAnswer": "a",
-      "explanation": "By p-series test, it converges strictly for p > 1.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Final calcu 2.pdf",
-      "sourcePage": 1,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.979Z",
-      "updatedAt": "2026-10-03T17:21:59.979Z"
     },
     {
       "id": "DIFF-MID-001",
@@ -122610,9 +122577,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3664,
-    "verifiedQuestions": 3664,
+    "totalQuestions": 3663,
+    "verifiedQuestions": 3663,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T15:50:52.724Z"
+    "lastUpdated": "2026-11-04T15:51:01.724Z"
   }
 }
