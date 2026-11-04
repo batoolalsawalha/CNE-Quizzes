@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T18:45:22.723Z",
+  "lastUpdated": "2026-11-04T18:45:40.821Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -1956,13 +1956,13 @@
       ],
       "correctAnswer": "c",
       "explanation": "1. First, evaluate the limit inside the sine function:\n    lim(x->0) (sqrt(x^3 + 1) - 1) / x\n2. Multiply by the conjugate:\n    = lim(x->0) [(sqrt(x^3 + 1) - 1)(sqrt(x^3 + 1) + 1)] / [x(sqrt(x^3 + 1) + 1)]\n3. Simplify:\n    = lim(x->0) [(x^3 + 1) - 1] / [x(sqrt(x^3 + 1) + 1)]\n4. Therefore:\n    = lim(x->0) x^2 / (sqrt(x^3 + 1) + 1)\n5. Substitute x = 0:\n    = 0 / (1 + 1) = 0\n6. Finally:\n    sin(0) = 0\n\nTherefore, the limit is 0.",
-      "difficulty": "Easy",
+      "difficulty": "Hard",
       "imageUrl": null,
       "sourceFile": "Mid calc1.pdf",
       "sourcePage": "1",
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.976Z",
-      "updatedAt": "2026-11-04T18:45:22.426Z"
+      "updatedAt": "2026-11-04T18:45:40.451Z"
     },
     {
       "id": "C1-MID-012",
@@ -117432,6 +117432,6 @@
     "totalQuestions": 3507,
     "verifiedQuestions": 3507,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T18:45:22.723Z"
+    "lastUpdated": "2026-11-04T18:45:40.821Z"
   }
 }
