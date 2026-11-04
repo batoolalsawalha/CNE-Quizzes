@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T16:25:41.127Z",
+  "lastUpdated": "2026-11-04T16:25:49.529Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -6910,39 +6910,6 @@
       "imageUrl": null,
       "sourceFile": "Numerical Methods Final.pdf",
       "sourcePage": 3,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.984Z",
-      "updatedAt": "2026-10-03T17:21:59.984Z"
-    },
-    {
-      "id": "NUM-FIN-004",
-      "subjectId": "subj-numerical",
-      "quizId": "quiz-subj-numerical-final",
-      "question": "In Newton's divided difference interpolation, the divided difference f[x₀, x₁] is:",
-      "options": [
-        {
-          "id": "a",
-          "text": "[f(x₁) + f(x₀)] / 2"
-        },
-        {
-          "id": "b",
-          "text": "f(x₁) - f(x₀)"
-        },
-        {
-          "id": "c",
-          "text": "(x₁ - x₀) / [f(x₁) - f(x₀)]"
-        },
-        {
-          "id": "d",
-          "text": "[f(x₁) - f(x₀)] / (x₁ - x₀)"
-        }
-      ],
-      "correctAnswer": "d",
-      "explanation": "Definition of 1st divided difference.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Numerical Methods Final.pdf",
-      "sourcePage": 4,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.984Z",
       "updatedAt": "2026-10-03T17:21:59.984Z"
@@ -117594,9 +117561,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3512,
-    "verifiedQuestions": 3512,
+    "totalQuestions": 3511,
+    "verifiedQuestions": 3511,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T16:25:41.127Z"
+    "lastUpdated": "2026-11-04T16:25:49.529Z"
   }
 }
