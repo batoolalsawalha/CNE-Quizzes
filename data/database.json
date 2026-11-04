@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T16:01:34.229Z",
+  "lastUpdated": "2026-11-04T16:01:51.123Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -6288,39 +6288,6 @@
       "updatedAt": "2026-10-03T17:21:59.981Z"
     },
     {
-      "id": "LIN-FIN-017",
-      "subjectId": "subj-linear",
-      "quizId": "quiz-subj-linear-final",
-      "question": "An n x n matrix A is diagonalizable if and only if:",
-      "options": [
-        {
-          "id": "a",
-          "text": "A has n linearly independent eigenvectors"
-        },
-        {
-          "id": "b",
-          "text": "A is invertible"
-        },
-        {
-          "id": "c",
-          "text": "det(A) ≠ 0"
-        },
-        {
-          "id": "d",
-          "text": "All entries of A are positive"
-        }
-      ],
-      "correctAnswer": "a",
-      "explanation": "Diagonalization requires eigenvector matrix P to be invertible.",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Final T1.2023-2024.pdf",
-      "sourcePage": 7,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.981Z",
-      "updatedAt": "2026-10-03T17:21:59.981Z"
-    },
-    {
       "id": "LIN-FIN-046",
       "subjectId": "subj-linear",
       "quizId": "quiz-subj-linear-final",
@@ -6349,72 +6316,6 @@
       "imageUrl": null,
       "sourceFile": "Final T1.2023-2024.pdf",
       "sourcePage": 6,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.982Z",
-      "updatedAt": "2026-10-03T17:21:59.982Z"
-    },
-    {
-      "id": "LIN-FIN-047",
-      "subjectId": "subj-linear",
-      "quizId": "quiz-subj-linear-final",
-      "question": "The nullity of A = [ [1, 2], [2, 4] ] is:",
-      "options": [
-        {
-          "id": "a",
-          "text": "2"
-        },
-        {
-          "id": "b",
-          "text": "0"
-        },
-        {
-          "id": "c",
-          "text": "1"
-        },
-        {
-          "id": "d",
-          "text": "-1"
-        }
-      ],
-      "correctAnswer": "c",
-      "explanation": "Rank + Nullity = n => 1 + Nullity = 2 => Nullity = 1.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Final T1.2023-2024.pdf",
-      "sourcePage": 7,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.982Z",
-      "updatedAt": "2026-10-03T17:21:59.982Z"
-    },
-    {
-      "id": "LIN-FIN-048",
-      "subjectId": "subj-linear",
-      "quizId": "quiz-subj-linear-final",
-      "question": "Which of the following is a subspace of R³?",
-      "options": [
-        {
-          "id": "a",
-          "text": "{ (x, y, z) | x + y + z = 1 }"
-        },
-        {
-          "id": "b",
-          "text": "{ (x, y, z) | x ≥ 0 }"
-        },
-        {
-          "id": "c",
-          "text": "{ (x, y, z) | x² + y² = z }"
-        },
-        {
-          "id": "d",
-          "text": "{ (x, y, z) | x + y + z = 0 }"
-        }
-      ],
-      "correctAnswer": "d",
-      "explanation": "Plane through the origin containing zero vector is a subspace.",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Final T1.2023-2024.pdf",
-      "sourcePage": 8,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.982Z",
       "updatedAt": "2026-10-03T17:21:59.982Z"
@@ -119904,9 +119805,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3582,
-    "verifiedQuestions": 3582,
+    "totalQuestions": 3579,
+    "verifiedQuestions": 3579,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T16:01:34.229Z"
+    "lastUpdated": "2026-11-04T16:01:51.123Z"
   }
 }
