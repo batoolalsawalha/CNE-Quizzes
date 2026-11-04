@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T15:58:54.831Z",
+  "lastUpdated": "2026-11-04T15:59:00.829Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -6316,39 +6316,6 @@
       "imageUrl": null,
       "sourceFile": "Final T1.2023-2024.pdf",
       "sourcePage": 7,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.981Z",
-      "updatedAt": "2026-10-03T17:21:59.981Z"
-    },
-    {
-      "id": "LIN-FIN-020",
-      "subjectId": "subj-linear",
-      "quizId": "quiz-subj-linear-final",
-      "question": "A real symmetric matrix always has:",
-      "options": [
-        {
-          "id": "a",
-          "text": "Complex eigenvalues"
-        },
-        {
-          "id": "b",
-          "text": "det(A) = 0"
-        },
-        {
-          "id": "c",
-          "text": "Zero trace"
-        },
-        {
-          "id": "d",
-          "text": "Real eigenvalues and an orthonormal basis of eigenvectors"
-        }
-      ],
-      "correctAnswer": "d",
-      "explanation": "Spectral Theorem for real symmetric matrices.",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Final T1.2023-2024.pdf",
-      "sourcePage": 10,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.981Z",
       "updatedAt": "2026-10-03T17:21:59.981Z"
@@ -120729,9 +120696,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3607,
-    "verifiedQuestions": 3607,
+    "totalQuestions": 3606,
+    "verifiedQuestions": 3606,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T15:58:54.831Z"
+    "lastUpdated": "2026-11-04T15:59:00.829Z"
   }
 }
