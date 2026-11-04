@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T18:36:50.826Z",
+  "lastUpdated": "2026-11-04T18:38:48.424Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -1836,34 +1836,34 @@
       "id": "C1-MID-008",
       "subjectId": "subj-calc1",
       "quizId": "quiz-subj-calc1-mid",
-      "question": "The range of f(x) = 1 / (x² + 4) is:",
+      "question": "Find the set of real solutions of the equation:\n\n2^x = 8^x",
       "options": [
         {
           "id": "a",
-          "text": "[0, 1/4]"
+          "text": "Empty set"
         },
         {
           "id": "b",
-          "text": "(0, ∞)"
+          "text": "{2}"
         },
         {
           "id": "c",
-          "text": "[1/4, ∞)"
+          "text": "{0}"
         },
         {
           "id": "d",
-          "text": "(0, 1/4]"
+          "text": "{-2}"
         }
       ],
-      "correctAnswer": "d",
-      "explanation": "Denominator minimum is 4 at x=0; maximum of f is 1/4. Range is (0, 1/4].",
-      "difficulty": "Medium",
+      "correctAnswer": "c",
+      "explanation": "1. Write both sides with the same base:\n    8 = 2^3\n2. Therefore:\n    2^x = (2^3)^x\n    2^x = 2^(3x)\n3. Since the bases are equal:\n    x = 3x\n4. Solve:\n    2x = 0\n    x = 0\n5. The solution set is:\n    {0}",
+      "difficulty": "Easy",
       "imageUrl": null,
       "sourceFile": "Mid calc1.pdf",
-      "sourcePage": 8,
+      "sourcePage": "8",
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.976Z",
-      "updatedAt": "2026-10-03T17:21:59.976Z"
+      "updatedAt": "2026-11-04T18:38:48.106Z"
     },
     {
       "id": "C1-MID-009",
@@ -117432,6 +117432,6 @@
     "totalQuestions": 3507,
     "verifiedQuestions": 3507,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T18:36:50.826Z"
+    "lastUpdated": "2026-11-04T18:38:48.424Z"
   }
 }
