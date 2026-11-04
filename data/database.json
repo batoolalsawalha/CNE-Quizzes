@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T15:49:13.918Z",
+  "lastUpdated": "2026-11-04T15:49:20.837Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -4006,39 +4006,6 @@
       "imageUrl": null,
       "sourceFile": "Final calcu 2.pdf",
       "sourcePage": 1,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.979Z",
-      "updatedAt": "2026-10-03T17:21:59.979Z"
-    },
-    {
-      "id": "C2-FIN-013",
-      "subjectId": "subj-calc2",
-      "quizId": "quiz-subj-calc2-final",
-      "question": "The Taylor series of f(x) = 1 / (1 - x) centered at x = 0 is:",
-      "options": [
-        {
-          "id": "a",
-          "text": "Σ_{n=0}^∞ x^n for |x| < 1"
-        },
-        {
-          "id": "b",
-          "text": "Σ_{n=0}^∞ (-1)^n x^n"
-        },
-        {
-          "id": "c",
-          "text": "Σ_{n=1}^∞ x^n / n"
-        },
-        {
-          "id": "d",
-          "text": "Σ_{n=0}^∞ x^(2n)"
-        }
-      ],
-      "correctAnswer": "a",
-      "explanation": "Standard geometric power series.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Final calcu 2.pdf",
-      "sourcePage": 3,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.979Z",
       "updatedAt": "2026-10-03T17:21:59.979Z"
@@ -122973,9 +122940,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3675,
-    "verifiedQuestions": 3675,
+    "totalQuestions": 3674,
+    "verifiedQuestions": 3674,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T15:49:13.918Z"
+    "lastUpdated": "2026-11-04T15:49:20.837Z"
   }
 }
