@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T18:51:26.228Z",
+  "lastUpdated": "2026-11-04T18:53:10.525Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -2034,34 +2034,34 @@
       "id": "C1-MID-014",
       "subjectId": "subj-calc1",
       "quizId": "quiz-subj-calc1-mid",
-      "question": "Slope of tangent to y = x³ - 3x + 2 at x = 2 is:",
+      "question": "For the real function y = e^(e^x), find its inverse function f^(-1)(x).",
       "options": [
         {
           "id": "a",
-          "text": "6"
+          "text": "f^(-1)(x) = e^(ln(x))"
         },
         {
           "id": "b",
-          "text": "9"
+          "text": "f^(-1)(x) = ln(ln(x))"
         },
         {
           "id": "c",
-          "text": "4"
+          "text": "f^(-1)(x) = e^(e^x)"
         },
         {
           "id": "d",
-          "text": "12"
+          "text": ") f^(-1)(x) = ln(e^x)"
         }
       ],
       "correctAnswer": "b",
-      "explanation": "y' = 3x² - 3. At x = 2: 3(4) - 3 = 9.",
-      "difficulty": "Easy",
+      "explanation": "1. Start with:\n    y = e^(e^x)\n2. Take the natural logarithm of both sides:\n    ln(y) = e^x\n3. Take the natural logarithm again:\n    ln(ln(y)) = x\n4. Interchange x and y:\n    y = ln(ln(x))\n5. Therefore:\n    f^(-1)(x) = ln(ln(x))\n\nNote: The domain of the inverse function is x > 1.",
+      "difficulty": "Hard",
       "imageUrl": null,
       "sourceFile": "Mid calc1.pdf",
-      "sourcePage": 4,
+      "sourcePage": "4",
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.976Z",
-      "updatedAt": "2026-10-03T17:21:59.976Z"
+      "updatedAt": "2026-11-04T18:53:10.125Z"
     },
     {
       "id": "C1-MID-015",
@@ -117432,6 +117432,6 @@
     "totalQuestions": 3507,
     "verifiedQuestions": 3507,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T18:51:26.228Z"
+    "lastUpdated": "2026-11-04T18:53:10.525Z"
   }
 }
