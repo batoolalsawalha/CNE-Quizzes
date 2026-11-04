@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T18:41:30.129Z",
+  "lastUpdated": "2026-11-04T18:44:10.228Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -1902,34 +1902,34 @@
       "id": "C1-MID-010",
       "subjectId": "subj-calc1",
       "quizId": "quiz-subj-calc1-mid",
-      "question": "Find derivative of f(x) = 5x⁴ - 3x² + 7x - 11:",
+      "question": "Which of the following real functions is NOT one-to-one?",
       "options": [
         {
           "id": "a",
-          "text": "20x³ - 6x"
+          "text": "f(x) = ln(x)"
         },
         {
           "id": "b",
-          "text": "20x³ - 6x + 7"
+          "text": "f(x) = sin(x)"
         },
         {
           "id": "c",
-          "text": "5x³ - 6x + 7"
+          "text": "f(x) = x^5"
         },
         {
           "id": "d",
-          "text": "20x⁴ - 6x²"
+          "text": "f(x) = e^x"
         }
       ],
       "correctAnswer": "b",
-      "explanation": "Power rule term by term.",
+      "explanation": "A function is one-to-one if every horizontal line intersects its graph at most once.\n\nThe sine function is periodic and repeats its values.\n\nFor example:\n\nsin(0) = 0\n\nsin(pi) = 0\n\nSince two different inputs produce the same output, sin(x) is not one-to-one over R.\n\nThe other functions are one-to-one on their respective domains.",
       "difficulty": "Easy",
       "imageUrl": null,
       "sourceFile": "Mid calc1.pdf",
-      "sourcePage": 10,
+      "sourcePage": "10",
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.976Z",
-      "updatedAt": "2026-10-03T17:21:59.976Z"
+      "updatedAt": "2026-11-04T18:44:09.862Z"
     },
     {
       "id": "C1-MID-011",
@@ -117432,6 +117432,6 @@
     "totalQuestions": 3507,
     "verifiedQuestions": 3507,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T18:41:30.129Z"
+    "lastUpdated": "2026-11-04T18:44:10.228Z"
   }
 }
