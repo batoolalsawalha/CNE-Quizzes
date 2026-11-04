@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T15:54:53.319Z",
+  "lastUpdated": "2026-11-04T15:55:00.428Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -5029,39 +5029,6 @@
       "imageUrl": null,
       "sourceFile": "Diff Final Exam.pdf",
       "sourcePage": 10,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.980Z",
-      "updatedAt": "2026-10-03T17:21:59.980Z"
-    },
-    {
-      "id": "DIFF-FIN-011",
-      "subjectId": "subj-diff",
-      "quizId": "quiz-subj-diff-final",
-      "question": "The Laplace transform of f(t) = t^n (n positive integer) is:",
-      "options": [
-        {
-          "id": "a",
-          "text": "n! / s^n"
-        },
-        {
-          "id": "b",
-          "text": "1 / s^(n + 1)"
-        },
-        {
-          "id": "c",
-          "text": "n! / s^(n + 1)"
-        },
-        {
-          "id": "d",
-          "text": "(n + 1)! / s^n"
-        }
-      ],
-      "correctAnswer": "c",
-      "explanation": "Standard formula: L{t^n} = n! / s^(n+1).",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Diff Final Exam.pdf",
-      "sourcePage": 1,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.980Z",
       "updatedAt": "2026-10-03T17:21:59.980Z"
@@ -121224,9 +121191,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3622,
-    "verifiedQuestions": 3622,
+    "totalQuestions": 3621,
+    "verifiedQuestions": 3621,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T15:54:53.319Z"
+    "lastUpdated": "2026-11-04T15:55:00.428Z"
   }
 }
