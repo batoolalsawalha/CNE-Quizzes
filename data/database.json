@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T15:58:23.329Z",
+  "lastUpdated": "2026-11-04T15:58:41.327Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -7146,39 +7146,6 @@
       "updatedAt": "2026-10-03T17:21:59.982Z"
     },
     {
-      "id": "LIN-FIN-043",
-      "subjectId": "subj-linear",
-      "quizId": "quiz-subj-linear-final",
-      "question": "The least-squares solution to an inconsistent system A x = b satisfies the normal equations:",
-      "options": [
-        {
-          "id": "a",
-          "text": "A x = b"
-        },
-        {
-          "id": "b",
-          "text": "A A^T x = b"
-        },
-        {
-          "id": "c",
-          "text": "A^T A x = A^T b"
-        },
-        {
-          "id": "d",
-          "text": "x = (A^T)⁻¹ b"
-        }
-      ],
-      "correctAnswer": "c",
-      "explanation": "Normal equations minimize ||Ax - b||².",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Final T1.2023-2024.pdf",
-      "sourcePage": 3,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.982Z",
-      "updatedAt": "2026-10-03T17:21:59.982Z"
-    },
-    {
       "id": "LIN-FIN-044",
       "subjectId": "subj-linear",
       "quizId": "quiz-subj-linear-final",
@@ -7438,39 +7405,6 @@
       "imageUrl": null,
       "sourceFile": "Final T1.2023-2024.pdf",
       "sourcePage": 1,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.982Z",
-      "updatedAt": "2026-10-03T17:21:59.982Z"
-    },
-    {
-      "id": "LIN-FIN-052",
-      "subjectId": "subj-linear",
-      "quizId": "quiz-subj-linear-final",
-      "question": "Cayley-Hamilton Theorem states that every square matrix A satisfies:",
-      "options": [
-        {
-          "id": "a",
-          "text": "A² = I"
-        },
-        {
-          "id": "b",
-          "text": "A^T = A"
-        },
-        {
-          "id": "c",
-          "text": "tr(A) = det(A)"
-        },
-        {
-          "id": "d",
-          "text": "Its own characteristic equation: p(A) = 0"
-        }
-      ],
-      "correctAnswer": "d",
-      "explanation": "If p(λ) = det(A - λI), then p(A) is the zero matrix.",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Final T1.2023-2024.pdf",
-      "sourcePage": 2,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.982Z",
       "updatedAt": "2026-10-03T17:21:59.982Z"
@@ -120861,9 +120795,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3611,
-    "verifiedQuestions": 3611,
+    "totalQuestions": 3609,
+    "verifiedQuestions": 3609,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T15:58:23.329Z"
+    "lastUpdated": "2026-11-04T15:58:41.327Z"
   }
 }
