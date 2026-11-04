@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T15:48:50.319Z",
+  "lastUpdated": "2026-11-04T15:49:00.027Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -4072,39 +4072,6 @@
       "imageUrl": null,
       "sourceFile": "Final calcu 2.pdf",
       "sourcePage": 3,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.979Z",
-      "updatedAt": "2026-10-03T17:21:59.979Z"
-    },
-    {
-      "id": "C2-FIN-014",
-      "subjectId": "subj-calc2",
-      "quizId": "quiz-subj-calc2-final",
-      "question": "The Maclaurin series for ln(1 + x) for |x| < 1 is:",
-      "options": [
-        {
-          "id": "a",
-          "text": "Σ_{n=0}^∞ x^n / n!"
-        },
-        {
-          "id": "b",
-          "text": "Σ_{n=1}^∞ (-1)^(n+1) x^n / n"
-        },
-        {
-          "id": "c",
-          "text": "Σ_{n=1}^∞ x^n / n"
-        },
-        {
-          "id": "d",
-          "text": "Σ_{n=0}^∞ (-1)^n x^n"
-        }
-      ],
-      "correctAnswer": "b",
-      "explanation": "Integrate 1/(1+x) => x - x²/2 + x³/3 - ...",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Final calcu 2.pdf",
-      "sourcePage": 4,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.979Z",
       "updatedAt": "2026-10-03T17:21:59.979Z"
@@ -123072,9 +123039,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3678,
-    "verifiedQuestions": 3678,
+    "totalQuestions": 3677,
+    "verifiedQuestions": 3677,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T15:48:50.319Z"
+    "lastUpdated": "2026-11-04T15:49:00.027Z"
   }
 }
