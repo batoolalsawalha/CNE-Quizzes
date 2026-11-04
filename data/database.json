@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T16:25:49.529Z",
+  "lastUpdated": "2026-11-04T16:25:55.631Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -6910,39 +6910,6 @@
       "imageUrl": null,
       "sourceFile": "Numerical Methods Final.pdf",
       "sourcePage": 3,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.984Z",
-      "updatedAt": "2026-10-03T17:21:59.984Z"
-    },
-    {
-      "id": "NUM-FIN-005",
-      "subjectId": "subj-numerical",
-      "quizId": "quiz-subj-numerical-final",
-      "question": "A cubic spline S(x) on [a, b] is twice continuously differentiable, meaning:",
-      "options": [
-        {
-          "id": "a",
-          "text": "S(x), S'(x), and S''(x) are continuous across all internal knots"
-        },
-        {
-          "id": "b",
-          "text": "S'''(x) is continuous"
-        },
-        {
-          "id": "c",
-          "text": "Only S(x) is continuous"
-        },
-        {
-          "id": "d",
-          "text": "S(x) is a straight line"
-        }
-      ],
-      "correctAnswer": "a",
-      "explanation": "Cubic splines ensure C² continuity.",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Numerical Methods Final.pdf",
-      "sourcePage": 5,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.984Z",
       "updatedAt": "2026-10-03T17:21:59.984Z"
@@ -117561,9 +117528,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3511,
-    "verifiedQuestions": 3511,
+    "totalQuestions": 3510,
+    "verifiedQuestions": 3510,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T16:25:49.529Z"
+    "lastUpdated": "2026-11-04T16:25:55.631Z"
   }
 }
