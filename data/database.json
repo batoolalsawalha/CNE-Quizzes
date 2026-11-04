@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T15:49:46.630Z",
+  "lastUpdated": "2026-11-04T15:49:55.830Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -3874,39 +3874,6 @@
       "imageUrl": null,
       "sourceFile": "Final calcu 2.pdf",
       "sourcePage": 7,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.979Z",
-      "updatedAt": "2026-10-03T17:21:59.979Z"
-    },
-    {
-      "id": "C2-FIN-008",
-      "subjectId": "subj-calc2",
-      "quizId": "quiz-subj-calc2-final",
-      "question": "The harmonic series Σ_{n=1}^∞ (1 / n):",
-      "options": [
-        {
-          "id": "a",
-          "text": "Converges to 1"
-        },
-        {
-          "id": "b",
-          "text": "Converges to 0"
-        },
-        {
-          "id": "c",
-          "text": "Converges to π²/6"
-        },
-        {
-          "id": "d",
-          "text": "Diverges (p = 1)"
-        }
-      ],
-      "correctAnswer": "d",
-      "explanation": "Harmonic series is a p-series with p = 1, which diverges.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Final calcu 2.pdf",
-      "sourcePage": 8,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.979Z",
       "updatedAt": "2026-10-03T17:21:59.979Z"
@@ -122841,9 +122808,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3671,
-    "verifiedQuestions": 3671,
+    "totalQuestions": 3670,
+    "verifiedQuestions": 3670,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T15:49:46.630Z"
+    "lastUpdated": "2026-11-04T15:49:55.830Z"
   }
 }
