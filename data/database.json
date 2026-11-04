@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T16:04:59.629Z",
+  "lastUpdated": "2026-11-04T16:05:06.927Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -5754,39 +5754,6 @@
       "difficulty": "Easy",
       "imageUrl": null,
       "sourceFile": "Linear 2026 mid.pdf",
-      "sourcePage": 2,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.981Z",
-      "updatedAt": "2026-10-03T17:21:59.981Z"
-    },
-    {
-      "id": "LIN-FIN-002",
-      "subjectId": "subj-linear",
-      "quizId": "quiz-subj-linear-final",
-      "question": "The vectors v₁, v₂, ..., v_k are linearly independent if c₁v₁ + ... + c_k v_k = 0 implies:",
-      "options": [
-        {
-          "id": "a",
-          "text": "At least one c_i ≠ 0"
-        },
-        {
-          "id": "b",
-          "text": "c₁ = c₂ = ... = c_k = 0 (only trivial coefficients)"
-        },
-        {
-          "id": "c",
-          "text": "c₁ + c₂ + ... + c_k = 1"
-        },
-        {
-          "id": "d",
-          "text": "v₁ = v₂"
-        }
-      ],
-      "correctAnswer": "b",
-      "explanation": "Linear independence definition.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Final T1.2023-2024.pdf",
       "sourcePage": 2,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.981Z",
@@ -119178,9 +119145,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3560,
-    "verifiedQuestions": 3560,
+    "totalQuestions": 3559,
+    "verifiedQuestions": 3559,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T16:04:59.629Z"
+    "lastUpdated": "2026-11-04T16:05:06.927Z"
   }
 }
