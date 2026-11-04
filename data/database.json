@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T16:24:47.130Z",
+  "lastUpdated": "2026-11-04T16:24:52.926Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -7207,39 +7207,6 @@
       "imageUrl": null,
       "sourceFile": "Numerical Methods Final.pdf",
       "sourcePage": 2,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.984Z",
-      "updatedAt": "2026-10-03T17:21:59.984Z"
-    },
-    {
-      "id": "NUM-FIN-013",
-      "subjectId": "subj-numerical",
-      "quizId": "quiz-subj-numerical-final",
-      "question": "The central difference formula for the second derivative f''(x₀) is:",
-      "options": [
-        {
-          "id": "a",
-          "text": "[f(x₀ + h) - 2 f(x₀) + f(x₀ - h)] / h² with error O(h²)"
-        },
-        {
-          "id": "b",
-          "text": "[f(x₀ + h) - f(x₀ - h)] / h²"
-        },
-        {
-          "id": "c",
-          "text": "[f(x₀ + h) + f(x₀ - h)] / 2h²"
-        },
-        {
-          "id": "d",
-          "text": "f(x₀) / h²"
-        }
-      ],
-      "correctAnswer": "a",
-      "explanation": "Standard three-point central second derivative formula.",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Numerical Methods Final.pdf",
-      "sourcePage": 3,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.984Z",
       "updatedAt": "2026-10-03T17:21:59.984Z"
@@ -117858,9 +117825,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3520,
-    "verifiedQuestions": 3520,
+    "totalQuestions": 3519,
+    "verifiedQuestions": 3519,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T16:24:47.130Z"
+    "lastUpdated": "2026-11-04T16:24:52.926Z"
   }
 }
