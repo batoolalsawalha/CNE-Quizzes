@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T16:21:04.836Z",
+  "lastUpdated": "2026-11-04T16:24:35.420Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -7306,39 +7306,6 @@
       "imageUrl": null,
       "sourceFile": "Numerical Methods Final.pdf",
       "sourcePage": 5,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.984Z",
-      "updatedAt": "2026-10-03T17:21:59.984Z"
-    },
-    {
-      "id": "NUM-FIN-016",
-      "subjectId": "subj-numerical",
-      "quizId": "quiz-subj-numerical-final",
-      "question": "The local truncation error of the single Trapezoidal rule is proportional to:",
-      "options": [
-        {
-          "id": "a",
-          "text": "-(1/90) h⁵ f⁽⁴⁾(ξ)"
-        },
-        {
-          "id": "b",
-          "text": "h f'(ξ)"
-        },
-        {
-          "id": "c",
-          "text": "h²"
-        },
-        {
-          "id": "d",
-          "text": "-(1/12) h³ f''(ξ)"
-        }
-      ],
-      "correctAnswer": "d",
-      "explanation": "Standard error term for single trapezoidal rule.",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Numerical Methods Final.pdf",
-      "sourcePage": 6,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.984Z",
       "updatedAt": "2026-10-03T17:21:59.984Z"
@@ -117957,9 +117924,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3523,
-    "verifiedQuestions": 3523,
+    "totalQuestions": 3522,
+    "verifiedQuestions": 3522,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T16:21:04.836Z"
+    "lastUpdated": "2026-11-04T16:24:35.420Z"
   }
 }
