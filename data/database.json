@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T18:38:48.424Z",
+  "lastUpdated": "2026-11-04T18:41:30.129Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -1869,34 +1869,34 @@
       "id": "C1-MID-009",
       "subjectId": "subj-calc1",
       "quizId": "quiz-subj-calc1-mid",
-      "question": "If f(x) = 3x - 5, what is the inverse f⁻¹(x)?",
+      "question": "Find the range of the function:\n\nf(x) = (x - 1)^2 + 2",
       "options": [
         {
           "id": "a",
-          "text": "(x + 5) / 3"
+          "text": "(-2, infinity)"
         },
         {
           "id": "b",
-          "text": "(x - 5) / 3"
+          "text": "[-2, infinity)"
         },
         {
           "id": "c",
-          "text": "3x + 5"
+          "text": "(2, infinity)"
         },
         {
           "id": "d",
-          "text": "1 / (3x - 5)"
+          "text": "[2, infinity)"
         }
       ],
-      "correctAnswer": "a",
-      "explanation": "y = 3x - 5 => x = (y+5)/3.",
+      "correctAnswer": "b",
+      "explanation": "1. A square is always non-negative:\n    (x - 1)^2 >= 0\n2. Add 2 to both sides:\n    (x - 1)^2 + 2 >= 2\n3. The minimum value is 2, which occurs at x = 1.\n4. Therefore, the range is:\n    [2, infinity)",
       "difficulty": "Easy",
       "imageUrl": null,
       "sourceFile": "Mid calc1.pdf",
-      "sourcePage": 9,
+      "sourcePage": "9",
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.976Z",
-      "updatedAt": "2026-10-03T17:21:59.976Z"
+      "updatedAt": "2026-11-04T18:41:29.815Z"
     },
     {
       "id": "C1-MID-010",
@@ -117432,6 +117432,6 @@
     "totalQuestions": 3507,
     "verifiedQuestions": 3507,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T18:38:48.424Z"
+    "lastUpdated": "2026-11-04T18:41:30.129Z"
   }
 }
