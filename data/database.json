@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T15:49:20.837Z",
+  "lastUpdated": "2026-11-04T15:49:29.931Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -3973,39 +3973,6 @@
       "imageUrl": null,
       "sourceFile": "Final calcu 2.pdf",
       "sourcePage": 10,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.979Z",
-      "updatedAt": "2026-10-03T17:21:59.979Z"
-    },
-    {
-      "id": "C2-FIN-011",
-      "subjectId": "subj-calc2",
-      "quizId": "quiz-subj-calc2-final",
-      "question": "Using the Ratio Test, the series Σ_{n=1}^∞ (n! / 2^n):",
-      "options": [
-        {
-          "id": "a",
-          "text": "Converges absolutely"
-        },
-        {
-          "id": "b",
-          "text": "Inconclusive"
-        },
-        {
-          "id": "c",
-          "text": "Diverges"
-        },
-        {
-          "id": "d",
-          "text": "Converges conditionally"
-        }
-      ],
-      "correctAnswer": "c",
-      "explanation": "lim (n+1)/2 = ∞ > 1 => diverges.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Final calcu 2.pdf",
-      "sourcePage": 1,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.979Z",
       "updatedAt": "2026-10-03T17:21:59.979Z"
@@ -122940,9 +122907,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3674,
-    "verifiedQuestions": 3674,
+    "totalQuestions": 3673,
+    "verifiedQuestions": 3673,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T15:49:20.837Z"
+    "lastUpdated": "2026-11-04T15:49:29.931Z"
   }
 }
