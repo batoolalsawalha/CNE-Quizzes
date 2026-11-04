@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T16:20:00.221Z",
+  "lastUpdated": "2026-11-04T16:20:25.022Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -7368,204 +7368,6 @@
       ],
       "correctAnswer": "a",
       "explanation": "Sum of n intervals of local error O(h³) gives global error O(h²).",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Numerical Methods Final.pdf",
-      "sourcePage": 7,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.984Z",
-      "updatedAt": "2026-10-03T17:21:59.984Z"
-    },
-    {
-      "id": "NUM-FIN-041",
-      "subjectId": "subj-numerical",
-      "quizId": "quiz-subj-numerical-final",
-      "question": "Which method requires only 1 function evaluation per step?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Euler's method"
-        },
-        {
-          "id": "b",
-          "text": "Heun's method"
-        },
-        {
-          "id": "c",
-          "text": "RK4"
-        },
-        {
-          "id": "d",
-          "text": "Simpson's rule"
-        }
-      ],
-      "correctAnswer": "a",
-      "explanation": "Only f(t_n, y_n) is computed.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Numerical Methods Final.pdf",
-      "sourcePage": 1,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.984Z",
-      "updatedAt": "2026-10-03T17:21:59.984Z"
-    },
-    {
-      "id": "NUM-FIN-042",
-      "subjectId": "subj-numerical",
-      "quizId": "quiz-subj-numerical-final",
-      "question": "To evaluate ∫ₐᵇ f(x) dx using Gauss-Legendre quadrature on [a, b], one must first change variables using:",
-      "options": [
-        {
-          "id": "a",
-          "text": "x = (b - a) t"
-        },
-        {
-          "id": "b",
-          "text": "x = [(b - a) t + (b + a)] / 2 for t ∈ [-1, 1]"
-        },
-        {
-          "id": "c",
-          "text": "t = x - a"
-        },
-        {
-          "id": "d",
-          "text": "t = x / (b - a)"
-        }
-      ],
-      "correctAnswer": "b",
-      "explanation": "Standard affine transformation mapping [-1, 1] to [a, b].",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Numerical Methods Final.pdf",
-      "sourcePage": 2,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.984Z",
-      "updatedAt": "2026-10-03T17:21:59.984Z"
-    },
-    {
-      "id": "NUM-FIN-044",
-      "subjectId": "subj-numerical",
-      "quizId": "quiz-subj-numerical-final",
-      "question": "The Neville's algorithm is used to:",
-      "options": [
-        {
-          "id": "a",
-          "text": "Solve nonlinear systems"
-        },
-        {
-          "id": "b",
-          "text": "Perform numerical integration"
-        },
-        {
-          "id": "c",
-          "text": "Compute matrix inverses"
-        },
-        {
-          "id": "d",
-          "text": "Evaluate interpolating polynomials recursively without explicitly finding coefficients"
-        }
-      ],
-      "correctAnswer": "d",
-      "explanation": "Recursive table-based interpolation evaluation.",
-      "difficulty": "Hard",
-      "imageUrl": null,
-      "sourceFile": "Numerical Methods Final.pdf",
-      "sourcePage": 4,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.984Z",
-      "updatedAt": "2026-10-03T17:21:59.984Z"
-    },
-    {
-      "id": "NUM-FIN-045",
-      "subjectId": "subj-numerical",
-      "quizId": "quiz-subj-numerical-final",
-      "question": "The tridiagonal matrix algorithm (TDMA / Thomas algorithm) solves a tridiagonal system in:",
-      "options": [
-        {
-          "id": "a",
-          "text": "O(n) operations"
-        },
-        {
-          "id": "b",
-          "text": "O(n³) operations"
-        },
-        {
-          "id": "c",
-          "text": "O(n²)"
-        },
-        {
-          "id": "d",
-          "text": "O(log n)"
-        }
-      ],
-      "correctAnswer": "a",
-      "explanation": "Elimination on tridiagonal matrices requires only O(n) work.",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Numerical Methods Final.pdf",
-      "sourcePage": 5,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.984Z",
-      "updatedAt": "2026-10-03T17:21:59.984Z"
-    },
-    {
-      "id": "NUM-FIN-046",
-      "subjectId": "subj-numerical",
-      "quizId": "quiz-subj-numerical-final",
-      "question": "What is the divided difference f[x₀] of a single point?",
-      "options": [
-        {
-          "id": "a",
-          "text": "f'(x₀)"
-        },
-        {
-          "id": "b",
-          "text": "f(x₀)"
-        },
-        {
-          "id": "c",
-          "text": "0"
-        },
-        {
-          "id": "d",
-          "text": "x₀"
-        }
-      ],
-      "correctAnswer": "b",
-      "explanation": "0th order divided difference is the function value.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Numerical Methods Final.pdf",
-      "sourcePage": 6,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.984Z",
-      "updatedAt": "2026-10-03T17:21:59.984Z"
-    },
-    {
-      "id": "NUM-FIN-047",
-      "subjectId": "subj-numerical",
-      "quizId": "quiz-subj-numerical-final",
-      "question": "The forward difference operator Δ is defined as:",
-      "options": [
-        {
-          "id": "a",
-          "text": "Δ f_i = f_i - f_{i-1}"
-        },
-        {
-          "id": "b",
-          "text": "Δ f_i = f_{i+1} + f_i"
-        },
-        {
-          "id": "c",
-          "text": "Δ f_i = f_{i+1} - f_i"
-        },
-        {
-          "id": "d",
-          "text": "Δ f_i = f_i / h"
-        }
-      ],
-      "correctAnswer": "c",
-      "explanation": "Definition of forward difference.",
       "difficulty": "Easy",
       "imageUrl": null,
       "sourceFile": "Numerical Methods Final.pdf",
@@ -118353,9 +118155,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3535,
-    "verifiedQuestions": 3535,
+    "totalQuestions": 3529,
+    "verifiedQuestions": 3529,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T16:20:00.221Z"
+    "lastUpdated": "2026-11-04T16:20:25.022Z"
   }
 }
