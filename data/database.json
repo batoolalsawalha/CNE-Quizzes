@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T15:55:19.924Z",
+  "lastUpdated": "2026-11-04T15:55:27.932Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -4897,39 +4897,6 @@
       "imageUrl": null,
       "sourceFile": "Diff Final Exam.pdf",
       "sourcePage": 6,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.980Z",
-      "updatedAt": "2026-10-03T17:21:59.980Z"
-    },
-    {
-      "id": "DIFF-FIN-007",
-      "subjectId": "subj-diff",
-      "quizId": "quiz-subj-diff-final",
-      "question": "The auxiliary equation for x² y'' - 2x y' + 2y = 0 is:",
-      "options": [
-        {
-          "id": "a",
-          "text": "m² - 2m + 2 = 0"
-        },
-        {
-          "id": "b",
-          "text": "m² + 3m + 2 = 0"
-        },
-        {
-          "id": "c",
-          "text": "m(m - 1) - 2m + 2 = m² - 3m + 2 = 0"
-        },
-        {
-          "id": "d",
-          "text": "m² - 2 = 0"
-        }
-      ],
-      "correctAnswer": "c",
-      "explanation": "x² y'' gives m(m-1), so m(m-1) - 2m + 2 = m² - 3m + 2 = 0.",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Diff Final Exam.pdf",
-      "sourcePage": 7,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.980Z",
       "updatedAt": "2026-10-03T17:21:59.980Z"
@@ -121092,9 +121059,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3618,
-    "verifiedQuestions": 3618,
+    "totalQuestions": 3617,
+    "verifiedQuestions": 3617,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T15:55:19.924Z"
+    "lastUpdated": "2026-11-04T15:55:27.932Z"
   }
 }
