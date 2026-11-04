@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T15:50:21.028Z",
+  "lastUpdated": "2026-11-04T15:50:27.919Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -3775,39 +3775,6 @@
       "imageUrl": null,
       "sourceFile": "Final calcu 2.pdf",
       "sourcePage": 4,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.979Z",
-      "updatedAt": "2026-10-03T17:21:59.979Z"
-    },
-    {
-      "id": "C2-FIN-005",
-      "subjectId": "subj-calc2",
-      "quizId": "quiz-subj-calc2-final",
-      "question": "The Maclaurin series expansion of cos(x) is:",
-      "options": [
-        {
-          "id": "a",
-          "text": "Σ_{n=0}^∞ (-1)^n x^(2n) / (2n)!"
-        },
-        {
-          "id": "b",
-          "text": "Σ_{n=0}^∞ (-1)^n x^(2n+1) / (2n+1)!"
-        },
-        {
-          "id": "c",
-          "text": "Σ_{n=0}^∞ x^n / n!"
-        },
-        {
-          "id": "d",
-          "text": "Σ_{n=0}^∞ x^(2n) / (2n)!"
-        }
-      ],
-      "correctAnswer": "a",
-      "explanation": "cos x has only even powers alternating in sign.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Final calcu 2.pdf",
-      "sourcePage": 5,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.979Z",
       "updatedAt": "2026-10-03T17:21:59.979Z"
@@ -122742,9 +122709,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3668,
-    "verifiedQuestions": 3668,
+    "totalQuestions": 3667,
+    "verifiedQuestions": 3667,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T15:50:21.028Z"
+    "lastUpdated": "2026-11-04T15:50:27.919Z"
   }
 }
