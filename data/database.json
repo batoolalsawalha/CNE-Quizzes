@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T15:50:38.132Z",
+  "lastUpdated": "2026-11-04T15:50:44.519Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -3709,39 +3709,6 @@
       "imageUrl": null,
       "sourceFile": "Final calcu 2.pdf",
       "sourcePage": 2,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.979Z",
-      "updatedAt": "2026-10-03T17:21:59.979Z"
-    },
-    {
-      "id": "C2-FIN-004",
-      "subjectId": "subj-calc2",
-      "quizId": "quiz-subj-calc2-final",
-      "question": "The radius of convergence R of Σ_{n=0}^∞ (x^n / n!) is:",
-      "options": [
-        {
-          "id": "a",
-          "text": "R = 1"
-        },
-        {
-          "id": "b",
-          "text": "R = 0"
-        },
-        {
-          "id": "c",
-          "text": "R = e"
-        },
-        {
-          "id": "d",
-          "text": "R = ∞"
-        }
-      ],
-      "correctAnswer": "d",
-      "explanation": "Ratio test: lim |x / (n + 1)| = 0 for all x, so R = ∞.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Final calcu 2.pdf",
-      "sourcePage": 4,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.979Z",
       "updatedAt": "2026-10-03T17:21:59.979Z"
@@ -122676,9 +122643,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3666,
-    "verifiedQuestions": 3666,
+    "totalQuestions": 3665,
+    "verifiedQuestions": 3665,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T15:50:38.132Z"
+    "lastUpdated": "2026-11-04T15:50:44.519Z"
   }
 }
