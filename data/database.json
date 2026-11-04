@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T15:51:28.223Z",
+  "lastUpdated": "2026-11-04T15:51:51.630Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -5232,39 +5232,6 @@
       "updatedAt": "2026-10-03T17:21:59.980Z"
     },
     {
-      "id": "DIFF-FIN-017",
-      "subjectId": "subj-diff",
-      "quizId": "quiz-subj-diff-final",
-      "question": "The Laplace transform of the derivative f'(t) is:",
-      "options": [
-        {
-          "id": "a",
-          "text": "s F(s) - f(0)"
-        },
-        {
-          "id": "b",
-          "text": "s F(s) + f(0)"
-        },
-        {
-          "id": "c",
-          "text": "F(s) / s"
-        },
-        {
-          "id": "d",
-          "text": "s² F(s) - f(0)"
-        }
-      ],
-      "correctAnswer": "a",
-      "explanation": "Integration by parts gives s F(s) - f(0).",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Diff Final Exam.pdf",
-      "sourcePage": 7,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.980Z",
-      "updatedAt": "2026-10-03T17:21:59.980Z"
-    },
-    {
       "id": "DIFF-FIN-019",
       "subjectId": "subj-diff",
       "quizId": "quiz-subj-diff-final",
@@ -5293,138 +5260,6 @@
       "imageUrl": null,
       "sourceFile": "Diff Final Exam.pdf",
       "sourcePage": 9,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.980Z",
-      "updatedAt": "2026-10-03T17:21:59.980Z"
-    },
-    {
-      "id": "DIFF-FIN-020",
-      "subjectId": "subj-diff",
-      "quizId": "quiz-subj-diff-final",
-      "question": "The inverse Laplace transform L⁻¹{ 1 / (s - 4) } is:",
-      "options": [
-        {
-          "id": "a",
-          "text": "e^(-4t)"
-        },
-        {
-          "id": "b",
-          "text": "4 e^t"
-        },
-        {
-          "id": "c",
-          "text": "t⁴"
-        },
-        {
-          "id": "d",
-          "text": "e^(4t)"
-        }
-      ],
-      "correctAnswer": "d",
-      "explanation": "L{e^(at)} = 1/(s-a) with a = 4.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Diff Final Exam.pdf",
-      "sourcePage": 10,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.980Z",
-      "updatedAt": "2026-10-03T17:21:59.980Z"
-    },
-    {
-      "id": "DIFF-FIN-021",
-      "subjectId": "subj-diff",
-      "quizId": "quiz-subj-diff-final",
-      "question": "The unit step function u(t - a) (or Heaviside function) has Laplace transform:",
-      "options": [
-        {
-          "id": "a",
-          "text": "e^(-as) / s"
-        },
-        {
-          "id": "b",
-          "text": "e^(as) / s"
-        },
-        {
-          "id": "c",
-          "text": "1 / (s - a)"
-        },
-        {
-          "id": "d",
-          "text": "e^(-as)"
-        }
-      ],
-      "correctAnswer": "a",
-      "explanation": "L{u(t - a)} = ∫ₐ^∞ e^(-st) dt = e^(-as) / s.",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Diff Final Exam.pdf",
-      "sourcePage": 1,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.980Z",
-      "updatedAt": "2026-10-03T17:21:59.980Z"
-    },
-    {
-      "id": "DIFF-FIN-022",
-      "subjectId": "subj-diff",
-      "quizId": "quiz-subj-diff-final",
-      "question": "The Second Shifting Theorem states that L{f(t - a) u(t - a)} equals:",
-      "options": [
-        {
-          "id": "a",
-          "text": "e^(as) F(s)"
-        },
-        {
-          "id": "b",
-          "text": "e^(-as) F(s)"
-        },
-        {
-          "id": "c",
-          "text": "F(s - a)"
-        },
-        {
-          "id": "d",
-          "text": "F(s) / s"
-        }
-      ],
-      "correctAnswer": "b",
-      "explanation": "Time shift by a corresponds to frequency multiplication by e^(-as).",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Diff Final Exam.pdf",
-      "sourcePage": 2,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.980Z",
-      "updatedAt": "2026-10-03T17:21:59.980Z"
-    },
-    {
-      "id": "DIFF-FIN-023",
-      "subjectId": "subj-diff",
-      "quizId": "quiz-subj-diff-final",
-      "question": "The Laplace transform of the Dirac delta function δ(t - a) is:",
-      "options": [
-        {
-          "id": "a",
-          "text": "e^(-as) / s"
-        },
-        {
-          "id": "b",
-          "text": "1"
-        },
-        {
-          "id": "c",
-          "text": "e^(-as)"
-        },
-        {
-          "id": "d",
-          "text": "e^(as)"
-        }
-      ],
-      "correctAnswer": "c",
-      "explanation": "∫₀^∞ e^(-st) δ(t - a) dt = e^(-as). For a = 0, it is 1.",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Diff Final Exam.pdf",
-      "sourcePage": 3,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.980Z",
       "updatedAt": "2026-10-03T17:21:59.980Z"
@@ -122544,9 +122379,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3662,
-    "verifiedQuestions": 3662,
+    "totalQuestions": 3657,
+    "verifiedQuestions": 3657,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T15:51:28.223Z"
+    "lastUpdated": "2026-11-04T15:51:51.630Z"
   }
 }
