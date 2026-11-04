@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T15:57:53.423Z",
+  "lastUpdated": "2026-11-04T15:58:03.524Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -4765,39 +4765,6 @@
       "imageUrl": null,
       "sourceFile": "Diff Final Exam.pdf",
       "sourcePage": 2,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.979Z",
-      "updatedAt": "2026-10-03T17:21:59.979Z"
-    },
-    {
-      "id": "DIFF-FIN-003",
-      "subjectId": "subj-diff",
-      "quizId": "quiz-subj-diff-final",
-      "question": "For y'' + 4y = sin(2x), the form of Y_p is:",
-      "options": [
-        {
-          "id": "a",
-          "text": "A cos 2x + B sin 2x"
-        },
-        {
-          "id": "b",
-          "text": "A sin 2x"
-        },
-        {
-          "id": "c",
-          "text": "x (A cos 2x + B sin 2x)"
-        },
-        {
-          "id": "d",
-          "text": "x² (A cos 2x + B sin 2x)"
-        }
-      ],
-      "correctAnswer": "c",
-      "explanation": "Roots are ±2i which match the forcing frequency 2, so multiply by x.",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Diff Final Exam.pdf",
-      "sourcePage": 3,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.979Z",
       "updatedAt": "2026-10-03T17:21:59.979Z"
@@ -120960,9 +120927,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3614,
-    "verifiedQuestions": 3614,
+    "totalQuestions": 3613,
+    "verifiedQuestions": 3613,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T15:57:53.423Z"
+    "lastUpdated": "2026-11-04T15:58:03.524Z"
   }
 }
