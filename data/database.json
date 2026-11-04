@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T16:02:30.029Z",
+  "lastUpdated": "2026-11-04T16:02:46.830Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -6184,39 +6184,6 @@
       "imageUrl": null,
       "sourceFile": "Final T1.2023-2024.pdf",
       "sourcePage": 3,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.981Z",
-      "updatedAt": "2026-10-03T17:21:59.981Z"
-    },
-    {
-      "id": "LIN-FIN-014",
-      "subjectId": "subj-linear",
-      "quizId": "quiz-subj-linear-final",
-      "question": "The eigenvalues of a triangular or diagonal matrix are simply:",
-      "options": [
-        {
-          "id": "a",
-          "text": "The sum of all its entries"
-        },
-        {
-          "id": "b",
-          "text": "Its main diagonal entries"
-        },
-        {
-          "id": "c",
-          "text": "The roots of x² - 1 = 0"
-        },
-        {
-          "id": "d",
-          "text": "All zero"
-        }
-      ],
-      "correctAnswer": "b",
-      "explanation": "det(A - λ I) is the product of (a_ii - λ).",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Final T1.2023-2024.pdf",
-      "sourcePage": 4,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.981Z",
       "updatedAt": "2026-10-03T17:21:59.981Z"
@@ -119607,9 +119574,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3573,
-    "verifiedQuestions": 3573,
+    "totalQuestions": 3572,
+    "verifiedQuestions": 3572,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T16:02:30.029Z"
+    "lastUpdated": "2026-11-04T16:02:46.830Z"
   }
 }
