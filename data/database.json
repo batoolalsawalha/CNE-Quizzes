@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T15:54:36.519Z",
+  "lastUpdated": "2026-11-04T15:54:46.930Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -5095,72 +5095,6 @@
       "imageUrl": null,
       "sourceFile": "Diff Final Exam.pdf",
       "sourcePage": 2,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.980Z",
-      "updatedAt": "2026-10-03T17:21:59.980Z"
-    },
-    {
-      "id": "DIFF-FIN-013",
-      "subjectId": "subj-diff",
-      "quizId": "quiz-subj-diff-final",
-      "question": "The Laplace transform of f(t) = sin(ωt) is:",
-      "options": [
-        {
-          "id": "a",
-          "text": "ω / (s² + ω²)"
-        },
-        {
-          "id": "b",
-          "text": "s / (s² + ω²)"
-        },
-        {
-          "id": "c",
-          "text": "ω / (s² - ω²)"
-        },
-        {
-          "id": "d",
-          "text": "1 / (s² + ω²)"
-        }
-      ],
-      "correctAnswer": "a",
-      "explanation": "Standard transform: L{sin ωt} = ω/(s² + ω²).",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Diff Final Exam.pdf",
-      "sourcePage": 3,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.980Z",
-      "updatedAt": "2026-10-03T17:21:59.980Z"
-    },
-    {
-      "id": "DIFF-FIN-014",
-      "subjectId": "subj-diff",
-      "quizId": "quiz-subj-diff-final",
-      "question": "The Laplace transform of f(t) = cos(ωt) is:",
-      "options": [
-        {
-          "id": "a",
-          "text": "ω / (s² + ω²)"
-        },
-        {
-          "id": "b",
-          "text": "s / (s² + ω²)"
-        },
-        {
-          "id": "c",
-          "text": "s / (s² - ω²)"
-        },
-        {
-          "id": "d",
-          "text": "1 / (s + ω)"
-        }
-      ],
-      "correctAnswer": "b",
-      "explanation": "Standard transform: L{cos ωt} = s/(s² + ω²).",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Diff Final Exam.pdf",
-      "sourcePage": 4,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.980Z",
       "updatedAt": "2026-10-03T17:21:59.980Z"
@@ -121323,9 +121257,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3625,
-    "verifiedQuestions": 3625,
+    "totalQuestions": 3623,
+    "verifiedQuestions": 3623,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T15:54:36.519Z"
+    "lastUpdated": "2026-11-04T15:54:46.930Z"
   }
 }
