@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T18:29:02.822Z",
+  "lastUpdated": "2026-11-04T18:36:50.826Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -1803,34 +1803,34 @@
       "id": "C1-MID-007",
       "subjectId": "subj-calc1",
       "quizId": "quiz-subj-calc1-mid",
-      "question": "The domain of f(x) = √(16 - x²) is:",
+      "question": "For each x in (-1, 1), we have:\n\ncot(arcsin(x)) = ?",
       "options": [
         {
           "id": "a",
-          "text": "(-4, 4)"
+          "text": "X"
         },
         {
           "id": "b",
-          "text": "(-∞, -4] ∪ [4, ∞)"
+          "text": "sqrt(1 - x^2)"
         },
         {
           "id": "c",
-          "text": "[-4, 4]"
+          "text": "x / sqrt(1 - x^2)"
         },
         {
           "id": "d",
-          "text": "[0, 4]"
+          "text": "sqrt(1 - x^2) / x"
         }
       ],
-      "correctAnswer": "c",
-      "explanation": "16 - x² ≥ 0 => x² ≤ 16 => [-4, 4].",
-      "difficulty": "Easy",
+      "correctAnswer": "d",
+      "explanation": "1. Let:\n    theta = arcsin(x)\n2. Therefore:\n    sin(theta) = x\n3. Using a right triangle:\n    Opposite = x\n    Hypotenuse = 1\n4. By the Pythagorean theorem:\n    Adjacent = sqrt(1 - x^2)\n5. Since:\n    cot(theta) = Adjacent / Opposite\n6. Therefore:\n    cot(arcsin(x)) = sqrt(1 - x^2) / x\n\nNote: The expression is undefined at x = 0, so the stated interval should exclude zero for the expression to be defined.",
+      "difficulty": "Medium",
       "imageUrl": null,
       "sourceFile": "Mid calc1.pdf",
-      "sourcePage": 7,
+      "sourcePage": "7",
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.976Z",
-      "updatedAt": "2026-10-03T17:21:59.976Z"
+      "updatedAt": "2026-11-04T18:36:50.562Z"
     },
     {
       "id": "C1-MID-008",
@@ -117432,6 +117432,6 @@
     "totalQuestions": 3507,
     "verifiedQuestions": 3507,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T18:29:02.822Z"
+    "lastUpdated": "2026-11-04T18:36:50.826Z"
   }
 }
