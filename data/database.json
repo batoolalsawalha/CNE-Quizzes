@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T15:58:41.327Z",
+  "lastUpdated": "2026-11-04T15:58:54.831Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -6316,72 +6316,6 @@
       "imageUrl": null,
       "sourceFile": "Final T1.2023-2024.pdf",
       "sourcePage": 7,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.981Z",
-      "updatedAt": "2026-10-03T17:21:59.981Z"
-    },
-    {
-      "id": "LIN-FIN-018",
-      "subjectId": "subj-linear",
-      "quizId": "quiz-subj-linear-final",
-      "question": "If an n x n matrix A has n distinct real eigenvalues, then A is:",
-      "options": [
-        {
-          "id": "a",
-          "text": "Guaranteed to be symmetric"
-        },
-        {
-          "id": "b",
-          "text": "Guaranteed to be diagonalizable"
-        },
-        {
-          "id": "c",
-          "text": "Invertible always"
-        },
-        {
-          "id": "d",
-          "text": "Defective"
-        }
-      ],
-      "correctAnswer": "b",
-      "explanation": "Distinct eigenvalues correspond to linearly independent eigenvectors.",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Final T1.2023-2024.pdf",
-      "sourcePage": 8,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.981Z",
-      "updatedAt": "2026-10-03T17:21:59.981Z"
-    },
-    {
-      "id": "LIN-FIN-019",
-      "subjectId": "subj-linear",
-      "quizId": "quiz-subj-linear-final",
-      "question": "If A is diagonalizable as A = P D P⁻¹, then A^k equals:",
-      "options": [
-        {
-          "id": "a",
-          "text": "P^k D P^(-k)"
-        },
-        {
-          "id": "b",
-          "text": "D^k"
-        },
-        {
-          "id": "c",
-          "text": "P D^k P⁻¹"
-        },
-        {
-          "id": "d",
-          "text": "k P D P⁻¹"
-        }
-      ],
-      "correctAnswer": "c",
-      "explanation": "Powers of diagonal matrices: D^k has diagonal entries λ_i^k.",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Final T1.2023-2024.pdf",
-      "sourcePage": 9,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.981Z",
       "updatedAt": "2026-10-03T17:21:59.981Z"
@@ -120795,9 +120729,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3609,
-    "verifiedQuestions": 3609,
+    "totalQuestions": 3607,
+    "verifiedQuestions": 3607,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T15:58:41.327Z"
+    "lastUpdated": "2026-11-04T15:58:54.831Z"
   }
 }
