@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T15:55:06.925Z",
+  "lastUpdated": "2026-11-04T15:55:13.432Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -4963,39 +4963,6 @@
       "imageUrl": null,
       "sourceFile": "Diff Final Exam.pdf",
       "sourcePage": 8,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.980Z",
-      "updatedAt": "2026-10-03T17:21:59.980Z"
-    },
-    {
-      "id": "DIFF-FIN-009",
-      "subjectId": "subj-diff",
-      "quizId": "quiz-subj-diff-final",
-      "question": "If the auxiliary equation of Cauchy-Euler has a repeated root m, the second independent solution is:",
-      "options": [
-        {
-          "id": "a",
-          "text": "x^m ln(x)"
-        },
-        {
-          "id": "b",
-          "text": "x^(m + 1)"
-        },
-        {
-          "id": "c",
-          "text": "e^(m x)"
-        },
-        {
-          "id": "d",
-          "text": "x^m / x"
-        }
-      ],
-      "correctAnswer": "a",
-      "explanation": "Reduction of order yields y₂ = x^m ln(x).",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Diff Final Exam.pdf",
-      "sourcePage": 9,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.980Z",
       "updatedAt": "2026-10-03T17:21:59.980Z"
@@ -121158,9 +121125,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3620,
-    "verifiedQuestions": 3620,
+    "totalQuestions": 3619,
+    "verifiedQuestions": 3619,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T15:55:06.925Z"
+    "lastUpdated": "2026-11-04T15:55:13.432Z"
   }
 }
