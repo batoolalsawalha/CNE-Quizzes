@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T16:25:24.418Z",
+  "lastUpdated": "2026-11-04T16:25:30.131Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -7042,39 +7042,6 @@
       "imageUrl": null,
       "sourceFile": "Numerical Methods Final.pdf",
       "sourcePage": 7,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.984Z",
-      "updatedAt": "2026-10-03T17:21:59.984Z"
-    },
-    {
-      "id": "NUM-FIN-009",
-      "subjectId": "subj-numerical",
-      "quizId": "quiz-subj-numerical-final",
-      "question": "Chebyshev nodes are used in polynomial interpolation to:",
-      "options": [
-        {
-          "id": "a",
-          "text": "Minimize the maximum interpolation error and eliminate Runge's phenomenon"
-        },
-        {
-          "id": "b",
-          "text": "Make knots equally spaced"
-        },
-        {
-          "id": "c",
-          "text": "Avoid computing derivatives"
-        },
-        {
-          "id": "d",
-          "text": "Make all divided differences zero"
-        }
-      ],
-      "correctAnswer": "a",
-      "explanation": "Chebyshev roots minimize the polynomial product ||Π (x - x_i)||.",
-      "difficulty": "Hard",
-      "imageUrl": null,
-      "sourceFile": "Numerical Methods Final.pdf",
-      "sourcePage": 9,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.984Z",
       "updatedAt": "2026-10-03T17:21:59.984Z"
@@ -117693,9 +117660,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3515,
-    "verifiedQuestions": 3515,
+    "totalQuestions": 3514,
+    "verifiedQuestions": 3514,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T16:25:24.418Z"
+    "lastUpdated": "2026-11-04T16:25:30.131Z"
   }
 }
