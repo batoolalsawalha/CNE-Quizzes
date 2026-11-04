@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T15:48:42.732Z",
+  "lastUpdated": "2026-11-04T15:48:50.319Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -4138,39 +4138,6 @@
       "imageUrl": null,
       "sourceFile": "Final calcu 2.pdf",
       "sourcePage": 6,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.979Z",
-      "updatedAt": "2026-10-03T17:21:59.979Z"
-    },
-    {
-      "id": "C2-FIN-017",
-      "subjectId": "subj-calc2",
-      "quizId": "quiz-subj-calc2-final",
-      "question": "If lim_{n→∞} a_n ≠ 0, what does the Divergence Test conclude about Σ a_n?",
-      "options": [
-        {
-          "id": "a",
-          "text": "The series diverges"
-        },
-        {
-          "id": "b",
-          "text": "The series converges"
-        },
-        {
-          "id": "c",
-          "text": "The test is inconclusive"
-        },
-        {
-          "id": "d",
-          "text": "The series converges conditionally"
-        }
-      ],
-      "correctAnswer": "a",
-      "explanation": "If the terms do not approach 0, the series cannot converge.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Final calcu 2.pdf",
-      "sourcePage": 7,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.979Z",
       "updatedAt": "2026-10-03T17:21:59.979Z"
@@ -123105,9 +123072,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3679,
-    "verifiedQuestions": 3679,
+    "totalQuestions": 3678,
+    "verifiedQuestions": 3678,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T15:48:42.732Z"
+    "lastUpdated": "2026-11-04T15:48:50.319Z"
   }
 }
