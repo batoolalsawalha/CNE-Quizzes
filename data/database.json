@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T15:50:44.519Z",
+  "lastUpdated": "2026-11-04T15:50:52.724Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -3676,39 +3676,6 @@
       "imageUrl": null,
       "sourceFile": "Final calcu 2.pdf",
       "sourcePage": 1,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.979Z",
-      "updatedAt": "2026-10-03T17:21:59.979Z"
-    },
-    {
-      "id": "C2-FIN-002",
-      "subjectId": "subj-calc2",
-      "quizId": "quiz-subj-calc2-final",
-      "question": "The geometric series Σ_{n=0}^∞ a * r^n converges if and only if:",
-      "options": [
-        {
-          "id": "a",
-          "text": "|r| ≤ 1"
-        },
-        {
-          "id": "b",
-          "text": "|r| < 1"
-        },
-        {
-          "id": "c",
-          "text": "r > 1"
-        },
-        {
-          "id": "d",
-          "text": "r ≠ 1"
-        }
-      ],
-      "correctAnswer": "b",
-      "explanation": "Geometric series converges to a/(1 - r) when |r| < 1.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Final calcu 2.pdf",
-      "sourcePage": 2,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.979Z",
       "updatedAt": "2026-10-03T17:21:59.979Z"
@@ -122643,9 +122610,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3665,
-    "verifiedQuestions": 3665,
+    "totalQuestions": 3664,
+    "verifiedQuestions": 3664,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T15:50:44.519Z"
+    "lastUpdated": "2026-11-04T15:50:52.724Z"
   }
 }
