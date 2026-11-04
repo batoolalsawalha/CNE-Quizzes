@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T16:20:58.720Z",
+  "lastUpdated": "2026-11-04T16:21:04.836Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -7339,39 +7339,6 @@
       "imageUrl": null,
       "sourceFile": "Numerical Methods Final.pdf",
       "sourcePage": 6,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.984Z",
-      "updatedAt": "2026-10-03T17:21:59.984Z"
-    },
-    {
-      "id": "NUM-FIN-017",
-      "subjectId": "subj-numerical",
-      "quizId": "quiz-subj-numerical-final",
-      "question": "The global error of the Composite Trapezoidal rule with n subintervals (step h) is:",
-      "options": [
-        {
-          "id": "a",
-          "text": "O(h²)"
-        },
-        {
-          "id": "b",
-          "text": "O(h)"
-        },
-        {
-          "id": "c",
-          "text": "O(h⁴)"
-        },
-        {
-          "id": "d",
-          "text": "O(h³)"
-        }
-      ],
-      "correctAnswer": "a",
-      "explanation": "Sum of n intervals of local error O(h³) gives global error O(h²).",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Numerical Methods Final.pdf",
-      "sourcePage": 7,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.984Z",
       "updatedAt": "2026-10-03T17:21:59.984Z"
@@ -117990,9 +117957,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3524,
-    "verifiedQuestions": 3524,
+    "totalQuestions": 3523,
+    "verifiedQuestions": 3523,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T16:20:58.720Z"
+    "lastUpdated": "2026-11-04T16:21:04.836Z"
   }
 }
