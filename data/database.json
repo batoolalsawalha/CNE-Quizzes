@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T16:03:43.027Z",
+  "lastUpdated": "2026-11-04T16:03:54.318Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -5986,39 +5986,6 @@
       "imageUrl": null,
       "sourceFile": "Final T1.2023-2024.pdf",
       "sourcePage": 7,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.981Z",
-      "updatedAt": "2026-10-03T17:21:59.981Z"
-    },
-    {
-      "id": "LIN-FIN-008",
-      "subjectId": "subj-linear",
-      "quizId": "quiz-subj-linear-final",
-      "question": "For an m x n matrix A, the Rank-Nullity Theorem states that:",
-      "options": [
-        {
-          "id": "a",
-          "text": "Rank(A) + Nullity(A) = m (number of rows)"
-        },
-        {
-          "id": "b",
-          "text": "Rank(A) = Nullity(A)"
-        },
-        {
-          "id": "c",
-          "text": "Rank(A) * Nullity(A) = n"
-        },
-        {
-          "id": "d",
-          "text": "Rank(A) + Nullity(A) = n (number of columns)"
-        }
-      ],
-      "correctAnswer": "d",
-      "explanation": "Dimension of column space + dimension of null space = n.",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Final T1.2023-2024.pdf",
-      "sourcePage": 8,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.981Z",
       "updatedAt": "2026-10-03T17:21:59.981Z"
@@ -119409,9 +119376,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3567,
-    "verifiedQuestions": 3567,
+    "totalQuestions": 3566,
+    "verifiedQuestions": 3566,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T16:03:43.027Z"
+    "lastUpdated": "2026-11-04T16:03:54.318Z"
   }
 }
