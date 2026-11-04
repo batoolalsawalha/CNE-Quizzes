@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T15:52:20.324Z",
+  "lastUpdated": "2026-11-04T15:52:45.928Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -5260,138 +5260,6 @@
       "imageUrl": null,
       "sourceFile": "Diff Final Exam.pdf",
       "sourcePage": 9,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.980Z",
-      "updatedAt": "2026-10-03T17:21:59.980Z"
-    },
-    {
-      "id": "DIFF-FIN-029",
-      "subjectId": "subj-diff",
-      "quizId": "quiz-subj-diff-final",
-      "question": "In power series solutions y = Σ c_n x^n for y' - y = 0, the recurrence relation is:",
-      "options": [
-        {
-          "id": "a",
-          "text": "c_{n+1} = c_n / (n + 1)"
-        },
-        {
-          "id": "b",
-          "text": "c_{n+1} = (n + 1) c_n"
-        },
-        {
-          "id": "c",
-          "text": "c_{n+1} = c_n"
-        },
-        {
-          "id": "d",
-          "text": "c_{n+1} = c_n / n"
-        }
-      ],
-      "correctAnswer": "a",
-      "explanation": "Σ (n+1)c_{n+1} x^n - Σ c_n x^n = 0 => c_{n+1} = c_n/(n+1).",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Diff Final Exam.pdf",
-      "sourcePage": 9,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.980Z",
-      "updatedAt": "2026-10-03T17:21:59.980Z"
-    },
-    {
-      "id": "DIFF-FIN-030",
-      "subjectId": "subj-diff",
-      "quizId": "quiz-subj-diff-final",
-      "question": "A system of ODEs x' = A x has a critical point at the origin that is a saddle point if:",
-      "options": [
-        {
-          "id": "a",
-          "text": "Both eigenvalues are negative"
-        },
-        {
-          "id": "b",
-          "text": "The eigenvalues of A are real and have opposite signs"
-        },
-        {
-          "id": "c",
-          "text": "Both eigenvalues are positive"
-        },
-        {
-          "id": "d",
-          "text": "Eigenvalues are purely imaginary"
-        }
-      ],
-      "correctAnswer": "b",
-      "explanation": "Real eigenvalues of opposite sign (λ₁ > 0 > λ₂) define a saddle point (unstable).",
-      "difficulty": "Hard",
-      "imageUrl": null,
-      "sourceFile": "Diff Final Exam.pdf",
-      "sourcePage": 10,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.980Z",
-      "updatedAt": "2026-10-03T17:21:59.980Z"
-    },
-    {
-      "id": "DIFF-FIN-031",
-      "subjectId": "subj-diff",
-      "quizId": "quiz-subj-diff-final",
-      "question": "A critical point is a stable center if the eigenvalues of A are:",
-      "options": [
-        {
-          "id": "a",
-          "text": "Complex with negative real part"
-        },
-        {
-          "id": "b",
-          "text": "Real and negative"
-        },
-        {
-          "id": "c",
-          "text": "Purely imaginary: λ = ±i β"
-        },
-        {
-          "id": "d",
-          "text": "Real and positive"
-        }
-      ],
-      "correctAnswer": "c",
-      "explanation": "Purely imaginary eigenvalues yield closed elliptical trajectories (neutral stability).",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Diff Final Exam.pdf",
-      "sourcePage": 1,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.980Z",
-      "updatedAt": "2026-10-03T17:21:59.980Z"
-    },
-    {
-      "id": "DIFF-FIN-032",
-      "subjectId": "subj-diff",
-      "quizId": "quiz-subj-diff-final",
-      "question": "The Laplace transform of t * e^(2t) is:",
-      "options": [
-        {
-          "id": "a",
-          "text": "1 / (s - 2)"
-        },
-        {
-          "id": "b",
-          "text": "2 / (s - 2)²"
-        },
-        {
-          "id": "c",
-          "text": "1 / s²"
-        },
-        {
-          "id": "d",
-          "text": "1 / (s - 2)²"
-        }
-      ],
-      "correctAnswer": "d",
-      "explanation": "L{t} = 1/s²; by first shift theorem: 1/(s - 2)².",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Diff Final Exam.pdf",
-      "sourcePage": 2,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.980Z",
       "updatedAt": "2026-10-03T17:21:59.980Z"
@@ -122214,9 +122082,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3652,
-    "verifiedQuestions": 3652,
+    "totalQuestions": 3648,
+    "verifiedQuestions": 3648,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T15:52:20.324Z"
+    "lastUpdated": "2026-11-04T15:52:45.928Z"
   }
 }
