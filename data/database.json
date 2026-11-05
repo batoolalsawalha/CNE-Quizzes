@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-05T13:11:12.758Z",
+  "lastUpdated": "2026-11-05T13:13:07.961Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -2397,34 +2397,34 @@
       "id": "C1-MID-026",
       "subjectId": "subj-calc1",
       "quizId": "quiz-subj-calc1-mid",
-      "question": "Critical numbers of f(x) = x³ - 12x are:",
+      "question": "If f(x) is a 1-to-1 function with domain [1, 5] and range [-9, 7], then the domain of f^(-1)(3x - 2) is:",
       "options": [
         {
           "id": "a",
-          "text": "x = 0 and x = 4"
+          "text": "[-6, 2]"
         },
         {
           "id": "b",
-          "text": "x = 2 and x = -2"
+          "text": "[-3, 5]"
         },
         {
           "id": "c",
-          "text": "x = 12"
+          "text": "[-7/3, 3]"
         },
         {
           "id": "d",
-          "text": "x = √12"
+          "text": "[2/3, 3]"
         }
       ],
-      "correctAnswer": "b",
-      "explanation": "f'(x) = 3x² - 12 = 0 => x = ±2.",
-      "difficulty": "Easy",
+      "correctAnswer": "c",
+      "explanation": "مجال الاقتران العكسي f^(-1)(x) يساوي مدى الاقتران الأصلي f(x).\n\nإذن مجال f^(-1)(x) هو:\n\n[-9, 7]\n\nلإيجاد مجال f^(-1)(3x - 2)، يجب أن تكون المدخلة ضمن المجال:\n\n-9 ≤ 3x - 2 ≤ 7\n\nنضيف 2 للأطراف:\n\n-7 ≤ 3x ≤ 9\n\nنقسم على 3:\n\n-7/3 ≤ x ≤ 3\n\nإذن المجال:\n\n[-7/3, 3]",
+      "difficulty": "Hard",
       "imageUrl": null,
       "sourceFile": "Mid calc1.pdf",
-      "sourcePage": 6,
+      "sourcePage": "6",
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.976Z",
-      "updatedAt": "2026-10-03T17:21:59.976Z"
+      "updatedAt": "2026-11-05T13:13:07.462Z"
     },
     {
       "id": "C1-MID-027",
@@ -117432,6 +117432,6 @@
     "totalQuestions": 3507,
     "verifiedQuestions": 3507,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-05T13:11:12.758Z"
+    "lastUpdated": "2026-11-05T13:13:07.961Z"
   }
 }
