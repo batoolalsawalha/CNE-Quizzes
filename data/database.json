@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-05T13:21:15.160Z",
+  "lastUpdated": "2026-11-05T13:21:33.665Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -1831,138 +1831,6 @@
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.976Z",
       "updatedAt": "2026-11-04T18:36:50.562Z"
-    },
-    {
-      "id": "C1-MID-010",
-      "subjectId": "subj-calc1",
-      "quizId": "quiz-subj-calc1-mid",
-      "question": "Which of the following real functions is NOT one-to-one?",
-      "options": [
-        {
-          "id": "a",
-          "text": "f(x) = ln(x)"
-        },
-        {
-          "id": "b",
-          "text": "f(x) = sin(x)"
-        },
-        {
-          "id": "c",
-          "text": "f(x) = x^5"
-        },
-        {
-          "id": "d",
-          "text": "f(x) = e^x"
-        }
-      ],
-      "correctAnswer": "b",
-      "explanation": "A function is one-to-one if every horizontal line intersects its graph at most once.\n\nThe sine function is periodic and repeats its values.\n\nFor example:\n\nsin(0) = 0\n\nsin(pi) = 0\n\nSince two different inputs produce the same output, sin(x) is not one-to-one over R.\n\nThe other functions are one-to-one on their respective domains.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Mid calc1.pdf",
-      "sourcePage": "10",
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.976Z",
-      "updatedAt": "2026-11-04T18:44:09.862Z"
-    },
-    {
-      "id": "C1-MID-011",
-      "subjectId": "subj-calc1",
-      "quizId": "quiz-subj-calc1-mid",
-      "question": "Evaluate the limit:\n\nlim(x->0) sin((sqrt(x^3 + 1) - 1) / x)",
-      "options": [
-        {
-          "id": "a",
-          "text": "2"
-        },
-        {
-          "id": "b",
-          "text": "DNE"
-        },
-        {
-          "id": "c",
-          "text": "Infinity"
-        },
-        {
-          "id": "d",
-          "text": "0"
-        }
-      ],
-      "correctAnswer": "c",
-      "explanation": "1. First, evaluate the limit inside the sine function:\n    lim(x->0) (sqrt(x^3 + 1) - 1) / x\n2. Multiply by the conjugate:\n    = lim(x->0) [(sqrt(x^3 + 1) - 1)(sqrt(x^3 + 1) + 1)] / [x(sqrt(x^3 + 1) + 1)]\n3. Simplify:\n    = lim(x->0) [(x^3 + 1) - 1] / [x(sqrt(x^3 + 1) + 1)]\n4. Therefore:\n    = lim(x->0) x^2 / (sqrt(x^3 + 1) + 1)\n5. Substitute x = 0:\n    = 0 / (1 + 1) = 0\n6. Finally:\n    sin(0) = 0\n\nTherefore, the limit is 0.",
-      "difficulty": "Hard",
-      "imageUrl": null,
-      "sourceFile": "Mid calc1.pdf",
-      "sourcePage": "1",
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.976Z",
-      "updatedAt": "2026-11-04T18:45:40.451Z"
-    },
-    {
-      "id": "C1-MID-012",
-      "subjectId": "subj-calc1",
-      "quizId": "quiz-subj-calc1-mid",
-      "question": "Evaluate the limit:\n\nlim(x->-5+) x^2 / (x + 5)",
-      "options": [
-        {
-          "id": "a",
-          "text": "1"
-        },
-        {
-          "id": "b",
-          "text": "0"
-        },
-        {
-          "id": "c",
-          "text": "+infinity"
-        },
-        {
-          "id": "d",
-          "text": "-infinity"
-        }
-      ],
-      "correctAnswer": "c",
-      "explanation": "1. As x approaches -5 from the right, x is slightly greater than -5.\n    Example: x = -4.9\n2. The numerator approaches:\n    x^2 -> 25\n3. The denominator approaches zero from the positive side:\n    x + 5 -> 0+\n4. Therefore:\n    25 / 0+ = +infinity\n\nThe limit is +infinity.",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Mid calc1.pdf",
-      "sourcePage": "2",
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.976Z",
-      "updatedAt": "2026-11-04T18:49:20.898Z"
-    },
-    {
-      "id": "C1-MID-013",
-      "subjectId": "subj-calc1",
-      "quizId": "quiz-subj-calc1-mid",
-      "question": "For the functions f(x) = log_2(x) and g(x) = e^x + 1, find (f o g)(x) and (f o g)(0).",
-      "options": [
-        {
-          "id": "a",
-          "text": "(f o g)(x) = e^(log_2(x)) + 1 and (f o g)(0) = 0"
-        },
-        {
-          "id": "b",
-          "text": "(f o g)(x) = log_2(e^x + 1) and (f o g)(0) = 1"
-        },
-        {
-          "id": "c",
-          "text": "(f o g)(x) = log_2(e^x + 1) and (f o g)(0) = 2"
-        },
-        {
-          "id": "d",
-          "text": "(f o g)(x) = log_2(e^x) and (f o g)(0) = 2"
-        }
-      ],
-      "correctAnswer": "b",
-      "explanation": "1. The composition is:\n    (f o g)(x) = f(g(x))\n2. Substitute g(x):\n    = f(e^x + 1)\n3. Since f(x) = log_2(x):\n    (f o g)(x) = log_2(e^x + 1)\n4. Evaluate at x = 0:\n    (f o g)(0) = log_2(e^0 + 1)\n5. Since e^0 = 1:\n    = log_2(2)\n    = 1\n\nTherefore, the correct answer is A.",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "Mid calc1.pdf",
-      "sourcePage": "3",
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.976Z",
-      "updatedAt": "2026-11-04T18:51:25.979Z"
     },
     {
       "id": "C1-MID-014",
@@ -117330,9 +117198,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3504,
-    "verifiedQuestions": 3504,
+    "totalQuestions": 3500,
+    "verifiedQuestions": 3500,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-05T13:21:15.160Z"
+    "lastUpdated": "2026-11-05T13:21:33.665Z"
   }
 }
