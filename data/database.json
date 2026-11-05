@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-05T13:17:16.858Z",
+  "lastUpdated": "2026-11-05T13:19:23.264Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -2496,34 +2496,34 @@
       "id": "C1-MID-029",
       "subjectId": "subj-calc1",
       "quizId": "quiz-subj-calc1-mid",
-      "question": "Evaluate: lim_{x → 0} (sin 4x) / (tan 5x) =",
+      "question": "Let f(x), g(x) be two functions such that\n\nf(x) = x^2 - 5 - 3x\n\nand\n\n(f + g)(x) = 2x^2 + 8x - 7\n\nThen g(x) =",
       "options": [
         {
           "id": "a",
-          "text": "4/5"
+          "text": "g(x) = x^2 + 11x - 12"
         },
         {
           "id": "b",
-          "text": "5/4"
+          "text": "g(x) = x^2 + 5x - 2"
         },
         {
           "id": "c",
-          "text": "1"
+          "text": "g(x) = x^2 + 5x - 12"
         },
         {
           "id": "d",
-          "text": "0"
+          "text": "g(x) = x^2 + 11x - 2"
         }
       ],
-      "correctAnswer": "a",
-      "explanation": "Ratio of trigonometric limits: 4/5.",
+      "correctAnswer": "d",
+      "explanation": "نعلم أن:\n\n(f + g)(x) = f(x) + g(x)\n\nإذن:\n\ng(x) = (f + g)(x) - f(x)\n\nنعوض:\n\ng(x) = (2x^2 + 8x - 7) - (x^2 - 3x - 5)\n\nنفتح الأقواس:\n\ng(x) = 2x^2 + 8x - 7 - x^2 + 3x + 5\n\nنجمع الحدود المتشابهة:\n\ng(x) = x^2 + 11x - 2",
       "difficulty": "Easy",
       "imageUrl": null,
       "sourceFile": "Mid calc1.pdf",
-      "sourcePage": 9,
+      "sourcePage": "9",
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.976Z",
-      "updatedAt": "2026-10-03T17:21:59.976Z"
+      "updatedAt": "2026-11-05T13:19:22.912Z"
     },
     {
       "id": "C1-MID-030",
@@ -117432,6 +117432,6 @@
     "totalQuestions": 3507,
     "verifiedQuestions": 3507,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-05T13:17:16.858Z"
+    "lastUpdated": "2026-11-05T13:19:23.264Z"
   }
 }
