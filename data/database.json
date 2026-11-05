@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-05T14:05:34.458Z",
+  "lastUpdated": "2026-11-05T14:08:33.064Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -99188,39 +99188,6 @@
       "updatedAt": "2026-10-03T17:13:05.643Z"
     },
     {
-      "id": "CULTURE-FIN-SUPP-26",
-      "subjectId": "subj-culture",
-      "quizId": "quiz-subj-culture-final",
-      "question": "ما هي ضوابط الفتوى والاجتهاد في القضايا الطبية والهندسية المعاصرة (كالذكاء الاصطناعي والاستنساخ)؟",
-      "options": [
-        {
-          "id": "a",
-          "text": "ترك الفتوى لغير المتخصصين"
-        },
-        {
-          "id": "b",
-          "text": "رفض كل تقدم علمي"
-        },
-        {
-          "id": "c",
-          "text": "الاعتماد على آراء فردية قديمة لا تعرف الواقع"
-        },
-        {
-          "id": "d",
-          "text": "الاعتماد على الاجتهاد الجماعي عبر المجامع الفقهية بالتعاون مع الخبراء والأطباء والعلماء المختصين"
-        }
-      ],
-      "correctAnswer": "d",
-      "explanation": "تتولى المجامع الفقهية المعاصرة استيعاب مستجدات التكنولوجيا بدراسة واقع المسألة علمياً ثم تنزيل الحكم الشرعي عليها.",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "University Final Exam Archive.pdf",
-      "sourcePage": 2,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:13:05.643Z",
-      "updatedAt": "2026-10-03T17:13:05.643Z"
-    },
-    {
       "id": "NAT-MID-001",
       "subjectId": "subj-national",
       "quizId": "quiz-subj-national-mid",
@@ -115759,9 +115726,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 85,
     "activeQuizzes": 85,
-    "totalQuestions": 3458,
-    "verifiedQuestions": 3458,
+    "totalQuestions": 3457,
+    "verifiedQuestions": 3457,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-05T14:05:34.458Z"
+    "lastUpdated": "2026-11-05T14:08:33.064Z"
   }
 }
