@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-05T13:14:27.665Z",
+  "lastUpdated": "2026-11-05T13:17:16.858Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -2463,34 +2463,34 @@
       "id": "C1-MID-028",
       "subjectId": "subj-calc1",
       "quizId": "quiz-subj-calc1-mid",
-      "question": "Inflection point of f(x) = x³ - 6x² + 9x + 1 is:",
+      "question": "lim (x → ∞) csc[((x/4 + 5)/(2 - x/4))] =",
       "options": [
         {
           "id": "a",
-          "text": "(1, 5)"
+          "text": "2/ √3"
         },
         {
           "id": "b",
-          "text": "(3, 1)"
+          "text": "-√2"
         },
         {
           "id": "c",
-          "text": "(0, 1)"
+          "text": "-1/sin(1)"
         },
         {
           "id": "d",
-          "text": "(2, 3)"
+          "text": "1/sin(1)"
         }
       ],
       "correctAnswer": "d",
-      "explanation": "f''(x) = 6x - 12 = 0 => x = 2, f(2) = 3.",
-      "difficulty": "Medium",
+      "explanation": "نحسب نهاية ما داخل الزاوية:\n\nlim (x → ∞) [(x/4 + 5)/(2 - x/4)]\n\nنقسم على x:\n\n= (1/4)/(-1/4)\n\n= -1\n\nإذن:\n\nlim (x → ∞) csc[(x/4 + 5)/(2 - x/4)]\n\n= csc(-1)\n\n= 1/sin(-1)\n\n= -1/sin(1)\n\nملاحظة:\nإذا كانت الزاوية بالراديان، فالقيمة هي -1/sin(1",
+      "difficulty": "Hard",
       "imageUrl": null,
       "sourceFile": "Mid calc1.pdf",
-      "sourcePage": 8,
+      "sourcePage": "8",
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.976Z",
-      "updatedAt": "2026-10-03T17:21:59.976Z"
+      "updatedAt": "2026-11-05T13:17:16.400Z"
     },
     {
       "id": "C1-MID-029",
@@ -117432,6 +117432,6 @@
     "totalQuestions": 3507,
     "verifiedQuestions": 3507,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-05T13:14:27.665Z"
+    "lastUpdated": "2026-11-05T13:17:16.858Z"
   }
 }
