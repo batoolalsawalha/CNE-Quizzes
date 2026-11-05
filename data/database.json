@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-05T13:39:47.972Z",
+  "lastUpdated": "2026-11-05T13:41:53.771Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -117256,6 +117256,40 @@
       "status": "Verified",
       "createdAt": "2026-11-05T13:39:47.591Z",
       "updatedAt": "2026-11-05T13:39:47.591Z"
+    },
+    {
+      "id": "q-6aea192a",
+      "subjectId": "subj-calc1",
+      "quizId": "quiz-subj-calc1-mid",
+      "topicId": null,
+      "question": "The function f(x) = x^3 - 4x + 1 has a zero in the interval:",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "[1,2]"
+        },
+        {
+          "id": "b",
+          "text": "[-1, 0]"
+        },
+        {
+          "id": "c",
+          "text": "[-4, -3]"
+        },
+        {
+          "id": "d",
+          "text": "[2, 3]"
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "باستخدام نظرية القيمة المتوسطة (IVT):\n\nنختبر الفترة [1, 2].\n\nنحسب:\n\nf(1) = 1^3 - 4(1) + 1\n\nf(1) = 1 - 4 + 1\n\nf(1) = -2\n\nنحسب:\n\nf(2) = 2^3 - 4(2) + 1\n\nf(2) = 8 - 8 + 1\n\nf(2) = 1\n\nنلاحظ أن:\n\nf(1) < 0\n\nf(2) > 0\n\nتغيرت الإشارة بين f(1) و f(2).\n\nإذن يوجد صفر في الفترة [1, 2]",
+      "difficulty": "Medium",
+      "sourceFile": "",
+      "sourcePage": null,
+      "status": "Verified",
+      "createdAt": "2026-11-05T13:41:53.389Z",
+      "updatedAt": "2026-11-05T13:41:53.389Z"
     }
   ],
   "admin": {
@@ -117270,9 +117304,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3502,
-    "verifiedQuestions": 3502,
+    "totalQuestions": 3503,
+    "verifiedQuestions": 3503,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-05T13:39:47.972Z"
+    "lastUpdated": "2026-11-05T13:41:53.771Z"
   }
 }
