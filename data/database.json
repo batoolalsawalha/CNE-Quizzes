@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-05T12:57:02.799Z",
+  "lastUpdated": "2026-11-05T13:11:12.758Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -2364,34 +2364,34 @@
       "id": "C1-MID-025",
       "subjectId": "subj-calc1",
       "quizId": "quiz-subj-calc1-mid",
-      "question": "Vertical asymptotes of f(x) = (x + 1) / (x² - 4) are:",
+      "question": "lim (x → 0) [4/(5x · csc(3x))] =",
       "options": [
         {
           "id": "a",
-          "text": "x = 2 and x = -2"
+          "text": "0"
         },
         {
           "id": "b",
-          "text": "x = -1"
+          "text": "12/5"
         },
         {
           "id": "c",
-          "text": "y = 0"
+          "text": "3/5"
         },
         {
           "id": "d",
-          "text": "x = 4"
+          "text": "4/5"
         }
       ],
-      "correctAnswer": "a",
-      "explanation": "Roots of denominator x = ±2.",
-      "difficulty": "Easy",
+      "correctAnswer": "b",
+      "explanation": "نعلم أن:\n\ncsc(3x) = 1/sin(3x)\n\nنعيد كتابة المقدار:\n\n4/[5x · (1/sin(3x))]\n\n= 4sin(3x)/(5x)\n\n= (4/5) × [sin(3x)/x]\n\nنستخدم القانون:\n\nlim (x → 0) [sin(3x)/x] = 3\n\nإذن:\n\n(4/5) × 3 = 12/5",
+      "difficulty": "Medium",
       "imageUrl": null,
       "sourceFile": "Mid calc1.pdf",
-      "sourcePage": 5,
+      "sourcePage": "5",
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.976Z",
-      "updatedAt": "2026-10-03T17:21:59.976Z"
+      "updatedAt": "2026-11-05T13:11:12.363Z"
     },
     {
       "id": "C1-MID-026",
@@ -117432,6 +117432,6 @@
     "totalQuestions": 3507,
     "verifiedQuestions": 3507,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-05T12:57:02.799Z"
+    "lastUpdated": "2026-11-05T13:11:12.758Z"
   }
 }
