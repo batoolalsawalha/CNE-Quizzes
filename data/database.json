@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-05T13:56:13.157Z",
+  "lastUpdated": "2026-11-05T13:57:26.758Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -578,18 +578,6 @@
       "createdAt": "2026-09-28T17:34:45.365Z",
       "questionCount": 32,
       "verifiedCount": 32
-    },
-    {
-      "id": "quiz-subj-diff-final",
-      "subjectId": "subj-diff",
-      "name": "معادلات تفاضليه - الامتحان النهائي الشامل (Differential Equations Final Exam)",
-      "description": "Comprehensive Final Examination for Differential Equations (معادلات تفاضليه) with step-by-step academic solutions.",
-      "examType": "Final",
-      "timeLimitMinutes": 120,
-      "isActive": true,
-      "createdAt": "2026-09-28T17:34:45.365Z",
-      "questionCount": 52,
-      "verifiedCount": 52
     },
     {
       "id": "quiz-subj-linear-mid",
@@ -117370,11 +117358,11 @@
   "stats": {
     "totalSubjects": 45,
     "activeSubjects": 45,
-    "totalQuizzes": 90,
-    "activeQuizzes": 90,
+    "totalQuizzes": 89,
+    "activeQuizzes": 89,
     "totalQuestions": 3505,
     "verifiedQuestions": 3505,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-05T13:56:13.157Z"
+    "lastUpdated": "2026-11-05T13:57:26.758Z"
   }
 }
