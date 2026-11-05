@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-05T14:04:10.172Z",
+  "lastUpdated": "2026-11-05T14:04:20.268Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -19059,39 +19059,6 @@
       "imageUrl": null,
       "sourceFile": "c-- Final.pdf",
       "sourcePage": 7,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:22:00.002Z",
-      "updatedAt": "2026-10-03T17:22:00.002Z"
-    },
-    {
-      "id": "CPP-FIN-018",
-      "subjectId": "subj-cpp",
-      "quizId": "quiz-subj-cpp-final",
-      "question": "In the Bubble Sort algorithm, how are adjacent elements sorted?",
-      "options": [
-        {
-          "id": "a",
-          "text": "By finding the global minimum and placing it at the front"
-        },
-        {
-          "id": "b",
-          "text": "By repeatedly comparing adjacent elements and swapping them if they are in the wrong order"
-        },
-        {
-          "id": "c",
-          "text": "By dividing the array into two halves recursively"
-        },
-        {
-          "id": "d",
-          "text": "By inserting elements into a binary heap"
-        }
-      ],
-      "correctAnswer": "b",
-      "explanation": "Bubble sort bubbles the largest unsorted element to its correct final position in each pass.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "c-- Final.pdf",
-      "sourcePage": 8,
       "status": "Verified",
       "createdAt": "2026-10-03T17:22:00.002Z",
       "updatedAt": "2026-10-03T17:22:00.002Z"
@@ -116122,9 +116089,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 85,
     "activeQuizzes": 85,
-    "totalQuestions": 3469,
-    "verifiedQuestions": 3469,
+    "totalQuestions": 3468,
+    "verifiedQuestions": 3468,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-05T14:04:10.172Z"
+    "lastUpdated": "2026-11-05T14:04:20.268Z"
   }
 }
