@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-05T13:58:02.868Z",
+  "lastUpdated": "2026-11-05T14:01:31.183Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -18699,39 +18699,6 @@
       "status": "Verified",
       "createdAt": "2026-10-03T17:22:00.002Z",
       "updatedAt": "2026-10-23T18:11:57.143Z"
-    },
-    {
-      "id": "CPP-FIN-006",
-      "subjectId": "subj-cpp",
-      "quizId": "quiz-subj-cpp-final",
-      "question": "When passing a 1D array to a function (e.g. void process(int arr[], int size)), how is the array passed?",
-      "options": [
-        {
-          "id": "a",
-          "text": "By value (an entire copy of all elements is created)"
-        },
-        {
-          "id": "b",
-          "text": "By pointer / reference to the first element (array decays to pointer int *arr)"
-        },
-        {
-          "id": "c",
-          "text": "By dynamic allocation"
-        },
-        {
-          "id": "d",
-          "text": "By string stream"
-        }
-      ],
-      "correctAnswer": "b",
-      "explanation": "Array names decay to a pointer to their first element (&arr[0]) when passed as function arguments.",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "c-- Final.pdf",
-      "sourcePage": 6,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:22:00.002Z",
-      "updatedAt": "2026-10-03T17:22:00.002Z"
     },
     {
       "id": "CPP-FIN-007",
@@ -117311,9 +117278,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 85,
     "activeQuizzes": 85,
-    "totalQuestions": 3505,
-    "verifiedQuestions": 3505,
+    "totalQuestions": 3504,
+    "verifiedQuestions": 3504,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-05T13:58:02.868Z"
+    "lastUpdated": "2026-11-05T14:01:31.183Z"
   }
 }
