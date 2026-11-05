@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-05T12:51:43.165Z",
+  "lastUpdated": "2026-11-05T12:55:01.062Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -2298,34 +2298,34 @@
       "id": "C1-MID-022",
       "subjectId": "subj-calc1",
       "quizId": "quiz-subj-calc1-mid",
-      "question": "Evaluate: lim_{x → ∞} (3x³ - 5x + 2) / (7x³ + 2x² - 1) =",
+      "question": "The vertical asymptote line(s) for the function\n\nf(x) = {\n(x + 2)/(x^2 - 4)     if x > 1\n(3x^2 + 1)/(2x - 1)   if x < 0\n}\n\nis/are:",
       "options": [
         {
           "id": "a",
-          "text": "0"
+          "text": "x = -2 and x = -1/2"
         },
         {
           "id": "b",
-          "text": "3/7"
+          "text": "x = 2"
         },
         {
           "id": "c",
-          "text": "∞"
+          "text": "x = 2 and x = 1/2"
         },
         {
           "id": "d",
-          "text": "-2"
+          "text": "There are no vertical asymptote lines"
         }
       ],
       "correctAnswer": "b",
-      "explanation": "Ratio of leading coefficients.",
-      "difficulty": "Easy",
+      "explanation": "في الفترة الأولى x > 1:\n(x + 2)/(x^2 - 4)\nنحلل المقام:\nx^2 - 4 = (x - 2)(x + 2)\nإذن:\n(x + 2)/[(x - 2)(x + 2)] = 1/(x - 2)\nأصفار المقام:\nx = 2 و x = -2\nلكن x = 2 فقط تقع ضمن الفترة x > 1.\nإذن x = 2 خط تقارب رأسي.\nفي الفترة الثانية x < 0:\n(3x^2 + 1)/(2x - 1)\nنساوي المقام بالصفر:\n2x - 1 = 0\nx = 1/2\nلكن x = 1/2 لا تنتمي للفترة x < 0.\nإذن خط التقارب الرأسي الوحيد هو:\nx = 2",
+      "difficulty": "Medium",
       "imageUrl": null,
       "sourceFile": "Mid calc1.pdf",
-      "sourcePage": 2,
+      "sourcePage": "2",
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.976Z",
-      "updatedAt": "2026-10-03T17:21:59.976Z"
+      "updatedAt": "2026-11-05T12:55:00.384Z"
     },
     {
       "id": "C1-MID-023",
@@ -117432,6 +117432,6 @@
     "totalQuestions": 3507,
     "verifiedQuestions": 3507,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-05T12:51:43.165Z"
+    "lastUpdated": "2026-11-05T12:55:01.062Z"
   }
 }
