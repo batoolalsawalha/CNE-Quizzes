@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-05T14:04:59.763Z",
+  "lastUpdated": "2026-11-05T14:05:06.269Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -18861,39 +18861,6 @@
       "imageUrl": null,
       "sourceFile": "c-- Final.pdf",
       "sourcePage": 1,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:22:00.002Z",
-      "updatedAt": "2026-10-03T17:22:00.002Z"
-    },
-    {
-      "id": "CPP-FIN-012",
-      "subjectId": "subj-cpp",
-      "quizId": "quiz-subj-cpp-final",
-      "question": "When passing a 2D array to a function, which dimension MUST be explicitly specified in the parameter declaration?",
-      "options": [
-        {
-          "id": "a",
-          "text": "The row dimension only"
-        },
-        {
-          "id": "b",
-          "text": "Neither dimension"
-        },
-        {
-          "id": "c",
-          "text": "Both dimensions can be omitted"
-        },
-        {
-          "id": "d",
-          "text": "The column dimension (e.g. void func(int arr[][4], int rows))"
-        }
-      ],
-      "correctAnswer": "d",
-      "explanation": "The compiler needs the column width to compute memory offset address: *(arr + i * cols + j).",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "c-- Final.pdf",
-      "sourcePage": 2,
       "status": "Verified",
       "createdAt": "2026-10-03T17:22:00.002Z",
       "updatedAt": "2026-10-03T17:22:00.002Z"
@@ -115924,9 +115891,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 85,
     "activeQuizzes": 85,
-    "totalQuestions": 3463,
-    "verifiedQuestions": 3463,
+    "totalQuestions": 3462,
+    "verifiedQuestions": 3462,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-05T14:04:59.763Z"
+    "lastUpdated": "2026-11-05T14:05:06.269Z"
   }
 }
