@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-05T12:43:36.362Z",
+  "lastUpdated": "2026-11-05T12:46:14.763Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -2199,34 +2199,34 @@
       "id": "C1-MID-019",
       "subjectId": "subj-calc1",
       "quizId": "quiz-subj-calc1-mid",
-      "question": "Derivative of f(x) = e^(tan x) is:",
+      "question": "lim (x → 2) [sin(x^2 + 3x - 10)/(x - 2)] =",
       "options": [
         {
           "id": "a",
-          "text": "tan(x) * e^(tan x)"
+          "text": "3"
         },
         {
           "id": "b",
-          "text": "sec(x) * e^(tan x)"
+          "text": "-3"
         },
         {
           "id": "c",
-          "text": "sec²(x) * e^(tan x)"
+          "text": "-7"
         },
         {
           "id": "d",
-          "text": "e^(sec² x)"
+          "text": "7"
         }
       ],
-      "correctAnswer": "c",
-      "explanation": "d/dx[e^u] = e^u * u'.",
-      "difficulty": "Easy",
+      "correctAnswer": "d",
+      "explanation": "نحلل العبارة التربيعية داخل الجيب:\nx^2 + 3x - 10 = (x - 2)(x + 5)\nنعيد كتابة النهاية:\nlim (x → 2) [sin((x - 2)(x + 5))/(x - 2)]\nنستخدم القانون:\nlim (u → 0) [sin(u)/u]= 1\nحيث:\nu = (x - 2)(x + 5)\nإذن:\nlim (x → 2) [sin((x - 2)(x + 5))/((x - 2)(x + 5))× (x + 5)]\n7= 1 × (2 + 5)",
+      "difficulty": "Medium",
       "imageUrl": null,
       "sourceFile": "Mid calc1.pdf",
-      "sourcePage": 9,
+      "sourcePage": "9",
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.976Z",
-      "updatedAt": "2026-10-03T17:21:59.976Z"
+      "updatedAt": "2026-11-05T12:46:14.358Z"
     },
     {
       "id": "C1-MID-020",
@@ -117432,6 +117432,6 @@
     "totalQuestions": 3507,
     "verifiedQuestions": 3507,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-05T12:43:36.362Z"
+    "lastUpdated": "2026-11-05T12:46:14.763Z"
   }
 }
