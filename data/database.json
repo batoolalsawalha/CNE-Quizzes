@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-05T13:19:23.264Z",
+  "lastUpdated": "2026-11-05T13:21:00.472Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -2529,34 +2529,34 @@
       "id": "C1-MID-030",
       "subjectId": "subj-calc1",
       "quizId": "quiz-subj-calc1-mid",
-      "question": "For f(x) = |2x - 6|, which statement is true about f'(3)?",
+      "question": "lim (x → 6) √[(x + 2)/(x - 3)] =",
       "options": [
         {
           "id": "a",
-          "text": "f'(3) = 0"
+          "text": "8/3"
         },
         {
           "id": "b",
-          "text": "f'(3) does not exist (corner point)"
+          "text": "√(8/3)"
         },
         {
           "id": "c",
-          "text": "f'(3) = 2"
+          "text": "Does not exist"
         },
         {
           "id": "d",
-          "text": "f'(3) = -2"
+          "text": "0"
         }
       ],
       "correctAnswer": "b",
-      "explanation": "Left derivative (-2) ≠ Right derivative (+2).",
+      "explanation": "باستخدام التعويض المباشر:\n\nlim (x → 6) √[(x + 2)/(x - 3)]\n\n= √[(6 + 2)/(6 - 3)]\n\n= √(8/3)",
       "difficulty": "Easy",
       "imageUrl": null,
       "sourceFile": "Mid calc1.pdf",
-      "sourcePage": 10,
+      "sourcePage": "10",
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.976Z",
-      "updatedAt": "2026-10-03T17:21:59.976Z"
+      "updatedAt": "2026-11-05T13:21:00.133Z"
     },
     {
       "id": "C1-MID-031",
@@ -117432,6 +117432,6 @@
     "totalQuestions": 3507,
     "verifiedQuestions": 3507,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-05T13:19:23.264Z"
+    "lastUpdated": "2026-11-05T13:21:00.472Z"
   }
 }
