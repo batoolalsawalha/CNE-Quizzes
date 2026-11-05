@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-05T13:21:33.665Z",
+  "lastUpdated": "2026-11-05T13:21:39.668Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -1831,39 +1831,6 @@
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.976Z",
       "updatedAt": "2026-11-04T18:36:50.562Z"
-    },
-    {
-      "id": "C1-MID-014",
-      "subjectId": "subj-calc1",
-      "quizId": "quiz-subj-calc1-mid",
-      "question": "For the real function y = e^(e^x), find its inverse function f^(-1)(x).",
-      "options": [
-        {
-          "id": "a",
-          "text": "f^(-1)(x) = e^(ln(x))"
-        },
-        {
-          "id": "b",
-          "text": "f^(-1)(x) = ln(ln(x))"
-        },
-        {
-          "id": "c",
-          "text": "f^(-1)(x) = e^(e^x)"
-        },
-        {
-          "id": "d",
-          "text": ") f^(-1)(x) = ln(e^x)"
-        }
-      ],
-      "correctAnswer": "b",
-      "explanation": "1. Start with:\n    y = e^(e^x)\n2. Take the natural logarithm of both sides:\n    ln(y) = e^x\n3. Take the natural logarithm again:\n    ln(ln(y)) = x\n4. Interchange x and y:\n    y = ln(ln(x))\n5. Therefore:\n    f^(-1)(x) = ln(ln(x))\n\nNote: The domain of the inverse function is x > 1.",
-      "difficulty": "Hard",
-      "imageUrl": null,
-      "sourceFile": "Mid calc1.pdf",
-      "sourcePage": "4",
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.976Z",
-      "updatedAt": "2026-11-04T18:53:10.125Z"
     },
     {
       "id": "C1-MID-015",
@@ -117198,9 +117165,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3500,
-    "verifiedQuestions": 3500,
+    "totalQuestions": 3499,
+    "verifiedQuestions": 3499,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-05T13:21:33.665Z"
+    "lastUpdated": "2026-11-05T13:21:39.668Z"
   }
 }
