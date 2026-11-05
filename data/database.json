@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-05T14:05:21.865Z",
+  "lastUpdated": "2026-11-05T14:05:28.157Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -18762,39 +18762,6 @@
       "imageUrl": null,
       "sourceFile": "c-- Final.pdf",
       "sourcePage": 8,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:22:00.002Z",
-      "updatedAt": "2026-10-03T17:22:00.002Z"
-    },
-    {
-      "id": "CPP-FIN-009",
-      "subjectId": "subj-cpp",
-      "quizId": "quiz-subj-cpp-final",
-      "question": "In C++, how are multi-dimensional arrays stored in memory?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Row-Major Order (row by row contiguously in memory)"
-        },
-        {
-          "id": "b",
-          "text": "Column-Major Order"
-        },
-        {
-          "id": "c",
-          "text": "Diagonal-Major Order"
-        },
-        {
-          "id": "d",
-          "text": "Random heap blocks"
-        }
-      ],
-      "correctAnswer": "a",
-      "explanation": "C and C++ store 2D arrays in row-major order: all elements of row 0 are followed contiguously by row 1, etc.",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "c-- Final.pdf",
-      "sourcePage": 9,
       "status": "Verified",
       "createdAt": "2026-10-03T17:22:00.002Z",
       "updatedAt": "2026-10-03T17:22:00.002Z"
@@ -115825,9 +115792,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 85,
     "activeQuizzes": 85,
-    "totalQuestions": 3460,
-    "verifiedQuestions": 3460,
+    "totalQuestions": 3459,
+    "verifiedQuestions": 3459,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-05T14:05:21.865Z"
+    "lastUpdated": "2026-11-05T14:05:28.157Z"
   }
 }
