@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-05T13:29:34.860Z",
+  "lastUpdated": "2026-11-05T13:31:50.962Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -117120,6 +117120,40 @@
       "status": "Verified",
       "createdAt": "2026-11-05T13:29:34.476Z",
       "updatedAt": "2026-11-05T13:29:34.476Z"
+    },
+    {
+      "id": "q-c4420da6",
+      "subjectId": "subj-calc1",
+      "quizId": "quiz-subj-calc1-mid",
+      "topicId": null,
+      "question": "One of the following graphs is symmetric about the Origin:",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "xy = 5"
+        },
+        {
+          "id": "b",
+          "text": "y = x^2 + x"
+        },
+        {
+          "id": "c",
+          "text": "x = 5y^2 + 9"
+        },
+        {
+          "id": "d",
+          "text": "y = |x| + 5"
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "يكون المنحنى متماثلًا حول نقطة الأصل إذا تحقق الشرط:\n\nاستبدال (x, y) بـ (-x, -y) ينتج نفس المعادلة الأصلية.\n\nنجرب الخيار b:\n\nxy = 5\n\nنستبدل:\n\n(-x)(-y) = 5\n\nxy = 5\n\nنحصل على نفس المعادلة الأصلية.\n\nإذن المنحنى متماثل حول نقطة الأصل.",
+      "difficulty": "Medium",
+      "sourceFile": "",
+      "sourcePage": null,
+      "status": "Verified",
+      "createdAt": "2026-11-05T13:31:50.544Z",
+      "updatedAt": "2026-11-05T13:31:50.544Z"
     }
   ],
   "admin": {
@@ -117134,9 +117168,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3498,
-    "verifiedQuestions": 3498,
+    "totalQuestions": 3499,
+    "verifiedQuestions": 3499,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-05T13:29:34.860Z"
+    "lastUpdated": "2026-11-05T13:31:50.962Z"
   }
 }
