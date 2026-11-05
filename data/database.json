@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-05T14:05:12.159Z",
+  "lastUpdated": "2026-11-05T14:05:21.865Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -18795,39 +18795,6 @@
       "imageUrl": null,
       "sourceFile": "c-- Final.pdf",
       "sourcePage": 9,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:22:00.002Z",
-      "updatedAt": "2026-10-03T17:22:00.002Z"
-    },
-    {
-      "id": "CPP-FIN-010",
-      "subjectId": "subj-cpp",
-      "quizId": "quiz-subj-cpp-final",
-      "question": "Given int m[2][3] = {{1, 2, 3}, {4, 5, 6}};, what is the value of m[1][0]?",
-      "options": [
-        {
-          "id": "a",
-          "text": "1"
-        },
-        {
-          "id": "b",
-          "text": "4"
-        },
-        {
-          "id": "c",
-          "text": "2"
-        },
-        {
-          "id": "d",
-          "text": "5"
-        }
-      ],
-      "correctAnswer": "b",
-      "explanation": "Row index 1 refers to the second row {4, 5, 6}, and column index 0 refers to the first element: 4.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "c-- Final.pdf",
-      "sourcePage": 10,
       "status": "Verified",
       "createdAt": "2026-10-03T17:22:00.002Z",
       "updatedAt": "2026-10-03T17:22:00.002Z"
@@ -115858,9 +115825,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 85,
     "activeQuizzes": 85,
-    "totalQuestions": 3461,
-    "verifiedQuestions": 3461,
+    "totalQuestions": 3460,
+    "verifiedQuestions": 3460,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-05T14:05:12.159Z"
+    "lastUpdated": "2026-11-05T14:05:21.865Z"
   }
 }
