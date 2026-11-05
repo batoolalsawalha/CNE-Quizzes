@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-05T14:04:47.364Z",
+  "lastUpdated": "2026-11-05T14:04:59.763Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -18894,72 +18894,6 @@
       "imageUrl": null,
       "sourceFile": "c-- Final.pdf",
       "sourcePage": 2,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:22:00.002Z",
-      "updatedAt": "2026-10-03T17:22:00.002Z"
-    },
-    {
-      "id": "CPP-FIN-013",
-      "subjectId": "subj-cpp",
-      "quizId": "quiz-subj-cpp-final",
-      "question": "In a square matrix of size N x N, what condition identifies elements on the MAIN DIAGONAL?",
-      "options": [
-        {
-          "id": "a",
-          "text": "row index equals column index (i == j)"
-        },
-        {
-          "id": "b",
-          "text": "i + j == N - 1"
-        },
-        {
-          "id": "c",
-          "text": "i > j"
-        },
-        {
-          "id": "d",
-          "text": "i < j"
-        }
-      ],
-      "correctAnswer": "a",
-      "explanation": "Main diagonal elements are matrix[0][0], matrix[1][1], matrix[2][2], etc., where i == j.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "c-- Final.pdf",
-      "sourcePage": 3,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:22:00.002Z",
-      "updatedAt": "2026-10-03T17:22:00.002Z"
-    },
-    {
-      "id": "CPP-FIN-014",
-      "subjectId": "subj-cpp",
-      "quizId": "quiz-subj-cpp-final",
-      "question": "In an N x N square matrix, what condition identifies elements on the SECONDARY (anti) DIAGONAL?",
-      "options": [
-        {
-          "id": "a",
-          "text": "i == j"
-        },
-        {
-          "id": "b",
-          "text": "i + j == N - 1 (or j == N - 1 - i)"
-        },
-        {
-          "id": "c",
-          "text": "i == 0"
-        },
-        {
-          "id": "d",
-          "text": "i + j == N"
-        }
-      ],
-      "correctAnswer": "b",
-      "explanation": "For 3x3: secondary diagonal entries are (0,2), (1,1), and (2,0), where i + j = 2 = N - 1.",
-      "difficulty": "Medium",
-      "imageUrl": null,
-      "sourceFile": "c-- Final.pdf",
-      "sourcePage": 4,
       "status": "Verified",
       "createdAt": "2026-10-03T17:22:00.002Z",
       "updatedAt": "2026-10-03T17:22:00.002Z"
@@ -115990,9 +115924,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 85,
     "activeQuizzes": 85,
-    "totalQuestions": 3465,
-    "verifiedQuestions": 3465,
+    "totalQuestions": 3463,
+    "verifiedQuestions": 3463,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-05T14:04:47.364Z"
+    "lastUpdated": "2026-11-05T14:04:59.763Z"
   }
 }
