@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-05T13:37:35.659Z",
+  "lastUpdated": "2026-11-05T13:39:47.972Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -117222,6 +117222,40 @@
       "status": "Verified",
       "createdAt": "2026-11-05T13:37:35.216Z",
       "updatedAt": "2026-11-05T13:37:35.216Z"
+    },
+    {
+      "id": "q-0983193a",
+      "subjectId": "subj-calc1",
+      "quizId": "quiz-subj-calc1-mid",
+      "topicId": null,
+      "question": "Let c, k be two positive real numbers.\n\nIf we translate the graph of y = f(x) up k units, and translate it right c units, so we get the graph of:",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "y = f(x - c) - k"
+        },
+        {
+          "id": "b",
+          "text": "y = f(x + c) - k"
+        },
+        {
+          "id": "c",
+          "text": "y = f(x + c) + k"
+        },
+        {
+          "id": "d",
+          "text": "y = f(x -c) + k"
+        }
+      ],
+      "correctAnswer": "d",
+      "explanation": "الانسحاب لليمين بمقدار c وحدة يغير x إلى:\n\nx - c\n\nالانسحاب للأعلى بمقدار k وحدة يضيف:\n\n+k\n\nإذن:\n\ny = f(x - c) + k",
+      "difficulty": "Medium",
+      "sourceFile": "",
+      "sourcePage": null,
+      "status": "Verified",
+      "createdAt": "2026-11-05T13:39:47.591Z",
+      "updatedAt": "2026-11-05T13:39:47.591Z"
     }
   ],
   "admin": {
@@ -117236,9 +117270,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3501,
-    "verifiedQuestions": 3501,
+    "totalQuestions": 3502,
+    "verifiedQuestions": 3502,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-05T13:37:35.659Z"
+    "lastUpdated": "2026-11-05T13:39:47.972Z"
   }
 }
