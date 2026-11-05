@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-05T14:04:31.276Z",
+  "lastUpdated": "2026-11-05T14:04:40.266Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -18993,39 +18993,6 @@
       "imageUrl": null,
       "sourceFile": "c-- Final.pdf",
       "sourcePage": 5,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:22:00.002Z",
-      "updatedAt": "2026-10-03T17:22:00.002Z"
-    },
-    {
-      "id": "CPP-FIN-016",
-      "subjectId": "subj-cpp",
-      "quizId": "quiz-subj-cpp-final",
-      "question": "What precondition is strictly required before performing a Binary Search on an array?",
-      "options": [
-        {
-          "id": "a",
-          "text": "The array must contain only positive integers"
-        },
-        {
-          "id": "b",
-          "text": "The array size must be an even number"
-        },
-        {
-          "id": "c",
-          "text": "The array must be dynamic"
-        },
-        {
-          "id": "d",
-          "text": "The array elements must be SORTED in ascending or descending order"
-        }
-      ],
-      "correctAnswer": "d",
-      "explanation": "Binary search repeatedly divides the search space in half, which is valid only on ordered datasets.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "c-- Final.pdf",
-      "sourcePage": 6,
       "status": "Verified",
       "createdAt": "2026-10-03T17:22:00.002Z",
       "updatedAt": "2026-10-03T17:22:00.002Z"
@@ -116056,9 +116023,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 85,
     "activeQuizzes": 85,
-    "totalQuestions": 3467,
-    "verifiedQuestions": 3467,
+    "totalQuestions": 3466,
+    "verifiedQuestions": 3466,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-05T14:04:31.276Z"
+    "lastUpdated": "2026-11-05T14:04:40.266Z"
   }
 }
