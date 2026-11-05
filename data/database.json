@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-05T14:05:06.269Z",
+  "lastUpdated": "2026-11-05T14:05:12.159Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -18828,39 +18828,6 @@
       "imageUrl": null,
       "sourceFile": "c-- Final.pdf",
       "sourcePage": 10,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:22:00.002Z",
-      "updatedAt": "2026-10-03T17:22:00.002Z"
-    },
-    {
-      "id": "CPP-FIN-011",
-      "subjectId": "subj-cpp",
-      "quizId": "quiz-subj-cpp-final",
-      "question": "How many elements are in a 2D array declared as double table[5][8]?",
-      "options": [
-        {
-          "id": "a",
-          "text": "13 elements"
-        },
-        {
-          "id": "b",
-          "text": "35 elements"
-        },
-        {
-          "id": "c",
-          "text": "40 elements (5 * 8)"
-        },
-        {
-          "id": "d",
-          "text": "80 elements"
-        }
-      ],
-      "correctAnswer": "c",
-      "explanation": "Total elements = rows * columns = 5 * 8 = 40.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "c-- Final.pdf",
-      "sourcePage": 1,
       "status": "Verified",
       "createdAt": "2026-10-03T17:22:00.002Z",
       "updatedAt": "2026-10-03T17:22:00.002Z"
@@ -115891,9 +115858,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 85,
     "activeQuizzes": 85,
-    "totalQuestions": 3462,
-    "verifiedQuestions": 3462,
+    "totalQuestions": 3461,
+    "verifiedQuestions": 3461,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-05T14:05:06.269Z"
+    "lastUpdated": "2026-11-05T14:05:12.159Z"
   }
 }
