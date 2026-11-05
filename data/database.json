@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-05T13:41:53.771Z",
+  "lastUpdated": "2026-11-05T13:43:37.658Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -117290,6 +117290,40 @@
       "status": "Verified",
       "createdAt": "2026-11-05T13:41:53.389Z",
       "updatedAt": "2026-11-05T13:41:53.389Z"
+    },
+    {
+      "id": "q-7a3d29cd",
+      "subjectId": "subj-calc1",
+      "quizId": "quiz-subj-calc1-mid",
+      "topicId": null,
+      "question": "One of the following functions is an odd function:",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "f(x) = 1/x^3 + x^5"
+        },
+        {
+          "id": "b",
+          "text": "f(x) = 1/x^2 + x"
+        },
+        {
+          "id": "c",
+          "text": "f(x) = 1/x^2 + cos(x)"
+        },
+        {
+          "id": "d",
+          "text": "f(x) = 1/(x - 1)^2 + cos(x)"
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "يكون الاقتران فرديًا (Odd) إذا تحقق الشرط:\n\nf(-x) = -f(x)\n\nفي الخيار b:\n\nf(x) = 1/x^3 + x^5\n\nنعوض -x بدل x:\n\nf(-x) = 1/(-x)^3 + (-x)^5\n\n= -1/x^3 - x^5\n\n= -(1/x^3 + x^5)\n\nإذن:\n\nf(-x) = -f(x)\n\nوبالتالي الاقتران فردي.",
+      "difficulty": "Medium",
+      "sourceFile": "",
+      "sourcePage": null,
+      "status": "Verified",
+      "createdAt": "2026-11-05T13:43:37.264Z",
+      "updatedAt": "2026-11-05T13:43:37.264Z"
     }
   ],
   "admin": {
@@ -117304,9 +117338,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3503,
-    "verifiedQuestions": 3503,
+    "totalQuestions": 3504,
+    "verifiedQuestions": 3504,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-05T13:41:53.771Z"
+    "lastUpdated": "2026-11-05T13:43:37.658Z"
   }
 }
