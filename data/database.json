@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-05T13:34:12.657Z",
+  "lastUpdated": "2026-11-05T13:37:35.659Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -117188,6 +117188,40 @@
       "status": "Verified",
       "createdAt": "2026-11-05T13:34:12.247Z",
       "updatedAt": "2026-11-05T13:34:12.247Z"
+    },
+    {
+      "id": "q-049dd28a",
+      "subjectId": "subj-calc1",
+      "quizId": "quiz-subj-calc1-mid",
+      "topicId": null,
+      "question": "If the graph of y = A sin(Bx) has amplitude 3 and period 3, then:",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "A = -3 and B = -2π/3"
+        },
+        {
+          "id": "b",
+          "text": "A = ±3 and B = ±2π/3"
+        },
+        {
+          "id": "c",
+          "text": "A = ±3 and B = 2π/3"
+        },
+        {
+          "id": "d",
+          "text": "A = 3 and B = 2π/3"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "السعة (Amplitude):\n\n|A| = 3\n\nإذن:\n\nA = ±3\n\nالدورة (Period):\n\nPeriod = 2π/|B|\n\nوبما أن الدورة تساوي 3:\n\n2π/|B| = 3\n\n|B| = 2π/3\n\nإذن:\n\nB = ±2π/3",
+      "difficulty": "Easy",
+      "sourceFile": "",
+      "sourcePage": null,
+      "status": "Verified",
+      "createdAt": "2026-11-05T13:37:35.216Z",
+      "updatedAt": "2026-11-05T13:37:35.216Z"
     }
   ],
   "admin": {
@@ -117202,9 +117236,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3500,
-    "verifiedQuestions": 3500,
+    "totalQuestions": 3501,
+    "verifiedQuestions": 3501,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-05T13:34:12.657Z"
+    "lastUpdated": "2026-11-05T13:37:35.659Z"
   }
 }
