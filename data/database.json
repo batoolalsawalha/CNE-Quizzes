@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-05T14:04:20.268Z",
+  "lastUpdated": "2026-11-05T14:04:31.276Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -19026,39 +19026,6 @@
       "imageUrl": null,
       "sourceFile": "c-- Final.pdf",
       "sourcePage": 6,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:22:00.002Z",
-      "updatedAt": "2026-10-03T17:22:00.002Z"
-    },
-    {
-      "id": "CPP-FIN-017",
-      "subjectId": "subj-cpp",
-      "quizId": "quiz-subj-cpp-final",
-      "question": "What is the worst-case time complexity of Binary Search on a sorted array of size n?",
-      "options": [
-        {
-          "id": "a",
-          "text": "O(log n)"
-        },
-        {
-          "id": "b",
-          "text": "O(n)"
-        },
-        {
-          "id": "c",
-          "text": "O(1)"
-        },
-        {
-          "id": "d",
-          "text": "O(n log n)"
-        }
-      ],
-      "correctAnswer": "a",
-      "explanation": "Binary search cuts the remaining search space in half at each step: log_2(n) comparisons.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "c-- Final.pdf",
-      "sourcePage": 7,
       "status": "Verified",
       "createdAt": "2026-10-03T17:22:00.002Z",
       "updatedAt": "2026-10-03T17:22:00.002Z"
@@ -116089,9 +116056,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 85,
     "activeQuizzes": 85,
-    "totalQuestions": 3468,
-    "verifiedQuestions": 3468,
+    "totalQuestions": 3467,
+    "verifiedQuestions": 3467,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-05T14:04:20.268Z"
+    "lastUpdated": "2026-11-05T14:04:31.276Z"
   }
 }
