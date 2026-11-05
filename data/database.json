@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-05T13:31:50.962Z",
+  "lastUpdated": "2026-11-05T13:34:12.657Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -117154,6 +117154,40 @@
       "status": "Verified",
       "createdAt": "2026-11-05T13:31:50.544Z",
       "updatedAt": "2026-11-05T13:31:50.544Z"
+    },
+    {
+      "id": "q-e1658916",
+      "subjectId": "subj-calc1",
+      "quizId": "quiz-subj-calc1-mid",
+      "topicId": null,
+      "question": "The inverse function for\n\nf(x) = x^2 - 2x\n\nwhere x ≥ 1 is:",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "f^(-1)(x) = √(x + 1) - 1"
+        },
+        {
+          "id": "b",
+          "text": "f^(-1)(x) = -√(x - 1) + 1"
+        },
+        {
+          "id": "c",
+          "text": "f^(-1)(x) = √(x + 1) + 1"
+        },
+        {
+          "id": "d",
+          "text": "f^(-1)(x) = -√(x + 1) - 1"
+        }
+      ],
+      "correctAnswer": "c",
+      "explanation": "نضع:\n\ny = x^2 - 2x\n\nنكمل المربع:\n\ny = (x - 1)^2 - 1\n\nنضيف 1 للطرفين:\n\ny + 1 = (x - 1)^2\n\nنأخذ الجذر التربيعي:\n\nx - 1 = ±√(y + 1)\n\nبما أن المجال المحدد هو x ≥ 1، نأخذ الإشارة الموجبة:\n\nx - 1 = √(y + 1)\n\nx = √(y + 1) + 1\n\nنستبدل y بـ x:\n\nf^(-1)(x) = √(x + 1) +1",
+      "difficulty": "Hard",
+      "sourceFile": "",
+      "sourcePage": null,
+      "status": "Verified",
+      "createdAt": "2026-11-05T13:34:12.247Z",
+      "updatedAt": "2026-11-05T13:34:12.247Z"
     }
   ],
   "admin": {
@@ -117168,9 +117202,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3499,
-    "verifiedQuestions": 3499,
+    "totalQuestions": 3500,
+    "verifiedQuestions": 3500,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-05T13:31:50.962Z"
+    "lastUpdated": "2026-11-05T13:34:12.657Z"
   }
 }
