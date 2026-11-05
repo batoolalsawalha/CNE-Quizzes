@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-04T19:29:19.229Z",
+  "lastUpdated": "2026-11-05T12:43:36.362Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -2166,34 +2166,34 @@
       "id": "C1-MID-018",
       "subjectId": "subj-calc1",
       "quizId": "quiz-subj-calc1-mid",
-      "question": "Derivative of f(x) = ln(5x⁴ + 1) is:",
+      "question": "The value of the constant k that makes the function\n\nf(x) = {\n(x^2 - 16)/(x - 4)     if x ≠ 4\n2k                      if x = 4\n}\n\ncontinuous is:",
       "options": [
         {
           "id": "a",
-          "text": "1 / (5x⁴ + 1)"
+          "text": "4/3"
         },
         {
           "id": "b",
-          "text": "20x³ / (5x⁴ + 1)"
+          "text": "8/5"
         },
         {
           "id": "c",
-          "text": "20x³ ln(5x⁴ + 1)"
+          "text": "2"
         },
         {
           "id": "d",
-          "text": "5x³ / (5x⁴ + 1)"
+          "text": "4"
         }
       ],
-      "correctAnswer": "b",
-      "explanation": "d/dx[ln u] = u'/u.",
+      "correctAnswer": "d",
+      "explanation": "لكي يكون الاقتران متصلًا عند x = 4، يجب أن يكون:\n\nlim (x → 4) f(x) = f(4)\n\nنحسب النهاية:\n\nlim (x → 4) [(x^2 - 16)/(x - 4)]\n\nنحلل:\n\nx^2 - 16 = (x - 4)(x + 4)\n\nإذن:\n\nlim (x → 4) [(x - 4)(x + 4)/(x - 4)]\n\n= lim (x → 4) (x + 4)\n\n= 8\n\nنعوض قيمة الاقتران:\n\nf(4) = 2k\n\nنساوي:\n\n2k = 8\n\nk = 4",
       "difficulty": "Easy",
       "imageUrl": null,
       "sourceFile": "Mid calc1.pdf",
-      "sourcePage": 8,
+      "sourcePage": "8",
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.976Z",
-      "updatedAt": "2026-10-03T17:21:59.976Z"
+      "updatedAt": "2026-11-05T12:43:35.921Z"
     },
     {
       "id": "C1-MID-019",
@@ -117432,6 +117432,6 @@
     "totalQuestions": 3507,
     "verifiedQuestions": 3507,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-04T19:29:19.229Z"
+    "lastUpdated": "2026-11-05T12:43:36.362Z"
   }
 }
