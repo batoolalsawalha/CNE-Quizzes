@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-05T12:46:14.763Z",
+  "lastUpdated": "2026-11-05T12:48:37.283Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -2232,34 +2232,34 @@
       "id": "C1-MID-020",
       "subjectId": "subj-calc1",
       "quizId": "quiz-subj-calc1-mid",
-      "question": "Derivative of f(x) = arctan(3x) is:",
+      "question": "Let f(x) = (2x + 1)/(x^2 + 5x + 2k).\n\nThe value of the constant k provided that f(x) has one discontinuous point is:",
       "options": [
         {
           "id": "a",
-          "text": "1 / (1 + 9x²)"
+          "text": "25/8"
         },
         {
           "id": "b",
-          "text": "3 / (1 + 3x²)"
+          "text": "9/2"
         },
         {
           "id": "c",
-          "text": "3 / √(1 - 9x²)"
+          "text": "25/4"
         },
         {
           "id": "d",
-          "text": "3 / (1 + 9x²)"
+          "text": "-25/8"
         }
       ],
-      "correctAnswer": "d",
-      "explanation": "d/dx[arctan u] = u'/(1 + u²).",
-      "difficulty": "Medium",
+      "correctAnswer": "a",
+      "explanation": "يكون الاقتران الكسري غير متصل عند أصفار المقام.\nلكي يكون له نقطة عدم اتصال واحدة فقط، يجب أن يكون للمقام جذر مكرر واحد.\nأي أن:\nΔ = 0\nالمقام:\nx^2 + 5x + 2k = 0\nالمميز:\nΔ = b^2 - 4ac\nΔ = 5^2 - 4(1)(2k)\nΔ = 25 - 8k\nنضع:\n25 - 8k = 0\n8k = 25\nk = 25/8",
+      "difficulty": "Hard",
       "imageUrl": null,
       "sourceFile": "Mid calc1.pdf",
-      "sourcePage": 10,
+      "sourcePage": "10",
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.976Z",
-      "updatedAt": "2026-10-03T17:21:59.976Z"
+      "updatedAt": "2026-11-05T12:48:36.794Z"
     },
     {
       "id": "C1-MID-021",
@@ -117432,6 +117432,6 @@
     "totalQuestions": 3507,
     "verifiedQuestions": 3507,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-05T12:46:14.763Z"
+    "lastUpdated": "2026-11-05T12:48:37.283Z"
   }
 }
