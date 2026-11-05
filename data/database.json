@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-05T14:01:31.183Z",
+  "lastUpdated": "2026-11-05T14:01:39.061Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -19092,39 +19092,6 @@
       "imageUrl": null,
       "sourceFile": "c-- Final.pdf",
       "sourcePage": 8,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:22:00.002Z",
-      "updatedAt": "2026-10-03T17:22:00.002Z"
-    },
-    {
-      "id": "CPP-FIN-019",
-      "subjectId": "subj-cpp",
-      "quizId": "quiz-subj-cpp-final",
-      "question": "What is the average and worst-case time complexity of Bubble Sort on an array of size n?",
-      "options": [
-        {
-          "id": "a",
-          "text": "O(n log n)"
-        },
-        {
-          "id": "b",
-          "text": "O(n)"
-        },
-        {
-          "id": "c",
-          "text": "O(n^2)"
-        },
-        {
-          "id": "d",
-          "text": "O(log n)"
-        }
-      ],
-      "correctAnswer": "c",
-      "explanation": "Nested loops perform approximately n*(n-1)/2 comparisons, resulting in quadratic O(n^2) complexity.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "c-- Final.pdf",
-      "sourcePage": 9,
       "status": "Verified",
       "createdAt": "2026-10-03T17:22:00.002Z",
       "updatedAt": "2026-10-03T17:22:00.002Z"
@@ -117278,9 +117245,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 85,
     "activeQuizzes": 85,
-    "totalQuestions": 3504,
-    "verifiedQuestions": 3504,
+    "totalQuestions": 3503,
+    "verifiedQuestions": 3503,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-05T14:01:31.183Z"
+    "lastUpdated": "2026-11-05T14:01:39.061Z"
   }
 }
