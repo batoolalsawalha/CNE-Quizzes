@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-05T12:55:01.062Z",
+  "lastUpdated": "2026-11-05T12:57:02.799Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -2331,34 +2331,34 @@
       "id": "C1-MID-023",
       "subjectId": "subj-calc1",
       "quizId": "quiz-subj-calc1-mid",
-      "question": "Evaluate: lim_{x → ∞} (√[x² + 5x] - x) =",
+      "question": "If the limit\n\nlim (x → 3) [(x^2 + 2ax)/(2x - 6)]\n\nexists, then the value of the constant a is:",
       "options": [
         {
           "id": "a",
-          "text": "5"
+          "text": "3"
         },
         {
           "id": "b",
-          "text": "0"
+          "text": "3/2"
         },
         {
           "id": "c",
-          "text": "5/2"
+          "text": "-3/2"
         },
         {
           "id": "d",
-          "text": "∞"
+          "text": "-3"
         }
       ],
       "correctAnswer": "c",
-      "explanation": "Multiply by conjugate: 5x/[√(x²+5x)+x] → 5/2.",
+      "explanation": "نعوض x = 3 في المقام:\n2(3) - 6 = 0\nبما أن النهاية موجودة والمقام يساوي صفرًا، يجب أن يكون البسط مساويًا للصفر عند x = 3.\nإذن:\n3^2 + 2a(3) = 0\n9 + 6a = 0\n6a = -9\na = -9/6\na = -3/2",
       "difficulty": "Medium",
       "imageUrl": null,
       "sourceFile": "Mid calc1.pdf",
-      "sourcePage": 3,
+      "sourcePage": "3",
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.976Z",
-      "updatedAt": "2026-10-03T17:21:59.976Z"
+      "updatedAt": "2026-11-05T12:57:02.259Z"
     },
     {
       "id": "C1-MID-025",
@@ -117432,6 +117432,6 @@
     "totalQuestions": 3507,
     "verifiedQuestions": 3507,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-05T12:55:01.062Z"
+    "lastUpdated": "2026-11-05T12:57:02.799Z"
   }
 }
