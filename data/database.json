@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-05T14:01:39.061Z",
+  "lastUpdated": "2026-11-05T14:01:47.067Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -19092,39 +19092,6 @@
       "imageUrl": null,
       "sourceFile": "c-- Final.pdf",
       "sourcePage": 8,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:22:00.002Z",
-      "updatedAt": "2026-10-03T17:22:00.002Z"
-    },
-    {
-      "id": "CPP-FIN-020",
-      "subjectId": "subj-cpp",
-      "quizId": "quiz-subj-cpp-final",
-      "question": "How does Selection Sort work?",
-      "options": [
-        {
-          "id": "a",
-          "text": "By comparing adjacent pairs and swapping them"
-        },
-        {
-          "id": "b",
-          "text": "By shifting elements one position to the right"
-        },
-        {
-          "id": "c",
-          "text": "By hashing values into buckets"
-        },
-        {
-          "id": "d",
-          "text": "By finding the smallest element in the unsorted portion and swapping it with the first unsorted element"
-        }
-      ],
-      "correctAnswer": "d",
-      "explanation": "Selection sort repeatedly selects the minimum element from the unsorted sub-array.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "c-- Final.pdf",
-      "sourcePage": 10,
       "status": "Verified",
       "createdAt": "2026-10-03T17:22:00.002Z",
       "updatedAt": "2026-10-03T17:22:00.002Z"
@@ -117245,9 +117212,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 85,
     "activeQuizzes": 85,
-    "totalQuestions": 3503,
-    "verifiedQuestions": 3503,
+    "totalQuestions": 3502,
+    "verifiedQuestions": 3502,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-05T14:01:39.061Z"
+    "lastUpdated": "2026-11-05T14:01:47.067Z"
   }
 }
