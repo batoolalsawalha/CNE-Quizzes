@@ -1,11 +1,11 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-05T13:54:30.161Z",
+  "lastUpdated": "2026-11-05T13:56:13.157Z",
   "subjects": [
     {
       "id": "subj-calc1",
-      "code": "MATH101",
+      "code": "71602131",
       "name": "Calculus 1",
       "nameAr": "تفاضل وتكامل 1",
       "category": "العلوم الأساسية والرياضيات",
@@ -15,7 +15,7 @@
       "reviewQuestionCount": 1,
       "description": "",
       "isActive": true,
-      "updatedAt": "2026-10-23T23:23:29.271Z"
+      "updatedAt": "2026-11-05T13:56:12.485Z"
     },
     {
       "id": "subj-calc2",
@@ -117375,6 +117375,6 @@
     "totalQuestions": 3505,
     "verifiedQuestions": 3505,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-05T13:54:30.161Z"
+    "lastUpdated": "2026-11-05T13:56:13.157Z"
   }
 }
