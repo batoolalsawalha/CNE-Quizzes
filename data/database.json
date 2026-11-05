@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-05T13:57:55.889Z",
+  "lastUpdated": "2026-11-05T13:58:02.868Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -577,18 +577,6 @@
       "createdAt": "2026-09-28T17:34:45.366Z",
       "questionCount": 32,
       "verifiedCount": 32
-    },
-    {
-      "id": "quiz-subj-numerical-final",
-      "subjectId": "subj-numerical",
-      "name": "تقنيات عددية - الامتحان النهائي الشامل (Numerical Methods Final Exam)",
-      "description": "Comprehensive Final Examination for Numerical Methods (تقنيات عددية) with step-by-step academic solutions.",
-      "examType": "Final",
-      "timeLimitMinutes": 120,
-      "isActive": true,
-      "createdAt": "2026-09-28T17:34:45.366Z",
-      "questionCount": 52,
-      "verifiedCount": 52
     },
     {
       "id": "quiz-subj-stats-mid",
@@ -117321,11 +117309,11 @@
   "stats": {
     "totalSubjects": 45,
     "activeSubjects": 45,
-    "totalQuizzes": 86,
-    "activeQuizzes": 86,
+    "totalQuizzes": 85,
+    "activeQuizzes": 85,
     "totalQuestions": 3505,
     "verifiedQuestions": 3505,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-05T13:57:55.889Z"
+    "lastUpdated": "2026-11-05T13:58:02.868Z"
   }
 }
