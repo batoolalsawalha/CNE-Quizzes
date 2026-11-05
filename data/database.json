@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-05T14:01:47.067Z",
+  "lastUpdated": "2026-11-05T14:02:14.869Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -19092,138 +19092,6 @@
       "imageUrl": null,
       "sourceFile": "c-- Final.pdf",
       "sourcePage": 8,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:22:00.002Z",
-      "updatedAt": "2026-10-03T17:22:00.002Z"
-    },
-    {
-      "id": "CPP-FIN-021",
-      "subjectId": "subj-cpp",
-      "quizId": "quiz-subj-cpp-final",
-      "question": "How is a C-style string represented in memory?",
-      "options": [
-        {
-          "id": "a",
-          "text": "As an array of characters terminated by the null character '\\0'"
-        },
-        {
-          "id": "b",
-          "text": "As an integer array with length at index 0"
-        },
-        {
-          "id": "c",
-          "text": "As a linked list"
-        },
-        {
-          "id": "d",
-          "text": "As a vector without terminator"
-        }
-      ],
-      "correctAnswer": "a",
-      "explanation": "C-strings use a sentinel null byte (ASCII 0, '\\0') to mark the end of the text.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "c-- Final.pdf",
-      "sourcePage": 1,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:22:00.002Z",
-      "updatedAt": "2026-10-03T17:22:00.002Z"
-    },
-    {
-      "id": "CPP-FIN-022",
-      "subjectId": "subj-cpp",
-      "quizId": "quiz-subj-cpp-final",
-      "question": "How many bytes of storage does the C-string literal \"Jordan\" require in memory?",
-      "options": [
-        {
-          "id": "a",
-          "text": "6 bytes"
-        },
-        {
-          "id": "b",
-          "text": "7 bytes (6 letters + 1 null terminator '\\0')"
-        },
-        {
-          "id": "c",
-          "text": "8 bytes"
-        },
-        {
-          "id": "d",
-          "text": "5 bytes"
-        }
-      ],
-      "correctAnswer": "b",
-      "explanation": "\"Jordan\" has 6 characters: 'J','o','r','d','a','n' plus the terminating '\\0', total 7 bytes.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "c-- Final.pdf",
-      "sourcePage": 2,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:22:00.002Z",
-      "updatedAt": "2026-10-03T17:22:00.002Z"
-    },
-    {
-      "id": "CPP-FIN-023",
-      "subjectId": "subj-cpp",
-      "quizId": "quiz-subj-cpp-final",
-      "question": "Which function from <cstring> calculates the length of a C-string excluding the null terminator?",
-      "options": [
-        {
-          "id": "a",
-          "text": "sizeof(str)"
-        },
-        {
-          "id": "b",
-          "text": "str.length()"
-        },
-        {
-          "id": "c",
-          "text": "strlen(str)"
-        },
-        {
-          "id": "d",
-          "text": "strlength(str)"
-        }
-      ],
-      "correctAnswer": "c",
-      "explanation": "strlen() counts characters up to (but not including) the terminating '\\0'.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "c-- Final.pdf",
-      "sourcePage": 3,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:22:00.002Z",
-      "updatedAt": "2026-10-03T17:22:00.002Z"
-    },
-    {
-      "id": "CPP-FIN-024",
-      "subjectId": "subj-cpp",
-      "quizId": "quiz-subj-cpp-final",
-      "question": "Which function from <cstring> is used to copy string src into destination buffer dest?",
-      "options": [
-        {
-          "id": "a",
-          "text": "dest = src;"
-        },
-        {
-          "id": "b",
-          "text": "strcopy(dest, src);"
-        },
-        {
-          "id": "c",
-          "text": "copy(src, dest);"
-        },
-        {
-          "id": "d",
-          "text": "strcpy(dest, src);"
-        }
-      ],
-      "correctAnswer": "d",
-      "explanation": "strcpy(dest, src) copies characters from src into dest including the null terminator.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "c-- Final.pdf",
-      "sourcePage": 4,
       "status": "Verified",
       "createdAt": "2026-10-03T17:22:00.002Z",
       "updatedAt": "2026-10-03T17:22:00.002Z"
@@ -117212,9 +117080,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 85,
     "activeQuizzes": 85,
-    "totalQuestions": 3502,
-    "verifiedQuestions": 3502,
+    "totalQuestions": 3498,
+    "verifiedQuestions": 3498,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-05T14:01:47.067Z"
+    "lastUpdated": "2026-11-05T14:02:14.869Z"
   }
 }
