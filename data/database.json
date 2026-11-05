@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-05T14:04:40.266Z",
+  "lastUpdated": "2026-11-05T14:04:47.364Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -18960,39 +18960,6 @@
       "imageUrl": null,
       "sourceFile": "c-- Final.pdf",
       "sourcePage": 4,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:22:00.002Z",
-      "updatedAt": "2026-10-03T17:22:00.002Z"
-    },
-    {
-      "id": "CPP-FIN-015",
-      "subjectId": "subj-cpp",
-      "quizId": "quiz-subj-cpp-final",
-      "question": "What is the Linear Search algorithm time complexity to find an element in an unsorted 1D array of size n?",
-      "options": [
-        {
-          "id": "a",
-          "text": "O(1)"
-        },
-        {
-          "id": "b",
-          "text": "O(log n)"
-        },
-        {
-          "id": "c",
-          "text": "O(n) worst case"
-        },
-        {
-          "id": "d",
-          "text": "O(n^2)"
-        }
-      ],
-      "correctAnswer": "c",
-      "explanation": "Linear search inspects elements sequentially from beginning to end, taking up to n comparisons.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "c-- Final.pdf",
-      "sourcePage": 5,
       "status": "Verified",
       "createdAt": "2026-10-03T17:22:00.002Z",
       "updatedAt": "2026-10-03T17:22:00.002Z"
@@ -116023,9 +115990,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 85,
     "activeQuizzes": 85,
-    "totalQuestions": 3466,
-    "verifiedQuestions": 3466,
+    "totalQuestions": 3465,
+    "verifiedQuestions": 3465,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-05T14:04:40.266Z"
+    "lastUpdated": "2026-11-05T14:04:47.364Z"
   }
 }
