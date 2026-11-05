@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-05T13:21:49.460Z",
+  "lastUpdated": "2026-11-05T13:22:34.762Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -2293,72 +2293,6 @@
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.976Z",
       "updatedAt": "2026-11-05T13:21:00.133Z"
-    },
-    {
-      "id": "C1-MID-031",
-      "subjectId": "subj-calc1",
-      "quizId": "quiz-subj-calc1-mid",
-      "question": "Find d²y/dx² for y = sin(2x):",
-      "options": [
-        {
-          "id": "a",
-          "text": "4 sin(2x)"
-        },
-        {
-          "id": "b",
-          "text": "-2 cos(2x)"
-        },
-        {
-          "id": "c",
-          "text": "-4 sin(2x)"
-        },
-        {
-          "id": "d",
-          "text": "-4 cos(2x)"
-        }
-      ],
-      "correctAnswer": "c",
-      "explanation": "y' = 2 cos 2x, y'' = -4 sin 2x.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Mid calc1.pdf",
-      "sourcePage": 1,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.976Z",
-      "updatedAt": "2026-10-03T17:21:59.976Z"
-    },
-    {
-      "id": "C1-MID-032",
-      "subjectId": "subj-calc1",
-      "quizId": "quiz-subj-calc1-mid",
-      "question": "Derivative of f(x) = x^x for x > 0 is:",
-      "options": [
-        {
-          "id": "a",
-          "text": "x * x^(x - 1)"
-        },
-        {
-          "id": "b",
-          "text": "x^x ln x"
-        },
-        {
-          "id": "c",
-          "text": "(1 + ln x)"
-        },
-        {
-          "id": "d",
-          "text": "x^x (1 + ln x)"
-        }
-      ],
-      "correctAnswer": "d",
-      "explanation": "ln y = x ln x => y' = x^x (1 + ln x).",
-      "difficulty": "Hard",
-      "imageUrl": null,
-      "sourceFile": "Mid calc1.pdf",
-      "sourcePage": 2,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.976Z",
-      "updatedAt": "2026-10-03T17:21:59.976Z"
     },
     {
       "id": "C2-MID-001",
@@ -117132,9 +117066,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3498,
-    "verifiedQuestions": 3498,
+    "totalQuestions": 3496,
+    "verifiedQuestions": 3496,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-05T13:21:49.460Z"
+    "lastUpdated": "2026-11-05T13:22:34.762Z"
   }
 }
