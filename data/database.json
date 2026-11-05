@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-05T12:48:37.283Z",
+  "lastUpdated": "2026-11-05T12:51:43.165Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -2265,34 +2265,34 @@
       "id": "C1-MID-021",
       "subjectId": "subj-calc1",
       "quizId": "quiz-subj-calc1-mid",
-      "question": "Derivative of f(x) = arcsin(x / 2) is:",
+      "question": "lim (x → ∞) [(3x^2 + 2x - 12)/(x + πx^2 + 5)] =",
       "options": [
         {
           "id": "a",
-          "text": "1 / √(4 - x²)"
+          "text": "0"
         },
         {
           "id": "b",
-          "text": "1 / √(1 - x²)"
+          "text": "2/3"
         },
         {
           "id": "c",
-          "text": "2 / √(4 - x²)"
+          "text": "3/π"
         },
         {
           "id": "d",
-          "text": "1 / (4 + x²)"
+          "text": "Does not exist"
         }
       ],
-      "correctAnswer": "a",
-      "explanation": "d/dx[arcsin(x/a)] = 1/√(a² - x²).",
-      "difficulty": "Medium",
+      "correctAnswer": "c",
+      "explanation": "عندما تقترب x من ∞، نأخذ أكبر قوة لـ x في البسط والمقام.\nأكبر قوة في البسط:\n3x^2\nأكبر قوة في المقام:\nπx^2\nالنهاية تساوي نسبة معاملات أعلى قوة:\n3/π",
+      "difficulty": "Easy",
       "imageUrl": null,
       "sourceFile": "Mid calc1.pdf",
-      "sourcePage": 1,
+      "sourcePage": "1",
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.976Z",
-      "updatedAt": "2026-10-03T17:21:59.976Z"
+      "updatedAt": "2026-11-05T12:51:42.357Z"
     },
     {
       "id": "C1-MID-022",
@@ -117432,6 +117432,6 @@
     "totalQuestions": 3507,
     "verifiedQuestions": 3507,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-05T12:48:37.283Z"
+    "lastUpdated": "2026-11-05T12:51:43.165Z"
   }
 }
