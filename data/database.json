@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-05T13:21:00.472Z",
+  "lastUpdated": "2026-11-05T13:21:15.160Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -1833,72 +1833,6 @@
       "updatedAt": "2026-11-04T18:36:50.562Z"
     },
     {
-      "id": "C1-MID-008",
-      "subjectId": "subj-calc1",
-      "quizId": "quiz-subj-calc1-mid",
-      "question": "Find the set of real solutions of the equation:\n\n2^x = 8^x",
-      "options": [
-        {
-          "id": "a",
-          "text": "Empty set"
-        },
-        {
-          "id": "b",
-          "text": "{2}"
-        },
-        {
-          "id": "c",
-          "text": "{0}"
-        },
-        {
-          "id": "d",
-          "text": "{-2}"
-        }
-      ],
-      "correctAnswer": "c",
-      "explanation": "1. Write both sides with the same base:\n    8 = 2^3\n2. Therefore:\n    2^x = (2^3)^x\n    2^x = 2^(3x)\n3. Since the bases are equal:\n    x = 3x\n4. Solve:\n    2x = 0\n    x = 0\n5. The solution set is:\n    {0}",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Mid calc1.pdf",
-      "sourcePage": "8",
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.976Z",
-      "updatedAt": "2026-11-04T18:38:48.106Z"
-    },
-    {
-      "id": "C1-MID-009",
-      "subjectId": "subj-calc1",
-      "quizId": "quiz-subj-calc1-mid",
-      "question": "Find the range of the function:\n\nf(x) = (x - 1)^2 + 2",
-      "options": [
-        {
-          "id": "a",
-          "text": "(-2, infinity)"
-        },
-        {
-          "id": "b",
-          "text": "[-2, infinity)"
-        },
-        {
-          "id": "c",
-          "text": "(2, infinity)"
-        },
-        {
-          "id": "d",
-          "text": "[2, infinity)"
-        }
-      ],
-      "correctAnswer": "b",
-      "explanation": "1. A square is always non-negative:\n    (x - 1)^2 >= 0\n2. Add 2 to both sides:\n    (x - 1)^2 + 2 >= 2\n3. The minimum value is 2, which occurs at x = 1.\n4. Therefore, the range is:\n    [2, infinity)",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Mid calc1.pdf",
-      "sourcePage": "9",
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.976Z",
-      "updatedAt": "2026-11-04T18:41:29.815Z"
-    },
-    {
       "id": "C1-MID-010",
       "subjectId": "subj-calc1",
       "quizId": "quiz-subj-calc1-mid",
@@ -2653,39 +2587,6 @@
       "imageUrl": null,
       "sourceFile": "Mid calcu2.pdf",
       "sourcePage": 1,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:21:59.978Z",
-      "updatedAt": "2026-10-03T17:21:59.978Z"
-    },
-    {
-      "id": "C2-MID-002",
-      "subjectId": "subj-calc2",
-      "quizId": "quiz-subj-calc2-mid",
-      "question": "Evaluate: ∫ ln(x) dx:",
-      "options": [
-        {
-          "id": "a",
-          "text": "1/x + C"
-        },
-        {
-          "id": "b",
-          "text": "x ln x - x + C"
-        },
-        {
-          "id": "c",
-          "text": "(1/2)(ln x)² + C"
-        },
-        {
-          "id": "d",
-          "text": "x ln x + x + C"
-        }
-      ],
-      "correctAnswer": "b",
-      "explanation": "Parts with u = ln x, dv = dx gives x ln x - x + C.",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "Mid calcu2.pdf",
-      "sourcePage": 2,
       "status": "Verified",
       "createdAt": "2026-10-03T17:21:59.978Z",
       "updatedAt": "2026-10-03T17:21:59.978Z"
@@ -117429,9 +117330,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3507,
-    "verifiedQuestions": 3507,
+    "totalQuestions": 3504,
+    "verifiedQuestions": 3504,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-05T13:21:00.472Z"
+    "lastUpdated": "2026-11-05T13:21:15.160Z"
   }
 }
