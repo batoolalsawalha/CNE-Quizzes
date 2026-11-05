@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-05T13:43:37.658Z",
+  "lastUpdated": "2026-11-05T13:54:30.161Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -117324,6 +117324,40 @@
       "status": "Verified",
       "createdAt": "2026-11-05T13:43:37.264Z",
       "updatedAt": "2026-11-05T13:43:37.264Z"
+    },
+    {
+      "id": "q-d9fcd9e8",
+      "subjectId": "subj-calc1",
+      "quizId": "quiz-subj-calc1-mid",
+      "topicId": null,
+      "question": "For each x in (-1, 1), we have:\n\ncot(arcsin(x)) = ?",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "sqrt(1 - x^2) / x"
+        },
+        {
+          "id": "b",
+          "text": "sqrt(1 - x^2)"
+        },
+        {
+          "id": "c",
+          "text": "x"
+        },
+        {
+          "id": "d",
+          "text": "x / sqrt(1 - x^2)"
+        }
+      ],
+      "correctAnswer": "a",
+      "explanation": "1. Let:\n    theta = arcsin(x)\n2. Therefore:\n    sin(theta) = x\n3. Using a right triangle:\n    Opposite = x\n    Hypotenuse = 1\n4. By the Pythagorean theorem:\n    Adjacent = sqrt(1 - x^2)\n5. Since:\n    cot(theta) = Adjacent / Opposite\n6. Therefore:\n    cot(arcsin(x)) = sqrt(1 - x^2) / x\n\nNote: The expression is undefined at x = 0, so the stated interval should exclude zero for the expression to be defined",
+      "difficulty": "Medium",
+      "sourceFile": "",
+      "sourcePage": null,
+      "status": "Verified",
+      "createdAt": "2026-11-05T13:54:29.931Z",
+      "updatedAt": "2026-11-05T13:54:29.931Z"
     }
   ],
   "admin": {
@@ -117338,9 +117372,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3504,
-    "verifiedQuestions": 3504,
+    "totalQuestions": 3505,
+    "verifiedQuestions": 3505,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-05T13:43:37.658Z"
+    "lastUpdated": "2026-11-05T13:54:30.161Z"
   }
 }
