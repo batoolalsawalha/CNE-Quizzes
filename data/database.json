@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-05T14:05:28.157Z",
+  "lastUpdated": "2026-11-05T14:05:34.458Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -18729,39 +18729,6 @@
       "imageUrl": null,
       "sourceFile": "c-- Final.pdf",
       "sourcePage": 7,
-      "status": "Verified",
-      "createdAt": "2026-10-03T17:22:00.002Z",
-      "updatedAt": "2026-10-03T17:22:00.002Z"
-    },
-    {
-      "id": "CPP-FIN-008",
-      "subjectId": "subj-cpp",
-      "quizId": "quiz-subj-cpp-final",
-      "question": "How do you declare a 2D array (matrix) of integers with 3 rows and 4 columns?",
-      "options": [
-        {
-          "id": "a",
-          "text": "int matrix[4][3];"
-        },
-        {
-          "id": "b",
-          "text": "int matrix[3, 4];"
-        },
-        {
-          "id": "c",
-          "text": "int matrix(3, 4);"
-        },
-        {
-          "id": "d",
-          "text": "int matrix[3][4];"
-        }
-      ],
-      "correctAnswer": "d",
-      "explanation": "Declaration syntax is type name[rows][columns]; so 3 rows and 4 columns is matrix[3][4].",
-      "difficulty": "Easy",
-      "imageUrl": null,
-      "sourceFile": "c-- Final.pdf",
-      "sourcePage": 8,
       "status": "Verified",
       "createdAt": "2026-10-03T17:22:00.002Z",
       "updatedAt": "2026-10-03T17:22:00.002Z"
@@ -115792,9 +115759,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 85,
     "activeQuizzes": 85,
-    "totalQuestions": 3459,
-    "verifiedQuestions": 3459,
+    "totalQuestions": 3458,
+    "verifiedQuestions": 3458,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-05T14:05:28.157Z"
+    "lastUpdated": "2026-11-05T14:05:34.458Z"
   }
 }
