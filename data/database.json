@@ -1,7 +1,7 @@
 {
   "version": "2.0.0",
   "name": "CNE Quizzes Academic Master Database",
-  "lastUpdated": "2026-11-05T13:28:26.163Z",
+  "lastUpdated": "2026-11-05T13:29:34.860Z",
   "subjects": [
     {
       "id": "subj-calc1",
@@ -117086,6 +117086,40 @@
       "status": "Verified",
       "createdAt": "2026-11-05T13:28:25.843Z",
       "updatedAt": "2026-11-05T13:28:25.843Z"
+    },
+    {
+      "id": "q-49c407cf",
+      "subjectId": "subj-calc1",
+      "quizId": "quiz-subj-calc1-mid",
+      "topicId": null,
+      "question": "lim (x → 2^+) [(x + 3)/(x^2 - 4)] =",
+      "imageUrl": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "-∞"
+        },
+        {
+          "id": "b",
+          "text": "∞"
+        },
+        {
+          "id": "c",
+          "text": "01"
+        },
+        {
+          "id": "d",
+          "text": "1"
+        }
+      ],
+      "correctAnswer": "b",
+      "explanation": "نعوض في البسط:\n\n2 + 3 = 5\n\nوهو عدد موجب.\n\nالمقام:\n\nx^2 - 4 = (x - 2)(x + 2)\n\nعند x → 2^+:\n\nx - 2 → 0^+\n\nx + 2 → 4\n\nإذن المقام يقترب من الصفر من الجهة الموجبة.\n\nالنتيجة:\n\n5/0^+ = +∞",
+      "difficulty": "Easy",
+      "sourceFile": "",
+      "sourcePage": null,
+      "status": "Verified",
+      "createdAt": "2026-11-05T13:29:34.476Z",
+      "updatedAt": "2026-11-05T13:29:34.476Z"
     }
   ],
   "admin": {
@@ -117100,9 +117134,9 @@
     "activeSubjects": 45,
     "totalQuizzes": 90,
     "activeQuizzes": 90,
-    "totalQuestions": 3497,
-    "verifiedQuestions": 3497,
+    "totalQuestions": 3498,
+    "verifiedQuestions": 3498,
     "reviewQuestions": 0,
-    "lastUpdated": "2026-11-05T13:28:26.163Z"
+    "lastUpdated": "2026-11-05T13:29:34.860Z"
   }
 }
